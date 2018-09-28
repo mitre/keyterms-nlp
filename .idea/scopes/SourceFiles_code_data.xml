@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="SourceFiles_code_data" pattern="file:*.java||file:*.js||*.txt||*.tab||*.lst||*.rules||*.exceptions||*.rdefs" />
+</component>

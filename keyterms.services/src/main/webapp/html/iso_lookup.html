@@ -1,0 +1,159 @@
+<!--
+  ~ NOTICE
+  ~ This software was produced for the U.S. Government and is subject to the
+  ~ Rights in Data-General Clause 5.227-14 (May 2014).
+  ~ Copyright 2018 The MITRE Corporation. All rights reserved.
+  ~
+  ~ “Approved for Public Release; Distribution Unlimited” Case  18-2165
+  ~
+  ~ This project contains content developed by The MITRE Corporation.
+  ~ If this code is used in a deployment or embedded within another project,
+  ~ it is requested that you send an email to opensource@mitre.org
+  ~ in order to let us know where this software is being used.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<md-content ng-controller="isoCtl"
+            class="wide tall"
+            layout="row"
+            layout-fill=""
+            ng-cloak="">
+
+    <div flex=""
+         layout="column"
+         layout-fill="">
+        <header>
+            <form id="search_form" name="search_form" class="wide" ng-submit="doSearch(search_form)">
+                <md-card layout="column"
+                         layout-padding="0"
+                         layout-margin="0">
+                    <div style="width: 150px;">
+                        <md-select aria-label="Search Type"
+                                   class="search-option"
+                                   style="padding: 0; margin: -5px 0 0 0;"
+                                   ng-change="typeChange(search_form)"
+                                   ng-model="searchType">
+                            <md-option class="md-accent" aria-label="Country" ng-value="'country'">
+                                Countries
+                            </md-option>
+                            <md-option class="md-accent" aria-label="Language" ng-value="'language'">
+                                Languages
+                            </md-option>
+                            <md-option class="md-accent" aria-label="Script" ng-value="'script'">
+                                Scripts
+                            </md-option>
+                        </md-select>
+                    </div>
+                    <div layout="row"
+                         layout-align="center center">
+                        <div flex="">
+                            <md-input-container class="md-block" md-auto-focus="true">
+                                <input name="search_field"
+                                       aria-label="Search Field"
+                                       class="md-primary text-field"
+                                       ng-model="searchText"
+                                       placeholder="Enter a search query..."
+                                       autocomplete="off">
+                                <div class="errors"
+                                     role="alert"
+                                     ng-messages="search_form.search_field.$error">
+                                    <div ng-message="empty_search">
+                                        Please enter a search or select a data query.
+                                    </div>
+                                </div>
+                            </md-input-container>
+                        </div>
+                        <div>
+                            <md-button aria-label="Do Search"
+                                       class="md-fab md-mini md-accent"
+                                       ng-click="submitButton(search_form)"
+                                       ng-disabled="busy">
+                                <md-icon md-font-icon="fa fa-search"></md-icon>
+                            </md-button>
+                        </div>
+                    </div>
+                    <div layout="row"
+                         layout-padding="1"
+                         layout-align="center center"
+                         ng-if="resultsMessage">
+                        <div class="message-panel search-message"
+                             flex="">
+                            {{resultsMessage}}
+                        </div>
+                    </div>
+                </md-card>
+            </form>
+        </header>
+        <md-content style="margin: 0 8px 0 0; height: 100%; overflow-y: auto" flex="">
+            <div layout="column"
+                 layout-fill=""
+                 layout-margin="2"
+                 layout-align="top left">
+                <div>
+                    <table cellpadding="10"
+                           ng-if="isoService.searchResults&&isoService.searchResults.length">
+                        <thead>
+                        <tr ng-if="searchType==='country'">
+                            <th>Number</th>
+                            <th>{{getStandard()}} Code</th>
+                            <th>iso 2</th>
+                            <th>Name</th>
+                            <th>Aliases</th>
+                        </tr>
+                        <tr ng-if="searchType==='language'">
+                            <th>{{getStandard()}} Code</th>
+                            <th>Part 1</th>
+                            <th>Part 2B</th>
+                            <th>Part 2T</th>
+                            <th>Scope</th>
+                            <th>Type</th>
+                            <th>Name</th>
+                            <th>Aliases</th>
+                            <th>Script</th>
+                            <th>Scripts</th>
+                        </tr>
+                        <tr ng-if="searchType==='script'">
+                            <th>Number</th>
+                            <th>{{getStandard()}} Code</th>
+                            <th>Name</th>
+                            <th>Aliases</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="striped" ng-repeat="result in isoService.searchResults">
+                            <td ng-if="searchType!=='language'">{{result.number}}</td>
+                            <td>{{result.code}}</td>
+                            <td ng-if="searchType==='country'">{{result.iso2}}</td>
+                            <td ng-if="searchType==='language'">{{result.part1}}</td>
+                            <td ng-if="searchType==='language'">{{result.part2_b}}</td>
+                            <td ng-if="searchType==='language'">{{result.part2_t}}</td>
+                            <td ng-if="searchType==='language'">{{result.scope}}</td>
+                            <td ng-if="searchType==='language'">{{result.type}}</td>
+                            <td>{{result.name}}</td>
+                            <td>
+                                <div ng-repeat="alias in result.aliases">{{alias}}</div>
+                            </td>
+                            <td ng-if="searchType==='language'">{{result.preferred_script}}</td>
+                            <td ng-if="searchType==='language'">
+                                <div ng-repeat="script in result.scripts">{{script}}</div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </md-content>
+    </div>
+
+</md-content>

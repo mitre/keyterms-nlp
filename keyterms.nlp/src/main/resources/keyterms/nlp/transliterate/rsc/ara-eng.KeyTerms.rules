@@ -1,0 +1,314 @@
+$fathatan  = \u064B; # ً
+$dammatan  = \u064C; 	#ٌ
+$kasratan  = \u065D; 	# ٍ
+$fatha = \u064E;
+$damma = \u064F;
+$kasra = \u0650;
+
+$sukun = \u0652;
+$shadda = \u0651;
+$hamza = [\u0621 \u0654 \u0655 \u0674];
+$alef = \u0627;
+$waw = \u0648;
+$maksura = \u0649;
+$yeh = \u064A;
+$madda  = \u0653 ; 	#ٓ
+$vowel = [aeiou];
+
+$engVowel = [aeiouáāīū \u0301 \u0304];
+$araVowel = [$fatha $damma $kasra $alef];
+$araDiacritic = [$araVowel \u064B \u064C \u064D];
+$anyVowel = [$araVowel $alef $waw $yeh $engVowel];
+$araConsonant = [\u0628-\u063A \u0641-\u0647 \u064A];
+$cons = [bcdfghjklmnpqrstwz];
+$araLetter = [\u0610-\u06FF];
+$engLetter = [[a-zA-Z] $engVowel];
+$anyLetter = [$araLetter $engLetter [:Mark:]];
+$nonLetter = [^[:Letter:] [:Mark:]];
+
+# "sun letters" - for "al-" assimilation
+$sunLetter = [\u062A \u062B \u062F-\u0638 \u0644 \u0646];
+$digraphs = [\u062B \u062E \u0630 \u0634 \u0639 \u063A];
+$nDigraphs = [^$digraphs];
+$wordBoundary = [^[:L:][:M:][:N:]];
+
+[«»] > \";  	          # Angle quotes
+\u00DF > ss; 	          # Latin ligatures not handled by NFKD.
+\u00E6 > ae;
+\u0153 > oe;
+\u0600 > \#;	          # ;
+\u0601 > ; 	              # Arabic sign sanah (year sign)
+\u0602 > ; 	              # Arabic footnote marker
+\u060C > \,; 	          # Arabic comma
+\u0603 > ; 	              # Arabic sign safha
+\u060D > \/; 	          # Arabic date separator
+\u060E > ; 	              # Arabic poetic verse sign
+\u060F > ; 	              # Arabic sign misra
+[\u060E-\u061A] > ; 	  # misc Koranic and poetic stuff
+\u061B > \;; 	          # Arabic semi-colon
+[\u061C-\u061D] > ; 	  # reserved
+\u061E > \.; 	          # Arabic triple-dot punct mark
+\u061F > \?; 	          # Arabic question mark
+\u0620 > ; 	              # Kashmiri yeh
+\u0624 > \u064F \u0621;   # waw w/hamza > damma hamza
+\u0626 > \u0650 \u0621;   # yeh w/hamza > kasra hamza
+\u0640 > ; 	              # Arabic tatweel
+[\u06CD \u06CE] > | \u06CC; 	            # Farsi yeh
+\u06CC \u0670? } $wordBoundary > \u0649;  	# final farsi yeh (with possible superscript alef) > alef maksura
+\u06CC > \u064A; 	                        # Farsi to Arabic yeh
+[\u0656-\u065F] > ; 	                    # misc diacritics
+٠   >  0 ; 	                                # 0660-0669
+١   >  1 ;
+٢   >  2 ;
+٣   >  3 ;
+٤   >  4 ;
+٥   >  5 ;
+٦   >  6 ;
+٧   >  7 ;
+٨   >  8 ;
+٩   >  9 ;
+
+\u066A > \%;  	# Arabic percent sign
+\u066B > \.;  	# Arabic decimal separator
+\u066C > \,;  	# Arabic thousands separator
+\u066D > \*; 	# Arabic five-pointed star
+
+\u066E > \u0628;                        #dotless BEH
+\u066F > \u0642;                        #dotless QAF
+\u0674 > \u0654;                        #high hamza > hamza above
+[\u0676 \u0677] > \u0624 ;              # waw w/hamza
+\u0678 > \u0626 ; 	                    # yeh w/ hamza
+[\u0679 \u067A] > \u062A; 	            # teh variants
+\u067B > \u0628; 	                    # beeh to beh
+[\u067C \u067D] > \u062A; 	            # teh variants
+\u067E > \u0628;  	                    # peh to beh
+\u067F > \u062B; 	                    # theh
+\u0680 > \u0628; 	                    # beheh > beh
+[\u0681 \u0682 \u0685] > \u062E; 	    # khah
+[\u0683 \u0684 \u0686 \u0687] > \u062C; # jeem
+[\u0688-\u0690] > \u062F;  	            # dal
+[\u0691-\u0696] > \u0631;  	            # reh
+[\u0697-\u0699] > \u0632;  	            # zain
+\u069A  > \u0633; 	                    # seen
+[\u069B \u069C] > \u0634; 	            # sheen
+\u069D > \u0635; 	                    # sad
+\u069E > \u0636; 	                    # dad
+\u069F > \u0638;  	                    # zah
+\u06A0 > \u063A;  	                    # ghain
+[\u06A1-\u06A6] > \u0641;  	            # feh
+[\u06A7 \u06A8] > \u0642;  	            # qaf
+[\u06A9-\u06B4] > \u0643;  	            # kaf variants
+[\u06B5-\u06B8] > \u0644;  	            # lam
+[\u06B9-\u06BD] > \u0644;  	            # noon
+\u06BE > \u0647; 	                    # heh doachashmee > heh
+\u06BF > \u062C; 	                    # jeem
+\u06C1 > \u0647; 	                    # heh goal > heh
+\u06C2 > \u0647 \u0621;
+\u06C3 > \u0629; 	                    # teh marbuta goal > teh marbutah
+[\u06C4-\u06CB] > \u0624; 	            # waw variants
+\u06CF > \u0624; 	                    # waw
+[\u06D0-\u06D2] > \u06CC; 	            # yeh variants
+\u06D3 > \u06CC \u0621;
+\u06D4 > \.;  	                        # Arabic full stop
+\u06D5 > \u0647; 	                    # ae > heh
+[\u06D6-\u06ED] > ;
+\u06EE > \u062F; 	                    # dal
+\u06EF > \u0631; 	                    # reh
+
+# Extended digits 06F0-06F9
+۰   >  0 ;
+۱   >  1 ;
+۲   >  2 ;
+۳   >  3 ;
+۴   >  4 ;
+۵   >  5 ;
+۶   >  6 ;
+۷   >  7 ;
+۸   >  8 ;
+۹   >  9 ;
+\u06FA > \u0634;
+\u06FB > \u0636;
+\u06FC > \u063A;
+\u06FD > ;
+\u06FE > ;
+\u06FF > \u0647;
+\u076C > \u0631 \u0621;
+\u1D6B > ue;
+[\u200C \u200D] > ;
+::Null;
+$kasra $kasra  > $kasra;
+$fatha $fatha > $fatha;
+$damma $damma > $damma;
+::Null;
+
+# Compatibility decomposition
+::NFKD;
+
+# HEH variants
+[\u06BE \u06C1 \u06D5] > | \u0647 ;
+
+# doubling
+($nDigraphs)$shadda > | $1$1 ;
+($nDigraphs) ([$fatha $damma $kasra]) $shadda > | $1$1$2 ;
+($digraphs)$shadda > | $1 ;
+($digraphs) ([$fatha $damma $kasra]) $shadda > | $1$2 ;
+
+# name prefixes
+$nonLetter { \u0628 \u0646 } $nonLetter > bin;
+$nonLetter { [$alef \u0671] \u0628 \u0646 } $nonLetter > ibn;
+
+# alef wasla + l > al
+\u0671 \u0644 > al;
+
+# alef wasla > i
+\u0671 > i;
+::Null;
+
+# Vowels
+$alef $madda  > a ; 	# always
+$sukun        >   ;
+
+# diphthongs
+$alef $yeh    > ay;
+$alef $waw    > aw;
+$alef $maksura > ay;
+
+# vowels elsewhere
+$yeh } [$alef $yeh $fatha $damma $kasra $maksura] > y ;
+$araConsonant { $yeh } [^[$alef $yeh $fatha $damma $kasra $maksura]] > i ;
+[$fatha $damma] { $yeh > y ;
+$fatha $yeh > ay ;
+$damma $yeh > uy ;
+$araConsonant { $yeh >  i  ;
+$yeh } $araConsonant >  i  ;
+$waw } [$alef $yeh $fatha $damma $kasra $maksura] > w ;
+$araConsonant { $waw } [^[$alef $yeh $fatha $damma $kasra $maksura]] >  u  ;
+$waw } $araConsonant >  u  ;
+$fatha $waw > aw ;
+$kasra $waw > iw ;
+$maksura >  a  ;
+$fatha $alef > a;
+
+# $alef $fatha  > a;
+# $kasra $yeh > i;
+# $alef $kasra  > i;
+$kasra $alef > i;
+# $damma $waw > u;
+$alef $damma  > u;
+$damma $alef > u;
+$fatha >  a  ;
+$damma >  u  ;
+$kasra >  i  ;
+$fathatan >  an  ;
+$dammatan >  un  ;
+$kasratan >  in  ;
+$nonLetter { [\u0623 \u0625] > \u0621 \u0627 ; 	# alef w/ hamza initially
+[\u0623 \u0625] > \u0621 ; 	# alef w/ hamza elsewhere
+\u0624 > \u0648 \u0621 ; 	# waw w/hamza
+\u0626 } $nonLetter > \u06CC \u0621 ; 	# yeh w/ hamza finally > yeh hamza
+\u0626 > \u0621 ; 	# yeh w/ hamza elsewhere > hamza
+[\u0654 \u0655] > \u0621; 	# hamza diacritics
+::Null;
+
+# consonants
+# hamza, ain
+[$hamza \u0639] > \';
+
+# beh
+\u0628 > b;
+
+# teh, tah
+[\u062A \u0637] > t;
+
+# theh
+\u062B > th;
+
+# jeem
+\u062C > j;
+
+# hah
+[\u062D] > h;
+
+# teh marbuta followed by vowel (as in the construct form of feminine nouns - there won't always be an explicit
+# vowel, though...)
+\u0629 } [$fatha $damma $kasra] > t;
+
+# teh marbuta
+\u0629 > h;
+
+# khah
+\u062E > kh;
+
+# dal, dad
+[\u062F \u0636] > d;
+
+# thal
+\u0630 > dh;
+
+# reh
+\u0631 > r;
+
+# zain, zah
+[\u0632 \u0638] > z;
+
+# seen, sad
+[\u0633 \u0635] > s;
+
+# sheen
+\u0634 > sh;
+
+# ghain
+\u063A > gh;
+
+# feh
+\u0641 > f;
+
+# qaf
+\u0642 > q;
+
+# kaf
+\u0643 > k;
+
+# lam
+\u0644 > l;
+
+# meem
+\u0645 > m;
+
+# noon
+\u0646 > n;
+
+# heh
+\u0647 > h;
+
+# waw
+\u0648 > w;
+
+# yeh
+\u064A > y;
+
+# Second pass for some cleanup
+::Null;
+
+# any leftover alef
+$alef > | a;
+
+# doubled vowels
+aa > a;
+ai > a;
+au > a;
+ii > i;
+ia > i;
+iu > i;
+uu > u;
+ua > u;
+ui > u;
+
+# common name parts
+# \'?abd { al   > \-al;
+# abu { al } \\ > \-al\-;
+# bin\\  } $cons > bin\\-;
+# ibn\\  } $cons > ibn\\-;
+
+# Compatibility composition
+::NFKC;

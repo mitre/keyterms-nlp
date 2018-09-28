@@ -1,0 +1,17371 @@
+# Emoticon Definitions
+#==========
+emoticon: ε/̵͇̿̿/’̿’̿ ̿(◡︵◡)
+description: suicide
+emoji: {
+}
+labels: {
+    suicide
+}
+tags: {
+}
+#==========
+emoticon: :-Þ
+description: stuck_out_tongue
+emoji: {
+    😜
+}
+labels: {
+    stuck_out_tongue_winking_eye
+    stuck_out_tongue
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: >;)
+description: evil, devilish
+emoji: {
+    😈
+}
+labels: {
+    laughing
+    smiling_imp
+}
+tags: {
+    devil
+    evil
+    horns
+}
+#==========
+emoticon: &.(..
+description: crying
+emoji: {
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: X-D
+description: grinning face with smiling eyes
+emoji: {
+    😁
+}
+labels: {
+    grin
+}
+tags: {
+}
+#==========
+emoticon: :-(*)
+description: makes me sick
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ~<:-)
+description: princess
+emoji: {
+}
+labels: {
+    princess
+}
+tags: {
+}
+#==========
+emoticon: >:O
+description: surprise, shock, yawn
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+    yelling
+    astonished
+    open_mouth
+}
+tags: {
+    amazed
+    gasp
+}
+#==========
+emoticon: >:P
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+    phbbbbt
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: (xx)
+description: xbox
+emoji: {
+}
+labels: {
+    xbox
+}
+tags: {
+}
+#==========
+emoticon: *<:)
+description: birthday hat
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >;3
+description: cat winking
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (*￣m￣)
+description: dissatisfied
+emoji: {
+    😬
+    😠
+    😡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: O=)
+description: innocent
+emoji: {
+}
+labels: {
+    innocent
+}
+tags: {
+}
+#==========
+emoticon: X-P
+description: stuck_out_tongue_winking_eye
+emoji: {
+    😜
+}
+labels: {
+    stuck_out_tongue_winking_eye
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: >:[
+description: frown, sad, angry, pouting
+emoji: {
+    😖
+    ☹️
+    😠
+    😟
+    ☹
+    😞
+    😣
+    😒
+    🙁
+    😡
+}
+labels: {
+    unamused
+    disappointed
+    frowning_face
+}
+tags: {
+    meh
+}
+#==========
+emoticon: >:\
+description: skeptical, annoyed, undecided, uneasy, hesitant
+emoji: {
+    😕
+    😟
+    🤔
+}
+labels: {
+    confused
+}
+tags: {
+}
+#==========
+emoticon: (l'o'l)
+description: shocked
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: |=-(¤)-=|
+description: tiefighter
+emoji: {
+}
+labels: {
+    tiefighter
+}
+tags: {
+}
+#==========
+emoticon: :-þ
+description: stuck_out_tongue
+emoji: {
+    😜
+}
+labels: {
+    stuck_out_tongue_winking_eye
+    stuck_out_tongue
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: X:-/
+description: uncertain
+emoji: {
+}
+labels: {
+    uncertain
+}
+tags: {
+}
+#==========
+emoticon: ~:(
+description: mad
+emoji: {
+}
+labels: {
+    mad
+}
+tags: {
+}
+#==========
+emoticon: *<|:-{)}
+description: santa claus
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ~:0
+description: baby
+emoji: {
+}
+labels: {
+    baby
+}
+tags: {
+}
+#==========
+emoticon: (´；ω；`)
+description: terribly sad
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: X-p
+description: joking
+emoji: {
+}
+labels: {
+    joking
+}
+tags: {
+}
+#==========
+emoticon: :..[
+description: crying
+emoji: {
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: (pi)
+description: pizza
+emoji: {
+}
+labels: {
+    pizza
+}
+tags: {
+}
+#==========
+emoticon: ><>
+description: fish, something's fishy, christian fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ~:>
+description: chicken
+emoji: {
+}
+labels: {
+    chicken
+}
+tags: {
+}
+#==========
+emoticon: *<<<<=
+description: christmas tree
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >=(
+description: mad
+emoji: {
+}
+labels: {
+    mad
+}
+tags: {
+}
+#==========
+emoticon: >=)
+description: laughing
+emoji: {
+}
+labels: {
+    laughing
+}
+tags: {
+}
+#==========
+emoticon: =:7)~~
+description: rat
+emoji: {
+}
+labels: {
+    rat
+}
+tags: {
+}
+#==========
+emoticon: ~:O
+description: baby
+emoji: {
+}
+labels: {
+    baby
+}
+tags: {
+}
+#==========
+emoticon: (+_+)
+description: amazed
+emoji: {
+    😍
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *<<<<+
+description: christmas tree
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >=<
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >=D
+description: revenge
+emoji: {
+}
+labels: {
+    revenge
+}
+tags: {
+}
+#==========
+emoticon: ʕ ·(エ)· ʔ
+description: bear
+emoji: {
+}
+labels: {
+    bear
+}
+tags: {
+}
+#==========
+emoticon: ¯\_(ツ)_/¯
+description: mellow, shrug
+emoji: {
+}
+labels: {
+    shrug
+}
+tags: {
+}
+#==========
+emoticon: :*)O
+description: kool
+emoji: {
+}
+labels: {
+    kool
+}
+tags: {
+}
+#==========
+emoticon: %*}
+description: very drunk
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @>-;--
+description: rose
+emoji: {
+}
+labels: {
+    rose
+}
+tags: {
+}
+#==========
+emoticon: X:-|
+description: bed head
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ( '}~{' )
+description: kissing
+emoji: {
+}
+labels: {
+    kissing
+}
+tags: {
+}
+#==========
+emoticon: >=[
+description: mad
+emoji: {
+}
+labels: {
+    mad
+}
+tags: {
+}
+#==========
+emoticon: =\\
+description: pouting face
+emoji: {
+    😏
+    😡
+}
+labels: {
+    rage
+    smirk
+}
+tags: {
+    smug
+    angry
+}
+#==========
+emoticon: :*)?
+description: are you drunk?
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: %-(
+description: broken glasses
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ˆ⺫ˆ๑)<3
+description: fart
+emoji: {
+}
+labels: {
+    fart
+}
+tags: {
+}
+#==========
+emoticon: %-)
+description: dizzy_face
+emoji: {
+    😖
+}
+labels: {
+    confused
+    sly
+    confounded
+    dizzy_face
+    cross-eyed
+    crazy
+}
+tags: {
+}
+#==========
+emoticon: ()}:o)
+description: devil
+emoji: {
+}
+labels: {
+    devil
+}
+tags: {
+}
+#==========
+emoticon: ／人◕ ‿‿ ◕人＼
+description: kyubey
+emoji: {
+}
+labels: {
+    kyubey
+}
+tags: {
+}
+#==========
+emoticon: =^)
+description: open-minded
+emoji: {
+}
+labels: {
+    open-minded
+}
+tags: {
+}
+#==========
+emoticon: ヽ(´▽`)/
+description: happy
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :7/
+description: indecisive
+emoji: {
+}
+labels: {
+    indecisive
+}
+tags: {
+}
+#==========
+emoticon: (>^.^)> <3 <(^.^<)
+description: love
+emoji: {
+}
+labels: {
+    love
+}
+tags: {
+}
+#==========
+emoticon: %+{
+description: lost a fight
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ﾟ⊿ﾟ)
+description: "i don't need it"
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (pl)
+description: plate
+emoji: {
+}
+labels: {
+    plate
+}
+tags: {
+}
+#==========
+emoticon: %+|
+description: beaten up
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (=_=)
+description: tired
+emoji: {
+    😫
+    😪
+    😩
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <*_*>
+description: looking at you
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :8)
+description: pig
+emoji: {
+}
+labels: {
+    pig
+}
+tags: {
+}
+#==========
+emoticon: %*@:-(
+description: hung over
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (*)?(*)
+description: looking
+emoji: {
+}
+labels: {
+    looking
+}
+tags: {
+}
+#==========
+emoticon: ಡ_ಡ
+description: mistyeyes
+emoji: {
+}
+labels: {
+    mistyeyes
+}
+tags: {
+}
+#==========
+emoticon: ヽ(｀Д´)⊃━☆ﾟ. * ･ ｡ﾟ,
+description: magic
+emoji: {
+}
+labels: {
+    magic
+}
+tags: {
+}
+#==========
+emoticon: ┐｜･ิω･ิ#｜┌
+description: iknowright
+emoji: {
+}
+labels: {
+    iknowright
+}
+tags: {
+}
+#==========
+emoticon: ( ͡° ͜ °)
+description: nice
+emoji: {
+}
+labels: {
+    nice
+}
+tags: {
+}
+#==========
+emoticon: (tu)
+description: turtle
+emoji: {
+}
+labels: {
+    turtle
+}
+tags: {
+}
+#==========
+emoticon: %-\
+description: hungover
+emoji: {
+}
+labels: {
+    hungover
+}
+tags: {
+}
+#==========
+emoticon: %-^
+description: picasso
+emoji: {
+}
+labels: {
+    picasso
+}
+tags: {
+}
+#==========
+emoticon: ლ(`◉◞౪◟◉‵ლ)
+description: why
+emoji: {
+}
+labels: {
+    why
+}
+tags: {
+}
+#==========
+emoticon: =_=
+description: tired
+emoji: {
+}
+labels: {
+    tired
+}
+tags: {
+}
+#==========
+emoticon: ~~:-(
+description: getting rained on
+emoji: {
+}
+labels: {
+    mohawk
+}
+tags: {
+}
+#==========
+emoticon: ┬──┬ ノ(ò_óノ)
+description: unflip
+emoji: {
+}
+labels: {
+    unflip
+}
+tags: {
+}
+#==========
+emoticon: (っˆڡˆς)
+description: delicious
+emoji: {
+}
+labels: {
+    delicious
+}
+tags: {
+}
+#==========
+emoticon: :3ミ
+description: 
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-SS
+description: nailbiting
+emoji: {
+}
+labels: {
+    nailbiting
+}
+tags: {
+}
+#==========
+emoticon: @->--
+description: rose
+emoji: {
+}
+labels: {
+    rose
+}
+tags: {
+}
+#==========
+emoticon: ☜(⌒▽⌒)☞
+description: angel
+emoji: {
+}
+labels: {
+    angel
+}
+tags: {
+}
+#==========
+emoticon: (_8^(|)
+description: homer
+emoji: {
+}
+labels: {
+    homer
+}
+tags: {
+}
+#==========
+emoticon: :*-(
+description: crying
+emoji: {
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: %-|
+description: been up all night
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: %-}
+description: dizzy
+emoji: {
+}
+labels: {
+    dizzy
+}
+tags: {
+}
+#==========
+emoticon: ✿ڿڰۣ—
+description: rose
+emoji: {
+}
+labels: {
+    rose
+}
+tags: {
+}
+#==========
+emoticon: (⊙＿⊙')
+description: confused
+emoji: {
+}
+labels: {
+    confused
+}
+tags: {
+}
+#==========
+emoticon: :8]
+description: gorilla
+emoji: {
+}
+labels: {
+    gorilla
+}
+tags: {
+}
+#==========
+emoticon: @}->--
+description: rose
+emoji: {
+}
+labels: {
+    rose
+}
+tags: {
+}
+#==========
+emoticon: (°o•)
+description: whoa
+emoji: {
+}
+labels: {
+    whoa
+}
+tags: {
+}
+#==========
+emoticon: (X^(*
+description: sour face
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <{^-^}>
+description: chubby face
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <.....
+description: pac-man
+emoji: {
+}
+labels: {
+    pac-man
+}
+tags: {
+}
+#==========
+emoticon: ヽ༼ຈʖ̯ຈ༽ﾉ
+description: saddonger
+emoji: {
+}
+labels: {
+    saddonger
+}
+tags: {
+}
+#==========
+emoticon: o()~
+description: pig
+emoji: {
+}
+labels: {
+    pig
+}
+tags: {
+}
+#==========
+emoticon: v.v
+description: horror, disgust, sadness, great dismay
+emoji: {
+    😨
+    😱
+}
+labels: {
+    scream
+    fearful
+}
+tags: {
+    horror
+    oops
+    shocked
+    scared
+}
+#==========
+emoticon: o/\o
+description: high five
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ?:^[]
+description: jim carrey
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (-: =3
+description: chef
+emoji: {
+}
+labels: {
+    chef
+}
+tags: {
+}
+#==========
+emoticon: （^—^）
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: T-T
+description: emo
+emoji: {
+}
+labels: {
+    emo
+}
+tags: {
+}
+#==========
+emoticon: |;-)
+description: tired face
+emoji: {
+    😫
+}
+labels: {
+    tired_face
+}
+tags: {
+    upset
+    whine
+}
+#==========
+emoticon: (ΘεΘ;)
+description: pretending not to notice, asleep because of boredom
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (^o^)
+description: happy
+emoji: {
+    😆
+    😅
+    😀
+    😄
+    😃
+    😁
+}
+labels: {
+    singing
+    owl
+}
+tags: {
+}
+#==========
+emoticon: (°o°)
+description: joyful
+emoji: {
+    😆
+    😅
+    🙌
+    😀
+    😄
+    😃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 0:-3
+description: innocent
+emoji: {
+    😇
+}
+labels: {
+    innocent
+}
+tags: {
+    angel
+}
+#==========
+emoticon: (<. . . . .
+description: pacman
+emoji: {
+}
+labels: {
+    pacman
+}
+tags: {
+}
+#==========
+emoticon: *DRINK*
+description: drink
+emoji: {
+}
+labels: {
+    drink
+}
+tags: {
+}
+#==========
+emoticon: >:D<
+description: big hug
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ⊹╰(⌣ʟ⌣)╯⊹
+description: zen
+emoji: {
+}
+labels: {
+    zen
+    meditation
+}
+tags: {
+}
+#==========
+emoticon: 0:-)
+description: innocent
+emoji: {
+    😇
+}
+labels: {
+    innocent
+    angel
+}
+tags: {
+    angel
+}
+#==========
+emoticon: (li)
+description: lightning
+emoji: {
+}
+labels: {
+    lightning
+}
+tags: {
+}
+#==========
+emoticon: :-)(-:
+description: married
+emoji: {
+}
+labels: {
+    married
+}
+tags: {
+}
+#==========
+emoticon: T.T
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+    sad
+}
+tags: {
+}
+#==========
+emoticon: l^o
+description: hepcat smiley
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: Q:-)
+description: catcher (baseball)
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: \(°^°)/
+description: meep
+emoji: {
+}
+labels: {
+    meep
+}
+tags: {
+}
+#==========
+emoticon: 8==3
+description: dog bone
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :=)
+description: has two noses
+emoji: {
+}
+labels: {
+    orangutan
+}
+tags: {
+}
+#==========
+emoticon: @,.,@
+description: vampire
+emoji: {
+}
+labels: {
+    vampire
+}
+tags: {
+}
+#==========
+emoticon: 8(:-)
+description: mickey mouse
+emoji: {
+}
+labels: {
+    mousketeer
+}
+tags: {
+}
+#==========
+emoticon: (';.;')
+description: vampire
+emoji: {
+}
+labels: {
+    vampire
+}
+tags: {
+}
+#==========
+emoticon: (..)
+description: looking down
+emoji: {
+    🙍
+    😔
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ([(
+description: robocop
+emoji: {
+}
+labels: {
+    robocop
+}
+tags: {
+}
+#==========
+emoticon: ( ಠ ͜ʖ ರೃ)
+description: lennysir
+emoji: {
+}
+labels: {
+    lennysir
+}
+tags: {
+}
+#==========
+emoticon: :-( )
+description: you stepped on my toe
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: （ ﾟ Дﾟ)
+description: shocked, surprised
+emoji: {
+    😨
+    😮
+    😲
+    😱
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-| :-|
+description: deja vu
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :>)
+description: big nose
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (づ｡◕‿‿◕｡)づ
+description: hugs
+emoji: {
+}
+labels: {
+    hugs
+    hug
+}
+tags: {
+}
+#==========
+emoticon: (ง •̀_•́)ง
+description: fight
+emoji: {
+}
+labels: {
+    fight
+}
+tags: {
+}
+#==========
+emoticon: (~o~)
+description: 
+emoji: {
+    😏
+    😔
+    😒
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: +/'\
+description: cowbell
+emoji: {
+}
+labels: {
+    cowbell
+}
+tags: {
+}
+#==========
+emoticon: (-.-)
+description: shame
+emoji: {
+    😩
+    😞
+    😔
+    😒
+    😑
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ( ..)φ
+description: jotting note
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (") (")
+description: bear
+emoji: {
+}
+labels: {
+    bear
+}
+tags: {
+}
+#==========
+emoticon: [_]
+description: horror
+emoji: {
+}
+labels: {
+    horror
+}
+tags: {
+}
+#==========
+emoticon: :<|
+description: user attends an ivy league school
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8==8
+description: seeing eye to eye
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ~oO>
+description: ice cream cone
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :O\'
+description: dog
+emoji: {
+}
+labels: {
+    dog
+}
+tags: {
+}
+#==========
+emoticon: !-(
+description: black eye
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: }:-)
+description: cowboy
+emoji: {
+    😈
+}
+labels: {
+    cowboy
+    devil
+    smiling_imp
+}
+tags: {
+    devil
+    evil
+    horns
+}
+#==========
+emoticon: }:-(
+description: bull headed
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :?)
+description: philosopher
+emoji: {
+}
+labels: {
+    philosopher
+}
+tags: {
+}
+#==========
+emoticon: ε(´סּ︵סּ`)з
+description: sad
+emoji: {
+}
+labels: {
+    sad
+}
+tags: {
+}
+#==========
+emoticon: （*^_^*）
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (^<^)
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 0:03
+description: smiling face with halo
+emoji: {
+    😇
+}
+labels: {
+    innocent
+}
+tags: {
+    angel
+}
+#==========
+emoticon: (=^··^=)
+description: cat
+emoji: {
+    😸
+    😼
+    😻
+    😺
+    😹
+    🙀
+    😿
+    😾
+    😽
+    🐱
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: §^.^§
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (҂◡_◡) ᕤ
+description: endure
+emoji: {
+}
+labels: {
+    endure
+}
+tags: {
+}
+#==========
+emoticon: (@ @)
+description: you're kidding!
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :@)
+description: happy pig
+emoji: {
+}
+labels: {
+    pig
+}
+tags: {
+}
+#==========
+emoticon: 9_9
+description: rolling eyes
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (^)
+description: birthday cake
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <(^.^<)
+description: huge
+emoji: {
+}
+labels: {
+    huge
+}
+tags: {
+}
+#==========
+emoticon: (-::-)
+description: siamese twins
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: d(*⌒▽⌒*)b
+description: happy expression
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: %7<
+description: irritated
+emoji: {
+}
+labels: {
+    irritated
+}
+tags: {
+}
+#==========
+emoticon: (//_^)
+description: emo
+emoji: {
+}
+labels: {
+    emo
+}
+tags: {
+}
+#==========
+emoticon: :-[]
+description: very hungry
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: }:-X
+description: cat
+emoji: {
+}
+labels: {
+    cat
+}
+tags: {
+}
+#==========
+emoticon: Q('.'Q)
+description: put em up
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-($)
+description: put your money where your mouth is
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (-(-_-(-_(-_(-_-)_-)-_-)_-)_-)-)
+description: eeriemob
+emoji: {
+}
+labels: {
+    eeriemob
+}
+tags: {
+}
+#==========
+emoticon: ٩(^‿^)۶
+description: haha
+emoji: {
+}
+labels: {
+    haha
+}
+tags: {
+}
+#==========
+emoticon: (⌐⊙_⊙)
+description: nerd
+emoji: {
+}
+labels: {
+    nerd
+}
+tags: {
+}
+#==========
+emoticon: --- :
+description: rat
+emoji: {
+}
+labels: {
+    rat
+}
+tags: {
+}
+#==========
+emoticon: (°◇°)
+description: shocked, surprised
+emoji: {
+    😨
+    😮
+    😲
+    😱
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: P-(
+description: pirate
+emoji: {
+}
+labels: {
+    pirate
+}
+tags: {
+}
+#==========
+emoticon: P-)
+description: colonel klink
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-( <|
+description: standing firm
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: }:->
+description: devilish
+emoji: {
+}
+labels: {
+    devilish
+}
+tags: {
+}
+#==========
+emoticon: |_|'
+description: anime sweat drop
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <(:?)
+description: big-nosed dunce
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :}{:
+description: kisses
+emoji: {
+}
+labels: {
+    kisses
+}
+tags: {
+}
+#==========
+emoticon: (^O^)／
+description: joyful
+emoji: {
+    😆
+    😅
+    🙌
+    😀
+    😄
+    😃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ((((name))))
+description: hug
+emoji: {
+}
+labels: {
+    hug
+}
+tags: {
+}
+#==========
+emoticon: (≧ロ≦)
+description: shouting
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (*^_^*)
+description: shy
+emoji: {
+}
+labels: {
+    shy
+}
+tags: {
+}
+#==========
+emoticon: 0__#
+description: blackeye
+emoji: {
+}
+labels: {
+    blackeye
+}
+tags: {
+}
+#==========
+emoticon: (o|o)
+description: ultraman
+emoji: {
+}
+labels: {
+    ultraman
+}
+tags: {
+}
+#==========
+emoticon: ʕ♥ᴥ♥ʔ
+description: lovebear
+emoji: {
+}
+labels: {
+    lovebear
+}
+tags: {
+}
+#==========
+emoticon: STO
+description: given up. despair. the "o"s represent head on the ground, "t" or "r" forms the torso, and "s" or "z" the legs.
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: c[_]
+description: coffee
+emoji: {
+}
+labels: {
+    coffee
+}
+tags: {
+}
+#==========
+emoticon: { }
+description: hug
+emoji: {
+}
+labels: {
+    hug
+}
+tags: {
+}
+#==========
+emoticon: ＼(^o^)／
+description: excited
+emoji: {
+    🙌
+    😀
+    😍
+    💃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ?-(
+description: black eye
+emoji: {
+}
+labels: {
+    sorry
+}
+tags: {
+}
+#==========
+emoticon: <o?o>
+description: looking at you
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (@_@。
+description: amazed
+emoji: {
+    😍
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (brb)
+description: be right back
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >_>^ ^<_<
+description: high five
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (@_@)
+description: amazed
+emoji: {
+    😍
+}
+labels: {
+    confused
+}
+tags: {
+}
+#==========
+emoticon: >'o'<
+description: cat
+emoji: {
+}
+labels: {
+    cat
+}
+tags: {
+}
+#==========
+emoticon: (ノ ゜Д゜)ノ ︵ ┻━┻
+description: tableflip
+emoji: {
+}
+labels: {
+    tableflip
+}
+tags: {
+}
+#==========
+emoticon: ?-:
+description: left handed tongue touching nose
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @}>-'-,--
+description: rose
+emoji: {
+}
+labels: {
+    rose
+}
+tags: {
+}
+#==========
+emoticon: :D<
+description: hugs
+emoji: {
+}
+labels: {
+    hugs
+}
+tags: {
+}
+#==========
+emoticon: >;->
+description: lewd remark
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (-_-)zzz
+description: sleeping
+emoji: {
+    😴
+    💤
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =:o]
+description: bill clinton
+emoji: {
+    😀
+    ☺
+}
+labels: {
+    relaxed
+}
+tags: {
+    blush
+    pleased
+}
+#==========
+emoticon: %:O
+description: gorilla
+emoji: {
+}
+labels: {
+    gorilla
+}
+tags: {
+}
+#==========
+emoticon: :'‑(
+description: crying
+emoji: {
+    ☹
+    😭
+    😢
+}
+labels: {
+    frowning_face
+}
+tags: {
+}
+#==========
+emoticon: :'‑)
+description: tears of happiness
+emoji: {
+    😀
+    ☺
+    😂
+}
+labels: {
+    relaxed
+}
+tags: {
+    blush
+    pleased
+}
+#==========
+emoticon: (＾◇＾)
+description: happy
+emoji: {
+    😆
+    😅
+    😀
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (⌒▽⌒）
+description: laughing, cheerful
+emoji: {
+    ✌️
+    😂
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-). . .
+description: drooler
+emoji: {
+}
+labels: {
+    drooler
+}
+tags: {
+}
+#==========
+emoticon: *KISSING*
+description: kissing
+emoji: {
+}
+labels: {
+    kissing
+}
+tags: {
+}
+#==========
+emoticon: >°))))彡
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: .-)
+description: one eye
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 0___
+description: bed
+emoji: {
+}
+labels: {
+    bed
+}
+tags: {
+}
+#==========
+emoticon: :-P```
+description: drooling (sees food)
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: →_←
+description: no
+emoji: {
+}
+labels: {
+    no
+}
+tags: {
+}
+#==========
+emoticon: (c:
+description: silly nose
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <(((">
+description: shark
+emoji: {
+}
+labels: {
+    shark
+}
+tags: {
+}
+#==========
+emoticon: ('_')
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (`･ω･´)
+description: feel perky
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ?$?:-)
+description: i am rich!
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ._.)/\(._.
+description: highfive
+emoji: {
+}
+labels: {
+    highfive
+}
+tags: {
+}
+#==========
+emoticon: ⊂二二二（　＾ω＾）二⊃
+description: "bu-n", being carefree and above, with arms stretched out while running/soaring.
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: }i{
+description: butterfly
+emoji: {
+}
+labels: {
+    butterfly
+}
+tags: {
+}
+#==========
+emoticon: (((( ；ﾟДﾟ)))
+description: spook
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: .-]
+description: one eye
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (.\|/.)
+description: evil face
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (^^)/~~~
+description: waving
+emoji: {
+    👋
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >;-('
+description: i am spitting mad
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >O<
+description: harry potter snitch
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: \VVV/
+description: king
+emoji: {
+}
+labels: {
+    king
+}
+tags: {
+}
+#==========
+emoticon: <`ヘ´>
+description: worried
+emoji: {
+    😬
+    😟
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ToT)/~~~
+description: waving
+emoji: {
+    👋
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: D-\':
+description: face screaming in fear
+emoji: {
+    😱
+}
+labels: {
+    scream
+}
+tags: {
+    horror
+    shocked
+}
+#==========
+emoticon: :-`|
+description: have a cold
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <.{{{><
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+    fish
+}
+tags: {
+}
+#==========
+emoticon: ())=(
+description: wine glass
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =o)
+description: smile
+emoji: {
+}
+labels: {
+    smile
+}
+tags: {
+}
+#==========
+emoticon: (yn)
+description: fingers crossed
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ┬──┬ ¯\_(ツ)
+description: table flip
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ):-)
+description: smiley with hair
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *<|:-)
+description: santa claus
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (づ￣ ³￣)づ
+description: face
+emoji: {
+}
+labels: {
+    face
+    kissy
+}
+tags: {
+}
+#==========
+emoticon: ):-(
+description: frowning smiley with hair
+emoji: {
+}
+labels: {
+    nordic
+}
+tags: {
+}
+#==========
+emoticon: ^(. .)^
+description: dancing
+emoji: {
+}
+labels: {
+    dancing
+}
+tags: {
+}
+#==========
+emoticon: @~)~~~~
+description: rose
+emoji: {
+}
+labels: {
+    rose
+}
+tags: {
+}
+#==========
+emoticon: [II]D
+description: frosty mug
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (•̀ᴗ•́)و ̑̑
+description: yes
+emoji: {
+}
+labels: {
+    yes
+    yeah
+}
+tags: {
+}
+#==========
+emoticon: *<:-)
+description: santa claus
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <:‑|
+description: dumb, dunce-like
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ?:-)
+description: bad hair day
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (っ´ω`c)♡
+description: inlove
+emoji: {
+}
+labels: {
+    inlove
+}
+tags: {
+}
+#==========
+emoticon: ʕっ•ᴥ•ʔっ
+description: bearhug
+emoji: {
+}
+labels: {
+    bearhug
+}
+tags: {
+}
+#==========
+emoticon: <")))><
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+    fish
+}
+tags: {
+}
+#==========
+emoticon: :3-<
+description: dog
+emoji: {
+}
+labels: {
+    dog
+}
+tags: {
+}
+#==========
+emoticon: ¯\_( ͡° ͜ʖ ͡°)_/¯
+description: lennyshrug
+emoji: {
+}
+labels: {
+    lennyshrug
+}
+tags: {
+}
+#==========
+emoticon: <"(((<3
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+    fish
+}
+tags: {
+}
+#==========
+emoticon: 4:-)
+description: george washington
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (~_~;)
+description: nervous, embarrassed, troubled, shy, sweat drop
+emoji: {
+    😅
+    😥
+    😳
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: $_$
+description: greedy
+emoji: {
+}
+labels: {
+    greedy
+}
+tags: {
+}
+#==========
+emoticon: (>..)>
+description: dancing
+emoji: {
+}
+labels: {
+    dancing
+}
+tags: {
+}
+#==========
+emoticon: _旦~~
+description: cup of tea
+emoji: {
+    🍵
+    ☕️
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :3-]
+description: dog
+emoji: {
+}
+labels: {
+    dog
+}
+tags: {
+}
+#==========
+emoticon: °o°
+description: surprised
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ]-I
+description: wearing sunglasses
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ~:‑\
+description: elvis presley
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: `:-)
+description: sweating
+emoji: {
+}
+labels: {
+    sweating
+}
+tags: {
+}
+#==========
+emoticon: 2:)
+description: elvis
+emoji: {
+}
+labels: {
+    elvis
+}
+tags: {
+}
+#==========
+emoticon: (͡ ° ͜ʖ ͡ °)
+description: claro
+emoji: {
+}
+labels: {
+    claro
+}
+tags: {
+}
+#==========
+emoticon: L-)
+description: loser
+emoji: {
+}
+labels: {
+    loser
+}
+tags: {
+}
+#==========
+emoticon: ^,..,^
+description: fangs
+emoji: {
+}
+labels: {
+    fangs
+}
+tags: {
+}
+#==========
+emoticon: ---(|||]==[]
+description: syringe
+emoji: {
+}
+labels: {
+    syringe
+}
+tags: {
+}
+#==========
+emoticon: :-)---
+description: thin as a pin
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (̿▀̿‿ ̿▀̿ ̿)
+description: swag
+emoji: {
+}
+labels: {
+    swag
+}
+tags: {
+}
+#==========
+emoticon: <l:0
+description: partying
+emoji: {
+}
+labels: {
+    partying
+}
+tags: {
+}
+#==========
+emoticon: ^_^''
+description: pikachu
+emoji: {
+}
+labels: {
+    pikachu
+}
+tags: {
+}
+#==========
+emoticon: OTL
+description: given up. despair. the "o"s represent head on the ground, "t" or "r" forms the torso, and "s" or "z" the legs.
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ~(_8^(I)
+description: homer simpson
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (bah)
+description: black sheep
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (_X_)
+description: kiss my butt
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ~O~
+description: bird
+emoji: {
+}
+labels: {
+    bird
+}
+tags: {
+}
+#==========
+emoticon: L-P
+description: totally scrambled smiley (thats why l-p mud exists... b)
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: OTZ
+description: given up. despair. the "o"s represent head on the ground, "t" or "r" forms the torso, and "s" or "z" the legs.
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ;-(
+description: cry
+emoji: {
+    😭
+}
+labels: {
+    sob
+    cry
+}
+tags: {
+    bawling
+    sad
+    cry
+}
+#==========
+emoticon: (___)0
+description: rabbit
+emoji: {
+}
+labels: {
+    rabbit
+}
+tags: {
+}
+#==========
+emoticon: ;-)
+description: wink
+emoji: {
+    😉
+}
+labels: {
+    winking
+    flirty
+    wink
+}
+tags: {
+    flirt
+}
+#==========
+emoticon: }:8>
+description: spanish bull
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ;-,
+description: like, duh
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (^_-)
+description: wink
+emoji: {
+    😜
+    😉
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ;-/
+description: skeptical
+emoji: {
+}
+labels: {
+    skeptical
+}
+tags: {
+}
+#==========
+emoticon: \O/
+description: ok_woman
+emoji: {
+}
+labels: {
+    ok_woman
+}
+tags: {
+}
+#==========
+emoticon: ٩( ๑╹ ꇴ╹)۶
+description: happy
+emoji: {
+}
+labels: {
+    happy
+}
+tags: {
+}
+#==========
+emoticon: \<><>/
+description: prince
+emoji: {
+}
+labels: {
+    prince
+}
+tags: {
+}
+#==========
+emoticon: o‑o
+description: surprise, shock, yawn
+emoji: {
+    😲
+}
+labels: {
+    astonished
+}
+tags: {
+    amazed
+    gasp
+}
+#==========
+emoticon: ;-;
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: u_u
+description: sleepy
+emoji: {
+}
+labels: {
+    sleepy
+}
+tags: {
+}
+#==========
+emoticon: ;->
+description: devilish wink
+emoji: {
+}
+labels: {
+    sarcastic
+}
+tags: {
+}
+#==========
+emoticon: ;-D
+description: laughing
+emoji: {
+}
+labels: {
+    laughing
+}
+tags: {
+}
+#==========
+emoticon: (:V)
+description: pacman
+emoji: {
+}
+labels: {
+    pacman
+}
+tags: {
+}
+#==========
+emoticon: (}{)
+description: kissing
+emoji: {
+}
+labels: {
+    kissing
+}
+tags: {
+}
+#==========
+emoticon: \m/(**)\m/
+description: rocker
+emoji: {
+}
+labels: {
+    rocker
+}
+tags: {
+}
+#==========
+emoticon: (ง ͠° ͟ʖ ͡°)ง
+description: lennyfight
+emoji: {
+}
+labels: {
+    lennyfight
+}
+tags: {
+}
+#==========
+emoticon: >°)))彡
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (°_°>)
+description: confused
+emoji: {
+    😶
+    😕
+    😵
+    🙄
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ;-P
+description: wink
+emoji: {
+}
+labels: {
+    wink
+}
+tags: {
+}
+#==========
+emoticon: *TIRED*
+description: tired
+emoji: {
+}
+labels: {
+    tired
+}
+tags: {
+}
+#==========
+emoticon: （・∀・）
+description: mocking, "good"
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (o^_^)o
+description: victory
+emoji: {
+}
+labels: {
+    victory
+}
+tags: {
+}
+#==========
+emoticon: *-(
+description: cyclops got poked in the eye
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *-)
+description: wink, smirk
+emoji: {
+    😘
+    😜
+    😉
+}
+labels: {
+    wink
+    thinking
+}
+tags: {
+    flirt
+}
+#==========
+emoticon: *-*
+description: dazed
+emoji: {
+}
+labels: {
+    dazed
+}
+tags: {
+}
+#==========
+emoticon: <:>==
+description: turkey
+emoji: {
+}
+labels: {
+    turkey
+}
+tags: {
+}
+#==========
+emoticon: ;-\
+description: popeye gets his lights punched out
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: U U
+description: bunny
+emoji: {
+}
+labels: {
+    bunny
+}
+tags: {
+}
+#==========
+emoticon: ;-]
+description: wink
+emoji: {
+    😉
+}
+labels: {
+    wink
+}
+tags: {
+    flirt
+}
+#==========
+emoticon: (ㆆ _ ㆆ)
+description: afraid
+emoji: {
+}
+labels: {
+    afraid
+}
+tags: {
+}
+#==========
+emoticon: (^○^)
+description: happy
+emoji: {
+    😆
+    😅
+    😀
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *SHOCKED*
+description: shocked
+emoji: {
+}
+labels: {
+    shocked
+}
+tags: {
+}
+#==========
+emoticon: (◕ᴥ◕ʋ)
+description: dog
+emoji: {
+}
+labels: {
+    dog
+}
+tags: {
+}
+#==========
+emoticon: *<|8-P~
+description: partying too much
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (_i_)
+description: mooning you
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (-.-)ZZZ
+description: i'm sleepy
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :------------)
+description: big liar
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: B^D
+description: laughing, big grin, laugh with glasses, or wide-eyed surprise
+emoji: {
+    😆
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+    grin
+    smiley
+}
+tags: {
+    haha
+    joy
+    happy
+}
+#==========
+emoticon: :O$
+description: dog
+emoji: {
+}
+labels: {
+    dog
+}
+tags: {
+}
+#==========
+emoticon: C=:-)
+description: chef
+emoji: {
+}
+labels: {
+    chef
+}
+tags: {
+}
+#==========
+emoticon: ╭(ʘ̆~◞౪◟~ʘ̆)╮
+description: chubby
+emoji: {
+}
+labels: {
+    chubby
+}
+tags: {
+}
+#==========
+emoticon: (-_-* )
+description: annoyed
+emoji: {
+}
+labels: {
+    annoyed
+}
+tags: {
+}
+#==========
+emoticon: :O)
+description: clown
+emoji: {
+}
+labels: {
+    clown
+    dog
+}
+tags: {
+}
+#==========
+emoticon: >°))彡
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ( ͡° ʖ̯ ͡°)
+description: sadlenny
+emoji: {
+}
+labels: {
+    sadlenny
+}
+tags: {
+}
+#==========
+emoticon: }:-(=
+description: dracula
+emoji: {
+}
+labels: {
+    dracula
+}
+tags: {
+}
+#==========
+emoticon: (um)
+description: umbrella
+emoji: {
+}
+labels: {
+    umbrella
+}
+tags: {
+}
+#==========
+emoticon: :O/
+description: dog
+emoji: {
+}
+labels: {
+    dog
+}
+tags: {
+}
+#==========
+emoticon: (^.^)y-.o○
+description: smoking
+emoji: {
+    🚬
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-###..
+description: face with open mouth and cold sweat
+emoji: {
+    😰
+}
+labels: {
+    cold_sweat
+}
+tags: {
+    nervous
+}
+#==========
+emoticon: 5:‑)
+description: elvis presley
+emoji: {
+    😀
+    ☺
+}
+labels: {
+    relaxed
+}
+tags: {
+    blush
+    pleased
+}
+#==========
+emoticon: ┬─┬ ノ( ゜-゜ノ)
+description: tabledown
+emoji: {
+}
+labels: {
+    tabledown
+}
+tags: {
+}
+#==========
+emoticon: C8o )
+description: chimp
+emoji: {
+}
+labels: {
+    chimp
+}
+tags: {
+}
+#==========
+emoticon: C8o (
+description: chimp
+emoji: {
+}
+labels: {
+    chimp
+}
+tags: {
+}
+#==========
+emoticon: :O?
+description: dog
+emoji: {
+}
+labels: {
+    dog
+}
+tags: {
+}
+#==========
+emoticon: ( ^)o(^ )
+description: happy
+emoji: {
+    😆
+    😅
+    😀
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (*^^)v
+description: laughing, cheerful
+emoji: {
+    ✌️
+    😂
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ༼ ༎ຶ ෴ ༎ຶ༽
+description: monster
+emoji: {
+}
+labels: {
+    monster
+}
+tags: {
+}
+#==========
+emoticon: ┌П┐(ಠ_ಠ)
+description: angry
+emoji: {
+}
+labels: {
+    angry
+}
+tags: {
+}
+#==========
+emoticon: -___-
+description: expressionless
+emoji: {
+}
+labels: {
+    expressionless
+}
+tags: {
+}
+#==========
+emoticon: \\:D/
+description: dancing
+emoji: {
+}
+labels: {
+    dancing
+}
+tags: {
+}
+#==========
+emoticon: (8-{)}
+description: sunglasses, mustache, beard
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ヽ༼ຈل͜ຈ༽ﾉ
+description: donger
+emoji: {
+}
+labels: {
+    donger
+}
+tags: {
+}
+#==========
+emoticon: (:-{~
+description: beard - long
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ┻━┻ ︵ヽ(`Д´)ﾉ︵ ┻━┻
+description: doubletableflip
+emoji: {
+}
+labels: {
+    doubletableflip
+}
+tags: {
+}
+#==========
+emoticon: }---:o>
+description: reindeer
+emoji: {
+}
+labels: {
+    reindeer
+}
+tags: {
+}
+#==========
+emoticon: C8o \
+description: chimp
+emoji: {
+}
+labels: {
+    chimp
+}
+tags: {
+}
+#==========
+emoticon: ~X(
+description: at wits end
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (´･ω･`)
+description: snubbed or deflated
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: !(^^)!
+description: 
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ✌(-‿-)✌
+description: peace
+emoji: {
+}
+labels: {
+    peace
+    victory
+}
+tags: {
+}
+#==========
+emoticon: (눈_눈)
+description: orly
+emoji: {
+}
+labels: {
+    orly
+}
+tags: {
+}
+#==========
+emoticon: ⊂(◉‿◉)つ
+description: acid
+emoji: {
+}
+labels: {
+    acid
+}
+tags: {
+}
+#==========
+emoticon: |‑O
+description: cool, bored/yawning
+emoji: {
+    😪
+    😎
+}
+labels: {
+    sunglasses
+}
+tags: {
+    cool
+}
+#==========
+emoticon: (╯°□°)╯
+description: run
+emoji: {
+}
+labels: {
+    run
+}
+tags: {
+}
+#==========
+emoticon: H-)
+description: cross-eyed
+emoji: {
+}
+labels: {
+    cross-eyed
+}
+tags: {
+}
+#==========
+emoticon: b (
+description: angry
+emoji: {
+}
+labels: {
+    angry
+}
+tags: {
+}
+#==========
+emoticon: <(^.^)>
+description: kirby
+emoji: {
+}
+labels: {
+    kirby
+}
+tags: {
+}
+#==========
+emoticon: (^·^)
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (・・;)
+description: nervous, embarrassed, troubled, shy, sweat drop
+emoji: {
+    😅
+    😥
+    😳
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ToT)
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8:-)
+description: glasses on forehead
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >[I
+description: television
+emoji: {
+}
+labels: {
+    television
+}
+tags: {
+}
+#==========
+emoticon: (:^(
+description: broken nose
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (‘A`)
+description: snubbed or deflated
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: +O=-)
+description: pope
+emoji: {
+}
+labels: {
+    pope
+}
+tags: {
+}
+#==========
+emoticon: :-O ZZ ZZ ZZ
+description: bored or tired
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: -:-)
+description: has mohawk
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >:\\
+description: pouting face
+emoji: {
+    😏
+    😡
+}
+labels: {
+    rage
+    smirk
+}
+tags: {
+    smug
+    angry
+}
+#==========
+emoticon: ={D
+description: mustache
+emoji: {
+}
+labels: {
+    mustache
+}
+tags: {
+}
+#==========
+emoticon: (/|\)
+description: peace
+emoji: {
+}
+labels: {
+    peace
+}
+tags: {
+}
+#==========
+emoticon: \(°Ω°)/
+description: help
+emoji: {
+}
+labels: {
+    help
+}
+tags: {
+}
+#==========
+emoticon: C:-)
+description: large brain capacity
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ('A`)
+description: lonely
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-)--
+description: 100 pound weakling
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ￣|○
+description: despair. the "o"s represent head on the ground, "t" or "r" forms the torso, and "s" or "z" the legs.
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: O-\-<]:
+description: skateboarder
+emoji: {
+}
+labels: {
+    skateboarder
+}
+tags: {
+}
+#==========
+emoticon: (@^^)/~~~
+description: waving
+emoji: {
+    👋
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *\\0/*
+description: face with ok gesture
+emoji: {
+    🙆
+}
+labels: {
+    ok_woman
+}
+tags: {
+}
+#==========
+emoticon: ]:)
+description: smiling face with horns
+emoji: {
+    😈
+}
+labels: {
+    smiling_imp
+}
+tags: {
+    devil
+    evil
+    horns
+}
+#==========
+emoticon: {{{***}}}
+description: hugs and kisses
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @};-
+description: rose
+emoji: {
+}
+labels: {
+    rose
+}
+tags: {
+}
+#==========
+emoticon: (-"-)
+description: worried
+emoji: {
+    😬
+    😟
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ─=≡Σ((( つ◕ل͜◕)つ
+description: fly
+emoji: {
+}
+labels: {
+    fly
+}
+tags: {
+}
+#==========
+emoticon: (+[ ]-:-)
+description: psp
+emoji: {
+}
+labels: {
+    psp
+}
+tags: {
+}
+#==========
+emoticon: ୧(▲ᴗ▲)ノ
+description: illuminati
+emoji: {
+}
+labels: {
+    illuminati
+}
+tags: {
+}
+#==========
+emoticon: d:-)
+description: baseball nut
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (－‸ლ)
+description: facepalm
+emoji: {
+    🤦
+}
+labels: {
+    facepalm
+}
+tags: {
+}
+#==========
+emoticon: O_O
+description: surprise, shock, yawn
+emoji: {
+    😲
+}
+labels: {
+    astonished
+    open_mouth
+}
+tags: {
+    amazed
+    gasp
+}
+#==========
+emoticon: &-L
+description: makes me cry
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: #)
+description: sleepy
+emoji: {
+}
+labels: {
+    sleepy
+}
+tags: {
+}
+#==========
+emoticon: ((()))
+description: hugs
+emoji: {
+}
+labels: {
+    hugs
+}
+tags: {
+}
+#==========
+emoticon: 8‑0
+description: surprise, shock, yawn
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+    astonished
+}
+tags: {
+    amazed
+    gasp
+}
+#==========
+emoticon: [-o<
+description: praying
+emoji: {
+}
+labels: {
+    praying
+}
+tags: {
+}
+#==========
+emoticon: >_>
+description: sideways look. devious or guilty.
+emoji: {
+}
+labels: {
+    looking
+}
+tags: {
+}
+#==========
+emoticon: O_o
+description: surprise, shock, yawn
+emoji: {
+    😲
+}
+labels: {
+    astonished
+}
+tags: {
+    amazed
+    gasp
+}
+#==========
+emoticon: ♪┏(・o･)┛♪┗ ( ･o･) ┓
+description: happy expressions, dancing to the music
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (๑•̀ㅂ•́)ง✧
+description: victory
+emoji: {
+}
+labels: {
+    victory
+}
+tags: {
+}
+#==========
+emoticon: $8()
+description: guy with a toupee
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (Ｔ▽Ｔ)
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: &-l
+description: that made me cry
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (^0_0^)
+description: eyeglasses
+emoji: {
+    😎
+    🤓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8‑D
+description: laughing, big grin, laugh with glasses, or wide-eyed surprise
+emoji: {
+    😆
+    😍
+    😄
+    😃
+}
+labels: {
+    smiley
+}
+tags: {
+    haha
+    joy
+    happy
+}
+#==========
+emoticon: &-|
+description: tearful
+emoji: {
+}
+labels: {
+    tearful
+}
+tags: {
+}
+#==========
+emoticon: d:-p
+description: baseball player
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: C:-|
+description: bald
+emoji: {
+}
+labels: {
+    bald
+}
+tags: {
+}
+#==========
+emoticon: (~_~)
+description: 
+emoji: {
+    😏
+    😔
+    😒
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: -_-
+description: expressionless
+emoji: {
+}
+labels: {
+    expressionless
+    whatever
+}
+tags: {
+}
+#==========
+emoticon: щ(ﾟДﾟщ) (屮ﾟДﾟ)屮
+description: come on
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (.!.)
+description: alien
+emoji: {
+}
+labels: {
+    alien
+}
+tags: {
+}
+#==========
+emoticon: (/◕ヮ◕)/
+description: joyful
+emoji: {
+    😆
+    😅
+    🙌
+    😀
+    😄
+    😃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ღ˘⌣˘ღ)
+description: frown
+emoji: {
+}
+labels: {
+    frown
+}
+tags: {
+}
+#==========
+emoticon: %)
+description: drunk, confused
+emoji: {
+    😖
+    😵
+    😕
+    🤕
+}
+labels: {
+    confused
+    confounded
+    dizzy_face
+}
+tags: {
+}
+#==========
+emoticon: (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧
+description: excited
+emoji: {
+}
+labels: {
+    excited
+}
+tags: {
+}
+#==========
+emoticon: %-
+description: drunk with laughter
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: / \
+description: stick man
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =====~
+description: cigarette
+emoji: {
+}
+labels: {
+    cigarette
+}
+tags: {
+}
+#==========
+emoticon: o:-)
+description: angelic
+emoji: {
+    😇
+}
+labels: {
+    innocent
+    angelic
+}
+tags: {
+    angel
+}
+#==========
+emoticon: ※\(^o^)/※
+description: cheer
+emoji: {
+}
+labels: {
+    cheer
+}
+tags: {
+}
+#==========
+emoticon: %OD
+description: laughing like crazy
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (:-...
+description: heart-broken
+emoji: {
+}
+labels: {
+    heart-broken
+}
+tags: {
+}
+#==========
+emoticon: }|{
+description: butterfly
+emoji: {
+}
+labels: {
+    butterfly
+}
+tags: {
+}
+#==========
+emoticon: oxx:{}:::::::>
+description: sword
+emoji: {
+}
+labels: {
+    sword
+}
+tags: {
+}
+#==========
+emoticon: ;;)
+description: batting eyelashes
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: o >
+description: baring teeth
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ヽ༼ ຈل͜ຈ༼ ▀̿̿Ĺ̯̿̿▀̿ ̿༽Ɵ͆ل͜Ɵ͆ ༽ﾉ
+description: clique
+emoji: {
+}
+labels: {
+    clique
+    gang
+    squad
+}
+tags: {
+}
+#==========
+emoticon: ☉ ‿ ⚆
+description: derp
+emoji: {
+}
+labels: {
+    derp
+}
+tags: {
+}
+#==========
+emoticon: x‑D
+description: laughing, big grin, laugh with glasses, or wide-eyed surprise
+emoji: {
+    😆
+    😍
+    😄
+    😃
+}
+labels: {
+    smiley
+}
+tags: {
+    haha
+    joy
+    happy
+}
+#==========
+emoticon: *:*
+description: fuzzy face
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ~_^
+description: winking
+emoji: {
+}
+labels: {
+    winking
+}
+tags: {
+}
+#==========
+emoticon: ( '}{' )
+description: boy and girl kissing
+emoji: {
+}
+labels: {
+    kissing
+}
+tags: {
+}
+#==========
+emoticon: 0;-)
+description: innocent
+emoji: {
+}
+labels: {
+    innocent
+}
+tags: {
+}
+#==========
+emoticon: (>.<) zzZ
+description: sleeping
+emoji: {
+}
+labels: {
+    sleeping
+}
+tags: {
+}
+#==========
+emoticon: x‑p
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: (≧︿≦)
+description: duh
+emoji: {
+}
+labels: {
+    duh
+}
+tags: {
+}
+#==========
+emoticon: ( •͡˘ _•͡˘)ノð
+description: bribe
+emoji: {
+}
+labels: {
+    bribe
+}
+tags: {
+}
+#==========
+emoticon: (°°)～
+description: tadpole
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (｀-´)>
+description: salute
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ((
+description: banana
+emoji: {
+}
+labels: {
+    banana
+}
+tags: {
+}
+#==========
+emoticon: 0*-)
+description: angel wink - female
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ()
+description: football
+emoji: {
+}
+labels: {
+    football
+}
+tags: {
+}
+#==========
+emoticon: (ー_ー)!!
+description: shame
+emoji: {
+    😩
+    😞
+    😔
+    😒
+    😑
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (o^-^o)
+description: pikachu
+emoji: {
+}
+labels: {
+    pikachu
+}
+tags: {
+}
+#==========
+emoticon: \_/
+description: drink
+emoji: {
+}
+labels: {
+    drink
+}
+tags: {
+}
+#==========
+emoticon: [̲̅$̲̅(̲̅ιο̲̅̅)̲̅$̲̅]
+description: dollarbill
+emoji: {
+}
+labels: {
+    dollarbill
+}
+tags: {
+}
+#==========
+emoticon: -__-
+description: expressionless
+emoji: {
+}
+labels: {
+    expressionless
+}
+tags: {
+}
+#==========
+emoticon: (°_°)
+description: confused
+emoji: {
+    😶
+    😕
+    😵
+    🙄
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8-;)
+description: tongue in cheek
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ┬─┬ ︵ /(.□. \）
+description: flipped
+emoji: {
+}
+labels: {
+    flipped
+    heavytable
+}
+tags: {
+}
+#==========
+emoticon: ))
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *\0/*
+description: cheerleader
+emoji: {
+}
+labels: {
+    ok_woman
+}
+tags: {
+}
+#==========
+emoticon: <(_ _)>
+description: kowtow as a sign of respect, or dogeza for apology
+emoji: {
+    🙇
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (;´༎ຶД༎ຶ`)
+description: sob
+emoji: {
+}
+labels: {
+    sob
+}
+tags: {
+}
+#==========
+emoticon: (Q
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ÒДÓױ)
+description: wat
+emoji: {
+}
+labels: {
+    wat
+}
+tags: {
+}
+#==========
+emoticon: (=____=)
+description: tired
+emoji: {
+}
+labels: {
+    tired
+}
+tags: {
+}
+#==========
+emoticon: :---)
+description: pinnochio
+emoji: {
+}
+labels: {
+    pinnochio
+}
+tags: {
+}
+#==========
+emoticon: {:o
+description: surprised
+emoji: {
+}
+labels: {
+    surprised
+}
+tags: {
+}
+#==========
+emoticon: \';./
+description: sea horse
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (8>/--<
+description: alien
+emoji: {
+}
+labels: {
+    alien
+}
+tags: {
+}
+#==========
+emoticon: ({)
+description: left hug
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (^
+description: nervous, embarrassed, troubled, shy, sweat drop
+emoji: {
+    😅
+    😥
+    😳
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :\\
+description: pouting face
+emoji: {
+    😏
+    😡
+}
+labels: {
+    rage
+    smirk
+}
+tags: {
+    smug
+    angry
+}
+#==========
+emoticon: (╯°□°)╯︵ ┻━┻ ︵ ╯(°□° ╯)
+description: friendflip
+emoji: {
+}
+labels: {
+    friendflip
+}
+tags: {
+}
+#==========
+emoticon: @@@@:-)
+description: marge simpson
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *)
+description: wink, smirk
+emoji: {
+    😘
+    😜
+    😉
+}
+labels: {
+    wink
+}
+tags: {
+    flirt
+}
+#==========
+emoticon: :^)
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    😄
+    🙂
+    😁
+}
+labels: {
+    relaxed
+    personality
+    smile
+}
+tags: {
+    joy
+    blush
+    happy
+    pleased
+}
+#==========
+emoticon: :^*
+description: kissing_heart
+emoji: {
+    😽
+}
+labels: {
+    kissing_cat
+    kissing_heart
+}
+tags: {
+}
+#==========
+emoticon: :^,
+description: smirking
+emoji: {
+}
+labels: {
+    smirking
+}
+tags: {
+}
+#==========
+emoticon: ))><<
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄
+description: dong
+emoji: {
+}
+labels: {
+    dong
+}
+tags: {
+}
+#==========
+emoticon: <<<<(:-)
+description: hat salesman
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ~=[,,_,,]:3
+description: nyan
+emoji: {
+}
+labels: {
+    nyan
+}
+tags: {
+}
+#==========
+emoticon: (|)
+description: mooning you
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: |___|
+description: happy
+emoji: {
+}
+labels: {
+    happy
+}
+tags: {
+}
+#==========
+emoticon: (*^0^*)
+description: excited
+emoji: {
+    🙌
+    😀
+    😍
+    💃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: &:-)
+description: curly hair
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: &:-/
+description: elvis, curly hair
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ◕_◕
+description: omg
+emoji: {
+}
+labels: {
+    omg
+}
+tags: {
+}
+#==========
+emoticon: :^J
+description: smiling
+emoji: {
+}
+labels: {
+    smiling
+}
+tags: {
+}
+#==========
+emoticon: (>_<)
+description: troubled
+emoji: {
+    😖
+    😣
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: O:‑)
+description: angel, saint, innocent
+emoji: {
+    😇
+    👼
+}
+labels: {
+    innocent
+}
+tags: {
+    angel
+}
+#==========
+emoticon: (^_^)
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+    smiley
+}
+tags: {
+}
+#==========
+emoticon: :-)-{8
+description: big girl
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (})
+description: right hug
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-)))))))
+description: multiple chins
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ノ ͡° ͜ʖ ͡°ノ) ︵ ( ͜。 ͡ʖ ͜。)
+description: lennyflip
+emoji: {
+}
+labels: {
+    lennyflip
+}
+tags: {
+}
+#==========
+emoticon: (8 {
+description: john lennon
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (·ω·)
+description: joyful
+emoji: {
+    😆
+    😅
+    🙌
+    😀
+    😄
+    😃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: b-(
+description: beat up
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: o/\\o
+description: face with look of triumph
+emoji: {
+    😤
+}
+labels: {
+    triumph
+}
+tags: {
+    smug
+}
+#==========
+emoticon: (*)/ (*)
+description: bicycle
+emoji: {
+}
+labels: {
+    bicycle
+}
+tags: {
+}
+#==========
+emoticon: <:-(
+description: dunce
+emoji: {
+}
+labels: {
+    dunce
+}
+tags: {
+}
+#==========
+emoticon: <:-)
+description: dumb question
+emoji: {
+}
+labels: {
+    dunce
+}
+tags: {
+}
+#==========
+emoticon: :^o
+description: liar liar
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (mo)
+description: money
+emoji: {
+}
+labels: {
+    money
+}
+tags: {
+}
+#==========
+emoticon: :-{>
+description: goatee
+emoji: {
+}
+labels: {
+    goatee
+}
+tags: {
+}
+#==========
+emoticon: G:-)
+description: football helmet
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :'-(
+description: cry
+emoji: {
+    😢
+}
+labels: {
+    whining
+    crying
+    cry
+}
+tags: {
+    tear
+    sad
+}
+#==========
+emoticon: (~)
+description: filmstrip
+emoji: {
+}
+labels: {
+    filmstrip
+}
+tags: {
+}
+#==========
+emoticon: :-{0
+description: basic mustache
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :'-)
+description: joy
+emoji: {
+    😂
+}
+labels: {
+    joy
+}
+tags: {
+    tears
+}
+#==========
+emoticon: (｡◕‿‿◕｡)
+description: cute
+emoji: {
+}
+labels: {
+    cute
+}
+tags: {
+}
+#==========
+emoticon: :^y
+description: talking
+emoji: {
+}
+labels: {
+    talking
+}
+tags: {
+}
+#==========
+emoticon: ᕦ(òᴥó)ᕥ
+description: toogood
+emoji: {
+}
+labels: {
+    toogood
+}
+tags: {
+}
+#==========
+emoticon: *GIGGLING*
+description: giggling
+emoji: {
+}
+labels: {
+    giggling
+}
+tags: {
+}
+#==========
+emoticon: (•ᴥ• )́`́'́`́'́⻍
+description: porcupine
+emoji: {
+}
+labels: {
+    porcupine
+}
+tags: {
+}
+#==========
+emoticon: :-{)
+description: moustache
+emoji: {
+}
+labels: {
+    moustache
+}
+tags: {
+}
+#==========
+emoticon: #‑)
+description: partied all night
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @@@@@:-)
+description: marge simpson
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-})
+description: handlebar mustache
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ( ╥﹏╥) ノシ
+description: crywave
+emoji: {
+}
+labels: {
+    crywave
+}
+tags: {
+}
+#==========
+emoticon: 7:)
+description: ronald reagan
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <:-I
+description: another dunce
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (({..}))
+description: headache
+emoji: {
+}
+labels: {
+    headache
+}
+tags: {
+}
+#==========
+emoticon: -6
+description: devil
+emoji: {
+}
+labels: {
+    devil
+}
+tags: {
+}
+#==========
+emoticon: (・.・;)
+description: nervous, embarrassed, troubled, shy, sweat drop
+emoji: {
+    😅
+    😥
+    😳
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: -8
+description: note
+emoji: {
+}
+labels: {
+    note
+}
+tags: {
+}
+#==========
+emoticon: (mp)
+description: mobile phone
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-)))
+description: triple chin
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: &:-]
+description: handsome
+emoji: {
+}
+labels: {
+    handsome
+}
+tags: {
+}
+#==========
+emoticon: ☜(ﾟヮﾟ☜)
+description: "do it"
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <:-0
+description: eeek!
+emoji: {
+}
+labels: {
+    eeek!
+}
+tags: {
+}
+#==========
+emoticon: :'-D
+description: face with tears of joy
+emoji: {
+    😂
+}
+labels: {
+    joy
+}
+tags: {
+    tears
+}
+#==========
+emoticon: ( . Y . )
+description: boobs
+emoji: {
+}
+labels: {
+    boobs
+}
+tags: {
+}
+#==========
+emoticon: <:-l
+description: dunce smiley
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ./
+description: duck
+emoji: {
+}
+labels: {
+    duck
+}
+tags: {
+}
+#==========
+emoticon: (ノಠ益ಠ)ノ彡┻━┻
+description: table flip
+emoji: {
+}
+labels: {
+    rageflip
+}
+tags: {
+}
+#==========
+emoticon: ]:->
+description: devil
+emoji: {
+}
+labels: {
+    devil
+}
+tags: {
+}
+#==========
+emoticon: o()xxxx[{::::::::::::::::::>
+description: sword
+emoji: {
+}
+labels: {
+    sword
+}
+tags: {
+}
+#==========
+emoticon: :-{}
+description: blowing a kiss
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ^&^
+description: smiling
+emoji: {
+}
+labels: {
+    smiling
+}
+tags: {
+}
+#==========
+emoticon: @>--;--
+description: rose
+emoji: {
+}
+labels: {
+    rose
+    flower
+}
+tags: {
+}
+#==========
+emoticon: (__>-
+description: pear
+emoji: {
+}
+labels: {
+    pear
+}
+tags: {
+}
+#==========
+emoticon: /'
+description: surfer
+emoji: {
+}
+labels: {
+    surfer
+}
+tags: {
+}
+#==========
+emoticon: ( ´д)ﾋｿ(´Д｀)ﾋｿ(Д｀ )
+description: whispers
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @-)
+description: hypnotized
+emoji: {
+}
+labels: {
+    hypnotized
+}
+tags: {
+}
+#==========
+emoticon: <:-P
+description: party
+emoji: {
+}
+labels: {
+    party
+}
+tags: {
+}
+#==========
+emoticon: <%)
+description: pizza
+emoji: {
+}
+labels: {
+    pizza
+}
+tags: {
+}
+#==========
+emoticon: :c)
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    😄
+    🙂
+    😁
+}
+labels: {
+    relaxed
+    smile
+}
+tags: {
+    joy
+    blush
+    happy
+    pleased
+}
+#==========
+emoticon: :っ)
+description: smiling face with open mouth and smiling eyes
+emoji: {
+    😄
+}
+labels: {
+    smile
+}
+tags: {
+    joy
+    happy
+    pleased
+}
+#==========
+emoticon: :-||
+description: frown, sad, angry, pouting
+emoji: {
+    😖
+    ☹️
+    😠
+    😟
+    ☹
+    😞
+    😣
+    🙁
+    😡
+}
+labels: {
+    angry
+    frowning_face
+}
+tags: {
+    mad
+    annoyed
+}
+#==========
+emoticon: ┌(；`～,)┐
+description: discombobulated
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ]:-)
+description: smiling face with horns
+emoji: {
+    😈
+}
+labels: {
+    smiling_imp
+}
+tags: {
+    devil
+    evil
+    horns
+}
+#==========
+emoticon: :-}X
+description: bow tie-wearing
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: Q.Q
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 7:^]
+description: ronald reagan
+emoji: {
+    😀
+    ☺
+}
+labels: {
+    relaxed
+}
+tags: {
+    blush
+    pleased
+}
+#==========
+emoticon: :っC
+description: unamused face
+emoji: {
+    😒
+}
+labels: {
+    unamused
+}
+tags: {
+    meh
+}
+#==========
+emoticon: ~:-P
+description: single hair
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: /\
+description: dinosaur
+emoji: {
+}
+labels: {
+    dinosaur
+}
+tags: {
+}
+#==========
+emoticon: *STOP*
+description: stop
+emoji: {
+}
+labels: {
+    stop
+}
+tags: {
+}
+#==========
+emoticon: @};---
+description: rose
+emoji: {
+}
+labels: {
+    rose
+}
+tags: {
+}
+#==========
+emoticon: (''')-.-(''')
+description: bear
+emoji: {
+}
+labels: {
+    bear
+}
+tags: {
+}
+#==========
+emoticon: 0-<-<):
+description: skateboarder
+emoji: {
+}
+labels: {
+    skateboarder
+}
+tags: {
+}
+#==========
+emoticon: /|\ ^._.^ /|\
+description: bat
+emoji: {
+}
+labels: {
+    bat
+}
+tags: {
+}
+#==========
+emoticon: ~:-(
+description: really bummed out
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <~8)
+description: harry potter
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *red+u
+description: im
+emoji: {
+}
+labels: {
+    im
+}
+tags: {
+}
+#==========
+emoticon: >^..^<
+description: cat
+emoji: {
+}
+labels: {
+    cat
+}
+tags: {
+}
+#==========
+emoticon: ( ^^)
+description: cup of tea
+emoji: {
+    🍵
+    ☕️
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: -=#:-)
+description: wizard
+emoji: {
+}
+labels: {
+    wizard
+}
+tags: {
+}
+#==========
+emoticon: <(..<)
+description: dancing
+emoji: {
+}
+labels: {
+    dancing
+}
+tags: {
+}
+#==========
+emoticon: :_ (
+description: crying
+emoji: {
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: (⁄ ⁄•⁄ω⁄•⁄ ⁄)
+description: embarrased
+emoji: {
+}
+labels: {
+    embarrased
+}
+tags: {
+}
+#==========
+emoticon: o-)
+description: cyclops
+emoji: {
+}
+labels: {
+    cyclops
+}
+tags: {
+}
+#==========
+emoticon: ᕕ(⌐■_■)ᕗ ♪♬
+description: dance
+emoji: {
+}
+labels: {
+    dance
+}
+tags: {
+}
+#==========
+emoticon: (´・ω・)っ由
+description: gift
+emoji: {
+}
+labels: {
+    gift
+    present
+}
+tags: {
+}
+#==========
+emoticon: (^_^)v
+description: laughing, cheerful
+emoji: {
+    ✌️
+    😂
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ( o_o)
+description: annoyed
+emoji: {
+}
+labels: {
+    annoyed
+}
+tags: {
+}
+#==========
+emoticon: (з๏ε)
+description: goatse
+emoji: {
+}
+labels: {
+    goatse
+}
+tags: {
+}
+#==========
+emoticon: &===3
+description: dog bone
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ～°·_·°～
+description: bat
+emoji: {
+    🦇
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ᕕ(╭ರ╭ ͟ʖ╮•́)⊃¤=(————-
+description: duel
+emoji: {
+}
+labels: {
+    duel
+}
+tags: {
+}
+#==========
+emoticon: (✿◠‿◠)
+description: happy
+emoji: {
+    😆
+    😅
+    😀
+    😄
+    😃
+    😁
+}
+labels: {
+    flower
+}
+tags: {
+}
+#==========
+emoticon: %\v
+description: picasso
+emoji: {
+}
+labels: {
+    picasso
+}
+tags: {
+}
+#==========
+emoticon: *SURPRISED*
+description: surprised
+emoji: {
+}
+labels: {
+    surprised
+}
+tags: {
+}
+#==========
+emoticon: | (• ◡•)|
+description: finn
+emoji: {
+}
+labels: {
+    finn
+}
+tags: {
+}
+#==========
+emoticon: \%%%/
+description: queen
+emoji: {
+}
+labels: {
+    queen
+}
+tags: {
+}
+#==========
+emoticon: D:<
+description: horror, disgust, sadness, great dismay (right to left)
+emoji: {
+    😨
+    😧
+    😦
+    😫
+    😩
+    😱
+}
+labels: {
+    scream
+    fearful
+}
+tags: {
+    horror
+    oops
+    shocked
+    scared
+}
+#==========
+emoticon: ( º﹃º )
+description: ohshit
+emoji: {
+}
+labels: {
+    ohshit
+}
+tags: {
+}
+#==========
+emoticon: (❍ᴥ❍ʋ)
+description: jake
+emoji: {
+}
+labels: {
+    jake
+}
+tags: {
+}
+#==========
+emoticon: *<:O)
+description: clown
+emoji: {
+}
+labels: {
+    clown
+}
+tags: {
+}
+#==========
+emoticon: o-o
+description: astonished face
+emoji: {
+    😲
+}
+labels: {
+    astonished
+}
+tags: {
+    amazed
+    gasp
+}
+#==========
+emoticon: o.O
+description: surprised
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ^ω^
+description: joyful
+emoji: {
+    😆
+    😅
+    🙌
+    😀
+    😄
+    😃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ~o)
+description: cup of coffee
+emoji: {
+}
+labels: {
+    reproduction
+}
+tags: {
+}
+#==========
+emoticon: (~_~メ)
+description: worried
+emoji: {
+    😬
+    😟
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: o/<
+description: midget
+emoji: {
+}
+labels: {
+    midget
+}
+tags: {
+}
+#==========
+emoticon: ',:-|
+description: scepticism, disbelief, or disapproval
+emoji: {
+    🤨
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ( ｀皿´)｡ﾐ/
+description: hitting
+emoji: {
+}
+labels: {
+    hitting
+}
+tags: {
+}
+#==========
+emoticon: ʕ·͡ᴥ·ʔ
+description: koala
+emoji: {
+}
+labels: {
+    koala
+    bear
+}
+tags: {
+}
+#==========
+emoticon: :-) .
+description: i have an innie belly button
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 3:)
+description: evil, devilish
+emoji: {
+    😈
+}
+labels: {
+    smiling_imp
+}
+tags: {
+    devil
+    evil
+    horns
+}
+#==========
+emoticon: :-) ,
+description: i have an outie belly button
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-) 8
+description: dolly parton
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ip)
+description: island with a palm tree
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ^-^
+description: happy
+emoji: {
+}
+labels: {
+    happy
+    tickled/giggling
+}
+tags: {
+}
+#==========
+emoticon: ',:-l
+description: scepticism, disbelief, or disapproval
+emoji: {
+    🤨
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: C(_)
+description: cup of coffee
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (╯°□°）╯︵ ┻━┻
+description: table flip
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (8-)
+description: wears glasses
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: \m/
+description: metal
+emoji: {
+}
+labels: {
+    metal
+    rocking
+}
+tags: {
+}
+#==========
+emoticon: [:|]
+description: robot
+emoji: {
+}
+labels: {
+    robot
+}
+tags: {
+}
+#==========
+emoticon: (^_-)-☆
+description: wink
+emoji: {
+    😜
+    😉
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ^.^
+description: happy
+emoji: {
+}
+labels: {
+    happy
+}
+tags: {
+}
+#==========
+emoticon: ( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)
+description: lennygang
+emoji: {
+}
+labels: {
+    lennygang
+}
+tags: {
+}
+#==========
+emoticon: 3:[
+description: mean pet smiley
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 3:]
+description: pet dog
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :^D"
+description: great! i like it!
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (^_^)/
+description: joyful
+emoji: {
+    😆
+    😅
+    🙌
+    😀
+    😄
+    😃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (*^3^)/~☆
+description: blowing a kiss
+emoji: {
+    😘
+    😗
+    😚
+    😙
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-(=)
+description: big teeth
+emoji: {
+}
+labels: {
+    bucktoothed
+}
+tags: {
+}
+#==========
+emoticon: (*´▽｀*)
+description: infatuation
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ^/^
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (＠_＠;)
+description: amazed
+emoji: {
+    😍
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8)
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    😄
+    🙂
+    😁
+}
+labels: {
+    relaxed
+    sunglasses
+    frog
+    smile
+}
+tags: {
+    joy
+    blush
+    happy
+    pleased
+}
+#==========
+emoticon: ( ﾟдﾟ)
+description: amazed
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <? ?>
+description: frog
+emoji: {
+}
+labels: {
+    frog
+}
+tags: {
+}
+#==========
+emoticon: x⸑x
+description: dead
+emoji: {
+}
+labels: {
+    dead
+}
+tags: {
+}
+#==========
+emoticon: \o/
+description: cheer "yay, yay."
+emoji: {
+}
+labels: {
+    cheer
+}
+tags: {
+}
+#==========
+emoticon: *:-)
+description: navy admiral
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8<
+description: scissors
+emoji: {
+}
+labels: {
+    scissors
+}
+tags: {
+}
+#==========
+emoticon: +-(
+description: shot between the eyes
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8>
+description: penguin
+emoji: {
+}
+labels: {
+    penguin
+}
+tags: {
+}
+#==========
+emoticon: /8^{~
+description: sunglasses, mustache, goatee
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @:-)
+description: curly hair
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: T^T
+description: crying
+emoji: {
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: 8D
+description: laughing, big grin, laugh with glasses, or wide-eyed surprise
+emoji: {
+    😆
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+    grin
+    smiley
+}
+tags: {
+    haha
+    joy
+    happy
+}
+#==========
+emoticon: ~~8-O
+description: bad-hair day
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <[.,=.,]-
+description: dog
+emoji: {
+}
+labels: {
+    dog
+}
+tags: {
+}
+#==========
+emoticon: |-(
+description: smiley lost his contact lenses
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 5:-)
+description: elvis presley
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: |-)
+description: asleep (boredom)
+emoji: {
+}
+labels: {
+    hee-hee
+    sleepy
+}
+tags: {
+}
+#==========
+emoticon: </3
+description: broken-heart
+emoji: {
+    💔
+}
+labels: {
+    broken_heart
+}
+tags: {
+}
+#==========
+emoticon: (;_;)/~~~
+description: waving
+emoji: {
+    👋
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8^
+description: chicken
+emoji: {
+}
+labels: {
+    chicken
+}
+tags: {
+}
+#==========
+emoticon: T_T
+description: crying
+emoji: {
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: :#
+description: sealed lips or wearing braces, tongue-tied
+emoji: {
+    😶
+    🤐
+}
+labels: {
+    swearing
+    no_mouth
+}
+tags: {
+    mute
+    silence
+}
+#==========
+emoticon: :$
+description: embarrassed, blushing
+emoji: {
+    😖
+    😞
+    😳
+    😒
+}
+labels: {
+    unamused
+    embarrassed
+    flushed
+}
+tags: {
+    meh
+}
+#==========
+emoticon: :&
+description: sealed lips or wearing braces, tongue-tied
+emoji: {
+    😶
+    🤐
+}
+labels: {
+    no_mouth
+}
+tags: {
+    mute
+    silence
+}
+#==========
+emoticon: :'
+description: crying
+emoji: {
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: :(
+description: frown, sad, angry, pouting
+emoji: {
+    😖
+    😦
+    ☹️
+    😠
+    😟
+    ☹
+    😞
+    😣
+    😒
+    🙁
+    😡
+}
+labels: {
+    frowning
+    unamused
+    disappointed
+    sad
+    frown
+    angry
+    frowning_face
+}
+tags: {
+    meh
+}
+#==========
+emoticon: :)
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    😄
+    😃
+    🙂
+    😁
+}
+labels: {
+    relaxed
+    happy
+    midget
+    slight_smile
+    smile
+    smiley
+}
+tags: {
+    haha
+    joy
+    blush
+    happy
+    pleased
+}
+#==========
+emoticon: :*
+description: kiss
+emoji: {
+    😘
+    😗
+    😚
+    😙
+    😍
+    😽
+}
+labels: {
+    kissing
+    kisses
+    kissing_cat
+    kissing_heart
+    kissing_closed_eyes
+}
+tags: {
+}
+#==========
+emoticon: |-D
+description: ho ho
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-
+description: male
+emoji: {
+}
+labels: {
+    male
+}
+tags: {
+}
+#==========
+emoticon: ;O)
+description: wink
+emoji: {
+}
+labels: {
+    wink
+}
+tags: {
+}
+#==========
+emoticon: :n)
+description: user with funny-looking right nose
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ~O><
+description: baby
+emoji: {
+}
+labels: {
+    baby
+}
+tags: {
+}
+#==========
+emoticon: :/
+description: skeptical, annoyed, undecided, uneasy, hesitant
+emoji: {
+    😕
+    😟
+    😏
+    🤔
+    😡
+}
+labels: {
+    confused
+    rage
+    smirk
+}
+tags: {
+    smug
+    angry
+}
+#==========
+emoticon: :0
+description: hungry
+emoji: {
+}
+labels: {
+    hungry
+    surprised
+}
+tags: {
+}
+#==========
+emoticon: φ(..)
+description: jotting note
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: |-I
+description: asleep
+emoji: {
+}
+labels: {
+    asleep
+}
+tags: {
+}
+#==========
+emoticon: :3
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    😄
+    🙂
+    😁
+}
+labels: {
+    relaxed
+    kitty
+    lion
+    smile
+}
+tags: {
+    joy
+    blush
+    happy
+    pleased
+}
+#==========
+emoticon: |-P
+description: yuk
+emoji: {
+}
+labels: {
+    yuk
+}
+tags: {
+}
+#==========
+emoticon: |-O
+description: birth
+emoji: {
+    😫
+}
+labels: {
+    tired_face
+    yawn
+    birth
+    yawning
+}
+tags: {
+    upset
+    whine
+}
+#==========
+emoticon: :###)
+description: jimmy durante
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ヽ(｀Д´)ﾉ
+description: not
+emoji: {
+}
+labels: {
+    not
+    want
+    dontwant
+    do
+}
+tags: {
+}
+#==========
+emoticon: :<
+description: frown, sad, angry, pouting
+emoji: {
+    😖
+    ☹️
+    😠
+    😟
+    ☹
+    😞
+    😣
+    😒
+    🙁
+    😡
+}
+labels: {
+    unamused
+    frowning_face
+}
+tags: {
+    meh
+}
+#==========
+emoticon: :>
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    😄
+    🙂
+    😁
+}
+labels: {
+    relaxed
+    smug
+    smile
+}
+tags: {
+    joy
+    blush
+    happy
+    pleased
+}
+#==========
+emoticon: :@
+description: frown, sad, angry, pouting
+emoji: {
+    😖
+    ☹️
+    😠
+    😟
+    ☹
+    😞
+    😣
+    🙁
+    😡
+}
+labels: {
+    ouch!
+    rage
+    exclamation
+    angry
+    frowning_face
+}
+tags: {
+    mad
+    annoyed
+    angry
+}
+#==========
+emoticon: <):)
+description: cowboy
+emoji: {
+}
+labels: {
+    cowboy
+}
+tags: {
+}
+#==========
+emoticon: :-(0)
+description: yelling
+emoji: {
+}
+labels: {
+    yelling
+}
+tags: {
+}
+#==========
+emoticon: :D
+description: laughing, big grin, laugh with glasses, or wide-eyed surprise
+emoji: {
+    😆
+    😍
+    😄
+    😃
+}
+labels: {
+    smiley
+    smile
+}
+tags: {
+    haha
+    joy
+    happy
+    pleased
+}
+#==========
+emoticon: :E
+description: monster
+emoji: {
+}
+labels: {
+    monster
+}
+tags: {
+}
+#==========
+emoticon: ;(
+description: cry
+emoji: {
+    😜
+    😭
+}
+labels: {
+    sob
+    stuck_out_tongue_winking_eye
+    cry
+}
+tags: {
+    prank
+    bawling
+    silly
+    sad
+    cry
+}
+#==========
+emoticon: ;)
+description: wink, smirk
+emoji: {
+    😘
+    😜
+    😉
+}
+labels: {
+    winking
+    wink
+}
+tags: {
+    flirt
+}
+#==========
+emoticon: :L
+description: skeptical, annoyed, undecided, uneasy, hesitant
+emoji: {
+    😕
+    😟
+    😏
+    🤔
+    😡
+}
+labels: {
+    confused
+    rage
+    smirk
+}
+tags: {
+    smug
+    angry
+}
+#==========
+emoticon: :o)
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    😄
+    🙂
+    😁
+}
+labels: {
+    relaxed
+    smile
+}
+tags: {
+    joy
+    blush
+    happy
+    pleased
+}
+#==========
+emoticon: :O
+description: surprised
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+    singing
+    gasp
+    astonished
+    open_mouth
+}
+tags: {
+    amazed
+    surprise
+    impressed
+    gasp
+    wow
+}
+#==========
+emoticon: :P
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    drooling
+    stuck_out_tongue_winking_eye
+    stuck_out_tongue
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: :S
+description: skeptical, annoyed, undecided, uneasy, hesitant
+emoji: {
+    😕
+    😟
+    😏
+    🤔
+    😡
+}
+labels: {
+    rage
+    smirk
+}
+tags: {
+    smug
+    angry
+}
+#==========
+emoticon: =^_^=
+description: shy
+emoji: {
+}
+labels: {
+    shy
+}
+tags: {
+}
+#==========
+emoticon: :X
+description: sealed lips or wearing braces, tongue-tied
+emoji: {
+    😶
+    🤐
+}
+labels: {
+    no_mouth
+}
+tags: {
+    mute
+    silence
+}
+#==========
+emoticon: ;;
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :[
+description: frown, sad, angry, pouting
+emoji: {
+    😖
+    ☹️
+    😠
+    😟
+    ☹
+    😞
+    😣
+    😒
+    🙁
+    😡
+}
+labels: {
+    unamused
+    disappointed
+    sad
+    frowning_face
+}
+tags: {
+    meh
+}
+#==========
+emoticon: :\
+description: skeptical, annoyed, undecided, uneasy, hesitant
+emoji: {
+    😕
+    😟
+    🤔
+}
+labels: {
+    confused
+    undecided
+}
+tags: {
+}
+#==========
+emoticon: :]
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    😄
+    🙂
+    😁
+}
+labels: {
+    relaxed
+    slight_smile
+    smile
+}
+tags: {
+    joy
+    blush
+    happy
+    pleased
+}
+#==========
+emoticon: :b
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+    stuck_out_tongue
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: :c
+description: frown, sad, angry, pouting
+emoji: {
+    😖
+    ☹️
+    😠
+    😟
+    ☹
+    😞
+    😣
+    😒
+    🙁
+    😡
+}
+labels: {
+    unamused
+    sad
+    frowning_face
+}
+tags: {
+    meh
+}
+#==========
+emoticon: ;D
+description: wink, smirk
+emoji: {
+    😘
+    😜
+    😉
+}
+labels: {
+    wink
+}
+tags: {
+    flirt
+}
+#==========
+emoticon: :d
+description: open-mouthed smile
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: |-|
+description: going to sleep
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (☞ﾟ∀ﾟ)☞
+description: gotit
+emoji: {
+}
+labels: {
+    gotit
+}
+tags: {
+}
+#==========
+emoticon: <+
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: # -
+description: eyepatch
+emoji: {
+}
+labels: {
+    eyepatch
+}
+tags: {
+}
+#==========
+emoticon: :o
+description: surprise, shock, yawn
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+    astonished
+    open_mouth
+    surprised
+}
+tags: {
+    amazed
+    surprise
+    impressed
+    gasp
+    wow
+}
+#==========
+emoticon: :p
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    mischievous
+    stuck_out_tongue_winking_eye
+    stuck_out_tongue
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: @:-}
+description: just back from hairdresser
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8*)
+description: glasses and a half mustache
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <3
+description: heart
+emoji: {
+    💗
+    ♥
+    ❤️
+}
+labels: {
+    love
+    heartpulse
+    hearts
+    heart
+}
+tags: {
+}
+#==========
+emoticon: :s
+description: confused
+emoji: {
+    😒
+}
+labels: {
+    confused
+    unamused
+}
+tags: {
+    meh
+}
+#==========
+emoticon: :v
+description: pacman
+emoji: {
+}
+labels: {
+    pacman
+}
+tags: {
+}
+#==========
+emoticon: :x
+description: no_mouth
+emoji: {
+}
+labels: {
+    no_mouth
+}
+tags: {
+}
+#==========
+emoticon: ༼ つ ◕_◕ ༽つ
+description: gimme
+emoji: {
+}
+labels: {
+    gimme
+}
+tags: {
+}
+#==========
+emoticon: :z
+description: unamused face
+emoji: {
+    😒
+}
+labels: {
+    unamused
+}
+tags: {
+    meh
+}
+#==========
+emoticon: :{
+description: frown, sad, angry, pouting
+emoji: {
+    😖
+    ☹️
+    😠
+    😟
+    ☹
+    😞
+    😣
+    😒
+    🙁
+    😡
+}
+labels: {
+    unamused
+    mustache
+    frowning_face
+}
+tags: {
+    meh
+}
+#==========
+emoticon: ;]
+description: wink, smirk
+emoji: {
+    😘
+    😜
+    😉
+}
+labels: {
+    wink
+}
+tags: {
+    flirt
+}
+#==========
+emoticon: :|
+description: straight face no expression, indecision
+emoji: {
+    😐
+    😑
+}
+labels: {
+    disappointed
+    neutral_face
+}
+tags: {
+    meh
+}
+#==========
+emoticon: :}
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    😄
+    🙂
+    😁
+}
+labels: {
+    relaxed
+    smile
+}
+tags: {
+    joy
+    blush
+    happy
+    pleased
+}
+#==========
+emoticon: :~
+description: elephant
+emoji: {
+}
+labels: {
+    elephant
+}
+tags: {
+}
+#==========
+emoticon: =#
+description: no_mouth
+emoji: {
+}
+labels: {
+    no_mouth
+}
+tags: {
+}
+#==========
+emoticon: =$
+description: flushed
+emoji: {
+}
+labels: {
+    flushed
+}
+tags: {
+}
+#==========
+emoticon: :,'(
+description: loudly crying face
+emoji: {
+    😭
+}
+labels: {
+    sob
+}
+tags: {
+    bawling
+    sad
+    cry
+}
+#==========
+emoticon: @)->-
+description: rose
+emoji: {
+}
+labels: {
+    rose
+}
+tags: {
+}
+#==========
+emoticon: =(
+description: disappointed
+emoji: {
+}
+labels: {
+    disappointed
+    sad
+}
+tags: {
+}
+#==========
+emoticon: =)
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    😄
+    🙂
+    😁
+}
+labels: {
+    relaxed
+    happy
+    smile!
+    slight_smile
+    smile
+}
+tags: {
+    joy
+    blush
+    happy
+    pleased
+}
+#==========
+emoticon: =*
+description: kissing_heart
+emoji: {
+}
+labels: {
+    kissing_heart
+}
+tags: {
+}
+#==========
+emoticon: ( ͡° ͜ʖ ͡°)ﾉ⌐■-■
+description: glassesoff
+emoji: {
+}
+labels: {
+    glassesoff
+}
+tags: {
+}
+#==========
+emoticon: @:I
+description: turban
+emoji: {
+}
+labels: {
+    turban
+}
+tags: {
+}
+#==========
+emoticon: :,')
+description: blushing
+emoji: {
+}
+labels: {
+    blushing
+}
+tags: {
+}
+#==========
+emoticon: Q:|
+description: davey crockett
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =/
+description: skeptical, annoyed, undecided, uneasy, hesitant
+emoji: {
+    😕
+    😟
+    😏
+    🤔
+    😡
+}
+labels: {
+    confused
+    mad
+    rage
+    smirk
+}
+tags: {
+    smug
+    angry
+}
+#==========
+emoticon: ;p
+description: wink
+emoji: {
+}
+labels: {
+    wink
+}
+tags: {
+}
+#==========
+emoticon: =3
+description: laughing, big grin, laugh with glasses, or wide-eyed surprise
+emoji: {
+    😆
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+    grin
+    smiley
+}
+tags: {
+    haha
+    joy
+    happy
+}
+#==========
+emoticon: =:-#}
+description: smiley punk with a mustache....
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: /:(
+description: distraught
+emoji: {
+}
+labels: {
+    distraught
+}
+tags: {
+}
+#==========
+emoticon: =;
+description: talk to the hand
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: /:)
+description: raised eyebrow
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: l:-O
+description: flattop loudmouth smiley
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ーー゛)
+description: worried
+emoji: {
+    😬
+    😟
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =D
+description: laughing, big grin, laugh with glasses, or wide-eyed surprise
+emoji: {
+    😆
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+    grin
+    smiley
+}
+tags: {
+    haha
+    joy
+    happy
+}
+#==========
+emoticon: <):-)
+description: cowboy
+emoji: {
+}
+labels: {
+    cowboy
+}
+tags: {
+}
+#==========
+emoticon: ( ´∀｀)σ)∀`)
+description: jog someone's cheek
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ┬┴┬┴┤(･_├┬┴┬┴
+description: stalker
+emoji: {
+}
+labels: {
+    stalker
+}
+tags: {
+}
+#==========
+emoticon: >-
+description: female
+emoji: {
+}
+labels: {
+    female
+}
+tags: {
+}
+#==========
+emoticon: =L
+description: skeptical, annoyed, undecided, uneasy, hesitant
+emoji: {
+    😕
+    😟
+    😏
+    🤔
+    😡
+}
+labels: {
+    confused
+    rage
+    smirk
+}
+tags: {
+    smug
+    angry
+}
+#==========
+emoticon: ୧༼ಠ益ಠ༽︻╦╤─
+description: terrorist
+emoji: {
+}
+labels: {
+    terrorist
+}
+tags: {
+}
+#==========
+emoticon: =P
+description: stuck_out_tongue
+emoji: {
+}
+labels: {
+    frustrated
+    silly
+    stuck_out_tongue
+}
+tags: {
+}
+#==========
+emoticon: :pp
+description: sticking tongue out
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (nah)
+description: goat
+emoji: {
+}
+labels: {
+    goat
+}
+tags: {
+}
+#==========
+emoticon: =X
+description: no_mouth
+emoji: {
+}
+labels: {
+    oops
+    no_mouth
+}
+tags: {
+}
+#==========
+emoticon: =[
+description: sad
+emoji: {
+}
+labels: {
+    sad
+}
+tags: {
+}
+#==========
+emoticon: ><
+description: frustrated
+emoji: {
+}
+labels: {
+    frustrated
+}
+tags: {
+}
+#==========
+emoticon: =\
+description: skeptical, annoyed, undecided, uneasy, hesitant
+emoji: {
+    😕
+    😟
+    🤔
+}
+labels: {
+    confused
+    disappointed
+}
+tags: {
+}
+#==========
+emoticon: >>
+description: rolling eyes
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <|
+description: pizza
+emoji: {
+}
+labels: {
+    pizza
+}
+tags: {
+}
+#==========
+emoticon: =]
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    😄
+    🙂
+    😁
+}
+labels: {
+    relaxed
+    slight_smile
+    smile
+}
+tags: {
+    joy
+    blush
+    happy
+    pleased
+}
+#==========
+emoticon: <:3)~
+description: mouse
+emoji: {
+}
+labels: {
+    mouse
+}
+tags: {
+}
+#==========
+emoticon: ︻╦╤─
+description: gun
+emoji: {
+}
+labels: {
+    gun
+}
+tags: {
+}
+#==========
+emoticon: @=)
+description: elvis
+emoji: {
+}
+labels: {
+    elvis
+}
+tags: {
+}
+#==========
+emoticon: (/_;)
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]
+description: lennybill
+emoji: {
+}
+labels: {
+    lennybill
+}
+tags: {
+}
+#==========
+emoticon: [ﾟдﾟ]
+description: deflagged
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8-#
+description: death
+emoji: {
+}
+labels: {
+    death
+}
+tags: {
+}
+#==========
+emoticon: =o
+description: shocked
+emoji: {
+}
+labels: {
+    shocked
+}
+tags: {
+}
+#==========
+emoticon: =p
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+    stuck_out_tongue
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: 8-)
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    😎
+    ☺
+    🙂
+    😁
+}
+labels: {
+    glasses
+    wide-eyed
+    relaxed
+    sunglasses
+    eye-rolling
+    hollywood
+}
+tags: {
+    cool
+    blush
+    pleased
+}
+#==========
+emoticon: (:_;)
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8-*
+description: just ate a hot pepper
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ノ┬─┬ノ ︵ ( \o°o)\
+description: soviettableflip
+emoji: {
+}
+labels: {
+    soviettableflip
+}
+tags: {
+}
+#==========
+emoticon: C|:-=
+description: charlie chaplin
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8-0
+description: astonished face
+emoji: {
+    😲
+}
+labels: {
+    astonished
+}
+tags: {
+    amazed
+    gasp
+}
+#==========
+emoticon: :-) :-) :-)
+description: loud guffaw
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =x
+description: no_mouth
+emoji: {
+}
+labels: {
+    no_mouth
+}
+tags: {
+}
+#==========
+emoticon: :×
+description: kiss
+emoji: {
+    😘
+    😗
+    😚
+    😙
+    😍
+}
+labels: {
+    kissing_closed_eyes
+}
+tags: {
+}
+#==========
+emoticon: (｀´)
+description: worried
+emoji: {
+    😬
+    😟
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: o:)
+description: smiling face with halo
+emoji: {
+    😇
+}
+labels: {
+    innocent
+}
+tags: {
+    angel
+}
+#==========
+emoticon: ??
+description: annoyed
+emoji: {
+}
+labels: {
+    glasses
+    annoyed
+}
+tags: {
+}
+#==========
+emoticon: :Þ
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+    stuck_out_tongue
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: (◞థ౪థ)ᴖ
+description: ohyou
+emoji: {
+}
+labels: {
+    ohyou
+}
+tags: {
+}
+#==========
+emoticon: <^!^>
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8->
+description: daydreaming
+emoji: {
+}
+labels: {
+    daydreaming
+}
+tags: {
+}
+#==========
+emoticon: 8-D
+description: sunglasses
+emoji: {
+    😁
+}
+labels: {
+    grin
+    sunglasses
+}
+tags: {
+}
+#==========
+emoticon: ^<_<
+description: face with look of triumph
+emoji: {
+    😤
+}
+labels: {
+    triumph
+}
+tags: {
+    smug
+}
+#==========
+emoticon: <@> <@>
+description: look at me
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >^,,^<
+description: cat
+emoji: {
+}
+labels: {
+    cat
+}
+tags: {
+}
+#==========
+emoticon: ($··)/~~~
+description: waving
+emoji: {
+    👋
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ʕノ•ᴥ•ʔノ ︵ ┻━┻
+description: bearflip
+emoji: {
+}
+labels: {
+    bearflip
+}
+tags: {
+}
+#==========
+emoticon: <(-_-)>
+description: robot
+emoji: {
+}
+labels: {
+    robot
+    yoda
+}
+tags: {
+}
+#==========
+emoticon: 8-O
+description: oh my god!
+emoji: {
+}
+labels: {
+    omigod
+}
+tags: {
+}
+#==========
+emoticon: @=
+description: bomb
+emoji: {
+}
+labels: {
+    bomb
+}
+tags: {
+}
+#==========
+emoticon: ꒰ ꒡⌓꒡꒱
+description: lumpy
+emoji: {
+}
+labels: {
+    lumpy
+}
+tags: {
+}
+#==========
+emoticon: 8-X
+description: skull
+emoji: {
+}
+labels: {
+    skull
+}
+tags: {
+}
+#==========
+emoticon: '-)
+description: one-eyed smile
+emoji: {
+}
+labels: {
+    winking
+    wink
+}
+tags: {
+}
+#==========
+emoticon: :þ
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+    stuck_out_tongue
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: :u)
+description: user with funny-looking left nose
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: _(._.)_
+description: kowtow as a sign of respect, or dogeza for apology
+emoji: {
+    🙇
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =+o()
+description: sick
+emoji: {
+}
+labels: {
+    sick
+}
+tags: {
+}
+#==========
+emoticon: ୧༼ಠ益ಠ╭∩╮༽
+description: angry
+emoji: {
+}
+labels: {
+    angry
+}
+tags: {
+}
+#==========
+emoticon: (T_T)
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: x-)
+description: smiling face with open mouth and tightly-closed eyes
+emoji: {
+    😆
+}
+labels: {
+    satisfied
+    laughing
+}
+tags: {
+    haha
+    happy
+}
+#==========
+emoticon: 8-o
+description: mr. bill
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ((:-/
+description: i am bald
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (#-[
+description: marine
+emoji: {
+}
+labels: {
+    marine
+}
+tags: {
+}
+#==========
+emoticon: (;_;
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =|:O}
+description: bill clinton smiley
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (˶‾᷄ ⁻̫ ‾᷅˵)
+description: pleased
+emoji: {
+}
+labels: {
+    pleased
+}
+tags: {
+}
+#==========
+emoticon: (ﾉ☉ヮ⚆)ﾉ ⌒*:･ﾟ✧
+description: glitterderp
+emoji: {
+}
+labels: {
+    glitterderp
+}
+tags: {
+}
+#==========
+emoticon: (>_<)>
+description: troubled
+emoji: {
+    😖
+    😣
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @?@
+description: stunned
+emoji: {
+}
+labels: {
+    stunned
+}
+tags: {
+}
+#==========
+emoticon: ヽ(´ー`)人(´∇｀)人(`Д´)ノ
+description: friendly
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8-|
+description: nerd
+emoji: {
+}
+labels: {
+    nerd
+    suspense
+}
+tags: {
+}
+#==========
+emoticon: B)
+description: sunglasses
+emoji: {
+}
+labels: {
+    sunglasses
+}
+tags: {
+}
+#==========
+emoticon: 8-}
+description: silly
+emoji: {
+}
+labels: {
+    silly
+}
+tags: {
+}
+#==========
+emoticon: (☝ ՞ਊ ՞)☝
+description: praise
+emoji: {
+}
+labels: {
+    praise
+}
+tags: {
+}
+#==========
+emoticon: ( * ^ *) ノシ
+description: wave
+emoji: {
+}
+labels: {
+    wave
+}
+tags: {
+}
+#==========
+emoticon: ^;)
+description: nervous, embarrassed, troubled, shy, sweat drop
+emoji: {
+    😅
+    😥
+    😳
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (°))<<
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: x-D
+description: grinning face with smiling eyes
+emoji: {
+    😁
+}
+labels: {
+    grin
+}
+tags: {
+}
+#==========
+emoticon: (‿|‿)
+description: butt
+emoji: {
+}
+labels: {
+    butt
+}
+tags: {
+}
+#==========
+emoticon: (=^·^=)
+description: cat
+emoji: {
+    😸
+    😼
+    😻
+    😺
+    😹
+    🙀
+    😿
+    😾
+    😽
+    🐱
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <(-.-)>
+description: yoda
+emoji: {
+}
+labels: {
+    yoda
+}
+tags: {
+}
+#==========
+emoticon: @x
+description: snail
+emoji: {
+}
+labels: {
+    snail
+}
+tags: {
+}
+#==========
+emoticon: (^_^;)
+description: nervous, embarrassed, troubled, shy, sweat drop
+emoji: {
+    😅
+    😥
+    😳
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: （･∀･)つ⑩
+description: carrying money
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <*))))><
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+    fish
+}
+tags: {
+}
+#==========
+emoticon: ^ㅂ^
+description: happy
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ?_?
+description: cold stare
+emoji: {
+}
+labels: {
+    irritated
+}
+tags: {
+}
+#==========
+emoticon: :###..
+description: being sick
+emoji: {
+    😷
+    😰
+    🤒
+    🤢
+}
+labels: {
+    cold_sweat
+}
+tags: {
+    nervous
+}
+#==========
+emoticon: g-)
+description: smiley with ponce-nez glasses
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: #:-)
+description: bushy hair
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: BI
+description: a frog
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: -`ღ´-
+description: love
+emoji: {
+}
+labels: {
+    love
+}
+tags: {
+}
+#==========
+emoticon: <(｀^´)>
+description: 
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @~'~~~
+description: rose
+emoji: {
+}
+labels: {
+    rose
+}
+tags: {
+}
+#==========
+emoticon: :,-)
+description: face with tears of joy
+emoji: {
+    😂
+}
+labels: {
+    joy
+}
+tags: {
+    tears
+}
+#==========
+emoticon: ＼(°ロ＼)
+description: questioning
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :,-(
+description: crying face
+emoji: {
+    😢
+}
+labels: {
+    cry
+}
+tags: {
+    tear
+    sad
+}
+#==========
+emoticon: C:
+description: smile
+emoji: {
+}
+labels: {
+    smile
+}
+tags: {
+}
+#==========
+emoticon: x-p
+description: stuck_out_tongue_winking_eye
+emoji: {
+    😜
+}
+labels: {
+    stuck_out_tongue_winking_eye
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: :-{)}
+description: moustache and beard
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @(-_-)@
+description: monkey
+emoji: {
+}
+labels: {
+    monkey
+}
+tags: {
+}
+#==========
+emoticon: ._.
+description: inadequate
+emoji: {
+}
+labels: {
+    inadequate
+    plain
+}
+tags: {
+}
+#==========
+emoticon: (^ム^)
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (╥﹏╥)
+description: cry
+emoji: {
+}
+labels: {
+    cry
+}
+tags: {
+}
+#==========
+emoticon: #:-O
+description: oh no!
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ଘ(੭*ˊᵕˋ)੭* ̀ˋ ɪɴᴛᴇʀɴᴇᴛ
+description: internet
+emoji: {
+}
+labels: {
+    internet
+}
+tags: {
+}
+#==========
+emoticon: -{:-]
+description: chinese hat
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (-.-)y-°°°
+description: smoking
+emoji: {
+    🚬
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :,-D
+description: face with tears of joy
+emoji: {
+    😂
+}
+labels: {
+    joy
+}
+tags: {
+    tears
+}
+#==========
+emoticon: l8r)
+description: later
+emoji: {
+}
+labels: {
+    later
+}
+tags: {
+}
+#==========
+emoticon: D8
+description: horror, disgust, sadness, great dismay (right to left)
+emoji: {
+    😨
+    😧
+    😦
+    😫
+    😩
+    😱
+}
+labels: {
+    scream
+    fearful
+}
+tags: {
+    horror
+    oops
+    shocked
+    scared
+}
+#==========
+emoticon: D:
+description: horror, disgust, sadness, great dismay (right to left)
+emoji: {
+    😨
+    😧
+    😦
+    😫
+    😩
+    😱
+}
+labels: {
+    sad
+    scream
+    fearful
+}
+tags: {
+    horror
+    oops
+    shocked
+    scared
+}
+#==========
+emoticon: D;
+description: horror, disgust, sadness, great dismay (right to left)
+emoji: {
+    😨
+    😧
+    😦
+    😫
+    😩
+    😱
+}
+labels: {
+    scream
+    fearful
+}
+tags: {
+    horror
+    oops
+    shocked
+    scared
+}
+#==========
+emoticon: D=
+description: horror, disgust, sadness, great dismay (right to left)
+emoji: {
+    😨
+    😧
+    😦
+    😫
+    😩
+    😱
+}
+labels: {
+    sad
+    scream
+    fearful
+}
+tags: {
+    horror
+    oops
+    shocked
+    scared
+}
+#==========
+emoticon: ?:-_]
+description: old lady
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: O:-)
+description: innocent
+emoji: {
+    😇
+}
+labels: {
+    innocent
+    angel
+}
+tags: {
+    angel
+}
+#==========
+emoticon: <((((><
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+    fish
+}
+tags: {
+}
+#==========
+emoticon: #:-o
+description: oh, nooooooo!
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <:I
+description: dunce
+emoji: {
+}
+labels: {
+    dunce
+}
+tags: {
+}
+#==========
+emoticon: D:-)
+description: baseball cap
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (^.^)/~~~
+description: waving
+emoji: {
+    👋
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: DX
+description: horror, disgust, sadness, great dismay (right to left)
+emoji: {
+    😨
+    😧
+    😦
+    😫
+    😩
+    😱
+}
+labels: {
+    disgusted
+    scream
+    fearful
+}
+tags: {
+    horror
+    oops
+    shocked
+    scared
+}
+#==========
+emoticon: O:-3
+description: innocent
+emoji: {
+}
+labels: {
+    innocent
+}
+tags: {
+}
+#==========
+emoticon: (ap)
+description: airplane
+emoji: {
+}
+labels: {
+    airplane
+}
+tags: {
+}
+#==========
+emoticon: （　´_ゝ`）
+description: indifferent
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ＼(~o~)／
+description: excited
+emoji: {
+    🙌
+    😀
+    😍
+    💃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: )^o^(
+description: happy
+emoji: {
+    😆
+    😅
+    😀
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *KISSED*
+description: kissed
+emoji: {
+}
+labels: {
+    kissed
+}
+tags: {
+}
+#==========
+emoticon: _(_^_)_
+description: kowtow as a sign of respect, or dogeza for apology
+emoji: {
+    🙇
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (˵ ͡° ͜ʖ ͡°˵)
+description: blush
+emoji: {
+}
+labels: {
+    blush
+}
+tags: {
+}
+#==========
+emoticon: ~>°)～～～
+description: snake
+emoji: {
+    🐍
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <:3)~~
+description: mouse
+emoji: {
+}
+labels: {
+    mouse
+}
+tags: {
+}
+#==========
+emoticon: {:-)
+description: cowgirl
+emoji: {
+}
+labels: {
+    cowgirl
+}
+tags: {
+}
+#==========
+emoticon: (´ー`)y-~~
+description: smoking
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ⊙ω⊙
+description: wut
+emoji: {
+}
+labels: {
+    wut
+}
+tags: {
+}
+#==========
+emoticon: \~/
+description: full glass
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :,'-(
+description: loudly crying face
+emoji: {
+    😭
+}
+labels: {
+    sob
+}
+tags: {
+    bawling
+    sad
+    cry
+}
+#==========
+emoticon: ☜(꒡⌓꒡)
+description: toldyou
+emoji: {
+}
+labels: {
+    toldyou
+    toldyouso
+}
+tags: {
+}
+#==========
+emoticon: ^?^
+description: happy
+emoji: {
+}
+labels: {
+    happy
+}
+tags: {
+}
+#==========
+emoticon: ò_ô
+description: really
+emoji: {
+}
+labels: {
+    really
+}
+tags: {
+}
+#==========
+emoticon: :|)
+description: smile
+emoji: {
+}
+labels: {
+    smile
+}
+tags: {
+}
+#==========
+emoticon: ~~~~8}
+description: snake
+emoji: {
+}
+labels: {
+    snake
+}
+tags: {
+}
+#==========
+emoticon: (____)
+description: guitar
+emoji: {
+}
+labels: {
+    guitar
+}
+tags: {
+}
+#==========
+emoticon: *help
+description: im
+emoji: {
+}
+labels: {
+    im
+}
+tags: {
+}
+#==========
+emoticon: (-_-メ)
+description: worried
+emoji: {
+    😬
+    😟
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <><
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+    fish
+    ichthus
+}
+tags: {
+}
+#==========
+emoticon: TnT
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (＾ｕ＾)
+description: happy
+emoji: {
+    😆
+    😅
+    😀
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 0|-)
+description: enjoying the sun
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: #-)
+description: blinking
+emoji: {
+    😵
+}
+labels: {
+    dizzy_face
+    blinking
+    exhausted
+}
+tags: {
+}
+#==========
+emoticon: ;^)
+description: wink, smirk
+emoji: {
+    😘
+    😜
+    😉
+}
+labels: {
+    wink
+    smirking
+}
+tags: {
+    flirt
+}
+#==========
+emoticon: *WHINING*
+description: whining
+emoji: {
+}
+labels: {
+    whining
+}
+tags: {
+}
+#==========
+emoticon: \\o/
+description: face with ok gesture
+emoji: {
+    🙆
+}
+labels: {
+    ok_woman
+}
+tags: {
+}
+#==========
+emoticon: :-------[
+description: pinocchio
+emoji: {
+}
+labels: {
+    pinocchio
+}
+tags: {
+}
+#==========
+emoticon: (00)
+description: mooning you
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (:)\/<
+description: hug
+emoji: {
+}
+labels: {
+    hug
+}
+tags: {
+}
+#==========
+emoticon: (°°)
+description: confused
+emoji: {
+    😶
+    😕
+    😵
+    🙄
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <*))
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (*°∀°)=3
+description: infatuation
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ( o ) ( o )
+description: hooters
+emoji: {
+}
+labels: {
+    hooters
+}
+tags: {
+}
+#==========
+emoticon: ;^?
+description: wigged out
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ( ✜︵✜ )
+description: crim3s
+emoji: {
+}
+labels: {
+    crim3s
+}
+tags: {
+}
+#==========
+emoticon: -=#:-) /
+description: wizard with wand
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ಡ_ಡ)☞
+description: look
+emoji: {
+}
+labels: {
+    look
+}
+tags: {
+}
+#==========
+emoticon: :~)
+description: drunk
+emoji: {
+}
+labels: {
+    drunk
+    wondering
+}
+tags: {
+}
+#==========
+emoticon: (*^▽^*)
+description: happy
+emoji: {
+    😆
+    😅
+    😀
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :~/
+description: mixed up
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (= ФェФ=)
+description: cat
+emoji: {
+}
+labels: {
+    cat
+}
+tags: {
+}
+#==========
+emoticon: ヽ(^。^)ノ
+description: excited
+emoji: {
+    🙌
+    😀
+    😍
+    💃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ;_;
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: ƪ(ړײ)‎ƪ​​
+description: creepcute
+emoji: {
+}
+labels: {
+    creepcute
+}
+tags: {
+}
+#==========
+emoticon: :-{ }
+description: talking
+emoji: {
+}
+labels: {
+    talking
+}
+tags: {
+}
+#==========
+emoticon: #-o
+description: doh!
+emoji: {
+}
+labels: {
+    doh!
+}
+tags: {
+}
+#==========
+emoticon: (╯°□°)╯︵ ʞooqǝɔɐɟ
+description: facebook
+emoji: {
+}
+labels: {
+    facebook
+}
+tags: {
+}
+#==========
+emoticon: &;-P
+description: suave
+emoji: {
+}
+labels: {
+    suave
+}
+tags: {
+}
+#==========
+emoticon: ( ´◔ ω◔`) ノシ
+description: greet
+emoji: {
+}
+labels: {
+    greet
+    greetings
+}
+tags: {
+}
+#==========
+emoticon: \m/ >_< \m/
+description: rocker
+emoji: {
+}
+labels: {
+    rocker
+}
+tags: {
+}
+#==========
+emoticon: (ﾟдﾟ)
+description: unforeseen
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <]:o){
+description: clown
+emoji: {
+}
+labels: {
+    clown
+}
+tags: {
+}
+#==========
+emoticon: :/\)
+description: extremely bignosed smiley
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *DROOLING*
+description: drooling
+emoji: {
+}
+labels: {
+    drooling
+}
+tags: {
+}
+#==========
+emoticon: (°-°)
+description: confused
+emoji: {
+    😶
+    😕
+    😵
+    🙄
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (au)
+description: auto
+emoji: {
+}
+labels: {
+    auto
+}
+tags: {
+}
+#==========
+emoticon: (-_-)
+description: shame
+emoji: {
+    😩
+    😞
+    😔
+    😒
+    😑
+}
+labels: {
+    bored
+}
+tags: {
+}
+#==========
+emoticon: L.
+description: hockey stick and puck
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (8-(1)
+description: homer
+emoji: {
+}
+labels: {
+    homer
+}
+tags: {
+}
+#==========
+emoticon: :=8)
+description: baboon
+emoji: {
+}
+labels: {
+    baboon
+}
+tags: {
+}
+#==========
+emoticon: ／人◕ __ ◕人＼
+description: noclue
+emoji: {
+}
+labels: {
+    noclue
+}
+tags: {
+}
+#==========
+emoticon: (::( )::)
+description: band-aid
+emoji: {
+}
+labels: {
+    band-aid
+}
+tags: {
+}
+#==========
+emoticon: (^O^)
+description: happy
+emoji: {
+    😆
+    😅
+    😀
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: +-(:-)
+description: religious leader
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ╚(•⌂•)╝
+description: shout
+emoji: {
+}
+labels: {
+    shout
+}
+tags: {
+}
+#==========
+emoticon: (^_^.)
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (*・‿・)ノ⌒*:･ﾟ✧
+description: glitter
+emoji: {
+}
+labels: {
+    glitter
+}
+tags: {
+}
+#==========
+emoticon: 0000(0)(0)0000
+description: toes
+emoji: {
+}
+labels: {
+    toes
+}
+tags: {
+}
+#==========
+emoticon: ::=))
+description: seeing double
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: &&&&
+description: pretzels
+emoji: {
+}
+labels: {
+    pretzels
+}
+tags: {
+}
+#==========
+emoticon: ':(
+description: sweat
+emoji: {
+}
+labels: {
+    sweat
+}
+tags: {
+}
+#==========
+emoticon: ':)
+description: sweat_smile
+emoji: {
+}
+labels: {
+    sweat_smile
+}
+tags: {
+}
+#==========
+emoticon: �-)
+description: one-eyed smile
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-{)=
+description: mustache & goatee
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8:]
+description: gorilla
+emoji: {
+}
+labels: {
+    gorilla
+}
+tags: {
+}
+#==========
+emoticon: (；一_一)
+description: shame
+emoji: {
+    😩
+    😞
+    😔
+    😒
+    😑
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (?_?)
+description: confusion
+emoji: {
+    😕
+    😵
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: -@--@-
+description: eyeglasses
+emoji: {
+}
+labels: {
+    eyeglasses
+}
+tags: {
+}
+#==========
+emoticon: (^_^)/~
+description: waving
+emoji: {
+    👋
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: //_^
+description: emo
+emoji: {
+}
+labels: {
+    emo
+}
+tags: {
+}
+#==========
+emoticon: (／ロ°)／
+description: questioning
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ':-�
+description: one eyebrow raised
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ':D
+description: sweat_smile
+emoji: {
+}
+labels: {
+    sweat_smile
+}
+tags: {
+}
+#==========
+emoticon: •`_´•
+description: angry
+emoji: {
+}
+labels: {
+    angry
+}
+tags: {
+}
+#==========
+emoticon: ((+_+))
+description: confused
+emoji: {
+    😶
+    😕
+    😵
+    🙄
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *JOKINGLY*
+description: jokingly
+emoji: {
+}
+labels: {
+    jokingly
+}
+tags: {
+}
+#==========
+emoticon: (＾▽＾)
+description: laughing, cheerful
+emoji: {
+    ✌️
+    😂
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: O/
+description: praise the lord
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: l_l)
+description: mug
+emoji: {
+}
+labels: {
+    mug
+}
+tags: {
+}
+#==========
+emoticon: *\O/*
+description: ok_woman
+emoji: {
+}
+labels: {
+    ok_woman
+    cheerleader
+}
+tags: {
+}
+#==========
+emoticon: ':-/
+description: skeptical again
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (o.o)
+description: surprised
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: B :-)
+description: sunglasses on top of head
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 0-)
+description: cyclops
+emoji: {
+}
+labels: {
+    cyclops
+}
+tags: {
+}
+#==========
+emoticon: ψ(｀∇´)ψ
+description: evil
+emoji: {
+}
+labels: {
+    evil
+}
+tags: {
+}
+#==========
+emoticon: ':-(
+description: sweat
+emoji: {
+}
+labels: {
+    sweat
+}
+tags: {
+}
+#==========
+emoticon: ':-)
+description: sweat_smile
+emoji: {
+}
+labels: {
+    sweat_smile
+}
+tags: {
+}
+#==========
+emoticon: ='(
+description: crying
+emoji: {
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: <):^/
+description: witch
+emoji: {
+}
+labels: {
+    witch
+}
+tags: {
+}
+#==========
+emoticon: (//.^)
+description: emo
+emoji: {
+}
+labels: {
+    emo
+}
+tags: {
+}
+#==========
+emoticon: ( ﾟヮﾟ)
+description: happy, upbeat
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *IN LOVE*
+description: in love
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =:-(
+description: punk not smiling
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =:-)
+description: hosehead
+emoji: {
+}
+labels: {
+    hosehead
+    punk
+}
+tags: {
+}
+#==========
+emoticon: *<):O)
+description: clown
+emoji: {
+}
+labels: {
+    clown
+}
+tags: {
+}
+#==========
+emoticon: Y_Y
+description: sad
+emoji: {
+}
+labels: {
+    sad
+}
+tags: {
+}
+#==========
+emoticon: '=(
+description: sweat
+emoji: {
+}
+labels: {
+    sweat
+}
+tags: {
+}
+#==========
+emoticon: '=)
+description: sweat_smile
+emoji: {
+}
+labels: {
+    sweat_smile
+}
+tags: {
+}
+#==========
+emoticon: ':-D
+description: sweat_smile
+emoji: {
+}
+labels: {
+    sweat_smile
+}
+tags: {
+}
+#==========
+emoticon: <(*.*<)
+description: huggle
+emoji: {
+}
+labels: {
+    huggle
+}
+tags: {
+}
+#==========
+emoticon: \m/,(> . <)_\m/
+description: rock
+emoji: {
+}
+labels: {
+    rock
+    metal
+}
+tags: {
+}
+#==========
+emoticon: [______]
+description: smile
+emoji: {
+}
+labels: {
+    smile
+}
+tags: {
+}
+#==========
+emoticon: (づ ￣ ³￣)づ
+description: kiss
+emoji: {
+}
+labels: {
+    kiss
+}
+tags: {
+}
+#==========
+emoticon: =((
+description: broken heart
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (^J^)
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =:-H
+description: football player
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: O=('-'Q)
+description: punch
+emoji: {
+}
+labels: {
+    punch
+}
+tags: {
+}
+#==========
+emoticon: *|:-)
+description: with a hat
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: '=D
+description: sweat_smile
+emoji: {
+}
+labels: {
+    sweat_smile
+}
+tags: {
+}
+#==========
+emoticon: E-:-I
+description: net.ham-radio
+emoji: {
+}
+labels: {
+    net.ham-radio
+}
+tags: {
+}
+#==========
+emoticon: 35277
+description: shocked
+emoji: {
+}
+labels: {
+    shocked
+}
+tags: {
+}
+#==========
+emoticon: 8:^)
+description: girl
+emoji: {
+}
+labels: {
+    girl
+}
+tags: {
+}
+#==========
+emoticon: ヽ(`Д´)ﾉ
+description: be irritable
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: t(ಠ益ಠt)
+description: mad
+emoji: {
+}
+labels: {
+    mad
+    rage
+}
+tags: {
+}
+#==========
+emoticon: =:-0
+description: yeow !!
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =))
+description: rolling on the floor laughing
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ☆彡
+description: shooting star
+emoji: {
+    🌟
+    ☄️
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: QQ
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: #(,'%/)
+description: slept too long
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: E-:-)
+description: ham radio operator
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ●～*
+description: bomb
+emoji: {
+    💣
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: }:^#)
+description: pointy nosed
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: })i({
+description: butterfly
+emoji: {
+}
+labels: {
+    butterfly
+}
+tags: {
+}
+#==========
+emoticon: (()):**
+description: hugs and kisses
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (:>-<
+description: thief: hands up!
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: }-(((*>
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+    fish
+}
+tags: {
+}
+#==========
+emoticon: (=^･ｪ･^=))ﾉ彡☆
+description: rainbowcat
+emoji: {
+}
+labels: {
+    rainbowcat
+}
+tags: {
+}
+#==========
+emoticon: ┬─┬ノ( º _ ºノ)
+description: table flip
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: （　ﾟДﾟ）
+description: surprised, or loudmouthed
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =+=
+description: kitty
+emoji: {
+}
+labels: {
+    kitty
+}
+tags: {
+}
+#==========
+emoticon: ⊂（ﾟДﾟ⊂⌒｀つ≡≡≡(´⌒;;;≡≡≡
+description: sliding on belly, "whooaaa!!!"
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *THUMBS UP*
+description: thumbs up
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: _/)
+description: yacht
+emoji: {
+}
+labels: {
+    yacht
+}
+tags: {
+}
+#==========
+emoticon: (#)
+description: sunshine
+emoji: {
+}
+labels: {
+    sunshine
+}
+tags: {
+}
+#==========
+emoticon: o/ o_ o/ o_
+description: "it's here"
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ****
+description: popcorn
+emoji: {
+}
+labels: {
+    popcorn
+}
+tags: {
+}
+#==========
+emoticon: ʕ •́؈•̀)
+description: pooh
+emoji: {
+}
+labels: {
+    pooh
+}
+tags: {
+}
+#==========
+emoticon: (::[]::)
+description: band-aide
+emoji: {
+}
+labels: {
+    band-aide
+}
+tags: {
+}
+#==========
+emoticon: Σ(ﾟДﾟ)
+description: huge surprise
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-")
+description: smiling face with smiling eyes
+emoji: {
+    😊
+}
+labels: {
+    blush
+}
+tags: {
+    proud
+}
+#==========
+emoticon: =-3
+description: grinning face with smiling eyes
+emoji: {
+    😁
+}
+labels: {
+    grin
+}
+tags: {
+}
+#==========
+emoticon: {:-{)}
+description: mustache and beard
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =-D
+description: grinning face with smiling eyes
+emoji: {
+    😁
+}
+labels: {
+    grin
+}
+tags: {
+}
+#==========
+emoticon: (';')
+description: baby
+emoji: {
+    👶
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-)8 :
+description: woman
+emoji: {
+}
+labels: {
+    woman
+}
+tags: {
+}
+#==========
+emoticon: L(° O °L)
+description: lol
+emoji: {
+}
+labels: {
+    lol
+    laugh
+}
+tags: {
+}
+#==========
+emoticon: oO~
+description: mouse
+emoji: {
+}
+labels: {
+    mouse
+}
+tags: {
+}
+#==========
+emoticon: / | | |
+description: fighting
+emoji: {
+}
+labels: {
+    fighting
+}
+tags: {
+}
+#==========
+emoticon: 0;^)
+description: angel, saint, innocent
+emoji: {
+    😇
+    👼
+}
+labels: {
+    innocent
+}
+tags: {
+    angel
+}
+#==========
+emoticon: (m)(m)(m)
+description: m&ms
+emoji: {
+}
+labels: {
+    m&ms
+}
+tags: {
+}
+#==========
+emoticon: ┬┴┬┴┤( ͡° ͜ʖ├┬┴┬┴
+description: lennystalker
+emoji: {
+}
+labels: {
+    lennystalker
+}
+tags: {
+}
+#==========
+emoticon: 3:‑)
+description: evil, devilish
+emoji: {
+    😈
+}
+labels: {
+    smiling_imp
+}
+tags: {
+    devil
+    evil
+    horns
+}
+#==========
+emoticon: :(:)
+description: pig
+emoji: {
+}
+labels: {
+    pig
+}
+tags: {
+}
+#==========
+emoticon: ,-)
+description: one eye ... and winking
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ¯\(°_o)/¯
+description: dunno
+emoji: {
+}
+labels: {
+    dunno
+}
+tags: {
+}
+#==========
+emoticon: =.=
+description: sour face
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (%)
+description: handcuffs
+emoji: {
+}
+labels: {
+    handcuffs
+}
+tags: {
+}
+#==========
+emoticon: \w/^^,\w/
+description: rocking
+emoji: {
+}
+labels: {
+    rocking
+}
+tags: {
+}
+#==========
+emoticon: X(
+description: angry
+emoji: {
+}
+labels: {
+    angry
+}
+tags: {
+}
+#==========
+emoticon: X)
+description: dizzy_face
+emoji: {
+}
+labels: {
+    dizzy_face
+}
+tags: {
+}
+#==========
+emoticon: :-">
+description: blushing
+emoji: {
+}
+labels: {
+    blushing
+}
+tags: {
+}
+#==========
+emoticon: >:‑)
+description: evil, devilish
+emoji: {
+    😈
+}
+labels: {
+    smiling_imp
+}
+tags: {
+    devil
+    evil
+    horns
+}
+#==========
+emoticon: (::)<
+description: ladybug
+emoji: {
+}
+labels: {
+    ladybug
+}
+tags: {
+}
+#==========
+emoticon: (^o^)丿
+description: joyful
+emoji: {
+    😆
+    😅
+    🙌
+    😀
+    😄
+    😃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: \m/>.<\m/
+description: rocker
+emoji: {
+}
+labels: {
+    rocker
+}
+tags: {
+}
+#==========
+emoticon: =-o
+description: uh-oh
+emoji: {
+}
+labels: {
+    uh-oh
+}
+tags: {
+}
+#==========
+emoticon: ~O-O~
+description: mr. magoo
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ヽ(´ー｀)ﾉ
+description: peace of mind
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: （´-`）.｡oO( ... )
+description: thinking
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8<:-)
+description: wizard
+emoji: {
+}
+labels: {
+    wizard
+}
+tags: {
+}
+#==========
+emoticon: ;-(!)
+description: kiss
+emoji: {
+}
+labels: {
+    kiss
+}
+tags: {
+}
+#==========
+emoticon: (&)
+description: dog face
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: XD
+description: laughing, big grin, laugh with glasses, or wide-eyed surprise
+emoji: {
+    😆
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+    grin
+    hyper
+    laughing
+    smiley
+}
+tags: {
+    haha
+    joy
+    happy
+}
+#==========
+emoticon: (_|_)
+description: butt
+emoji: {
+}
+labels: {
+    butt
+}
+tags: {
+}
+#==========
+emoticon: XP
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: =_^=
+description: cat
+emoji: {
+    😸
+    😼
+    😻
+    😺
+    😹
+    🙀
+    😿
+    😾
+    😽
+    🐱
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: X[
+description: frustrated
+emoji: {
+}
+labels: {
+    frustrated
+}
+tags: {
+}
+#==========
+emoticon: ;n;
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: l-)
+description: asleep
+emoji: {
+}
+labels: {
+    asleep
+}
+tags: {
+}
+#==========
+emoticon: )8-)
+description: scuba smiley big-face
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ,-}
+description: wry and winking
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =-HHHH
+description: tower
+emoji: {
+}
+labels: {
+    tower
+}
+tags: {
+}
+#==========
+emoticon: ~<>^>
+description: mouse
+emoji: {
+}
+labels: {
+    mouse
+}
+tags: {
+}
+#==========
+emoticon: l-O
+description: smiley is yawning
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (・3・)
+description: duckface
+emoji: {
+}
+labels: {
+    duckface
+}
+tags: {
+}
+#==========
+emoticon: ^_^;
+description: nervous, embarrassed, troubled, shy, sweat drop
+emoji: {
+    😅
+    😥
+    😳
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: [-(
+description: not talking
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-#|
+description: bushy mustache
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: l-o
+description: bored
+emoji: {
+}
+labels: {
+    bored
+}
+tags: {
+}
+#==========
+emoticon: (^^)
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *!#*!^*&:-
+description: total head case
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: //o-o\\
+description: john lennon
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (￣ー￣)
+description: simper, snorlax
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (╬ ಠ益ಠ)
+description: extreme distaste, meant to appear as an exaggerated grimace
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: +:-)
+description: smiley priest
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 0:)
+description: angel, saint, innocent
+emoji: {
+    😇
+    👼
+}
+labels: {
+    innocent
+}
+tags: {
+    angel
+}
+#==========
+emoticon: (≧∇≦)/
+description: joyful
+emoji: {
+    😆
+    😅
+    🙌
+    😀
+    😄
+    😃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :(?)
+description: frog
+emoji: {
+}
+labels: {
+    frog
+}
+tags: {
+}
+#==========
+emoticon: :>)=
+description: beard
+emoji: {
+}
+labels: {
+    beard
+}
+tags: {
+}
+#==========
+emoticon: (*)
+description: star
+emoji: {
+}
+labels: {
+    star
+}
+tags: {
+}
+#==========
+emoticon: 0:3
+description: angel, saint, innocent
+emoji: {
+    😇
+    👼
+}
+labels: {
+    innocent
+}
+tags: {
+    angel
+}
+#==========
+emoticon: (#^.^#)
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ᕙ(`▽´)ᕗ
+description: flexing
+emoji: {
+}
+labels: {
+    flexing
+}
+tags: {
+}
+#==========
+emoticon: (￣□￣;)
+description: surprised
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (•_•) ( •_•)>⌐■-■ (⌐■_■)
+description: cool
+emoji: {
+}
+labels: {
+    cool
+    csi
+}
+tags: {
+}
+#==========
+emoticon: (・・?
+description: confusion
+emoji: {
+    😕
+    😵
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (:)-)
+description: likes to scuba dive
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: エェェ(´д｀)ェェエ
+description: not convincing
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: [-x
+description: shame on you
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-))
+description: very happy or double chin
+emoji: {
+    😃
+}
+labels: {
+    smiley
+}
+tags: {
+    haha
+    joy
+    happy
+}
+#==========
+emoticon: :-)*
+description: kiss
+emoji: {
+}
+labels: {
+    kiss
+}
+tags: {
+}
+#==========
+emoticon: V.v.V
+description: crab
+emoji: {
+}
+labels: {
+    crab
+}
+tags: {
+}
+#==========
+emoticon: (;_:)
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ༼ つ ╹ ╹ ༽つ
+description: ghost
+emoji: {
+}
+labels: {
+    ghost
+}
+tags: {
+}
+#==========
+emoticon: ^5
+description: high five
+emoji: {
+    😤
+}
+labels: {
+    triumph
+}
+tags: {
+    smug
+}
+#==========
+emoticon: :`-(
+description: crying
+emoji: {
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: >_>^
+description: face with look of triumph
+emoji: {
+    😤
+}
+labels: {
+    triumph
+}
+tags: {
+    smug
+}
+#==========
+emoticon: :-)8<
+description: big girl smiley
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (-_-)/~~~
+description: waving
+emoji: {
+    👋
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :*) ?
+description: are you drunk?
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ☆ミ
+description: shooting star
+emoji: {
+    🌟
+    ☄️
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: %-(I)
+description: laughing out loud
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <:^]
+description: person
+emoji: {
+}
+labels: {
+    person
+}
+tags: {
+}
+#==========
+emoticon: <{::}>
+description: ladybug
+emoji: {
+}
+labels: {
+    ladybug
+}
+tags: {
+}
+#==========
+emoticon: (^^ゞ
+description: 
+emoji: {
+    😚
+    😙
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: m9(・∀・)
+description: flash of intuition
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <.< >.>
+description: looking around
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *<(8)~/~<
+description: partying
+emoji: {
+}
+labels: {
+    partying
+}
+tags: {
+}
+#==========
+emoticon: :-)>
+description: goatee
+emoji: {
+}
+labels: {
+    goatee
+}
+tags: {
+}
+#==========
+emoticon: (;_;)
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: :-)8
+description: well dressed
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ಥ﹏ಥ)
+description: tears
+emoji: {
+}
+labels: {
+    tears
+}
+tags: {
+}
+#==========
+emoticon: 0=)
+description: angel
+emoji: {
+}
+labels: {
+    angel
+}
+tags: {
+}
+#==========
+emoticon: ^^
+description: blissful
+emoji: {
+}
+labels: {
+    smiling
+    blissful
+}
+tags: {
+}
+#==========
+emoticon: ( ͡° ͜ʖ ͡°)
+description: the "lenny face", named and popularized on 4chan
+emoji: {
+}
+labels: {
+    lenny
+}
+tags: {
+}
+#==========
+emoticon: (-)
+description: needs a haircut
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: `'
+description: cat's eyes in the night
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (h5)
+description: high five
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: |-()
+description: yawning
+emoji: {
+}
+labels: {
+    yawning
+}
+tags: {
+}
+#==========
+emoticon: ( ˘ ³˘)ノ°ﾟº❍｡
+description: bubbles
+emoji: {
+}
+labels: {
+    bubbles
+}
+tags: {
+}
+#==========
+emoticon: (-:
+description: australian
+emoji: {
+}
+labels: {
+    australian
+    left-handed
+}
+tags: {
+}
+#==========
+emoticon: :\'(
+description: crying face
+emoji: {
+    😢
+}
+labels: {
+    cry
+}
+tags: {
+    tear
+    sad
+}
+#==========
+emoticon: (๑•́ ヮ •̀๑)
+description: surprised
+emoji: {
+}
+labels: {
+    surprised
+}
+tags: {
+}
+#==========
+emoticon: :-)X
+description: wearing a bowtie
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ーー;)
+description: worried
+emoji: {
+    😬
+    😟
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :\')
+description: face with tears of joy
+emoji: {
+    😂
+}
+labels: {
+    joy
+}
+tags: {
+    tears
+}
+#==========
+emoticon: @^@
+description: nyeh
+emoji: {
+}
+labels: {
+    nyeh
+}
+tags: {
+}
+#==========
+emoticon: Q_Q
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (°レ°)
+description: confused
+emoji: {
+    😶
+    😕
+    😵
+    🙄
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :‑#
+description: sealed lips or wearing braces, tongue-tied
+emoji: {
+    😶
+    🤐
+}
+labels: {
+    no_mouth
+}
+tags: {
+    mute
+    silence
+}
+#==========
+emoticon: ∩(·ω·)∩
+description: joyful
+emoji: {
+    😆
+    😅
+    🙌
+    😀
+    😄
+    😃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :‑&
+description: sealed lips or wearing braces, tongue-tied
+emoji: {
+    😶
+    🤐
+}
+labels: {
+    no_mouth
+}
+tags: {
+    mute
+    silence
+}
+#==========
+emoticon: (＃ﾟДﾟ)
+description: angry
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (|:-)
+description: wearing headband
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =8)
+description: pig
+emoji: {
+}
+labels: {
+    pig
+}
+tags: {
+}
+#==========
+emoticon: :‑,
+description: wink, smirk
+emoji: {
+    😘
+    😜
+    😉
+}
+labels: {
+    wink
+}
+tags: {
+    flirt
+}
+#==========
+emoticon: :-)~
+description: drooling
+emoji: {
+}
+labels: {
+    drooling
+}
+tags: {
+}
+#==========
+emoticon: :‑.
+description: skeptical, annoyed, undecided, uneasy, hesitant
+emoji: {
+    😕
+    😟
+    😏
+    🤔
+}
+labels: {
+    smirk
+}
+tags: {
+    smug
+}
+#==========
+emoticon: :‑(
+description: frown, sad, angry, pouting
+emoji: {
+    😖
+    ☹️
+    😠
+    😟
+    ☹
+    😞
+    😣
+    🙁
+    😡
+}
+labels: {
+    frowning_face
+}
+tags: {
+}
+#==========
+emoticon: :‑)
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    🙂
+    😁
+}
+labels: {
+    relaxed
+}
+tags: {
+    blush
+    pleased
+}
+#==========
+emoticon: :-)}
+description: has goatee/beard
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :‑/
+description: skeptical, annoyed, undecided, uneasy, hesitant
+emoji: {
+    😕
+    😟
+    😏
+    🤔
+}
+labels: {
+    smirk
+}
+tags: {
+    smug
+}
+#==========
+emoticon: :-){
+description: beard
+emoji: {
+}
+labels: {
+    beard
+}
+tags: {
+}
+#==========
+emoticon: @_@
+description: annoyed
+emoji: {
+}
+labels: {
+    annoyed
+}
+tags: {
+}
+#==========
+emoticon: :‑<
+description: frown, sad, angry, pouting
+emoji: {
+    😖
+    ☹️
+    😠
+    😟
+    ☹
+    😞
+    😣
+    🙁
+    😡
+}
+labels: {
+    frowning_face
+}
+tags: {
+}
+#==========
+emoticon: #;-)
+description: i have tangled hair
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: d^_^b
+description: dj wearing head phones
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @(*o*)@
+description: koala
+emoji: {
+}
+labels: {
+    koala
+}
+tags: {
+}
+#==========
+emoticon: \(^-^)/
+description: thanks
+emoji: {
+}
+labels: {
+    thanks
+    thankyou
+}
+tags: {
+}
+#==========
+emoticon: :‑D
+description: laughing, big grin, laugh with glasses, or wide-eyed surprise
+emoji: {
+    😆
+    😍
+    😄
+    😃
+}
+labels: {
+    smiley
+}
+tags: {
+    haha
+    joy
+    happy
+}
+#==========
+emoticon: (:-|K-
+description: dressed to kill
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: \( ﾟヮﾟ)/
+description: excited
+emoji: {
+}
+labels: {
+    excited
+}
+tags: {
+}
+#==========
+emoticon: =:7(~~
+description: rat
+emoji: {
+}
+labels: {
+    rat
+}
+tags: {
+}
+#==========
+emoticon: -(:)(0)=8
+description: teletubby
+emoji: {
+}
+labels: {
+    teletubby
+}
+tags: {
+}
+#==========
+emoticon: =:>)
+description: rabbit
+emoji: {
+}
+labels: {
+    rabbit
+}
+tags: {
+}
+#==========
+emoticon: ƸӜƷ
+description: butterfly
+emoji: {
+}
+labels: {
+    butterfly
+}
+tags: {
+}
+#==========
+emoticon: (sn)
+description: snail
+emoji: {
+}
+labels: {
+    snail
+}
+tags: {
+}
+#==========
+emoticon: :‑J
+description: tongue-in-cheek
+emoji: {
+    😏
+    😒
+}
+labels: {
+    smirk
+}
+tags: {
+    smug
+}
+#==========
+emoticon: :‑O
+description: surprise, shock, yawn
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+    astonished
+}
+tags: {
+    amazed
+    gasp
+}
+#==========
+emoticon: :‑P
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: (^_^メ)
+description: worried
+emoji: {
+    😬
+    😟
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :‑[
+description: frown, sad, angry, pouting
+emoji: {
+    😖
+    ☹️
+    😠
+    😟
+    ☹
+    😞
+    😣
+    🙁
+    😡
+}
+labels: {
+    frowning_face
+}
+tags: {
+}
+#==========
+emoticon: (◔_◔)
+description: rolleyes
+emoji: {
+}
+labels: {
+    rolleyes
+}
+tags: {
+}
+#==========
+emoticon: Σ(゜д゜;)
+description: shocked
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :‑X
+description: sealed lips or wearing braces, tongue-tied
+emoji: {
+    😶
+    🤐
+}
+labels: {
+    no_mouth
+}
+tags: {
+    mute
+    silence
+}
+#==========
+emoticon: ○o.
+description: bubbles
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :‑c
+description: frown, sad, angry, pouting
+emoji: {
+    😖
+    ☹️
+    😠
+    😟
+    ☹
+    😞
+    😣
+    🙁
+    😡
+}
+labels: {
+    frowning_face
+}
+tags: {
+}
+#==========
+emoticon: (*^.^*)
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :‑b
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: :-.)
+description: cindy crawford
+emoji: {
+}
+labels: {
+    madonna
+}
+tags: {
+}
+#==========
+emoticon: (so)
+description: soccer ball
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =O ::::::
+description: crying
+emoji: {
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: :‑o
+description: surprise, shock, yawn
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+    astonished
+}
+tags: {
+    amazed
+    gasp
+}
+#==========
+emoticon: :‑p
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: @-}----
+description: rose
+emoji: {
+}
+labels: {
+    rose
+}
+tags: {
+}
+#==========
+emoticon: :‑|
+description: straight face no expression, indecision
+emoji: {
+    😐
+    😑
+}
+labels: {
+    neutral_face
+}
+tags: {
+    meh
+}
+#==========
+emoticon: ლ༼>╭ ͟ʖ╮<༽ლ
+description: ukids
+emoji: {
+}
+labels: {
+    ukids
+    youkids
+}
+tags: {
+}
+#==========
+emoticon: 8 :-)
+description: wizard
+emoji: {
+}
+labels: {
+    wizard
+}
+tags: {
+}
+#==========
+emoticon: ===O____iii
+description: bowling
+emoji: {
+}
+labels: {
+    bowling
+}
+tags: {
+}
+#==========
+emoticon: O;-)
+description: innocent
+emoji: {
+}
+labels: {
+    innocent
+}
+tags: {
+}
+#==========
+emoticon: <コ:彡
+description: squid
+emoji: {
+}
+labels: {
+    squid
+}
+tags: {
+}
+#==========
+emoticon: d:
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+    stuck_out_tongue
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: ,:(
+description: face with cold sweat
+emoji: {
+    😓
+}
+labels: {
+    sweat
+}
+tags: {
+}
+#==========
+emoticon: @>;-----
+description: rose, opening with leaves
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ,:)
+description: smiling face with open mouth and cold sweat
+emoji: {
+    😅
+}
+labels: {
+    sweat_smile
+}
+tags: {
+    hot
+}
+#==========
+emoticon: ,:‑)
+description: ronald reagan
+emoji: {
+    😀
+    ☺
+}
+labels: {
+    relaxed
+}
+tags: {
+    blush
+    pleased
+}
+#==========
+emoticon: o_0
+description: surprised
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (+o+)
+description: confused
+emoji: {
+    😶
+    😕
+    😵
+    🙄
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: o|-<
+description: midget person
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: }:(
+description: upset
+emoji: {
+}
+labels: {
+    upset
+}
+tags: {
+}
+#==========
+emoticon: (V)o￥o(V)
+description: alien baltan
+emoji: {
+    👾
+    👽
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: }:)
+description: evil, devilish
+emoji: {
+    😈
+}
+labels: {
+    smiling_imp
+}
+tags: {
+    devil
+    evil
+    horns
+}
+#==========
+emoticon: （ ´Д｀）
+description: yelling, or panting
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ^^;
+description: nervous, embarrassed, troubled, shy, sweat drop
+emoji: {
+    😅
+    😥
+    😳
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: o_O
+description: surprised
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+    astonished
+}
+tags: {
+    amazed
+    gasp
+}
+#==========
+emoticon: ヽ( •_)ᕗ
+description: dab
+emoji: {
+}
+labels: {
+    dab
+}
+tags: {
+}
+#==========
+emoticon: (⌐■_■)︻╦╤─ (╥﹏╥)
+description: execution
+emoji: {
+}
+labels: {
+    execution
+}
+tags: {
+}
+#==========
+emoticon: (ᕗ ͠° ਊ ͠° )ᕗ
+description: damnyou
+emoji: {
+}
+labels: {
+    damnyou
+}
+tags: {
+}
+#==========
+emoticon: <\3
+description: broken-heart
+emoji: {
+    💔
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-0>
+description: yuck face
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: o_o
+description: surprise, shock, yawn
+emoji: {
+    😲
+}
+labels: {
+    astonished
+    shocked
+}
+tags: {
+    amazed
+    gasp
+}
+#==========
+emoticon: $:-)
+description: comb stuck in the hair
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :‑Þ
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: <:3 )~
+description: mouse
+emoji: {
+}
+labels: {
+    mouse
+}
+tags: {
+}
+#==========
+emoticon: X‑D
+description: laughing, big grin, laugh with glasses, or wide-eyed surprise
+emoji: {
+    😆
+    😍
+    😄
+    😃
+}
+labels: {
+    smiley
+}
+tags: {
+    haha
+    joy
+    happy
+}
+#==========
+emoticon: X‑P
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: d[-_-]b
+description: dj
+emoji: {
+}
+labels: {
+    dj
+}
+tags: {
+}
+#==========
+emoticon: $:-$
+description: stock broker
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ^_^
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+    overjoyed
+}
+tags: {
+}
+#==========
+emoticon: (＾ｖ＾)
+description: happy
+emoji: {
+    😆
+    😅
+    😀
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @};- @}->-- @}‑;‑'‑‑‑ @>‑‑>‑‑
+description: rose
+emoji: {
+    🌹
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: $-)
+description: money eyes
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :‑þ
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: ::-)
+description: user wears glasses
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ＼(◎o◎)／！
+description: amazed
+emoji: {
+    😍
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :----}
+description: you lie like pinnochio
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: E:-)
+description: ham radio operator
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: /:-)
+description: frenchman with a beret
+emoji: {
+}
+labels: {
+    sailor
+}
+tags: {
+}
+#==========
+emoticon: (st)
+description: stormy cloud
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @(^_^)@
+description: monkey face
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: }=D
+description: eyebrows
+emoji: {
+}
+labels: {
+    eyebrows
+}
+tags: {
+}
+#==========
+emoticon: (<_>)
+description: sad
+emoji: {
+}
+labels: {
+    sad
+}
+tags: {
+}
+#==========
+emoticon: (-_-;)
+description: nervous, embarrassed, troubled, shy, sweat drop
+emoji: {
+    😅
+    😥
+    😳
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: O |
+description: big smiley is watching you
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ><(((">
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+    fish
+}
+tags: {
+}
+#==========
+emoticon: ಠ_ಠ
+description: face with no good gesture
+emoji: {
+    🙅
+}
+labels: {
+    meh
+    no_good
+}
+tags: {
+    halt
+    stop
+}
+#==========
+emoticon: 8)~~*
+description: frog
+emoji: {
+}
+labels: {
+    frog
+}
+tags: {
+}
+#==========
+emoticon: **==
+description: united states flag
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <`～´>
+description: worried
+emoji: {
+    😬
+    😟
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: [::::]
+description: pop-tart
+emoji: {
+}
+labels: {
+    pop-tart
+}
+tags: {
+}
+#==========
+emoticon: ( 0 _ 0 )
+description: blubby
+emoji: {
+}
+labels: {
+    blubby
+}
+tags: {
+}
+#==========
+emoticon: : 0=/--
+description: gag me
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <_<
+description: sideways look. devious or guilty.
+emoji: {
+}
+labels: {
+    looking
+}
+tags: {
+}
+#==========
+emoticon: [:]
+description: robot
+emoji: {
+}
+labels: {
+    robot
+}
+tags: {
+}
+#==========
+emoticon: (p ^^)=====O
+description: falcon punch
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 8=:-)
+description: galloping gourmet
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (>.<)
+description: doh
+emoji: {
+}
+labels: {
+    doh
+    sleepy
+}
+tags: {
+}
+#==========
+emoticon: ><(((*>
+description: fish, something's fishy, christian fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *~*
+description: star gazed
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ;~[
+description: prizefighter
+emoji: {
+}
+labels: {
+    prizefighter
+}
+tags: {
+}
+#==========
+emoticon: %‑)
+description: drunk, confused
+emoji: {
+    😵
+    😕
+    🤕
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (~};)
+description: grateful dead
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (°.°)
+description: confused
+emoji: {
+    😶
+    😕
+    😵
+    🙄
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: o{-<]:
+description: skateboarder
+emoji: {
+}
+labels: {
+    skateboarder
+}
+tags: {
+}
+#==========
+emoticon: (^.^)
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ><ヨヨ
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (・∀・)
+description: laughing, cheerful
+emoji: {
+    ✌️
+    😂
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <|:^0|<
+description: clown
+emoji: {
+}
+labels: {
+    clown
+}
+tags: {
+}
+#==========
+emoticon: |^O
+description: yawning or snoring variation
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: [:-)
+description: listening to walkman radio
+emoji: {
+}
+labels: {
+    walkman
+}
+tags: {
+}
+#==========
+emoticon: = _ =
+description: ghast
+emoji: {
+}
+labels: {
+    ghast
+}
+tags: {
+}
+#==========
+emoticon: ┬┴┬┴┤Ɵ͆ل͜Ɵ͆ ༽ﾉ
+description: keen
+emoji: {
+}
+labels: {
+    keen
+}
+tags: {
+}
+#==========
+emoticon: [:-}
+description: dj
+emoji: {
+}
+labels: {
+    dj
+}
+tags: {
+}
+#==========
+emoticon: o,..,o
+description: fangs
+emoji: {
+}
+labels: {
+    fangs
+}
+tags: {
+}
+#==========
+emoticon: |_P
+description: cup of coffee
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <( '.' )>
+description: kirby
+emoji: {
+}
+labels: {
+    kirby
+}
+tags: {
+}
+#==========
+emoticon: (☞ﾟヮﾟ)☞
+description: "do it"
+emoji: {
+}
+labels: {
+    point
+}
+tags: {
+}
+#==========
+emoticon: <(^_^)>
+description: dope
+emoji: {
+}
+labels: {
+    dope
+}
+tags: {
+}
+#==========
+emoticon: （´∀｀）
+description: carefree
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (:)
+description: clam
+emoji: {
+}
+labels: {
+    clam
+}
+tags: {
+}
+#==========
+emoticon: |:-0
+description: no explanation
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: {}{
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+    fish
+}
+tags: {
+}
+#==========
+emoticon: (:-
+description: blank expression
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: B-)
+description: sunglasses
+emoji: {
+    😎
+}
+labels: {
+    sunglasses
+    cool
+    batman
+    horn-rims
+}
+tags: {
+    cool
+}
+#==========
+emoticon: |:-)
+description: heavy eyebrows
+emoji: {
+}
+labels: {
+    unibrow
+}
+tags: {
+}
+#==========
+emoticon: ＿|￣|○
+description: given up. despair. the "o"s represent head on the ground, "t" or "r" forms the torso, and "s" or "z" the legs.
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: q:-)
+description: baseball catcher
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (っ^з^)♪♬
+description: whistle
+emoji: {
+}
+labels: {
+    whistle
+}
+tags: {
+}
+#==========
+emoticon: =D>
+description: applause
+emoji: {
+}
+labels: {
+    applause
+}
+tags: {
+}
+#==========
+emoticon: (:I
+description: egghead
+emoji: {
+}
+labels: {
+    egghead
+}
+tags: {
+}
+#==========
+emoticon: ᕕ( ᐛ )ᕗ
+description: happygarry
+emoji: {
+}
+labels: {
+    happygarry
+}
+tags: {
+}
+#==========
+emoticon: |_|
+description: cup
+emoji: {
+}
+labels: {
+    cup
+}
+tags: {
+}
+#==========
+emoticon: :-8(
+description: condescending stare
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: B-D
+description: sunglasses
+emoji: {
+}
+labels: {
+    sunglasses
+}
+tags: {
+}
+#==========
+emoticon: =^w^=
+description: kitty
+emoji: {
+}
+labels: {
+    kitty
+}
+tags: {
+}
+#==========
+emoticon: *<|:‑)
+description: santa claus
+emoji: {
+    🎅
+    😀
+    ☺
+}
+labels: {
+    relaxed
+}
+tags: {
+    blush
+    pleased
+}
+#==========
+emoticon: m(__)m
+description: kowtow as a sign of respect, or dogeza for apology
+emoji: {
+    🙇
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ((d[-_-]b))
+description: headphones, listening to music
+emoji: {
+    🎧
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ( •_•)O*¯`·.¸.·´¯`°Q(•_• )
+description: pingpong
+emoji: {
+}
+labels: {
+    pingpong
+}
+tags: {
+}
+#==========
+emoticon: (:V
+description: pato
+emoji: {
+}
+labels: {
+    pato
+}
+tags: {
+}
+#==========
+emoticon: <:o)
+description: party
+emoji: {
+}
+labels: {
+    party
+}
+tags: {
+}
+#==========
+emoticon: �O�
+description: mickey mouse
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: |;‑)
+description: cool, bored/yawning
+emoji: {
+    😪
+    😎
+}
+labels: {
+    sunglasses
+}
+tags: {
+    cool
+}
+#==========
+emoticon: (`_^)
+description: wink
+emoji: {
+}
+labels: {
+    wink
+}
+tags: {
+}
+#==========
+emoticon: |:-|
+description: unyielding
+emoji: {
+}
+labels: {
+    unyielding
+}
+tags: {
+}
+#==========
+emoticon: (p_-)
+description: 
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ﾟ∀ﾟ)
+description: discharged drug-in-brain, goofing around, "a-hya!"
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ----|}
+description: pie being thrown
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (:@@@@@@@@@@@@@@@D
+description: catepillar (top view)
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :%)%
+description: acne
+emoji: {
+}
+labels: {
+    acne
+}
+tags: {
+}
+#==========
+emoticon: o/
+description: golf club and ball
+emoji: {
+    👋
+}
+labels: {
+    wave
+}
+tags: {
+    goodbye
+}
+#==========
+emoticon: •͡˘㇁•͡˘
+description: awkward
+emoji: {
+}
+labels: {
+    awkward
+}
+tags: {
+}
+#==========
+emoticon: (:|
+description: tired
+emoji: {
+}
+labels: {
+    yawn
+    tired
+}
+tags: {
+}
+#==========
+emoticon: B-|
+description: wearing cheap sunglasses
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ( ͡° ᴥ ͡°)
+description: catlenny
+emoji: {
+}
+labels: {
+    catlenny
+}
+tags: {
+}
+#==========
+emoticon: (/¯◡ ‿ ◡)/¯ ~ ┻━┻
+description: magicflip
+emoji: {
+}
+labels: {
+    magicflip
+}
+tags: {
+}
+#==========
+emoticon: ᕙ(⇀‸↼‶)ᕗ
+description: strong
+emoji: {
+}
+labels: {
+    strong
+}
+tags: {
+}
+#==========
+emoticon: :--------)
+description: you're a big liar!
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: oO
+description: surprised
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: &:-o-8-<
+description: betty boop
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (•-•)⌐
+description: givemeyourmoney
+emoji: {
+}
+labels: {
+    givemeyourmoney
+}
+tags: {
+}
+#==========
+emoticon: ≧◡≦
+description: kawaii
+emoji: {
+}
+labels: {
+    kawaii
+}
+tags: {
+}
+#==========
+emoticon: m(_ _)m
+description: kowtow as a sign of respect, or dogeza for apology
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 0:‑3
+description: angel, saint, innocent
+emoji: {
+    😇
+    👼
+}
+labels: {
+    innocent
+}
+tags: {
+    angel
+}
+#==========
+emoticon: : =
+description: beaver
+emoji: {
+}
+labels: {
+    beaver
+}
+tags: {
+}
+#==========
+emoticon: 0:‑)
+description: angel, saint, innocent
+emoji: {
+    😇
+    👼
+}
+labels: {
+    innocent
+}
+tags: {
+    angel
+}
+#==========
+emoticon: (._.)
+description: looking down
+emoji: {
+    🙍
+    😔
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <<<<(:
+description: hat salesman
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 3:*>
+description: rudolph the reindeer
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (:+)
+description: big nose
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-=)
+description: adolph hitler
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >:*)
+description: bozo the clown
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <|-)=
+description: chinese
+emoji: {
+}
+labels: {
+    chinese
+}
+tags: {
+}
+#==========
+emoticon: (^o^)／
+description: joyful
+emoji: {
+    😆
+    😅
+    🙌
+    😀
+    😄
+    😃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ε=ε=ε=┌(;*´Д`)ﾉ
+description: running
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (>'.')>
+description: kirby
+emoji: {
+}
+labels: {
+    kirby
+}
+tags: {
+}
+#==========
+emoticon: ¬‿¬
+description: smirk
+emoji: {
+}
+labels: {
+    smirk
+}
+tags: {
+}
+#==========
+emoticon: :")
+description: blush
+emoji: {
+    😊
+}
+labels: {
+    embarrased
+    blush
+}
+tags: {
+    proud
+}
+#==========
+emoticon: m9(^Д^)
+description: jeering laughter
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: P=\\
+description: cap
+emoji: {
+}
+labels: {
+    cap
+}
+tags: {
+}
+#==========
+emoticon: (⌐■_■)
+description: dwi
+emoji: {
+}
+labels: {
+    dwi
+    dealwithit
+}
+tags: {
+}
+#==========
+emoticon: (^:^)
+description: halloween pumpkin
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (@)
+description: cat face
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ^j^
+description: angel
+emoji: {
+}
+labels: {
+    angel
+}
+tags: {
+}
+#==========
+emoticon: (⌐ ͡■ ͜ʖ ͡■)
+description: glasses
+emoji: {
+}
+labels: {
+    glasses
+}
+tags: {
+}
+#==========
+emoticon: :-----)
+description: long nose (liar!)
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @@(: l)
+description: yet another bad hair day
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :#)
+description: drunk
+emoji: {
+}
+labels: {
+    drunk
+}
+tags: {
+}
+#==========
+emoticon: (¬,‿,¬)
+description: kappa
+emoji: {
+}
+labels: {
+    kappa
+}
+tags: {
+}
+#==========
+emoticon: O-)
+description: angel
+emoji: {
+}
+labels: {
+    angel
+}
+tags: {
+}
+#==========
+emoticon: O-(
+description: cyclops
+emoji: {
+}
+labels: {
+    cyclops
+}
+tags: {
+}
+#==========
+emoticon: :‑###..
+description: being sick
+emoji: {
+    😷
+    🤒
+    🤢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: `-`
+description: blown away
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ
+description: lennywizard
+emoji: {
+}
+labels: {
+    lennywizard
+}
+tags: {
+}
+#==========
+emoticon: ┻━┻︵ヽ(`Д´)ﾉ︵ ┻━┻
+description: table flip
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ୧༼ಠ益ಠ༽୨
+description: riot
+emoji: {
+}
+labels: {
+    riot
+}
+tags: {
+}
+#==========
+emoticon: (:-&
+description: angry
+emoji: {
+}
+labels: {
+    angry
+}
+tags: {
+}
+#==========
+emoticon: :\'-)
+description: face with tears of joy
+emoji: {
+    😂
+}
+labels: {
+    joy
+}
+tags: {
+    tears
+}
+#==========
+emoticon: (:-$
+description: ill
+emoji: {
+}
+labels: {
+    ill
+}
+tags: {
+}
+#==========
+emoticon: _U~~
+description: cup of tea
+emoji: {
+    🍵
+    ☕️
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :\'-(
+description: crying face
+emoji: {
+    😢
+}
+labels: {
+    cry
+}
+tags: {
+    tear
+    sad
+}
+#==========
+emoticon: (:-#
+description: smiley with braces
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (:-*
+description: kissing
+emoji: {
+}
+labels: {
+    kissing
+}
+tags: {
+}
+#==========
+emoticon: (:-)
+description: bald
+emoji: {
+}
+labels: {
+    bald
+    surprised
+}
+tags: {
+}
+#==========
+emoticon: (:-(
+description: frowning
+emoji: {
+}
+labels: {
+    frowning
+}
+tags: {
+}
+#==========
+emoticon: :$)
+description: donald trump
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (一一)
+description: shame
+emoji: {
+    😩
+    😞
+    😔
+    😒
+    😑
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (・_・;)
+description: nervous, embarrassed, troubled, shy, sweat drop
+emoji: {
+    😅
+    😥
+    😳
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >:-)
+description: laughing
+emoji: {
+    😈
+}
+labels: {
+    devil
+    angry
+    laughing
+    smiling_imp
+}
+tags: {
+    devil
+    evil
+    horns
+}
+#==========
+emoticon: \$$$/
+description: king
+emoji: {
+}
+labels: {
+    king
+}
+tags: {
+}
+#==========
+emoticon: >:-(
+description: angry
+emoji: {
+}
+labels: {
+    annoyed
+    angry
+}
+tags: {
+}
+#==========
+emoticon: >,<
+description: mad
+emoji: {
+}
+labels: {
+    mad
+}
+tags: {
+}
+#==========
+emoticon: (ʘ‿ʘ)╯
+description: ohai
+emoji: {
+}
+labels: {
+    ohai
+    hello
+    bye
+}
+tags: {
+}
+#==========
+emoticon: :-@!
+description: cursing
+emoji: {
+}
+labels: {
+    cursing
+}
+tags: {
+}
+#==========
+emoticon: :pd:
+description: kissing
+emoji: {
+}
+labels: {
+    kissing
+}
+tags: {
+}
+#==========
+emoticon: O-O
+description: surprise, shock, yawn
+emoji: {
+    😲
+}
+labels: {
+    astonished
+}
+tags: {
+    amazed
+    gasp
+}
+#==========
+emoticon: [¬º-°]¬
+description: zombie
+emoji: {
+}
+labels: {
+    zombie
+}
+tags: {
+}
+#==========
+emoticon: >-)
+description: evil grin
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (:-D
+description: blabber mouth
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 3:-)
+description: smiling face with horns
+emoji: {
+    😈
+}
+labels: {
+    smiling_imp
+}
+tags: {
+    devil
+    evil
+    horns
+}
+#==========
+emoticon: :%)
+description: accountant
+emoji: {
+}
+labels: {
+    accountant
+}
+tags: {
+}
+#==========
+emoticon: o<[^(
+description: skater
+emoji: {
+}
+labels: {
+    skater
+}
+tags: {
+}
+#==========
+emoticon: }:‑)
+description: evil, devilish
+emoji: {
+    😈
+}
+labels: {
+    smiling_imp
+}
+tags: {
+    devil
+    evil
+    horns
+}
+#==========
+emoticon: :->|
+description: cold
+emoji: {
+}
+labels: {
+    cold
+}
+tags: {
+}
+#==========
+emoticon: (●＾o＾●)
+description: happy
+emoji: {
+    😆
+    😅
+    😀
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: @>---
+description: flower
+emoji: {
+}
+labels: {
+    flower
+}
+tags: {
+}
+#==========
+emoticon: ^m^
+description: giggling with hand covering mouth
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >:->
+description: devilish
+emoji: {
+}
+labels: {
+    devilish
+}
+tags: {
+}
+#==========
+emoticon: 3:-O
+description: cow
+emoji: {
+}
+labels: {
+    cow
+}
+tags: {
+}
+#==========
+emoticon: (:-\
+description: very sad
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >-D
+description: rocking
+emoji: {
+}
+labels: {
+    rocking
+}
+tags: {
+}
+#==========
+emoticon: >:-<
+description: mad
+emoji: {
+}
+labels: {
+    mad
+}
+tags: {
+}
+#==========
+emoticon: (͠≖ ͜ʖ͠≖)
+description: evillenny
+emoji: {
+}
+labels: {
+    evillenny
+}
+tags: {
+}
+#==========
+emoticon: ^o)
+description: sarcastic
+emoji: {
+}
+labels: {
+    sarcastic
+}
+tags: {
+}
+#==========
+emoticon: （ ^_^）o自自o（^_^ ）
+description: toast "cheers"
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: { 8{]
+description: mustache
+emoji: {
+}
+labels: {
+    mustache
+}
+tags: {
+}
+#==========
+emoticon: >:o===Q<
+description: giraffe
+emoji: {
+}
+labels: {
+    giraffe
+}
+tags: {
+}
+#==========
+emoticon: ┌( ͝° ͜ʖ͡°)=ε/̵͇̿̿/’̿’̿ ̿
+description: 007
+emoji: {
+}
+labels: {
+    007
+    bond
+}
+tags: {
+}
+#==========
+emoticon: V^J
+description: smiley with glasses, seen from the left side (portrait, talking)
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >:-l
+description: klingon smiley
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: X P
+description: sour face
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ᕦ( ͡° ͜ʖ ͡°)ᕤ
+description: lennystrong
+emoji: {
+}
+labels: {
+    lennystrong
+}
+tags: {
+}
+#==========
+emoticon: >.<
+description: skeptical, annoyed, undecided, uneasy, hesitant
+emoji: {
+    😏
+    😡
+}
+labels: {
+    persevere
+    upset
+    rage
+    smirk
+}
+tags: {
+    smug
+    angry
+}
+#==========
+emoticon: ---
+description: monkey
+emoji: {
+}
+labels: {
+    monkey
+}
+tags: {
+}
+#==========
+emoticon: O.o
+description: confused
+emoji: {
+}
+labels: {
+    confused
+}
+tags: {
+}
+#==========
+emoticon: d:)
+description: wearing a cap
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: D‑':
+description: horror, disgust, sadness, great dismay (right to left)
+emoji: {
+    😨
+    😧
+    😦
+    😫
+    😩
+    😱
+}
+labels: {
+    fearful
+}
+tags: {
+    oops
+    scared
+    shocked
+}
+#==========
+emoticon: :'(
+description: crying
+emoji: {
+    ☹
+    😭
+    😢
+}
+labels: {
+    whining
+    crying
+    cry
+    frowning_face
+}
+tags: {
+    tear
+    sad
+}
+#==========
+emoticon: :')
+description: tears of happiness
+emoji: {
+    😀
+    ☺
+    😂
+}
+labels: {
+    relaxed
+    joy
+}
+tags: {
+    tears
+    blush
+    pleased
+}
+#==========
+emoticon: C8<]
+description: darth vader
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: Q(''q) Q(''Q)
+description: boxing
+emoji: {
+}
+labels: {
+    boxing
+}
+tags: {
+}
+#==========
+emoticon: ( ͡° ͜ʖ ͡°)_/¯
+description: this
+emoji: {
+}
+labels: {
+    this
+}
+tags: {
+}
+#==========
+emoticon: -.-
+description: stressed
+emoji: {
+}
+labels: {
+    stressed
+}
+tags: {
+}
+#==========
+emoticon: ^o^
+description: mog
+emoji: {
+}
+labels: {
+    mog
+}
+tags: {
+}
+#==========
+emoticon: ＼| ￣ヘ￣|／＿＿＿＿＿＿＿θ☆( *o*)/
+description: kick
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >:-|
+description: trekkie
+emoji: {
+}
+labels: {
+    trekkie
+}
+tags: {
+}
+#==========
+emoticon: :'D
+description: face with tears of joy
+emoji: {
+    😂
+}
+labels: {
+    joy
+}
+tags: {
+    tears
+}
+#==========
+emoticon: 3:08
+description: cow
+emoji: {
+}
+labels: {
+    cow
+}
+tags: {
+}
+#==========
+emoticon: :(&
+description: disappointed
+emoji: {
+}
+labels: {
+    disappointed
+}
+tags: {
+}
+#==========
+emoticon: :((
+description: crying
+emoji: {
+}
+labels: {
+    crying
+}
+tags: {
+}
+#==========
+emoticon: :()
+description: can't stop talking
+emoji: {
+}
+labels: {
+    lipstick
+}
+tags: {
+}
+#==========
+emoticon: ༼つಠ益ಠ༽つ ─=≡ΣO))
+description: hadouken
+emoji: {
+}
+labels: {
+    hadouken
+}
+tags: {
+}
+#==========
+emoticon: O[-<]:
+description: i am a skater or i like to skate
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: |:-{)~
+description: old man
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: \&&&/
+description: princess
+emoji: {
+}
+labels: {
+    princess
+}
+tags: {
+}
+#==========
+emoticon: xD
+description: laughing, big grin, laugh with glasses, or wide-eyed surprise
+emoji: {
+    😆
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+    grin
+    smiley
+}
+tags: {
+    haha
+    joy
+    happy
+}
+#==========
+emoticon: ~#:-(
+description: bad hair day
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (V) (°,,,,°) (V)
+description: zoidberg
+emoji: {
+}
+labels: {
+    zoidberg
+    crab
+}
+tags: {
+}
+#==========
+emoticon: ~,~
+description: napping
+emoji: {
+}
+labels: {
+    napping
+}
+tags: {
+}
+#==========
+emoticon: :)#
+description: beard
+emoji: {
+}
+labels: {
+    beard
+}
+tags: {
+}
+#==========
+emoticon: (ﾟДﾟ;≡;ﾟДﾟ)
+description: impatience
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :))
+description: big smile
+emoji: {
+}
+labels: {
+    laughing
+}
+tags: {
+}
+#==========
+emoticon: <コ:彡 Ｃ:.ミ
+description: octopus, squid
+emoji: {
+    🐙
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: }(:-(
+description: user, wearing toupee in wind.
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *<|:^) }
+description: santa claus
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: OOOOOO
+description: alien
+emoji: {
+}
+labels: {
+    alien
+}
+tags: {
+}
+#==========
+emoticon: /________|___|
+description: sword
+emoji: {
+}
+labels: {
+    sword
+}
+tags: {
+}
+#==========
+emoticon: °O°
+description: surprised
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: orz
+description: despair. the "o"s represent head on the ground, "t" or "r" forms the torso, and "s" or "z" the legs.
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :*(
+description: crying
+emoji: {
+}
+labels: {
+    crying
+    sad
+}
+tags: {
+}
+#==========
+emoticon: xp
+description: tongue sticking out, cheeky/playful, blowing a raspberry
+emoji: {
+    😜
+    😛
+    🤑
+    😝
+}
+labels: {
+    stuck_out_tongue_winking_eye
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: :*)
+description: clowning
+emoji: {
+}
+labels: {
+    drunk
+    clowning
+    kiss
+}
+tags: {
+}
+#==========
+emoticon: *:o)
+description: bozo
+emoji: {
+}
+labels: {
+    clown
+    bozo
+}
+tags: {
+}
+#==========
+emoticon: ヽ(^o^)丿
+description: excited
+emoji: {
+    🙌
+    😀
+    😍
+    💃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :)>-
+description: peace
+emoji: {
+}
+labels: {
+    peace
+}
+tags: {
+}
+#==========
+emoticon: :)X
+description: hug
+emoji: {
+}
+labels: {
+    hug
+}
+tags: {
+}
+#==========
+emoticon: (^^)v
+description: laughing, cheerful
+emoji: {
+    ✌️
+    😂
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :)]
+description: on the phone
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ＼(-o-)／
+description: excited
+emoji: {
+    🙌
+    😀
+    😍
+    💃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: -_-;
+description: anime sweat drop
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: （’-’*)
+description: laughing, cheerful
+emoji: {
+    ✌️
+    😂
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :+(
+description: i'm hurt by that
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <|:-()}
+description: clown
+emoji: {
+}
+labels: {
+    clown
+}
+tags: {
+}
+#==========
+emoticon: ┌(◉ ͜ʖ◉)つ┣▇▇▇═──
+description: needle
+emoji: {
+}
+labels: {
+    needle
+    inject
+}
+tags: {
+}
+#==========
+emoticon: =):-)
+description: uncle sam
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: （ つ Д ｀）
+description: sad
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: =P~
+description: drooling
+emoji: {
+}
+labels: {
+    drooling
+}
+tags: {
+}
+#==========
+emoticon: /* *
+description: harry potter wand
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (__)
+description: kowtow as a sign of respect, or dogeza for apology
+emoji: {
+    🙇
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <m(__)m>
+description: kowtow as a sign of respect, or dogeza for apology
+emoji: {
+    🙇
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :,(
+description: crying smiley
+emoji: {
+    😢
+}
+labels: {
+    cry
+}
+tags: {
+    tear
+    sad
+}
+#==========
+emoticon: :,)
+description: face with tears of joy
+emoji: {
+    😂
+}
+labels: {
+    joy
+}
+tags: {
+    tears
+}
+#==========
+emoticon: ┐('～`；)┌
+description: don't know the answer
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: \-o
+description: bored
+emoji: {
+}
+labels: {
+    bored
+}
+tags: {
+}
+#==========
+emoticon: ヽ(´ー｀)┌
+description: mellow, shrug
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: _(:3」∠)_
+description: lazy
+emoji: {
+}
+labels: {
+    lazy
+}
+tags: {
+}
+#==========
+emoticon: (︶︹︶)
+description: depressed
+emoji: {
+}
+labels: {
+    depressed
+}
+tags: {
+}
+#==========
+emoticon: .....φ(・∀・＊)
+description: studying is good
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (ci)
+description: cigarette
+emoji: {
+}
+labels: {
+    cigarette
+}
+tags: {
+}
+#==========
+emoticon: <°)))彡
+description: fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (－－〆)
+description: worried
+emoji: {
+    😬
+    😟
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-!
+description: bored
+emoji: {
+}
+labels: {
+    bored
+}
+tags: {
+}
+#==========
+emoticon: :-"
+description: whistling
+emoji: {
+}
+labels: {
+    whistling
+}
+tags: {
+}
+#==========
+emoticon: (- ʖ̯-)
+description: dontcare
+emoji: {
+}
+labels: {
+    dontcare
+}
+tags: {
+}
+#==========
+emoticon: :-#
+description: no_mouth
+emoji: {
+    😶
+}
+labels: {
+    no_mouth
+    braces
+}
+tags: {
+    mute
+    silence
+}
+#==========
+emoticon: :-$
+description: confused
+emoji: {
+    😒
+}
+labels: {
+    confused
+    unamused
+    embarrassed
+    uncertainty
+}
+tags: {
+    meh
+}
+#==========
+emoticon: (^^)/
+description: joyful
+emoji: {
+    😆
+    😅
+    🙌
+    😀
+    😄
+    😃
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :,D
+description: face with tears of joy
+emoji: {
+    😂
+}
+labels: {
+    joy
+}
+tags: {
+    tears
+}
+#==========
+emoticon: :-%
+description: banker
+emoji: {
+}
+labels: {
+    beard
+    beard.
+    banker
+}
+tags: {
+}
+#==========
+emoticon: :-&
+description: sick
+emoji: {
+    😶
+}
+labels: {
+    tongue-tied
+    sick
+    no_mouth
+}
+tags: {
+    mute
+    silence
+}
+#==========
+emoticon: :-'
+description: has a dimple
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-(
+description: disappointed
+emoji: {
+    😦
+    😒
+}
+labels: {
+    frowning
+    drama
+    unamused
+    disappointed
+    sad
+    frown
+    un-smiley
+}
+tags: {
+    meh
+}
+#==========
+emoticon: :-)
+description: slight_smile
+emoji: {
+    😄
+    😃
+}
+labels: {
+    comedy
+    happy
+    slight_smile
+    smile
+    smiley
+}
+tags: {
+    haha
+    joy
+    happy
+    pleased
+}
+#==========
+emoticon: :-*
+description: kiss
+emoji: {
+    😘
+    😗
+    😚
+    😙
+    😍
+}
+labels: {
+    kissing
+    oops
+    kiss
+    kissing_heart
+    kissing_closed_eyes
+}
+tags: {
+}
+#==========
+emoticon: :-,
+description: hmmmm
+emoji: {
+    😉
+}
+labels: {
+    hmmmm
+    wink
+    smirk
+}
+tags: {
+    flirt
+}
+#==========
+emoticon: \_(-_-)_/
+description: surrender
+emoji: {
+}
+labels: {
+    surrender
+}
+tags: {
+}
+#==========
+emoticon: \0/
+description: ok_woman
+emoji: {
+}
+labels: {
+    ok_woman
+}
+tags: {
+}
+#==========
+emoticon: :-.
+description: confused
+emoji: {
+    😡
+}
+labels: {
+    confused
+    rage
+}
+tags: {
+    angry
+}
+#==========
+emoticon: :-/
+description: confused
+emoji: {
+    😕
+    😡
+}
+labels: {
+    confused
+    frustrated
+    hmmm
+    perplexed
+    skeptical
+    undecided
+    rage
+}
+tags: {
+    angry
+}
+#==========
+emoticon: :-0
+description: surprise, shock, yawn
+emoji: {
+    😯
+    😮
+    😲
+}
+labels: {
+    talkative
+    yell
+    orator
+    astonished
+}
+tags: {
+    amazed
+    gasp
+}
+#==========
+emoticon: :-1
+description: smirk
+emoji: {
+}
+labels: {
+    whatever
+    smirk
+}
+tags: {
+}
+#==========
+emoticon: <*)))‑{
+description: fish, something's fishy, christian fish
+emoji: {
+    🦈
+    🐬
+    🐋
+    🐠
+    🐟
+    🐳
+    🐡
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ヽ(ｏ`皿′ｏ)ﾉ
+description: really angry
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-3
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    🙂
+    😁
+}
+labels: {
+    relaxed
+}
+tags: {
+    blush
+    pleased
+}
+#==========
+emoticon: (・へ・)
+description: worried
+emoji: {
+    😬
+    😟
+    😓
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: {}
+description: no comment
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-6
+description: exhausted, wiped out
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-7
+description: sarcastic
+emoji: {
+}
+labels: {
+    sarcastic
+}
+tags: {
+}
+#==========
+emoticon: :-8
+description: talking from both sides of mouth
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-9
+description: delicious, yummy
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-:
+description: mutant
+emoji: {
+}
+labels: {
+    mutant
+}
+tags: {
+}
+#==========
+emoticon: :-<
+description: frowning
+emoji: {
+    😒
+}
+labels: {
+    frowning
+    unamused
+    sigh
+    walrus
+}
+tags: {
+    meh
+}
+#==========
+emoticon: =^.^=
+description: cat
+emoji: {
+}
+labels: {
+    cat
+    kitty
+}
+tags: {
+}
+#==========
+emoticon: :->
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    🙂
+    😁
+}
+labels: {
+    grin
+    relaxed
+    devilish
+    happy
+    hey
+}
+tags: {
+    blush
+    pleased
+}
+#==========
+emoticon: :-?
+description: lopsided grin with dimple
+emoji: {
+}
+labels: {
+    pensive
+    thinking
+}
+tags: {
+}
+#==========
+emoticon: :-@
+description: angry
+emoji: {
+    😡
+}
+labels: {
+    rage
+    scream
+    angry
+    yawning
+    screaming
+}
+tags: {
+    angry
+}
+#==========
+emoticon: :-A
+description: tongue touching nose
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-B
+description: drooling out of both sides of mouth
+emoji: {
+}
+labels: {
+    nerd
+}
+tags: {
+}
+#==========
+emoticon: :-C
+description: real unhappy
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-D
+description: smiley
+emoji: {
+    😄
+    😁
+}
+labels: {
+    grin
+    talking
+    smiley
+    laughing
+    smile
+}
+tags: {
+    joy
+    happy
+    pleased
+}
+#==========
+emoticon: :-E
+description: baring teeth
+emoji: {
+}
+labels: {
+    buck-tooth
+    disappointed
+    vampire
+    buck-tothed
+}
+tags: {
+}
+#==========
+emoticon: :-I
+description: hmm
+emoji: {
+}
+labels: {
+    semi-smile
+    indifferent
+    hmm
+    thinking
+}
+tags: {
+}
+#==========
+emoticon: :-J
+description: tongue in cheek
+emoji: {
+    😼
+}
+labels: {
+    smirk_cat
+}
+tags: {
+}
+#==========
+emoticon: ->=:-)
+description: zippy the pinhead
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-M
+description: speak no evil
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-O
+description: open_mouth
+emoji: {
+    😮
+    😲
+}
+labels: {
+    amazement
+    excited
+    wow!
+    oh
+    astonished
+    open_mouth
+}
+tags: {
+    amazed
+    surprise
+    impressed
+    gasp
+    wow
+}
+#==========
+emoticon: :-P
+description: stuck_out_tongue
+emoji: {
+    😜
+    😛
+}
+labels: {
+    drooling
+    frustrated
+    nyahhhh!
+    stuck_out_tongue_winking_eye
+    stuck_out_tongue
+    naughty
+    whatever
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: :-Q
+description: confused
+emoji: {
+}
+labels: {
+    confused
+    smoker
+    smoking
+}
+tags: {
+}
+#==========
+emoticon: ~\(≧▽≦)/~
+description: kiahh
+emoji: {
+}
+labels: {
+    kiahh
+}
+tags: {
+}
+#==========
+emoticon: *!#*!^*&:-)
+description: schizophrenic
+emoji: {
+}
+labels: {
+    schizophrenic
+}
+tags: {
+}
+#==========
+emoticon: :-R
+description: rasberry
+emoji: {
+}
+labels: {
+    rasberry
+}
+tags: {
+}
+#==========
+emoticon: 3:8)
+description: happy cow
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-S
+description: confused
+emoji: {
+    😒
+}
+labels: {
+    confused
+    unamused
+    worried
+    incoherent
+    confusion
+}
+tags: {
+    meh
+}
+#==========
+emoticon: ԅ(≖‿≖ԅ)
+description: creep
+emoji: {
+}
+labels: {
+    creep
+}
+tags: {
+}
+#==========
+emoticon: :-T
+description: keeping a straight face
+emoji: {
+}
+labels: {
+    pouting
+}
+tags: {
+}
+#==========
+emoticon: (.V.)
+description: alien
+emoji: {
+}
+labels: {
+    alien
+}
+tags: {
+}
+#==========
+emoticon: :-V
+description: shouting
+emoji: {
+}
+labels: {
+    shouting
+}
+tags: {
+}
+#==========
+emoticon: :-W
+description: speak with forked tongue
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-X
+description: no_mouth
+emoji: {
+    😶
+}
+labels: {
+    no_mouth
+}
+tags: {
+    mute
+    silence
+}
+#==========
+emoticon: :-Y
+description: side comment
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: <( '.' <)
+description: kirby
+emoji: {
+}
+labels: {
+    kirby
+}
+tags: {
+}
+#==========
+emoticon: ^v^
+description: bat
+emoji: {
+}
+labels: {
+    bat
+}
+tags: {
+}
+#==========
+emoticon: :-Z
+description: angry face
+emoji: {
+    😒
+}
+labels: {
+    unamused
+}
+tags: {
+    meh
+}
+#==========
+emoticon: :-[
+description: disappointed
+emoji: {
+    😒
+}
+labels: {
+    vampiro
+    unamused
+    disappointed
+    embarrassed
+    vampire
+    despondent
+    pouting
+}
+tags: {
+    meh
+}
+#==========
+emoticon: :-\
+description: hmmm
+emoji: {
+}
+labels: {
+    hmmm
+    undecided
+    popeye
+}
+tags: {
+}
+#==========
+emoticon: :-]
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    🙂
+    😁
+}
+labels: {
+    relaxed
+    blockhead
+    jovial
+}
+tags: {
+    blush
+    pleased
+}
+#==========
+emoticon: :-`
+description: spitting out chewingtobacco
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: %%-
+description: four leaf clover
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-a
+description: smiley touching her tongue to her nose
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: （ ´,_ゝ`)
+description: depressed, unsatisfied (based on indifferent)
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-b
+description: stuck_out_tongue
+emoji: {
+    😜
+}
+labels: {
+    stuck_out_tongue_winking_eye
+    stuck_out_tongue
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: :-c
+description: bummed out
+emoji: {
+    😒
+}
+labels: {
+    unamused
+}
+tags: {
+    meh
+}
+#==========
+emoticon: :-d
+description: smoking
+emoji: {
+}
+labels: {
+    smoking
+}
+tags: {
+}
+#==========
+emoticon: :-e
+description: disappointed smiley
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :/)
+description: not amused
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ＼(＾O＾)／
+description: excited
+emoji: {
+}
+labels: {
+    excited
+}
+tags: {
+}
+#==========
+emoticon: :-h
+description: wave
+emoji: {
+}
+labels: {
+    wave
+}
+tags: {
+}
+#==========
+emoticon: (||)
+description: bowl
+emoji: {
+}
+labels: {
+    bowl
+}
+tags: {
+}
+#==========
+emoticon: :-i
+description: semi-smiley
+emoji: {
+}
+labels: {
+    semi-smiley
+}
+tags: {
+}
+#==========
+emoticon: )-:
+description: left-handed sad face
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-l
+description: yet another smiley
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: *8-I
+description: nerd
+emoji: {
+}
+labels: {
+    nerd
+}
+tags: {
+}
+#==========
+emoticon: !:-)
+description: scholar
+emoji: {
+}
+labels: {
+    scholar
+}
+tags: {
+}
+#==========
+emoticon: <u3
+description: heart
+emoji: {
+}
+labels: {
+    heart
+}
+tags: {
+}
+#==========
+emoticon: ://
+description: frustrated
+emoji: {
+}
+labels: {
+    frustrated
+}
+tags: {
+}
+#==========
+emoticon: :-o
+description: open_mouth
+emoji: {
+    😮
+    😲
+}
+labels: {
+    surprise
+    alarmed
+    singing
+    astonished
+    bored
+    shocked
+    open_mouth
+    surprised
+}
+tags: {
+    amazed
+    surprise
+    impressed
+    gasp
+    wow
+}
+#==========
+emoticon: :-p
+description: stuck_out_tongue
+emoji: {
+    😜
+}
+labels: {
+    stuck_out_tongue_winking_eye
+    stuck_out_tongue
+}
+tags: {
+    prank
+    silly
+}
+#==========
+emoticon: （・Ａ・）
+description: "that's bad"
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-r
+description: concentrating
+emoji: {
+}
+labels: {
+    concentrating
+}
+tags: {
+}
+#==========
+emoticon: :-s
+description: after a bizarre comment
+emoji: {
+}
+labels: {
+    sick
+}
+tags: {
+}
+#==========
+emoticon: :-t
+description: angry
+emoji: {
+}
+labels: {
+    cross
+    angry
+}
+tags: {
+}
+#==========
+emoticon: :-v
+description: talking head smiley
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-w
+description: waiting
+emoji: {
+}
+labels: {
+    waiting
+}
+tags: {
+}
+#==========
+emoticon: :-x
+description: no_mouth
+emoji: {
+}
+labels: {
+    no_mouth
+    speechless
+}
+tags: {
+}
+#==========
+emoticon: (;O;)
+description: sad, crying
+emoji: {
+    😭
+    😢
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: 7:-)
+description: fred flintstone
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-{
+description: mustache
+emoji: {
+}
+labels: {
+    angry
+    mustache
+    moustache
+}
+tags: {
+}
+#==========
+emoticon: ()_RED_(>
+description: red crayon
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :-|
+description: ambivalent
+emoji: {
+    😐
+}
+labels: {
+    ambivalent
+    disappointed
+    hmmm
+    indifferent
+    unfazed
+    neutral_face
+}
+tags: {
+    meh
+}
+#==========
+emoticon: }=^{|~
+description: devil
+emoji: {
+}
+labels: {
+    devil
+}
+tags: {
+}
+#==========
+emoticon: ⤜(ⱺ ʖ̯ⱺ)⤏
+description: arrowhead
+emoji: {
+}
+labels: {
+    arrowhead
+}
+tags: {
+}
+#==========
+emoticon: :-}
+description: smiley or happy face.
+emoji: {
+    ☺️
+    😊
+    😀
+    ☺
+    🙂
+    😁
+}
+labels: {
+    relaxed
+    drunk
+}
+tags: {
+    blush
+    pleased
+}
+#==========
+emoticon: ;‑)
+description: wink, smirk
+emoji: {
+    😘
+    😜
+    😉
+}
+labels: {
+    wink
+}
+tags: {
+    flirt
+}
+#==========
+emoticon: (´∀`)
+description: laughing, cheerful
+emoji: {
+    ✌️
+    😂
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (_゜_゜_)
+description: gloomy
+emoji: {
+}
+labels: {
+    gloomy
+}
+tags: {
+}
+#==========
+emoticon: ,:-(
+description: face with cold sweat
+emoji: {
+    😓
+}
+labels: {
+    sweat
+}
+tags: {
+}
+#==========
+emoticon: ,:-)
+description: shaved left eyebrow
+emoji: {
+    😅
+}
+labels: {
+    sweat_smile
+}
+tags: {
+    hot
+}
+#==========
+emoticon: ♥‿♥
+description: love
+emoji: {
+}
+labels: {
+    love
+}
+tags: {
+}
+#==========
+emoticon: O:)
+description: angel, saint, innocent
+emoji: {
+    😇
+    👼
+}
+labels: {
+    innocent
+    angel
+}
+tags: {
+    angel
+}
+#==========
+emoticon: (T_T)/~~~
+description: waving
+emoji: {
+    👋
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: -o-o-
+description: glasses
+emoji: {
+}
+labels: {
+    glasses
+}
+tags: {
+}
+#==========
+emoticon: %')
+description: blotto
+emoji: {
+}
+labels: {
+    blotto
+}
+tags: {
+}
+#==========
+emoticon:  :$
+description: flushed face
+emoji: {
+    😳
+}
+labels: {
+    flushed
+}
+tags: {
+}
+#==========
+emoticon: >^_^<
+description: normal laugh
+emoji: {
+    ☺️
+    😀
+    😍
+    😄
+    😃
+    😁
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: O:3
+description: innocent
+emoji: {
+}
+labels: {
+    innocent
+}
+tags: {
+}
+#==========
+emoticon: B:-)
+description: sunglasses on head
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: :.-)
+description: laughing tears
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ಠ_ರೃ
+description: monocle
+emoji: {
+}
+labels: {
+    monocle
+    gentleman
+    sir
+}
+tags: {
+}
+#==========
+emoticon: <('.'<)
+description: kirby
+emoji: {
+}
+labels: {
+    kirby
+}
+tags: {
+}
+#==========
+emoticon: :/i
+description: no smoking
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (*_*)
+description: amazed
+emoji: {
+    😍
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: X:-)
+description: bad hair day
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: ;‑]
+description: wink, smirk
+emoji: {
+    😘
+    😜
+    😉
+}
+labels: {
+    wink
+}
+tags: {
+    flirt
+}
+#==========
+emoticon: (*_*;
+description: amazed
+emoji: {
+    😍
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: .o○
+description: bubbles
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: (:<)
+description: blabber mouth
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: >:(
+description: frown, sad, angry, pouting
+emoji: {
+    😖
+    ☹️
+    😠
+    😟
+    ☹
+    😞
+    😣
+    🙁
+    😡
+}
+labels: {
+    angry
+    frowning_face
+}
+tags: {
+    mad
+    annoyed
+}
+#==========
+emoticon: >:)
+description: evil, devilish
+emoji: {
+    😈
+}
+labels: {
+    devil
+    evil
+    laughing
+    smiling_imp
+}
+tags: {
+    devil
+    evil
+    horns
+}
+#==========
+emoticon: >:*
+description: upset
+emoji: {
+}
+labels: {
+    upset
+}
+tags: {
+}
+#==========
+emoticon: {(:-)
+description: wearing a toupee
+emoji: {
+}
+labels: {
+}
+tags: {
+}
+#==========
+emoticon: X-(
+description: angry
+emoji: {
+}
+labels: {
+    mad
+    angry
+}
+tags: {
+}
+#==========
+emoticon: >:/
+description: skeptical, annoyed, undecided, uneasy, hesitant
+emoji: {
+    😕
+    😟
+    😏
+    🤔
+    😡
+}
+labels: {
+    confused
+    rage
+    smirk
+}
+tags: {
+    smug
+    angry
+}
+#==========
+emoticon: \m/<(^_^)>\m/
+description: surprised
+emoji: {
+}
+labels: {
+    surprised
+}
+tags: {
+}
+#==========
+emoticon: X-)
+description: dizzy_face
+emoji: {
+    😆
+}
+labels: {
+    dizzy_face
+    satisfied
+    laughing
+}
+tags: {
+    haha
+    happy
+}
+#==========
+emoticon: ᕦ(⩾﹏⩽)ᕥ
+description: loud
+emoji: {
+}
+labels: {
+    loud
+    noise
+}
+tags: {
+}
+#==========
+emoticon: //0‑0\\
+description: john lennon
+emoji: {
+}
+labels: {
+}
+tags: {
+}

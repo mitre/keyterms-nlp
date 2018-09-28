@@ -1,0 +1,8 @@
+# Comments and such
+# <import file="common.rules"/>
+
+rule 1 # An inline comment.
+
+rule 2 # Another inline comment.
+
+rule 3

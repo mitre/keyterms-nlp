@@ -1,0 +1,16 @@
+# IntelliJ exclusions
+/.idea/workspace.xml
+/.idea/dictionaries/*.xml
+!/.idea/dictionaries/project.xml
+
+# Apple filesystem artifacts
+**/.DS_Store
+
+# Project specific exclusions
+.local
+.release
+temp/
+tmp/
+**/temp/
+**/tmp/
+**/target/

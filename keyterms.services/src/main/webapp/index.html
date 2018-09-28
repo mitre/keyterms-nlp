@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="keyTerms">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>KeyTerms NLP</title>
+    <script type="text/javascript" src="webjars/jquery/3.3.1-1/jquery.min.js"></script>
+    <script type="text/javascript" src="webjars/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="webjars/angularjs/1.7.2/angular.min.js"></script>
+    <script type="text/javascript" src="webjars/angular-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+    <script type="text/javascript" src="webjars/angular-bootstrap/2.5.0/ui-bootstrap-tpls.js"></script>
+    <script type="text/javascript" src="webjars/angular-animate/1.7.2/angular-animate.min.js"></script>
+    <script type="text/javascript" src="webjars/angular-aria/1.6.10/angular-aria.min.js"></script>
+    <script type="text/javascript" src="webjars/angular-messages/1.7.3/angular-messages.min.js"></script>
+    <script type="text/javascript" src="webjars/angular-material/1.1.10/angular-material.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/util/filters.js"></script>
+    <script type="text/javascript" src="js/services/emoji_service.js"></script>
+    <script type="text/javascript" src="js/services/iso_service.js"></script>
+    <script type="text/javascript" src="js/services/transform_service.js"></script>
+    <script type="text/javascript" src="js/controllers/emoji_ctl.js"></script>
+    <script type="text/javascript" src="js/controllers/iso_ctl.js"></script>
+    <script type="text/javascript" src="js/controllers/transform_ctl.js"></script>
+    <link rel="stylesheet" href="webjars/angular-material/1.1.10/angular-material.min.css"/>
+    <link rel="stylesheet" href="webjars/fontawesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="webjars/bootstrap/4.1.3/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body ng-cloak="">
+
+<md-content style="min-width: 100vw;  min-height: 100vh; width: 100%; height: 100%;">
+    <md-tabs style="min-width: 100vw; min-height: 100vh; width: 100%; height: 100%;">
+        <md-tab label="Text Transformations">
+            <md-content class="md-padding" style="width: 100%; height: 100%;">
+                <div ng-include="'html/transformer.html'" style="width: 100%; height: 100%;"></div>
+            </md-content>
+        </md-tab>
+        <md-tab label="Emoji/Emoticons">
+            <md-content class="md-padding" style="width: 100%; height: 100%;">
+                <div ng-include="'html/emoji.html'" style="width: 100%; height: 100%;"></div>
+            </md-content>
+        </md-tab>
+        <md-tab label="ISO Lookup">
+            <md-content class="md-padding" style="width: 100%; height: 100%;">
+                <div ng-include="'html/iso_lookup.html'" style="width: 100%; height: 100%;"></div>
+            </md-content>
+        </md-tab>
+        <md-tab label="Documentation">
+            <div layout="row"
+                 layout-padding="20px">
+                <div>
+                    <md-button class="md-tiny md-accent" href="api/rest" target="_blank">
+                        <span style="font-size: smaller; font-weight: bold;"> REST API </span>
+                    </md-button>
+                </div>
+                <div>
+                    <md-button class="md-tiny md-accent" href="api/javadoc" target="_blank">
+                        <span style="font-size: smaller; font-weight: bold;"> Java API </span>
+                    </md-button>
+                </div>
+            </div>
+        </md-tab>
+    </md-tabs>
+</md-content>
+
+</body>
+</html>

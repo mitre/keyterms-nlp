@@ -1,0 +1,34 @@
+
+# This is the file for the test service.
+
+property1 # end of line comments
+property1=# end of line comments
+property1=\[]# end of line comments
+
+= [ 1,  2, 3] # no key
+
+property2=Hello
+
+property3=Jello                       # more end of line comments
+
+property4=Pudding \# Love Me! \#      # more end of line comments
+
+unknown=ignore me
+
+property5=list1
+property5=list2
+property5=list3
+
+property6=${test.prop.1} ${test.prop.2}${test.prop.3}
+
+property7=[one,two,three]
+
+property8 = [ ${test.prop.1}, # value 1
+               ${test.prop.2}, # value 2
+               ${test.prop.3}] # last value
+
+property9 = [ value ]
+
+property10 = [
+
+]

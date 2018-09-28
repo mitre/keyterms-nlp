@@ -1,0 +1,974 @@
+# Script mappings in this file were derived from ominiglot mining
+# with supporting information from wikipedia.
+Arabic script,Arab, 160,Arabic (Algerian),arq
+Arabic script,Arab, 160,Arabic (Egyptian),arz
+Arabic script,Arab, 160,Arabic (Lebanese),
+Arabic script,Arab, 160,Arabic (Modern Standard),arb
+Arabic script,Arab, 160,Arabic (Moroccan),ary
+Arabic script,Arab, 160,Arabic (Syrian),
+Arabic script,Arab, 160,Äynu,aib
+Arabic script,Arab, 160,Azeri,aze
+Arabic script,Arab, 160,Baluchi,bal
+Arabic script,Arab, 160,Beja,bej
+Arabic script,Arab, 160,Bosnian,bos
+Arabic script,Arab, 160,Brahui,brh
+Arabic script,Arab, 160,Chechen,che
+Arabic script,Arab, 160,Crimean Tatar,crh
+Arabic script,Arab, 160,Dari; Afghan Persian,prs
+Arabic script,Arab, 160,Aimaq,aiq
+Arabic script,Arab, 160,Hazaragi,haz
+Arabic script,Arab, 160,Gilaki,glk
+Arabic script,Arab, 160,Hausa,hau
+Arabic script,Arab, 160,Kabyle,kab
+Arabic script,Arab, 160,Karakalpak,kaa
+Arabic script,Arab, 160,Konkani,kok
+Arabic script,Arab, 160,Kashmiri,kas
+Arabic script,Arab, 160,Kazakh,kaz
+Arabic script,Arab, 160,Khowar,khw
+Arabic script,Arab, 160,Kurdish,kur
+Arabic script,Arab, 160,Kyrgyz,kir
+Arabic script,Arab, 160,Malay,msa
+Arabic script,Arab, 160,Marwari,mwr
+Arabic script,Arab, 160,Mandekan,
+Arabic script,Arab, 160,Mazanderani,mzn
+Arabic script,Arab, 160,Shahmirzadi,srz
+Arabic script,Arab, 160,Morisco,
+Arabic script,Arab, 160,Pashto,pus
+Arabic script,Arab, 160,Persian/Farsi,fas
+Arabic script,Arab, 160,Indian Punjabi,pan
+Arabic script,Arab, 160,Pakistani Punjabi,pnb
+Arabic script,Arab, 160,Qashqai,qxq
+Arabic script,Arab, 160,Rajasthani,raj
+Arabic script,Arab, 160,Salar,slr
+Arabic script,Arab, 160,Saraiki,skr
+Arabic script,Arab, 160,Shabaki,sdb
+Arabic script,Arab, 160,Shughni,sgh
+Arabic script,Arab, 160,Sindhi,snd
+Arabic script,Arab, 160,Lasi,lss
+Arabic script,Arab, 160,Sindhi Bhil,sbn
+Arabic script,Arab, 160,Somali,som
+Arabic script,Arab, 160,Tatar,tat
+Arabic script,Arab, 160,Tausūg,tsg
+Arabic script,Arab, 160,Turkish,tur
+Arabic script,Arab, 160,Urdu,urd
+Arabic script,Arab, 160,Uyghur,uig
+Arabic script,Arab, 160,Uzbek,uzb
+Arabic script,Arab, 160,Wakhi,wbl
+Baybayin syllabary,Tglg, 370,Iloko,ilo
+Baybayin syllabary,Tglg, 370,Kapampangan,pam
+Baybayin syllabary,Tglg, 370,Tagalog,tgl
+Bengali script,Beng, 325,Bengali,ben
+Bengali script,Beng, 325,Garo,grt
+Bengali script,Beng, 325,Modern Meithei,mni
+Bengali script,Beng, 325,Old Manipuri,omp
+Bengali script,Beng, 325,Mundari,unr
+Bengali script,Beng, 325,Sylheti,syl
+Buhid script,Buhd, 372,Buhid,bku
+Buhid script,Buhd, 372,Tagalog,tgl
+Burmese script,Mymr, 350,Burmese,mya
+Burmese script,Mymr, 350,Karen,
+Burmese script,Mymr, 350,Rakhine ("Arakanese"),rki
+Burmese script,Mymr, 350,Marma ("Burmese"),rmz
+Canadian Aboriginal Syllabics,Cans, 440,Blackfoot,bla
+Canadian Aboriginal Syllabics,Cans, 440,Carrier,crx
+Canadian Aboriginal Syllabics,Cans, 440,Southern Carrier,caf
+Canadian Aboriginal Syllabics,Cans, 440,Chipewyan,chp
+Canadian Aboriginal Syllabics,Cans, 440,Cree,cre
+Canadian Aboriginal Syllabics,Cans, 440,Inuktitut,ike
+Canadian Aboriginal Syllabics,Cans, 440,Naskapi,nsk
+Canadian Aboriginal Syllabics,Cans, 440,Ojibwe,oji
+Canadian Aboriginal Syllabics,Cans, 440,Oji-Cree,ojs
+Chinese script,Hani, 500,Chinese (hanzi),zho
+Chinese script,Hani, 500,Cantonese (honji),
+Chinese script,Hani, 500,Japanese (kanji),jpn
+Chinese script,Hani, 500,Modern Korean,kor
+Chinese script,Hani, 500,Middle Korean,okm
+Chinese script,Hani, 500,Old Korean,oko
+Chinese script,Hani, 500,Vietnamese (chữ-nôm),vie
+Cyrillic alphabet,Cyrl, 220,Abaza,abq
+Cyrillic alphabet,Cyrl, 220,Abkhaz,abk
+Cyrillic alphabet,Cyrl, 220,Adyghe,ady
+Cyrillic alphabet,Cyrl, 220,Aghul,agx
+Cyrillic alphabet,Cyrl, 220,Akhvakh,akv
+Cyrillic alphabet,Cyrl, 220,Northern Altai,atv
+Cyrillic alphabet,Cyrl, 220,Southern Altai,alt
+Cyrillic alphabet,Cyrl, 220,Andi,ani
+Cyrillic alphabet,Cyrl, 220,Archi,aqc
+Cyrillic alphabet,Cyrl, 220,Assyrian / Neo-Assyrian,akk
+Cyrillic alphabet,Cyrl, 220,Modern Avar,ava
+Cyrillic alphabet,Cyrl, 220,Old Avar,oav
+Cyrillic alphabet,Cyrl, 220,Azeri,aze
+Cyrillic alphabet,Cyrl, 220,Bagvalal,kva
+Cyrillic alphabet,Cyrl, 220,Balkar,krc
+Cyrillic alphabet,Cyrl, 220,Bashkir,bak
+Cyrillic alphabet,Cyrl, 220,Bats,bbl
+Cyrillic alphabet,Cyrl, 220,Belarusian,bel
+Cyrillic alphabet,Cyrl, 220,Botlikh,bph
+Cyrillic alphabet,Cyrl, 220,Budukh,bdk
+Cyrillic alphabet,Cyrl, 220,Bulgarian,bul
+Cyrillic alphabet,Cyrl, 220,Buryat,bua
+Cyrillic alphabet,Cyrl, 220,Chamalal,cji
+Cyrillic alphabet,Cyrl, 220,Chechen,che
+Cyrillic alphabet,Cyrl, 220,Chukchi,ckt
+Cyrillic alphabet,Cyrl, 220,Chuvash,chv
+Cyrillic alphabet,Cyrl, 220,Crimean Tatar,crh
+Cyrillic alphabet,Cyrl, 220,Dargwa,dar
+Cyrillic alphabet,Cyrl, 220,Dungan,dng
+Cyrillic alphabet,Cyrl, 220,Forest Enets,enf
+Cyrillic alphabet,Cyrl, 220,Tundra Enets,enh
+Cyrillic alphabet,Cyrl, 220,Erzya,myv
+Cyrillic alphabet,Cyrl, 220,Even,eve
+Cyrillic alphabet,Cyrl, 220,Evenki,evn
+Cyrillic alphabet,Cyrl, 220,Gagauz,gag
+Cyrillic alphabet,Cyrl, 220,Godoberi,gdo
+Cyrillic alphabet,Cyrl, 220,Hinukh,gin
+Cyrillic alphabet,Cyrl, 220,Hunzib,huz
+Cyrillic alphabet,Cyrl, 220,Ingush,inh
+Cyrillic alphabet,Cyrl, 220,Interslavic,mis
+Cyrillic alphabet,Cyrl, 220,Itelmen,itl
+Cyrillic alphabet,Cyrl, 220,Kabardian,kbd
+Cyrillic alphabet,Cyrl, 220,Khinalug,kjj
+Cyrillic alphabet,Cyrl, 220,Juhuri,jdt
+Cyrillic alphabet,Cyrl, 220,Kalmyk,
+Cyrillic alphabet,Cyrl, 220,Karaim,kdr
+Cyrillic alphabet,Cyrl, 220,Karakalpak,kaa
+Cyrillic alphabet,Cyrl, 220,Karata,kpt
+Cyrillic alphabet,Cyrl, 220,Kazakh,kaz
+Cyrillic alphabet,Cyrl, 220,Ket,ket
+Cyrillic alphabet,Cyrl, 220,Khakas,kjh
+Cyrillic alphabet,Cyrl, 220,Khanty,kca
+Cyrillic alphabet,Cyrl, 220,Khwarshi,khv
+Cyrillic alphabet,Cyrl, 220,Kildin Sámi,sjd
+Cyrillic alphabet,Cyrl, 220,Komi,kom
+Cyrillic alphabet,Cyrl, 220,Koryak,kpy
+Cyrillic alphabet,Cyrl, 220,Krymchak,jct
+Cyrillic alphabet,Cyrl, 220,Kryts,kry
+Cyrillic alphabet,Cyrl, 220,Kubachi,
+Cyrillic alphabet,Cyrl, 220,Kumyk,kum
+Cyrillic alphabet,Cyrl, 220,Kurdish,kur
+Cyrillic alphabet,Cyrl, 220,Kyrgyz,kir
+Cyrillic alphabet,Cyrl, 220,Lak,lbe
+Cyrillic alphabet,Cyrl, 220,Lezgi,lez
+Cyrillic alphabet,Cyrl, 220,Lingua Franca Nova,lfn
+Cyrillic alphabet,Cyrl, 220,Macedonian,mkd
+Cyrillic alphabet,Cyrl, 220,Mansi,mns
+Cyrillic alphabet,Cyrl, 220,Mari,chm
+Cyrillic alphabet,Cyrl, 220,Moksha,mdf
+Cyrillic alphabet,Cyrl, 220,Moldovan,
+Cyrillic alphabet,Cyrl, 220,Mongolian,mon
+Cyrillic alphabet,Cyrl, 220,Montenegrin,mis
+Cyrillic alphabet,Cyrl, 220,Nanai,gld
+Cyrillic alphabet,Cyrl, 220,Nenets,yrk
+Cyrillic alphabet,Cyrl, 220,Nganasan,nio
+Cyrillic alphabet,Cyrl, 220,Nivkh,niv
+Cyrillic alphabet,Cyrl, 220,Nogai,nog
+Cyrillic alphabet,Cyrl, 220,Old Church Slavonic,chu
+Cyrillic alphabet,Cyrl, 220,Oroch,oac
+Cyrillic alphabet,Cyrl, 220,Orok,oaa
+Cyrillic alphabet,Cyrl, 220,Ossetian,oss
+Cyrillic alphabet,Cyrl, 220,Russian,rus
+Cyrillic alphabet,Cyrl, 220,Ruthenian,
+Cyrillic alphabet,Cyrl, 220,Rutul,rut
+Cyrillic alphabet,Cyrl, 220,Selkup,sel
+Cyrillic alphabet,Cyrl, 220,Serbian,srp
+Cyrillic alphabet,Cyrl, 220,Shor,cjs
+Cyrillic alphabet,Cyrl, 220,Shughni,sgh
+Cyrillic alphabet,Cyrl, 220,Slovio,
+Cyrillic alphabet,Cyrl, 220,Tabassaran,tab
+Cyrillic alphabet,Cyrl, 220,Tajik,tgk
+Cyrillic alphabet,Cyrl, 220,Talysh,tly
+Cyrillic alphabet,Cyrl, 220,Tat,
+Cyrillic alphabet,Cyrl, 220,Tatar,tat
+Cyrillic alphabet,Cyrl, 220,Tindi,tin
+Cyrillic alphabet,Cyrl, 220,Tofa,kim
+Cyrillic alphabet,Cyrl, 220,Tsakhur,tkr
+Cyrillic alphabet,Cyrl, 220,Tsez,ddo
+Cyrillic alphabet,Cyrl, 220,Turkmen,tuk
+Cyrillic alphabet,Cyrl, 220,Tuvan,tyv
+Cyrillic alphabet,Cyrl, 220,Ubykh,uby
+Cyrillic alphabet,Cyrl, 220,Udi,udi
+Cyrillic alphabet,Cyrl, 220,Udmurt,udm
+Cyrillic alphabet,Cyrl, 220,Ukrainian,ukr
+Cyrillic alphabet,Cyrl, 220,Ulch,ulc
+Cyrillic alphabet,Cyrl, 220,Urum,uum
+Cyrillic alphabet,Cyrl, 220,Uyghur,uig
+Cyrillic alphabet,Cyrl, 220,Uzbek,uzb
+Cyrillic alphabet,Cyrl, 220,Votic,vot
+Cyrillic alphabet,Cyrl, 220,Wakhi,wbl
+Cyrillic alphabet,Cyrl, 220,Yaghnobi,yai
+Cyrillic alphabet,Cyrl, 220,Yakut,sah
+Cyrillic alphabet,Cyrl, 220,Yukaghir,
+Cyrillic alphabet,Cyrl, 220,Yupik,
+Devanagari script,Deva, 315,Awadhi,awa
+Devanagari script,Deva, 315,Bhojpuri,bho
+Devanagari script,Deva, 315,Hindi,hin
+Devanagari script,Deva, 315,Kashmiri,kas
+Devanagari script,Deva, 315,Konkani,kok
+Devanagari script,Deva, 315,Kurukh,kru
+Devanagari script,Deva, 315,Nepali Kurux (Dhangar),kxl
+Devanagari script,Deva, 315,Kisan,xis
+Devanagari script,Deva, 315,Maithili,mai
+Devanagari script,Deva, 315,Modern Marathi,mar
+Devanagari script,Deva, 315,Old Marathi,omr
+Devanagari script,Deva, 315,Marwari,mwr
+Devanagari script,Deva, 315,Mundari,unr
+Devanagari script,Deva, 315,Newari,new
+Devanagari script,Deva, 315,Middle Newar,nwx
+Devanagari script,Deva, 315,Nepali,nep
+Devanagari script,Deva, 315,Pali,pli
+Devanagari script,Deva, 315,Rajasthani,raj
+Devanagari script,Deva, 315,Sanskrit,san
+Devanagari script,Deva, 315,Saraiki,skr
+Devanagari script,Deva, 315,Sindhi,snd
+Devanagari script,Deva, 315,Lasi,lss
+Devanagari script,Deva, 315,Sindhi Bhil,sbn
+Devanagari script,Deva, 315,Sunuwar,suz
+Devanagari script,Deva, 315,Sylheti,syl
+Ge'ez (Ethiopic) script,Ethi, 430,Amharic,amh
+Ge'ez (Ethiopic) script,Ethi, 430,Argobba,agj
+Ge'ez (Ethiopic) script,Ethi, 430,Awngi,awn
+Ge'ez (Ethiopic) script,Ethi, 430,Blin,byn
+Ge'ez (Ethiopic) script,Ethi, 430,Chaha,
+Ge'ez (Ethiopic) script,Ethi, 430,Dizin,mdx
+Ge'ez (Ethiopic) script,Ethi, 430,Ge'ez,gez
+Ge'ez (Ethiopic) script,Ethi, 430,Harari,har
+Ge'ez (Ethiopic) script,Ethi, 430,Inor,ior
+Ge'ez (Ethiopic) script,Ethi, 430,Silt'e,stv
+Ge'ez (Ethiopic) script,Ethi, 430,Wolane,wle
+Ge'ez (Ethiopic) script,Ethi, 430,Tigre,tig
+Ge'ez (Ethiopic) script,Ethi, 430,Tigrinya,tir
+Ge'ez (Ethiopic) script,Ethi, 430,Xamtanga,xan
+Georgian alphabet,Geor, 240,Georgian,kat
+Georgian alphabet,Geor, 240,Laz,lzz
+Georgian alphabet,Geor, 240,Mingrelian,xmf
+Georgian alphabet,Geor, 240,Svan,sva
+Greek alphabet,Grek, 200,Arvanitic,aat
+Greek alphabet,Grek, 200,Ancient Greek,grc
+Greek alphabet,Grek, 200,Cappadocian Greek,cpg
+Greek alphabet,Grek, 200,Modern Greek,ell
+Greek alphabet,Grek, 200,Mycenaean Greek,gmy
+Greek alphabet,Grek, 200,Pontic,pnt
+Greek alphabet,Grek, 200,Tsakonian,tsd
+Greek alphabet,Grek, 200,Yevanic,yej
+Gujarati script,Gujr, 320,Gujarati,guj
+Gujarati script,Gujr, 320,Kutchi,kfr
+Gurmukhi script,Guru, 310,Indian Punjabi,pan
+Gurmukhi script,Guru, 310,Pakistani Punjabi,pnb
+Hebrew script,Hebr, 125,Aramaic,
+Hebrew script,Hebr, 125,Bukhori,bhh
+Hebrew script,Hebr, 125,Modern Hebrew,heb
+Hebrew script,Hebr, 125,Ancient Hebrew (liturgical),hbo
+Hebrew script,Hebr, 125,Samaritan Hebrew (liturgical),smp
+Hebrew script,Hebr, 125,Edomite (extinct),xdm
+Hebrew script,Hebr, 125,Moabite (extinct),obm
+Hebrew script,Hebr, 125,Jewish Neo-Aramaic,
+Hebrew script,Hebr, 125,Judeo-Arabic,jrb
+Hebrew script,Hebr, 125,Juhuri,jdt
+Hebrew script,Hebr, 125,Karaim,kdr
+Hebrew script,Hebr, 125,Ladino,lad
+Hebrew script,Hebr, 125,Yiddish,yid
+Kaithi script,Kthi, 317,Bhojpuri,bho
+Kannada script,Knda, 345,Kannada,kan
+Kannada script,Knda, 345,Kodava,kfa
+Kannada script,Knda, 345,Konkani,kok
+Kannada script,Knda, 345,Tulu,tcy
+Kharosthi script,Khar, 305,Gandhari,pgd
+Kharosthi script,Khar, 305,Sanskrit,san
+Korean (Hangeul) script,Hang, 286,Cia-Cia,cia
+Korean (Hangeul) script,Hang, 286,Modern Korean,kor
+Korean (Hangeul) script,Hang, 286,Middle Korean,okm
+Korean (Hangeul) script,Hang, 286,Old Korean,oko
+Lao script,Laoo, 356,Laotian Lao,lao
+Lao script,Laoo, 356,Isan (Thailand Lao),tts
+Latin/Roman alphabet,Latn, 215,Eastern Abenaki,aaq
+Latin/Roman alphabet,Latn, 215,Western Abenaki,abe
+Latin/Roman alphabet,Latn, 215,Acehnese,ace
+Latin/Roman alphabet,Latn, 215,Acholi,ach
+Latin/Roman alphabet,Latn, 215,Achuar-Shiwiar,acu
+Latin/Roman alphabet,Latn, 215,Afaan Oromo,
+Latin/Roman alphabet,Latn, 215,Afar,aar
+Latin/Roman alphabet,Latn, 215,Afrikaans,afr
+Latin/Roman alphabet,Latn, 215,Ainu,ain
+Latin/Roman alphabet,Latn, 215,Ajië,aji
+Latin/Roman alphabet,Latn, 215,Akan,aka
+Latin/Roman alphabet,Latn, 215,Aklanon proper,akl
+Latin/Roman alphabet,Latn, 215,Malaynon,mlz
+Latin/Roman alphabet,Latn, 215,Akurio,ako
+Latin/Roman alphabet,Latn, 215,Alabama,akz
+Latin/Roman alphabet,Latn, 215,Albanian,sqi
+Latin/Roman alphabet,Latn, 215,Aleut,ale
+Latin/Roman alphabet,Latn, 215,Algonquin,alq
+Latin/Roman alphabet,Latn, 215,Alsatian,gsw
+Latin/Roman alphabet,Latn, 215,Amahuaca,amc
+Latin/Roman alphabet,Latn, 215,Amarakaeri,amr
+Latin/Roman alphabet,Latn, 215,Amis,ami
+Latin/Roman alphabet,Latn, 215,Anutan,
+Latin/Roman alphabet,Latn, 215,Apache,
+Latin/Roman alphabet,Latn, 215,Arabela,arl
+Latin/Roman alphabet,Latn, 215,Aragonese,arg
+Latin/Roman alphabet,Latn, 215,Aranese,
+Latin/Roman alphabet,Latn, 215,Arapaho,arp
+Latin/Roman alphabet,Latn, 215,Arawak,arw
+Latin/Roman alphabet,Latn, 215,Aromanian,rup
+Latin/Roman alphabet,Latn, 215,Anmatjirra,amx
+Latin/Roman alphabet,Latn, 215,Alyawarr,aly
+Latin/Roman alphabet,Latn, 215,Antekerrepenhe,adg
+Latin/Roman alphabet,Latn, 215,Eastern Arrernte,aer
+Latin/Roman alphabet,Latn, 215,Western Arrernte,are
+Latin/Roman alphabet,Latn, 215,Ayerrerenge,axe
+Latin/Roman alphabet,Latn, 215,Arvanitic,aat
+Latin/Roman alphabet,Latn, 215,Asháninka,cni
+Latin/Roman alphabet,Latn, 215,Asturian,ast
+Latin/Roman alphabet,Latn, 215,Atayal,tay
+Latin/Roman alphabet,Latn, 215,Atikamekw,atj
+Latin/Roman alphabet,Latn, 215,Aymara,aym
+Latin/Roman alphabet,Latn, 215,Azeri,aze
+Latin/Roman alphabet,Latn, 215,Bambara,bam
+Latin/Roman alphabet,Latn, 215,Baniwa,bwi
+Latin/Roman alphabet,Latn, 215,Curripako,kpc
+Latin/Roman alphabet,Latn, 215,Bashkir,bak
+Latin/Roman alphabet,Latn, 215,Basque,eus
+Latin/Roman alphabet,Latn, 215,Bavarian,bar
+Latin/Roman alphabet,Latn, 215,Belarusian,bel
+Latin/Roman alphabet,Latn, 215,Bemba,bem
+Latin/Roman alphabet,Latn, 215,Bikol,
+Latin/Roman alphabet,Latn, 215,Bislama,bis
+Latin/Roman alphabet,Latn, 215,Bolinao,smk
+Latin/Roman alphabet,Latn, 215,Bora,boa
+Latin/Roman alphabet,Latn, 215,Bouyei,pcc
+Latin/Roman alphabet,Latn, 215,Brahui,brh
+Latin/Roman alphabet,Latn, 215,Modern Breton,bre
+Latin/Roman alphabet,Latn, 215,Middle Breton,xbm
+Latin/Roman alphabet,Latn, 215,Old Breton,obt
+Latin/Roman alphabet,Latn, 215,Bugis,bug
+Latin/Roman alphabet,Latn, 215,Bandjalang,bdy
+Latin/Roman alphabet,Latn, 215,Githabul,gih
+Latin/Roman alphabet,Latn, 215,Minjungbal,xjb
+Latin/Roman alphabet,Latn, 215,Arakwal (not a specific dialect),rkw
+Latin/Roman alphabet,Latn, 215,Burushaski,bsk
+Latin/Roman alphabet,Latn, 215,Bushi,buc
+Latin/Roman alphabet,Latn, 215,Caquinte,cot
+Latin/Roman alphabet,Latn, 215,Catalan,cat
+Latin/Roman alphabet,Latn, 215,Cayuga,cay
+Latin/Roman alphabet,Latn, 215,Cebuano,ceb
+Latin/Roman alphabet,Latn, 215,Central Sinama,
+Latin/Roman alphabet,Latn, 215,Chamorro,cha
+Latin/Roman alphabet,Latn, 215,Cha'palaachi,cbi
+Latin/Roman alphabet,Latn, 215,Chavacano,cbk
+Latin/Roman alphabet,Latn, 215,Chechen,che
+Latin/Roman alphabet,Latn, 215,Cheyenne,chy
+Latin/Roman alphabet,Latn, 215,Comaltepec Chinantec,cco
+Latin/Roman alphabet,Latn, 215,Ojitlán Chinantec,chj
+Latin/Roman alphabet,Latn, 215,Quiotepec Chinantec,chq
+Latin/Roman alphabet,Latn, 215,Ozumacín Chinantec,chz
+Latin/Roman alphabet,Latn, 215,Lealao Chinantec,cle
+Latin/Roman alphabet,Latn, 215,Lalana Chinantec,cnl
+Latin/Roman alphabet,Latn, 215,Tepetotutla Chinantec,cnt
+Latin/Roman alphabet,Latn, 215,Palantla Chinantec,cpa
+Latin/Roman alphabet,Latn, 215,Chiltepec Chinantec,csa
+Latin/Roman alphabet,Latn, 215,Sochiapan Chinantec,cso
+Latin/Roman alphabet,Latn, 215,Tepinapa Chinantec,cte
+Latin/Roman alphabet,Latn, 215,Tlacoatzintepec Chinantec,ctl
+Latin/Roman alphabet,Latn, 215,Usila Chinantec,cuc
+Latin/Roman alphabet,Latn, 215,Valle Nacional Chinantec,cvn
+Latin/Roman alphabet,Latn, 215,Cimbrian,cim
+Latin/Roman alphabet,Latn, 215,Chichewa,nya
+Latin/Roman alphabet,Latn, 215,Chickasaw,cic
+Latin/Roman alphabet,Latn, 215,Chipewyan,chp
+Latin/Roman alphabet,Latn, 215,Chippewa,ciw
+Latin/Roman alphabet,Latn, 215,Choctaw,cho
+Latin/Roman alphabet,Latn, 215,Chuukese,chk
+Latin/Roman alphabet,Latn, 215,Cofán,con
+Latin/Roman alphabet,Latn, 215,Comanche,com
+Latin/Roman alphabet,Latn, 215,Modern Cornish,cor
+Latin/Roman alphabet,Latn, 215,Middle Cornish,cnx
+Latin/Roman alphabet,Latn, 215,Old Cornish,oco
+Latin/Roman alphabet,Latn, 215,Corsican proper,cos
+Latin/Roman alphabet,Latn, 215,Gallurese,sdn
+Latin/Roman alphabet,Latn, 215,Sassarese,sdc
+Latin/Roman alphabet,Latn, 215,Cape Verdean Creole,kea
+Latin/Roman alphabet,Latn, 215,Creek,mus
+Latin/Roman alphabet,Latn, 215,Croatian,hrv
+Latin/Roman alphabet,Latn, 215,Crow,cro
+Latin/Roman alphabet,Latn, 215,Cubeo,cub
+Latin/Roman alphabet,Latn, 215,Cuyonon,cyo
+Latin/Roman alphabet,Latn, 215,Czech,ces
+Latin/Roman alphabet,Latn, 215,Southern Dagaare,dga
+Latin/Roman alphabet,Latn, 215,Dagaari Dioula,dgd
+Latin/Roman alphabet,Latn, 215,Northern Dagara,dgi
+Latin/Roman alphabet,Latn, 215,Dagbani,dag
+Latin/Roman alphabet,Latn, 215,Insular Danish,dan
+Latin/Roman alphabet,Latn, 215,Jutlandic,jut
+Latin/Roman alphabet,Latn, 215,Uab Meto,aoz
+Latin/Roman alphabet,Latn, 215,Baikeno,bkx
+Latin/Roman alphabet,Latn, 215,Delaware,del
+Latin/Roman alphabet,Latn, 215,Massachusett,wam
+Latin/Roman alphabet,Latn, 215,Dholuo,luo
+Latin/Roman alphabet,Latn, 215,Dinka,din
+Latin/Roman alphabet,Latn, 215,Dolgan,dlg
+Latin/Roman alphabet,Latn, 215,Drehu,dhv
+Latin/Roman alphabet,Latn, 215,Duala,dua
+Latin/Roman alphabet,Latn, 215,Central Central Dusun,dtp
+Latin/Roman alphabet,Latn, 215,Sugut Dusun,kzs
+Latin/Roman alphabet,Latn, 215,Tambunan Dusun,kzt
+Latin/Roman alphabet,Latn, 215,Tempasuk Dusun,tdu
+Latin/Roman alphabet,Latn, 215,Kota Marudu Tinagas,ktr
+Latin/Roman alphabet,Latn, 215,Minokok,mqq
+Latin/Roman alphabet,Latn, 215,Dutch/Flemish,nld
+Latin/Roman alphabet,Latn, 215,West Flemish (Vlaams),vls
+Latin/Roman alphabet,Latn, 215,Zealandic (Zeeuws),zea
+Latin/Roman alphabet,Latn, 215,Elfdalian,mis
+Latin/Roman alphabet,Latn, 215,English,eng
+Latin/Roman alphabet,Latn, 215,Esperanto,epo
+Latin/Roman alphabet,Latn, 215,Estonian,est
+Latin/Roman alphabet,Latn, 215,Ewe,ewe
+Latin/Roman alphabet,Latn, 215,Waci,wci
+Latin/Roman alphabet,Latn, 215,Kpesi,kef
+Latin/Roman alphabet,Latn, 215,Ewondo,ewo
+Latin/Roman alphabet,Latn, 215,Eyak,eya
+Latin/Roman alphabet,Latn, 215,Fanagalo,fng
+Latin/Roman alphabet,Latn, 215,Faroese,fao
+Latin/Roman alphabet,Latn, 215,Fijian,fij
+Latin/Roman alphabet,Latn, 215,Filipino,fil
+Latin/Roman alphabet,Latn, 215,Finnish,fin
+Latin/Roman alphabet,Latn, 215,Flemish,
+Latin/Roman alphabet,Latn, 215,Folkspraak,mis
+Latin/Roman alphabet,Latn, 215,Fon,fon
+Latin/Roman alphabet,Latn, 215,Maxi,mxl
+Latin/Roman alphabet,Latn, 215,Gun,guw
+Latin/Roman alphabet,Latn, 215,Defi,gbh
+Latin/Roman alphabet,Latn, 215,Weme,wem
+Latin/Roman alphabet,Latn, 215,Ci,cib
+Latin/Roman alphabet,Latn, 215,Fox and Sauk,sac
+Latin/Roman alphabet,Latn, 215,Kickapoo,kic
+Latin/Roman alphabet,Latn, 215,French,fra
+Latin/Roman alphabet,Latn, 215,French Guianese Creole,
+Latin/Roman alphabet,Latn, 215,Frisian,
+Latin/Roman alphabet,Latn, 215,Friulian,fur
+Latin/Roman alphabet,Latn, 215,Fula(ni),ful
+Latin/Roman alphabet,Latn, 215,Futunan,fud
+Latin/Roman alphabet,Latn, 215,Ga,gaa
+Latin/Roman alphabet,Latn, 215,Gagauz,gag
+Latin/Roman alphabet,Latn, 215,Galician,glg
+Latin/Roman alphabet,Latn, 215,Gallo,
+Latin/Roman alphabet,Latn, 215,Ganda,lug
+Latin/Roman alphabet,Latn, 215,Garifuna,cab
+Latin/Roman alphabet,Latn, 215,Garo,grt
+Latin/Roman alphabet,Latn, 215,Genoese,
+Latin/Roman alphabet,Latn, 215,German,deu
+Latin/Roman alphabet,Latn, 215,Middle High German,gmh
+Latin/Roman alphabet,Latn, 215,Old High German,goh
+Latin/Roman alphabet,Latn, 215,Alemán Coloniero,gct
+Latin/Roman alphabet,Latn, 215,Austro-Bavarian,bar
+Latin/Roman alphabet,Latn, 215,Cimbrian,cim
+Latin/Roman alphabet,Latn, 215,Hutterite German,geh
+Latin/Roman alphabet,Latn, 215,Kölsch,ksh
+Latin/Roman alphabet,Latn, 215,Low German,nds
+Latin/Roman alphabet,Latn, 215,Lower Silesian,sli
+Latin/Roman alphabet,Latn, 215,Luxembourgish,ltz
+Latin/Roman alphabet,Latn, 215,Main-Franconian,vmf
+Latin/Roman alphabet,Latn, 215,Mócheno,mhn
+Latin/Roman alphabet,Latn, 215,Palatinate German,pfl
+Latin/Roman alphabet,Latn, 215,Pennsylvania German,pdc
+Latin/Roman alphabet,Latn, 215,Plautdietsch,pdt
+Latin/Roman alphabet,Latn, 215,Swabian German,swg
+Latin/Roman alphabet,Latn, 215,Swiss German,gsw
+Latin/Roman alphabet,Latn, 215,Unserdeutsch,uln
+Latin/Roman alphabet,Latn, 215,Upper Saxon,sxu
+Latin/Roman alphabet,Latn, 215,Walser German,wae
+Latin/Roman alphabet,Latn, 215,Westphalian,wep
+Latin/Roman alphabet,Latn, 215,Riograndenser Hunsrückisch,hrx
+Latin/Roman alphabet,Latn, 215,Gooniyandi,gni
+Latin/Roman alphabet,Latn, 215,Greenlandic,kal
+Latin/Roman alphabet,Latn, 215,Guadeloupean Creole,gcf
+Latin/Roman alphabet,Latn, 215,Saint Lucian / Dominican Creole,acf
+Latin/Roman alphabet,Latn, 215,San Miguel Creole French (Panama),scf
+Latin/Roman alphabet,Latn, 215,Guambiano,gum
+Latin/Roman alphabet,Latn, 215,Totoró,ttk
+Latin/Roman alphabet,Latn, 215,Wanano (Kótirya),gvc
+Latin/Roman alphabet,Latn, 215,Piratapuyo,pir
+Latin/Roman alphabet,Latn, 215,Guarani,grn
+Latin/Roman alphabet,Latn, 215,Guernésiais,nrf
+Latin/Roman alphabet,Latn, 215,Kokata (Kukarta),ktd
+Latin/Roman alphabet,Latn, 215,Kukatja,kux
+Latin/Roman alphabet,Latn, 215,Martu Wangka,mpj
+Latin/Roman alphabet,Latn, 215,Ngaanyatjarra,ntj
+Latin/Roman alphabet,Latn, 215,Pintupi-Luritja,piu
+Latin/Roman alphabet,Latn, 215,Pitjantjatjara,pjt
+Latin/Roman alphabet,Latn, 215,Yankunytjatjara,kdd
+Latin/Roman alphabet,Latn, 215,Pintiini (Wangkatja),pti
+Latin/Roman alphabet,Latn, 215,Pini,pii
+Latin/Roman alphabet,Latn, 215,Gwich’in,gwi
+Latin/Roman alphabet,Latn, 215,Haida,hai
+Latin/Roman alphabet,Latn, 215,Haitian Creole,hat
+Latin/Roman alphabet,Latn, 215,Hän,haa
+Latin/Roman alphabet,Latn, 215,Hausa,hau
+Latin/Roman alphabet,Latn, 215,Hawaiian,haw
+Latin/Roman alphabet,Latn, 215,Herero,her
+Latin/Roman alphabet,Latn, 215,Hiligaynon,hil
+Latin/Roman alphabet,Latn, 215,Hixkaryana,hix
+Latin/Roman alphabet,Latn, 215,Hopi,hop
+Latin/Roman alphabet,Latn, 215,Hotcąk,
+Latin/Roman alphabet,Latn, 215,Modern Hungarian,hun
+Latin/Roman alphabet,Latn, 215,Old Hungarian,ohu
+Latin/Roman alphabet,Latn, 215,Huasteco,hus
+Latin/Roman alphabet,Latn, 215,Iban,iba
+Latin/Roman alphabet,Latn, 215,Icelandic,isl
+Latin/Roman alphabet,Latn, 215,Ido,ido
+Latin/Roman alphabet,Latn, 215,Igbo,ibo
+Latin/Roman alphabet,Latn, 215,Iloko,ilo
+Latin/Roman alphabet,Latn, 215,Inari Sámi,smn
+Latin/Roman alphabet,Latn, 215,Indonesian,ind
+Latin/Roman alphabet,Latn, 215,Ingrian,izh
+Latin/Roman alphabet,Latn, 215,Interglossa,igs
+Latin/Roman alphabet,Latn, 215,Interlingua,ina
+Latin/Roman alphabet,Latn, 215,Interslavic,mis
+Latin/Roman alphabet,Latn, 215,Iñupiaq,ipk
+Latin/Roman alphabet,Latn, 215,Irish,gle
+Latin/Roman alphabet,Latn, 215,Italian,ita
+Latin/Roman alphabet,Latn, 215,Iu Mien,ium
+Latin/Roman alphabet,Latn, 215,Biao Mon,bmt
+Latin/Roman alphabet,Latn, 215,Ixil,ixl
+Latin/Roman alphabet,Latn, 215,Jamaican,jam
+Latin/Roman alphabet,Latn, 215,Jaminjung,djd
+Latin/Roman alphabet,Latn, 215,Javanese,jav
+Latin/Roman alphabet,Latn, 215,Caribbean Javanese,jvn
+Latin/Roman alphabet,Latn, 215,New Caledonian Javanese,jas
+Latin/Roman alphabet,Latn, 215,Osing,osi
+Latin/Roman alphabet,Latn, 215,Tenggerese,tes
+Latin/Roman alphabet,Latn, 215,Kawi,kaw
+Latin/Roman alphabet,Latn, 215,Jèrriais (Jersey Norman French),nrf
+Latin/Roman alphabet,Latn, 215,Jingulu,jig
+Latin/Roman alphabet,Latn, 215,Juǀʼhoan,ktz
+Latin/Roman alphabet,Latn, 215,Juhuri,jdt
+Latin/Roman alphabet,Latn, 215,Kabyle,kab
+Latin/Roman alphabet,Latn, 215,Kadazandusun,
+Latin/Roman alphabet,Latn, 215,Kagayanen,cgc
+Latin/Roman alphabet,Latn, 215,Kaingang,kgp
+Latin/Roman alphabet,Latn, 215,São Paulo Kaingáng,zkp
+Latin/Roman alphabet,Latn, 215,Kala Lagaw Ya,mwp
+Latin/Roman alphabet,Latn, 215,Northern Dong,doc
+Latin/Roman alphabet,Latn, 215,Southern Dong,kmc
+Latin/Roman alphabet,Latn, 215,Cao Miao,cov
+Latin/Roman alphabet,Latn, 215,Kanuri,kau
+Latin/Roman alphabet,Latn, 215,Kapampangan,pam
+Latin/Roman alphabet,Latn, 215,Kaqchikel,cak
+Latin/Roman alphabet,Latn, 215,Karaim,kdr
+Latin/Roman alphabet,Latn, 215,Karakalpak,kaa
+Latin/Roman alphabet,Latn, 215,Karamojong,kdj
+Latin/Roman alphabet,Latn, 215,Karelian,krl
+Latin/Roman alphabet,Latn, 215,Karuk,kyh
+Latin/Roman alphabet,Latn, 215,Kashubian,csb
+Latin/Roman alphabet,Latn, 215,Kaurna,zku
+Latin/Roman alphabet,Latn, 215,Kazakh,kaz
+Latin/Roman alphabet,Latn, 215,Ket,ket
+Latin/Roman alphabet,Latn, 215,Khakas,kjh
+Latin/Roman alphabet,Latn, 215,Haiǁom,hgm
+Latin/Roman alphabet,Latn, 215,Nama,naq
+Latin/Roman alphabet,Latn, 215,Ki'che',
+Latin/Roman alphabet,Latn, 215,Kikuyu,kik
+Latin/Roman alphabet,Latn, 215,Kinyarwanda,kin
+Latin/Roman alphabet,Latn, 215,Kiribati,gil
+Latin/Roman alphabet,Latn, 215,Kirundi,run
+Latin/Roman alphabet,Latn, 215,Klallam,clm
+Latin/Roman alphabet,Latn, 215,Klamath,kla
+Latin/Roman alphabet,Latn, 215,Koasati,cku
+Latin/Roman alphabet,Latn, 215,Kolam,
+Latin/Roman alphabet,Latn, 215,Konkani,kok
+Latin/Roman alphabet,Latn, 215,Koya,kff
+Latin/Roman alphabet,Latn, 215,Kumyk,kum
+Latin/Roman alphabet,Latn, 215,San Blas Kuna,cuk
+Latin/Roman alphabet,Latn, 215,Border Kuna,kvn
+Latin/Roman alphabet,Latn, 215,Kurdish,kur
+Latin/Roman alphabet,Latn, 215,Kven,fkv
+Latin/Roman alphabet,Latn, 215,Kwakiutl,kwk
+Latin/Roman alphabet,Latn, 215,Ladin,lld
+Latin/Roman alphabet,Latn, 215,Lingala,lin
+Latin/Roman alphabet,Latn, 215,Latin,lat
+Latin/Roman alphabet,Latn, 215,Latino sine Flexione,
+Latin/Roman alphabet,Latn, 215,Latgalian,ltg
+Latin/Roman alphabet,Latn, 215,Latvian,lav
+Latin/Roman alphabet,Latn, 215,Lingua Franca Nova,lfn
+Latin/Roman alphabet,Latn, 215,Modern Lithuanian,lit
+Latin/Roman alphabet,Latn, 215,Old Lithuanian,olt
+Latin/Roman alphabet,Latn, 215,Livonian,liv
+Latin/Roman alphabet,Latn, 215,Llanito,
+Latin/Roman alphabet,Latn, 215,Lojban,jbo
+Latin/Roman alphabet,Latn, 215,Lombard,lmo
+Latin/Roman alphabet,Latn, 215,Low Saxon,nds
+Latin/Roman alphabet,Latn, 215,Lozi,loz
+Latin/Roman alphabet,Latn, 215,Lule Sámi,smj
+Latin/Roman alphabet,Latn, 215,Alur,alz
+Latin/Roman alphabet,Latn, 215,Luxembourgish,ltz
+Latin/Roman alphabet,Latn, 215,Maasai,mas
+Latin/Roman alphabet,Latn, 215,Madurese proper,mad
+Latin/Roman alphabet,Latn, 215,Kangean,kkv
+Latin/Roman alphabet,Latn, 215,Makasarese,mak
+Latin/Roman alphabet,Latn, 215,Central Makhuwa,vmw
+Latin/Roman alphabet,Latn, 215,Makhuwa-Meetto,mgh
+Latin/Roman alphabet,Latn, 215,Makhuwa-Shirima,vmk
+Latin/Roman alphabet,Latn, 215,Kokola,kzn
+Latin/Roman alphabet,Latn, 215,Lolo,llb
+Latin/Roman alphabet,Latn, 215,Manyawa,mny
+Latin/Roman alphabet,Latn, 215,Marenje,vmr
+Latin/Roman alphabet,Latn, 215,Takwane,tke
+Latin/Roman alphabet,Latn, 215,Makhuwa-Marrevone,xmc
+Latin/Roman alphabet,Latn, 215,Makhuwa-Saka,xsq
+Latin/Roman alphabet,Latn, 215,Malagasy,mlg
+Latin/Roman alphabet,Latn, 215,Malay,msa
+Latin/Roman alphabet,Latn, 215,Maltese,mlt
+Latin/Roman alphabet,Latn, 215,Mam,mam
+Latin/Roman alphabet,Latn, 215,Manado Malay,xmm
+Latin/Roman alphabet,Latn, 215,Mandar,mdr
+Latin/Roman alphabet,Latn, 215,Mandinka,mnk
+Latin/Roman alphabet,Latn, 215,Konyanka,mku
+Latin/Roman alphabet,Latn, 215,Eastern Maninkaka,emk
+Latin/Roman alphabet,Latn, 215,Sankaran Maninkaka,msc
+Latin/Roman alphabet,Latn, 215,Manya (Liberia),mzj
+Latin/Roman alphabet,Latn, 215,Wojenaka (Odienné Jula),jod
+Latin/Roman alphabet,Latn, 215,Worodougou,jud
+Latin/Roman alphabet,Latn, 215,Koro (Koro Jula),kfo
+Latin/Roman alphabet,Latn, 215,Koyaga (Koyaga Jula),kga
+Latin/Roman alphabet,Latn, 215,Mahou (Mawukakan),mxx
+Latin/Roman alphabet,Latn, 215,Mankanya,knf
+Latin/Roman alphabet,Latn, 215,Manx,glv
+Latin/Roman alphabet,Latn, 215,Māori,mri
+Latin/Roman alphabet,Latn, 215,Mapuche,arn
+Latin/Roman alphabet,Latn, 215,Maranao,mrw
+Latin/Roman alphabet,Latn, 215,Marshallese,mah
+Latin/Roman alphabet,Latn, 215,Massachusett,wam
+Latin/Roman alphabet,Latn, 215,Mauritian Creole,mfe
+Latin/Roman alphabet,Latn, 215,Toluca Mazahua,mmc
+Latin/Roman alphabet,Latn, 215,Central Mazahua,maz
+Latin/Roman alphabet,Latn, 215,Tecóatl,maa
+Latin/Roman alphabet,Latn, 215,Jalapa,maj
+Latin/Roman alphabet,Latn, 215,Chiquihuitlán,maq
+Latin/Roman alphabet,Latn, 215,Huautla,mau
+Latin/Roman alphabet,Latn, 215,Ixcatlán,mzi
+Latin/Roman alphabet,Latn, 215,Soyaltepec,vmp
+Latin/Roman alphabet,Latn, 215,Ayautla,vmy
+Latin/Roman alphabet,Latn, 215,Mazatlán,vmz
+Latin/Roman alphabet,Latn, 215,Mbum,mdd
+Latin/Roman alphabet,Latn, 215,Megleno-Romanian,ruq
+Latin/Roman alphabet,Latn, 215,Meriam Mir,ulk
+Latin/Roman alphabet,Latn, 215,Miami,mia
+Latin/Roman alphabet,Latn, 215,Mikasuki,mik
+Latin/Roman alphabet,Latn, 215,Mi'kmaq,mic
+Latin/Roman alphabet,Latn, 215,Minangkabau,min
+Latin/Roman alphabet,Latn, 215,Negeri Sembilan Malay,zmi
+Latin/Roman alphabet,Latn, 215,Mirandese,mwl
+Latin/Roman alphabet,Latn, 215,Miskito,miq
+Latin/Roman alphabet,Latn, 215,Mixtec,
+Latin/Roman alphabet,Latn, 215,Mizo,lus
+Latin/Roman alphabet,Latn, 215,Mohawk,moh
+Latin/Roman alphabet,Latn, 215,Montagnais,moe
+Latin/Roman alphabet,Latn, 215,Montenegrin,mis
+Latin/Roman alphabet,Latn, 215,Moriori,mis
+Latin/Roman alphabet,Latn, 215,Mossi,mos
+Latin/Roman alphabet,Latn, 215,Mro,cmr
+Latin/Roman alphabet,Latn, 215,Mundari,unr
+Latin/Roman alphabet,Latn, 215,Murrinh-Patha,mwf
+Latin/Roman alphabet,Latn, 215,Murui Huitoto,huu
+Latin/Roman alphabet,Latn, 215,Nagamese,nag
+Latin/Roman alphabet,Latn, 215,Nahuatl,nci
+Latin/Roman alphabet,Latn, 215,Haiǁom,hgm
+Latin/Roman alphabet,Latn, 215,Nama,naq
+Latin/Roman alphabet,Latn, 215,Naskapi,nsk
+Latin/Roman alphabet,Latn, 215,Nauruan,nau
+Latin/Roman alphabet,Latn, 215,Navajo,nav
+Latin/Roman alphabet,Latn, 215,Naxi,nxq
+Latin/Roman alphabet,Latn, 215,Narua (Yongning Na),nru
+Latin/Roman alphabet,Latn, 215,Ndebele,
+Latin/Roman alphabet,Latn, 215,Ndrumbea,duf
+Latin/Roman alphabet,Latn, 215,Neapolitan,nap
+Latin/Roman alphabet,Latn, 215,Nenets,yrk
+Latin/Roman alphabet,Latn, 215,Ngiyambaa,wyb
+Latin/Roman alphabet,Latn, 215,Nheengatu,yrl
+Latin/Roman alphabet,Latn, 215,Nias,nia
+Latin/Roman alphabet,Latn, 215,Niuean,niu
+Latin/Roman alphabet,Latn, 215,Noongar,nys
+Latin/Roman alphabet,Latn, 215,Norn,nrn
+Latin/Roman alphabet,Latn, 215,Norwegian,nor
+Latin/Roman alphabet,Latn, 215,North Frisian,frr
+Latin/Roman alphabet,Latn, 215,Northern Sámi,sme
+Latin/Roman alphabet,Latn, 215,Pedi etc.,nso
+Latin/Roman alphabet,Latn, 215,Birwa,brl
+Latin/Roman alphabet,Latn, 215,Tswapong,two
+Latin/Roman alphabet,Latn, 215,Novial,nov
+Latin/Roman alphabet,Latn, 215,Nuer,nus
+Latin/Roman alphabet,Latn, 215,Nuosu (Yi),iii
+Latin/Roman alphabet,Latn, 215,Nuu-Chah-Nulth (Nootka),
+Latin/Roman alphabet,Latn, 215,Nǁng,ngh
+Latin/Roman alphabet,Latn, 215,Occidental,ile
+Latin/Roman alphabet,Latn, 215,Occitan,oci
+Latin/Roman alphabet,Latn, 215,Okinawan,ryu
+Latin/Roman alphabet,Latn, 215,Onondaga,ono
+Latin/Roman alphabet,Latn, 215,O'odham,ood
+Latin/Roman alphabet,Latn, 215,Omaha,oma
+Latin/Roman alphabet,Latn, 215,Oneida,one
+Latin/Roman alphabet,Latn, 215,Old Norse,non
+Latin/Roman alphabet,Latn, 215,OshiWambo,
+Latin/Roman alphabet,Latn, 215,Ossetian,oss
+Latin/Roman alphabet,Latn, 215,Mezquital Otomi,ote
+Latin/Roman alphabet,Latn, 215,Tilapa Otomi,otl
+Latin/Roman alphabet,Latn, 215,Highland Otomi,otm
+Latin/Roman alphabet,Latn, 215,Tenango Otomi,otn
+Latin/Roman alphabet,Latn, 215,Querétaro Otomi,otq
+Latin/Roman alphabet,Latn, 215,Estado de México Otomi,ots
+Latin/Roman alphabet,Latn, 215,Temoaya Otomi,ott
+Latin/Roman alphabet,Latn, 215,Texcatepec Otomi,otx
+Latin/Roman alphabet,Latn, 215,Ixtenco Otomi,otz
+Latin/Roman alphabet,Latn, 215,Ottawa,otw
+Latin/Roman alphabet,Latn, 215,Paakantyi,drl
+Latin/Roman alphabet,Latn, 215,Paama,pma
+Latin/Roman alphabet,Latn, 215,Paicî,pri
+Latin/Roman alphabet,Latn, 215,Palauan,pau
+Latin/Roman alphabet,Latn, 215,Pangasinan,pag
+Latin/Roman alphabet,Latn, 215,Papiamento,pap
+Latin/Roman alphabet,Latn, 215,Pennsylvania German,pdc
+Latin/Roman alphabet,Latn, 215,Piedmontese,pms
+Latin/Roman alphabet,Latn, 215,Pijin,pis
+Latin/Roman alphabet,Latn, 215,Pipil,ppl
+Latin/Roman alphabet,Latn, 215,Pirahã,myp
+Latin/Roman alphabet,Latn, 215,Pite Sámi,
+Latin/Roman alphabet,Latn, 215,Pitjantjatjara,pjt
+Latin/Roman alphabet,Latn, 215,Pohnpeian,pon
+Latin/Roman alphabet,Latn, 215,Polish,pol
+Latin/Roman alphabet,Latn, 215,Pomo (Eastern),
+Latin/Roman alphabet,Latn, 215,Porja,
+Latin/Roman alphabet,Latn, 215,Portuguese,por
+Latin/Roman alphabet,Latn, 215,Potawatomi,pot
+Latin/Roman alphabet,Latn, 215,Eastern,tsz
+Latin/Roman alphabet,Latn, 215,Western,pua
+Latin/Roman alphabet,Latn, 215,Q’anjob’al,kjb
+Latin/Roman alphabet,Latn, 215,Q'eqchi',kek
+Latin/Roman alphabet,Latn, 215,Quechua,que
+Latin/Roman alphabet,Latn, 215,Raga,lml
+Latin/Roman alphabet,Latn, 215,Rapa Nui,rap
+Latin/Roman alphabet,Latn, 215,Rarotonga,rar
+Latin/Roman alphabet,Latn, 215,Tongareva (Penrhyn),pnh
+Latin/Roman alphabet,Latn, 215,Rakahanga-Manihiki,rkh
+Latin/Roman alphabet,Latn, 215,Ronga,rng
+Latin/Roman alphabet,Latn, 215,Rotokas,roo
+Latin/Roman alphabet,Latn, 215,Romanian,ron
+Latin/Roman alphabet,Latn, 215,Romansh,roh
+Latin/Roman alphabet,Latn, 215,Romany,rom
+Latin/Roman alphabet,Latn, 215,Rotuman,rtm
+Latin/Roman alphabet,Latn, 215,Southern,sma
+Latin/Roman alphabet,Latn, 215,Ume,sju
+Latin/Roman alphabet,Latn, 215,Pite,sje
+Latin/Roman alphabet,Latn, 215,Lule,smj
+Latin/Roman alphabet,Latn, 215,Northern,sme
+Latin/Roman alphabet,Latn, 215,Kemi,sjk
+Latin/Roman alphabet,Latn, 215,Inari,smn
+Latin/Roman alphabet,Latn, 215,Skolt,sms
+Latin/Roman alphabet,Latn, 215,Akkala,sia
+Latin/Roman alphabet,Latn, 215,Kildin,sjd
+Latin/Roman alphabet,Latn, 215,Ter,sjt
+Latin/Roman alphabet,Latn, 215,Saanich,
+Latin/Roman alphabet,Latn, 215,Sakao,sku
+Latin/Roman alphabet,Latn, 215,Salar,slr
+Latin/Roman alphabet,Latn, 215,Samoan,smo
+Latin/Roman alphabet,Latn, 215,Sango,sag
+Latin/Roman alphabet,Latn, 215,Riverain Sango,snj
+Latin/Roman alphabet,Latn, 215,Saramaccan,srm
+Latin/Roman alphabet,Latn, 215,Sardinian,srd
+Latin/Roman alphabet,Latn, 215,Sarikoli,srh
+Latin/Roman alphabet,Latn, 215,Sarnámi Hindustani,
+Latin/Roman alphabet,Latn, 215,Saterland Frisian,stq
+Latin/Roman alphabet,Latn, 215,Satawalese,stw
+Latin/Roman alphabet,Latn, 215,Scots,sco
+Latin/Roman alphabet,Latn, 215,Scottish Gaelic,gla
+Latin/Roman alphabet,Latn, 215,Seri,sei
+Latin/Roman alphabet,Latn, 215,Seychelles Creole,
+Latin/Roman alphabet,Latn, 215,Shavante,
+Latin/Roman alphabet,Latn, 215,Shawnee,sjw
+Latin/Roman alphabet,Latn, 215,Shetland(ic),
+Latin/Roman alphabet,Latn, 215,Shilluk,shk
+Latin/Roman alphabet,Latn, 215,Zezuru; Karanga; Korekore,sna
+Latin/Roman alphabet,Latn, 215,Tavara (Korekore),twl
+Latin/Roman alphabet,Latn, 215,Manyika,mxc
+Latin/Roman alphabet,Latn, 215,Tewe (Manyika),twx
+Latin/Roman alphabet,Latn, 215,Ndau,ndc
+Latin/Roman alphabet,Latn, 215,Shoshone,shh
+Latin/Roman alphabet,Latn, 215,Shughni,sgh
+Latin/Roman alphabet,Latn, 215,Sicilian,scn
+Latin/Roman alphabet,Latn, 215,Silesian,szl
+Latin/Roman alphabet,Latn, 215,Dakota,dak
+Latin/Roman alphabet,Latn, 215,Lakota,lkt
+Latin/Roman alphabet,Latn, 215,Skolt Sámi,sms
+Latin/Roman alphabet,Latn, 215,Slovak,slk
+Latin/Roman alphabet,Latn, 215,Slovene,slv
+Latin/Roman alphabet,Latn, 215,Slovio,
+Latin/Roman alphabet,Latn, 215,Somali,som
+Latin/Roman alphabet,Latn, 215,Soninke,snk
+Latin/Roman alphabet,Latn, 215,Sorbian,
+Latin/Roman alphabet,Latn, 215,Southern Sámi,sma
+Latin/Roman alphabet,Latn, 215,Southern Sotho,sot
+Latin/Roman alphabet,Latn, 215,Spanish,spa
+Latin/Roman alphabet,Latn, 215,Sranan,srn
+Latin/Roman alphabet,Latn, 215,Supyire,spp
+Latin/Roman alphabet,Latn, 215,Shempire (Syenpire; duplicate code),seb
+Latin/Roman alphabet,Latn, 215,Susu,sus
+Latin/Roman alphabet,Latn, 215,Swahili,swa
+Latin/Roman alphabet,Latn, 215,Swati/Swazi,ssw
+Latin/Roman alphabet,Latn, 215,Swedish,swe
+Latin/Roman alphabet,Latn, 215,Tagabawà,
+Latin/Roman alphabet,Latn, 215,Tagalog,tgl
+Latin/Roman alphabet,Latn, 215,Tahitian,tah
+Latin/Roman alphabet,Latn, 215,Tatar,tat
+Latin/Roman alphabet,Latn, 215,Taiwanese,
+Latin/Roman alphabet,Latn, 215,Talysh,tly
+Latin/Roman alphabet,Latn, 215,Tamajaq,
+Latin/Roman alphabet,Latn, 215,Tamasheq,taq
+Latin/Roman alphabet,Latn, 215,Tariana,tae
+Latin/Roman alphabet,Latn, 215,Tausūg,tsg
+Latin/Roman alphabet,Latn, 215,Teleut,
+Latin/Roman alphabet,Latn, 215,Northern Tepehuán,ntp
+Latin/Roman alphabet,Latn, 215,Southeastern Tepehuán,stp
+Latin/Roman alphabet,Latn, 215,Southwestern Tepehuán,tla
+Latin/Roman alphabet,Latn, 215,Tepecano,tep
+Latin/Roman alphabet,Latn, 215,Ter Sámi,
+Latin/Roman alphabet,Latn, 215,Tetum,tet
+Latin/Roman alphabet,Latn, 215,Tiriyó,tri
+Latin/Roman alphabet,Latn, 215,Tłı̨chǫ (Dogrib),dgr
+Latin/Roman alphabet,Latn, 215,Tlingit,tli
+Latin/Roman alphabet,Latn, 215,Toba Qom,tob
+Latin/Roman alphabet,Latn, 215,Tok Pisin,tpi
+Latin/Roman alphabet,Latn, 215,Tokelauan,tkl
+Latin/Roman alphabet,Latn, 215,Tongan,ton
+Latin/Roman alphabet,Latn, 215,Toraja-Sa'dan,sda
+Latin/Roman alphabet,Latn, 215,Torres-Strait Creole,
+Latin/Roman alphabet,Latn, 215,Tshiluba,lua
+Latin/Roman alphabet,Latn, 215,Tsonga,tso
+Latin/Roman alphabet,Latn, 215,Tsotsil,tzo
+Latin/Roman alphabet,Latn, 215,Tswa,tsc
+Latin/Roman alphabet,Latn, 215,Tswana,tsn
+Latin/Roman alphabet,Latn, 215,Tuareg,tmh
+Latin/Roman alphabet,Latn, 215,Tucano,tuo
+Latin/Roman alphabet,Latn, 215,Arapaso,arj
+Latin/Roman alphabet,Latn, 215,Tumbuka,tum
+Latin/Roman alphabet,Latn, 215,Turkish,tur
+Latin/Roman alphabet,Latn, 215,Turkmen,tuk
+Latin/Roman alphabet,Latn, 215,Turoyo,tru
+Latin/Roman alphabet,Latn, 215,Tuscarora,tus
+Latin/Roman alphabet,Latn, 215,Tuvaluan,tvl
+Latin/Roman alphabet,Latn, 215,Tuvan,tyv
+Latin/Roman alphabet,Latn, 215,Twi,twi
+Latin/Roman alphabet,Latn, 215,Tzeltal,tzh
+Latin/Roman alphabet,Latn, 215,Udi,udi
+Latin/Roman alphabet,Latn, 215,Umbundu,umb
+Latin/Roman alphabet,Latn, 215,Ume Sámi,
+Latin/Roman alphabet,Latn, 215,Urarina,ura
+Latin/Roman alphabet,Latn, 215,Uyghur,uig
+Latin/Roman alphabet,Latn, 215,Uzbek,uzb
+Latin/Roman alphabet,Latn, 215,Venda,ven
+Latin/Roman alphabet,Latn, 215,Venetian,vec
+Latin/Roman alphabet,Latn, 215,Veps,vep
+Latin/Roman alphabet,Latn, 215,Vietnamese,vie
+Latin/Roman alphabet,Latn, 215,Volapük,vol
+Latin/Roman alphabet,Latn, 215,Võro,vro
+Latin/Roman alphabet,Latn, 215,Parauk,prk
+Latin/Roman alphabet,Latn, 215,Vo,wbm
+Latin/Roman alphabet,Latn, 215,Awa,vwa
+Latin/Roman alphabet,Latn, 215,Wakhi,wbl
+Latin/Roman alphabet,Latn, 215,Walloon,wln
+Latin/Roman alphabet,Latn, 215,Warlpiri,wbp
+Latin/Roman alphabet,Latn, 215,Waray-Waray,war
+Latin/Roman alphabet,Latn, 215,Wardaman,wrr
+Latin/Roman alphabet,Latn, 215,Dagoman,dgn
+Latin/Roman alphabet,Latn, 215,Yangman,jng
+Latin/Roman alphabet,Latn, 215,Wayuu,guc
+Latin/Roman alphabet,Latn, 215,Welsh,cym
+Latin/Roman alphabet,Latn, 215,Wemba Wemba,xww
+Latin/Roman alphabet,Latn, 215,West Frisian,fry
+Latin/Roman alphabet,Latn, 215,Wik-Mungkan,wim
+Latin/Roman alphabet,Latn, 215,Winnebago,win
+Latin/Roman alphabet,Latn, 215,Wiradjuri,wrh
+Latin/Roman alphabet,Latn, 215,Wolaytta,wal
+Latin/Roman alphabet,Latn, 215,Wolof,wol
+Latin/Roman alphabet,Latn, 215,Gambian Wolof,wof
+Latin/Roman alphabet,Latn, 215,Wynadot,
+Latin/Roman alphabet,Latn, 215,Xârâcùù,ane
+Latin/Roman alphabet,Latn, 215,Xhosa,xho
+Latin/Roman alphabet,Latn, 215,Yaghnobi,yai
+Lontara script,Bugi, 367,Bugis,bug
+Lontara script,Bugi, 367,Makasarese,mak
+Lontara script,Bugi, 367,Mandar,mdr
+Malayalam script,Mlym, 347,Konkani,kok
+Malayalam script,Mlym, 347,Malayalam,mal
+N'ko script,Nkoo, 165,Bambara,bam
+N'ko script,Nkoo, 165,Dioula,dyu
+N'ko script,Nkoo, 165,Konyanka,mku
+N'ko script,Nkoo, 165,Eastern Maninkaka,emk
+N'ko script,Nkoo, 165,Sankaran Maninkaka,msc
+N'ko script,Nkoo, 165,Manya (Liberia),mzj
+N'ko script,Nkoo, 165,Wojenaka (Odienné Jula),jod
+N'ko script,Nkoo, 165,Worodougou,jud
+N'ko script,Nkoo, 165,Koro (Koro Jula),kfo
+N'ko script,Nkoo, 165,Koyaga (Koyaga Jula),kga
+N'ko script,Nkoo, 165,Mahou (Mawukakan),mxx
+Ogham alphabet,Ogam, 212,Latin,lat
+Oriya script,Orya, 327,Mundari,unr
+Oriya script,Orya, 327,Oriya,ori
+Phags-pa script,Phag, 331,Chinese,zho
+Phags-pa script,Phag, 331,Mongolian,mon
+Phags-pa script,Phag, 331,Tibetan,
+Phags-pa script,Phag, 331,Sanskrit,san
+Pollard script,Plrd, 282,A-Hmao,hmd
+Pollard script,Plrd, 282,Lipo,lpo
+Pollard script,Plrd, 282,Sichuan Miao,
+Pollard script,Plrd, 282,Southern,nsd
+Pollard script,Plrd, 282,Northern,yiv
+Pollard script,Plrd, 282,Eastern,nos
+Pollard script,Plrd, 282,Southwestern,nsv
+Pollard script,Plrd, 282,Northwestern,nsf
+Runic script,Runr, 211,Germanic languages & Latin,
+Sharda script,Shrd, 319,Kashmiri,kas
+Sharda script,Shrd, 319,Sanskrit,san
+Soyombo script,,,Mongolian,mon
+Soyombo script,,,Tibetan,
+Soyombo script,,,Sanskrit,san
+Syriac script,Syrc, 135,Aramaic,
+Syriac script,Syrc, 135,Assyrian / Neo-Assyrian,akk
+Syriac script,Syrc, 135,Chaldean Neo-Aramaic,cld
+Syriac script,Syrc, 135,Neo-Mandaic,
+Syriac script,Syrc, 135,Turoyo,tru
+Syriac script,Syrc, 135,Western Neo-Aramaic,amw
+Takri script,Takr, 321,Mandeali,mjl
+Takri script,Takr, 321,Bilaspuri,kfs
+Takri script,Takr, 321,Chambeali,cdh
+Takri script,Takr, 321,Churahi,cdj
+Takri script,Takr, 321,Gaddi (Bharmauri),gbk
+Takri script,Takr, 321,Bhattiyali,bht
+Takri script,Takr, 321,Bhadrawahi,bhd
+Takri script,Takr, 321,Pangwali,pgg
+Takri script,Takr, 321,Dogri,doi
+Takri script,Takr, 321,Mandeali,mjl
+Takri script,Takr, 321,Bilaspuri,kfs
+Takri script,Takr, 321,Chambeali,cdh
+Takri script,Takr, 321,Churahi,cdj
+Takri script,Takr, 321,Gaddi (Bharmauri),gbk
+Takri script,Takr, 321,Bhattiyali,bht
+Takri script,Takr, 321,Bhadrawahi,bhd
+Takri script,Takr, 321,Pangwali,pgg
+Takri script,Takr, 321,Jaunsari,jns
+Takri script,Takr, 321,Kashtwari,
+Takri script,Takr, 321,Kulvi,kfx
+Takri script,Takr, 321,Mandeali,mjl
+Takri script,Takr, 321,Bilaspuri,kfs
+Takri script,Takr, 321,Chambeali,cdh
+Takri script,Takr, 321,Churahi,cdj
+Takri script,Takr, 321,Gaddi (Bharmauri),gbk
+Takri script,Takr, 321,Bhattiyali,bht
+Takri script,Takr, 321,Bhadrawahi,bhd
+Takri script,Takr, 321,Pangwali,pgg
+Tibetan script,Tibt, 330,Dzongkha (Bhutanese),dzo
+Tibetan script,Tibt, 330,Ladakhi,lbj
+Tibetan script,Tibt, 330,Zangskari,zau
+Tibetan script,Tibt, 330,Sikkimese,sip
+Tibetan script,Tibt, 330,Tibetan,
+Tibetan script,Tibt, 330,Tshangla,tsj
+Tibetan script,Tibt, 330,Kalaktang Monpa (?),kkf
+Tifinagh script,Tfng, 120,Kabyle,kab
+Tifinagh script,Tfng, 120,Tamazight,

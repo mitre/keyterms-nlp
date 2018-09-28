@@ -1,0 +1,7 @@
+<component name="CopyrightManager">
+  <settings default="MITRE-KeyTerms">
+    <module2copyright>
+      <element module="Production" copyright="MITRE-KeyTerms" />
+    </module2copyright>
+  </settings>
+</component>

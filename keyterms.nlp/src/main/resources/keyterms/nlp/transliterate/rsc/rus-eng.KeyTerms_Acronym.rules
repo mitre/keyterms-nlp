@@ -1,0 +1,55 @@
+# RusEng_KeyTerms - digraphs, separated out to support Acronym transliteration
+::NFC();
+# <import file="rus-eng.KeyTerms_Common.rdefs"/>
+# 0308 is diarisis, for YO
+$vowel { Е \u0308? } [:LowercaseLetter:] >  Ye;
+$wordBoundary { Е \u0308? } [:LowercaseLetter:] >  Ye;
+$vowel { Е \u0308? >  Ye;
+$wordBoundary { Е \u0308? >  Ye;
+\u0415 \u0308? > E;
+$vowel { е \u0308? >  ye;
+$wordBoundary {  е \u0308? >  ye;
+[еэєә] > e;
+[ЕЭЄӘ] > E;
+
+ж > zh;
+Ж > Zh;
+
+х > kh;
+Х > Kh;
+
+ц > ts;
+Ц > Ts;
+
+ч > ch;
+Ч > Ch;
+
+ш > sh;
+Ш > Sh;
+
+щ > shch;
+Щ > Shch;
+
+ю > yu;
+Ю > Yu;
+
+я > ya;
+Я > Ya;
+
+ӕ > ae;
+Ӕ > Ae;
+
+ѩ > yẽ;
+Ѩ }  > Yẽ;
+
+ѭ > yõ;
+Ѭ } > Yõ;
+
+ѱ > ps;
+Ѱ  > Ps;
+
+ѳ > th;
+Ѳ > Th;
+
+ї > yi;
+Ї > Yi;

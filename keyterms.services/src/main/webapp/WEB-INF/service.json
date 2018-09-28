@@ -1,0 +1,9 @@
+{
+  "error.trace": false,
+  "schema.map": [
+    "ara=Hello",
+    "ara=World",
+    "rus=Jello",
+    "rus=Pudding"
+  ]
+}

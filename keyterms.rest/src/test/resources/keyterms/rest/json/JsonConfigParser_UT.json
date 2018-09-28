@@ -1,0 +1,33 @@
+{
+  "property1": true,
+  "": [
+    1,
+    2,
+    3
+  ],
+  "property2": "Hello",
+  "property3": "Jello",
+  "property4": "Pudding",
+  "unknown": "ignore me",
+  "property5": [
+    "list1",
+    "list2",
+    "list3"
+  ],
+  "property6": "${test.prop.1} ${test.prop.2}${test.prop.3}",
+  "property7": [
+    "one",
+    "two",
+    "three"
+  ],
+  "property8": [
+    "${test.prop.1}",
+    "${test.prop.2}",
+    "${test.prop.3}"
+  ],
+  "property9": [
+    "value"
+  ],
+  "property10": [
+  ]
+}

@@ -1,0 +1,2703 @@
+﻿# ISO-3166-1 Country Definitions
+#==========
+number: 4
+iso2: AF
+iso3: AFG
+altCodes: {
+}
+name: Afghanistan
+aliases: {
+}
+#==========
+number: 248
+iso2: AX
+iso3: ALA
+altCodes: {
+}
+name: Åland Islands
+aliases: {
+    Åland
+    Aland Islands
+    Îles Åland
+}
+#==========
+number: 8
+iso2: AL
+iso3: ALB
+altCodes: {
+}
+name: Albania
+aliases: {
+    Albanie
+}
+#==========
+number: 12
+iso2: DZ
+iso3: DZA
+altCodes: {
+}
+name: Algeria
+aliases: {
+    Algérie
+}
+#==========
+number: 16
+iso2: AS
+iso3: ASM
+altCodes: {
+}
+name: American Samoa
+aliases: {
+    Samoa américaines
+    Samoa
+}
+#==========
+number: 20
+iso2: AD
+iso3: AND
+altCodes: {
+}
+name: Andorra
+aliases: {
+    Andorre
+}
+#==========
+number: 24
+iso2: AO
+iso3: AGO
+altCodes: {
+}
+name: Angola
+aliases: {
+}
+#==========
+number: 660
+iso2: AI
+iso3: AIA
+altCodes: {
+}
+name: Anguilla
+aliases: {
+}
+#==========
+number: 10
+iso2: AQ
+iso3: ATA
+altCodes: {
+}
+name: Antarctica
+aliases: {
+    Antarctique
+}
+#==========
+number: 28
+iso2: AG
+iso3: ATG
+altCodes: {
+}
+name: Antigua and Barbuda
+aliases: {
+    Barbuda
+    Antigua et Barbuda
+    Antigua
+}
+#==========
+number: 32
+iso2: AR
+iso3: ARG
+altCodes: {
+}
+name: Argentina
+aliases: {
+    Argentine
+}
+#==========
+number: 51
+iso2: AM
+iso3: ARM
+altCodes: {
+}
+name: Armenia
+aliases: {
+    Arménie
+}
+#==========
+number: 533
+iso2: AW
+iso3: ABW
+altCodes: {
+}
+name: Aruba
+aliases: {
+}
+#==========
+number: 36
+iso2: AU
+iso3: AUS
+altCodes: {
+}
+name: Australia
+aliases: {
+    Australie
+}
+#==========
+number: 40
+iso2: AT
+iso3: AUT
+altCodes: {
+}
+name: Austria
+aliases: {
+    Autriche
+}
+#==========
+number: 31
+iso2: AZ
+iso3: AZE
+altCodes: {
+}
+name: Azerbaijan
+aliases: {
+    Azerbaïdjan
+}
+#==========
+number: 44
+iso2: BS
+iso3: BHS
+altCodes: {
+}
+name: Bahamas
+aliases: {
+}
+#==========
+number: 48
+iso2: BH
+iso3: BHR
+altCodes: {
+}
+name: Bahrain
+aliases: {
+    Bahreïn
+}
+#==========
+number: 50
+iso2: BD
+iso3: BGD
+altCodes: {
+}
+name: Bangladesh
+aliases: {
+}
+#==========
+number: 52
+iso2: BB
+iso3: BRB
+altCodes: {
+}
+name: Barbados
+aliases: {
+    Barbade
+}
+#==========
+number: 112
+iso2: BY
+iso3: BLR
+altCodes: {
+}
+name: Belarus
+aliases: {
+    Bélarus
+}
+#==========
+number: 56
+iso2: BE
+iso3: BEL
+altCodes: {
+}
+name: Belgium
+aliases: {
+    Belgique
+}
+#==========
+number: 84
+iso2: BZ
+iso3: BLZ
+altCodes: {
+}
+name: Belize
+aliases: {
+}
+#==========
+number: 204
+iso2: BJ
+iso3: BEN
+altCodes: {
+}
+name: Benin
+aliases: {
+    Bénin
+}
+#==========
+number: 60
+iso2: BM
+iso3: BMU
+altCodes: {
+}
+name: Bermuda
+aliases: {
+    Bermudes
+}
+#==========
+number: 64
+iso2: BT
+iso3: BTN
+altCodes: {
+}
+name: Bhutan
+aliases: {
+    Bhoutan
+}
+#==========
+number: 68
+iso2: BO
+iso3: BOL
+altCodes: {
+}
+name: Plurinational State of Bolivia
+aliases: {
+    Bolivie
+    État plurinational de Bolivie
+    Bolivia
+}
+#==========
+number: 535
+iso2: BQ
+iso3: BES
+altCodes: {
+}
+name: Sint Eustatius Bonaire and Saba
+aliases: {
+    Sint Eustatius
+    Bonaire
+    Saba
+    Saint-Eustache
+    Sint Eustatius
+    Caribbean Netherlands
+    Caribisch Nederland
+}
+#==========
+number: 70
+iso2: BA
+iso3: BIH
+altCodes: {
+}
+name: Bosnia and Herzegovina
+aliases: {
+    Bosnia
+    Bosnie-Herzégovine
+    Bosnie
+    Herzégovine
+    Herzegovina
+}
+#==========
+number: 72
+iso2: BW
+iso3: BWA
+altCodes: {
+}
+name: Botswana
+aliases: {
+}
+#==========
+number: 74
+iso2: BV
+iso3: BVT
+altCodes: {
+}
+name: Bouvet Island
+aliases: {
+    Bouvet
+    Île Bouvet
+}
+#==========
+number: 76
+iso2: BR
+iso3: BRA
+altCodes: {
+}
+name: Brazil
+aliases: {
+    Brésil
+}
+#==========
+number: 86
+iso2: IO
+iso3: IOT
+altCodes: {
+}
+name: British Indian Ocean Territory
+aliases: {
+    Territoire britannique de l'océan Indien
+}
+#==========
+number: 96
+iso2: BN
+iso3: BRN
+altCodes: {
+}
+name: Brunei Darussalam
+aliases: {
+    Brunei
+    Brunéi Darussalam
+    Brunéi
+}
+#==========
+number: 100
+iso2: BG
+iso3: BGR
+altCodes: {
+}
+name: Bulgaria
+aliases: {
+    Bulgarie
+}
+#==========
+number: 854
+iso2: BF
+iso3: BFA
+altCodes: {
+}
+name: Burkina Faso
+aliases: {
+}
+#==========
+number: 108
+iso2: BI
+iso3: BDI
+altCodes: {
+}
+name: Burundi
+aliases: {
+}
+#==========
+number: 132
+iso2: CV
+iso3: CPV
+altCodes: {
+}
+name: Cabo Verde
+aliases: {
+    Cape Verde
+}
+#==========
+number: 116
+iso2: KH
+iso3: KHM
+altCodes: {
+}
+name: Cambodia
+aliases: {
+    Cambodge
+}
+#==========
+number: 120
+iso2: CM
+iso3: CMR
+altCodes: {
+}
+name: Cameroon
+aliases: {
+    Cameroun
+}
+#==========
+number: 124
+iso2: CA
+iso3: CAN
+altCodes: {
+}
+name: Canada
+aliases: {
+}
+#==========
+number: 136
+iso2: KY
+iso3: CYM
+altCodes: {
+}
+name: Cayman Islands
+aliases: {
+    Caïmans
+    Îles Caïmans
+    Cayman
+}
+#==========
+number: 140
+iso2: CF
+iso3: CAF
+altCodes: {
+}
+name: Central African Republic
+aliases: {
+    République centrafricaine
+}
+#==========
+number: 148
+iso2: TD
+iso3: TCD
+altCodes: {
+}
+name: Chad
+aliases: {
+    Tchad
+}
+#==========
+number: 152
+iso2: CL
+iso3: CHL
+altCodes: {
+}
+name: Chile
+aliases: {
+    Chili
+}
+#==========
+number: 156
+iso2: CN
+iso3: CHN
+altCodes: {
+}
+name: China
+aliases: {
+    Chine
+}
+#==========
+number: 162
+iso2: CX
+iso3: CXR
+altCodes: {
+}
+name: Christmas Island
+aliases: {
+    Île Christmas
+}
+#==========
+number: 166
+iso2: CC
+iso3: CCK
+altCodes: {
+}
+name: Cocos (Keeling) Islands
+aliases: {
+    Keeling Islands
+    Cocos Islands
+    Îles Cocos
+    Îles Cocos (Keeling)
+    Îles Keeling
+    Cocos
+    Keeling
+}
+#==========
+number: 170
+iso2: CO
+iso3: COL
+altCodes: {
+}
+name: Colombia
+aliases: {
+    Colombie
+}
+#==========
+number: 174
+iso2: KM
+iso3: COM
+altCodes: {
+}
+name: Comoros
+aliases: {
+    Comores
+}
+#==========
+number: 180
+iso2: CD
+iso3: COD
+altCodes: {
+}
+name: Democratic Republic of the Congo
+aliases: {
+    République démocratique du Congo
+    Congo
+}
+#==========
+number: 178
+iso2: CG
+iso3: COG
+altCodes: {
+}
+name: The Congo
+aliases: {
+    Republic of the Congo
+    Congo
+}
+#==========
+number: 184
+iso2: CK
+iso3: COK
+altCodes: {
+}
+name: Cook Islands
+aliases: {
+    Cook
+    Îles Cook
+}
+#==========
+number: 188
+iso2: CR
+iso3: CRI
+altCodes: {
+}
+name: Costa Rica
+aliases: {
+}
+#==========
+number: 384
+iso2: CI
+iso3: CIV
+altCodes: {
+}
+name: Côte d'Ivoire
+aliases: {
+    Ivory Coast
+}
+#==========
+number: 191
+iso2: HR
+iso3: HRV
+altCodes: {
+}
+name: Croatia
+aliases: {
+    Croatie
+}
+#==========
+number: 192
+iso2: CU
+iso3: CUB
+altCodes: {
+}
+name: Cuba
+aliases: {
+}
+#==========
+number: 531
+iso2: CW
+iso3: CUW
+altCodes: {
+}
+name: Curaçao
+aliases: {
+    Curacao
+}
+#==========
+number: 196
+iso2: CY
+iso3: CYP
+altCodes: {
+}
+name: Cyprus
+aliases: {
+    Chypre
+}
+#==========
+number: 203
+iso2: CZ
+iso3: CZE
+altCodes: {
+}
+name: Czech Republic
+aliases: {
+    Czechia
+    République tchèque
+}
+#==========
+number: 208
+iso2: DK
+iso3: DNK
+altCodes: {
+}
+name: Denmark
+aliases: {
+    Danemark
+}
+#==========
+number: 262
+iso2: DJ
+iso3: DJI
+altCodes: {
+}
+name: Djibouti
+aliases: {
+}
+#==========
+number: 212
+iso2: DM
+iso3: DMA
+altCodes: {
+}
+name: Dominica
+aliases: {
+    Dominique
+}
+#==========
+number: 214
+iso2: DO
+iso3: DOM
+altCodes: {
+}
+name: Dominican Republic
+aliases: {
+    République dominicaine
+}
+#==========
+number: 218
+iso2: EC
+iso3: ECU
+altCodes: {
+}
+name: Ecuador
+aliases: {
+    Équateur
+}
+#==========
+number: 818
+iso2: EG
+iso3: EGY
+altCodes: {
+}
+name: Egypt
+aliases: {
+    Égypte
+}
+#==========
+number: 222
+iso2: SV
+iso3: SLV
+altCodes: {
+}
+name: El Salvador
+aliases: {
+}
+#==========
+number: 226
+iso2: GQ
+iso3: GNQ
+altCodes: {
+}
+name: Equatorial Guinea
+aliases: {
+    Guinea
+    Guinée équatoriale
+    Guinée
+}
+#==========
+number: 232
+iso2: ER
+iso3: ERI
+altCodes: {
+}
+name: Eritrea
+aliases: {
+    Érythrée
+}
+#==========
+number: 233
+iso2: EE
+iso3: EST
+altCodes: {
+}
+name: Estonia
+aliases: {
+    Estonie
+}
+#==========
+number: 231
+iso2: ET
+iso3: ETH
+altCodes: {
+}
+name: Ethiopia
+aliases: {
+    Éthiopie
+}
+#==========
+number: 238
+iso2: FK
+iso3: FLK
+altCodes: {
+}
+name: Falkland (Malvinas) Islands
+aliases: {
+    Falkland Islands
+    Malvinas Islands
+    Falkland
+    Malvians
+    Îles Falkland (Malouines)
+    Îles Falkland
+    Îles Malouines
+}
+#==========
+number: 234
+iso2: FO
+iso3: FRO
+altCodes: {
+}
+name: Faroe Islands
+aliases: {
+    Faroe
+    Îles Féroé
+    Féroé
+}
+#==========
+number: 242
+iso2: FJ
+iso3: FJI
+altCodes: {
+}
+name: Fiji
+aliases: {
+    Fidji
+}
+#==========
+number: 246
+iso2: FI
+iso3: FIN
+altCodes: {
+}
+name: Finland
+aliases: {
+    Finlande
+}
+#==========
+number: 250
+iso2: FR
+iso3: FRA
+altCodes: {
+}
+name: France
+aliases: {
+}
+#==========
+number: 254
+iso2: GF
+iso3: GUF
+altCodes: {
+}
+name: French Guiana
+aliases: {
+    Guiana
+    Guyane française
+    Guyane
+}
+#==========
+number: 258
+iso2: PF
+iso3: PYF
+altCodes: {
+}
+name: French Polynesia
+aliases: {
+    Polynesia
+    Polynésie française
+    Polynésie
+}
+#==========
+number: 260
+iso2: TF
+iso3: ATF
+altCodes: {
+}
+name: French Southern Territories
+aliases: {
+    Terres australes françaises
+}
+#==========
+number: 266
+iso2: GA
+iso3: GAB
+altCodes: {
+}
+name: Gabon
+aliases: {
+}
+#==========
+number: 270
+iso2: GM
+iso3: GMB
+altCodes: {
+}
+name: Gambia
+aliases: {
+    Gambie
+}
+#==========
+number: 268
+iso2: GE
+iso3: GEO
+altCodes: {
+}
+name: Georgia
+aliases: {
+    Géorgie
+}
+#==========
+number: 276
+iso2: DE
+iso3: DEU
+altCodes: {
+}
+name: Germany
+aliases: {
+    Allemagne
+}
+#==========
+number: 288
+iso2: GH
+iso3: GHA
+altCodes: {
+}
+name: Ghana
+aliases: {
+}
+#==========
+number: 292
+iso2: GI
+iso3: GIB
+altCodes: {
+}
+name: Gibraltar
+aliases: {
+}
+#==========
+number: 300
+iso2: GR
+iso3: GRC
+altCodes: {
+}
+name: Greece
+aliases: {
+    Grèce
+}
+#==========
+number: 304
+iso2: GL
+iso3: GRL
+altCodes: {
+}
+name: Greenland
+aliases: {
+    Groenland
+}
+#==========
+number: 308
+iso2: GD
+iso3: GRD
+altCodes: {
+}
+name: Grenada
+aliases: {
+    Grenade
+}
+#==========
+number: 312
+iso2: GP
+iso3: GLP
+altCodes: {
+}
+name: Guadeloupe
+aliases: {
+}
+#==========
+number: 316
+iso2: GU
+iso3: GUM
+altCodes: {
+}
+name: Guam
+aliases: {
+}
+#==========
+number: 320
+iso2: GT
+iso3: GTM
+altCodes: {
+}
+name: Guatemala
+aliases: {
+}
+#==========
+number: 831
+iso2: GG
+iso3: GGY
+altCodes: {
+}
+name: Guernsey
+aliases: {
+    Guernesey
+}
+#==========
+number: 324
+iso2: GN
+iso3: GIN
+altCodes: {
+}
+name: Guinea
+aliases: {
+    Guinée
+}
+#==========
+number: 624
+iso2: GW
+iso3: GNB
+altCodes: {
+}
+name: Guinea-Bissau
+aliases: {
+    Guinée-Bissau
+}
+#==========
+number: 328
+iso2: GY
+iso3: GUY
+altCodes: {
+}
+name: Guyana
+aliases: {
+}
+#==========
+number: 332
+iso2: HT
+iso3: HTI
+altCodes: {
+}
+name: Haiti
+aliases: {
+    Haïti
+}
+#==========
+number: 334
+iso2: HM
+iso3: HMD
+altCodes: {
+}
+name: Heard Island and McDonald Islands
+aliases: {
+    Heard Island
+    McDonald Islands
+    Heard and McDonald Islands
+    Heard
+    McDonald
+    Île Heard et Îles MacDonald
+    Île Heard
+    Îles MacDonald
+    Îles Heard et MacDonald
+}
+#==========
+number: 336
+iso2: VA
+iso3: VAT
+altCodes: {
+}
+name: Holy See
+aliases: {
+    See of Rome
+    Vatican
+    Vatican City
+    Saint-Siège
+}
+#==========
+number: 340
+iso2: HN
+iso3: HND
+altCodes: {
+}
+name: Honduras
+aliases: {
+}
+#==========
+number: 344
+iso2: HK
+iso3: HKG
+altCodes: {
+}
+name: Hong Kong
+aliases: {
+}
+#==========
+number: 348
+iso2: HU
+iso3: HUN
+altCodes: {
+}
+name: Hungary
+aliases: {
+    Hongrie
+}
+#==========
+number: 352
+iso2: IS
+iso3: ISL
+altCodes: {
+}
+name: Iceland
+aliases: {
+    Islande
+}
+#==========
+number: 356
+iso2: IN
+iso3: IND
+altCodes: {
+}
+name: India
+aliases: {
+    Inde
+}
+#==========
+number: 360
+iso2: ID
+iso3: IDN
+altCodes: {
+}
+name: Indonesia
+aliases: {
+    Indonésie
+}
+#==========
+number: 364
+iso2: IR
+iso3: IRN
+altCodes: {
+}
+name: Islamic Republic of Iran
+aliases: {
+    République Islamique d' Iran
+    Iran
+}
+#==========
+number: 368
+iso2: IQ
+iso3: IRQ
+altCodes: {
+}
+name: Iraq
+aliases: {
+}
+#==========
+number: 372
+iso2: IE
+iso3: IRL
+altCodes: {
+}
+name: Ireland
+aliases: {
+    Republic of Ireland
+    Irlande
+}
+#==========
+number: 833
+iso2: IM
+iso3: IMN
+altCodes: {
+}
+name: Isle of Man
+aliases: {
+    Man
+    Île de Man
+}
+#==========
+number: 376
+iso2: IL
+iso3: ISR
+altCodes: {
+}
+name: Israel
+aliases: {
+    Israël
+}
+#==========
+number: 380
+iso2: IT
+iso3: ITA
+altCodes: {
+}
+name: Italy
+aliases: {
+    Italie
+}
+#==========
+number: 388
+iso2: JM
+iso3: JAM
+altCodes: {
+}
+name: Jamaica
+aliases: {
+    Jamaïque
+}
+#==========
+number: 392
+iso2: JP
+iso3: JPN
+altCodes: {
+}
+name: Japan
+aliases: {
+    Japon
+}
+#==========
+number: 832
+iso2: JE
+iso3: JEY
+altCodes: {
+}
+name: Jersey
+aliases: {
+}
+#==========
+number: 400
+iso2: JO
+iso3: JOR
+altCodes: {
+}
+name: Jordan
+aliases: {
+    Jordanie
+}
+#==========
+number: 398
+iso2: KZ
+iso3: KAZ
+altCodes: {
+}
+name: Kazakhstan
+aliases: {
+}
+#==========
+number: 404
+iso2: KE
+iso3: KEN
+altCodes: {
+}
+name: Kenya
+aliases: {
+}
+#==========
+number: 296
+iso2: KI
+iso3: KIR
+altCodes: {
+}
+name: Kiribati
+aliases: {
+}
+#==========
+number: 408
+iso2: KP
+iso3: PRK
+altCodes: {
+}
+name: Democratic People's Republic of Korea
+aliases: {
+    DPRK
+    République populaire démocratique de Corée
+    Corée
+    Korea
+    North Korea
+}
+#==========
+number: 410
+iso2: KR
+iso3: KOR
+altCodes: {
+}
+name: Republic of Korea
+aliases: {
+    République de Corée
+    South Korea
+    Corée
+    Korea
+}
+#==========
+number: 414
+iso2: KW
+iso3: KWT
+altCodes: {
+}
+name: Kuwait
+aliases: {
+    Koweït
+}
+#==========
+number: 417
+iso2: KG
+iso3: KGZ
+altCodes: {
+}
+name: Kyrgyzstan
+aliases: {
+    Kirghizistan
+}
+#==========
+number: 418
+iso2: LA
+iso3: LAO
+altCodes: {
+}
+name: Lao People's Democratic Republic
+aliases: {
+    République démocratique populaire Lao
+    Lao
+    Laos
+}
+#==========
+number: 428
+iso2: LV
+iso3: LVA
+altCodes: {
+}
+name: Latvia
+aliases: {
+    Lettonie
+}
+#==========
+number: 422
+iso2: LB
+iso3: LBN
+altCodes: {
+}
+name: Lebanon
+aliases: {
+    Liban
+}
+#==========
+number: 426
+iso2: LS
+iso3: LSO
+altCodes: {
+}
+name: Lesotho
+aliases: {
+}
+#==========
+number: 430
+iso2: LR
+iso3: LBR
+altCodes: {
+}
+name: Liberia
+aliases: {
+    Libéria
+}
+#==========
+number: 434
+iso2: LY
+iso3: LBY
+altCodes: {
+}
+name: Libya
+aliases: {
+    Libye
+}
+#==========
+number: 438
+iso2: LI
+iso3: LIE
+altCodes: {
+}
+name: Liechtenstein
+aliases: {
+}
+#==========
+number: 440
+iso2: LT
+iso3: LTU
+altCodes: {
+}
+name: Lithuania
+aliases: {
+    Lituanie
+}
+#==========
+number: 442
+iso2: LU
+iso3: LUX
+altCodes: {
+}
+name: Luxembourg
+aliases: {
+}
+#==========
+number: 446
+iso2: MO
+iso3: MAC
+altCodes: {
+}
+name: Macao
+aliases: {
+    Macau
+}
+#==========
+number: 807
+iso2: MK
+iso3: MKD
+altCodes: {
+}
+name: former Yugoslav Republic of Macedonia
+aliases: {
+    Yugoslav Republic of Macedonia
+    ex‑République yougoslave de Macédoine
+    République yougoslave de Macédoine
+    Macédoine
+    Macedonia
+}
+#==========
+number: 450
+iso2: MG
+iso3: MDG
+altCodes: {
+}
+name: Madagascar
+aliases: {
+}
+#==========
+number: 454
+iso2: MW
+iso3: MWI
+altCodes: {
+}
+name: Malawi
+aliases: {
+}
+#==========
+number: 458
+iso2: MY
+iso3: MYS
+altCodes: {
+}
+name: Malaysia
+aliases: {
+    Malaisie
+}
+#==========
+number: 462
+iso2: MV
+iso3: MDV
+altCodes: {
+}
+name: Maldives
+aliases: {
+}
+#==========
+number: 466
+iso2: ML
+iso3: MLI
+altCodes: {
+}
+name: Mali
+aliases: {
+}
+#==========
+number: 470
+iso2: MT
+iso3: MLT
+altCodes: {
+}
+name: Malta
+aliases: {
+    Malte
+}
+#==========
+number: 584
+iso2: MH
+iso3: MHL
+altCodes: {
+}
+name: Marshall Islands
+aliases: {
+    Îles Marshall
+    Marshall
+}
+#==========
+number: 474
+iso2: MQ
+iso3: MTQ
+altCodes: {
+}
+name: Martinique
+aliases: {
+}
+#==========
+number: 478
+iso2: MR
+iso3: MRT
+altCodes: {
+}
+name: Mauritania
+aliases: {
+    Mauritanie
+}
+#==========
+number: 480
+iso2: MU
+iso3: MUS
+altCodes: {
+}
+name: Mauritius
+aliases: {
+    Maurice
+}
+#==========
+number: 175
+iso2: YT
+iso3: MYT
+altCodes: {
+}
+name: Mayotte
+aliases: {
+}
+#==========
+number: 484
+iso2: MX
+iso3: MEX
+altCodes: {
+}
+name: Mexico
+aliases: {
+    Mexique
+}
+#==========
+number: 583
+iso2: FM
+iso3: FSM
+altCodes: {
+}
+name: Federated States of Micronesia
+aliases: {
+    Micronésie
+    Micronesia
+    États fédérés de Micronésie
+}
+#==========
+number: 498
+iso2: MD
+iso3: MDA
+altCodes: {
+}
+name: Republic of Moldova
+aliases: {
+    République de Moldova 
+    Moldova
+}
+#==========
+number: 492
+iso2: MC
+iso3: MCO
+altCodes: {
+}
+name: Monaco
+aliases: {
+}
+#==========
+number: 496
+iso2: MN
+iso3: MNG
+altCodes: {
+}
+name: Mongolia
+aliases: {
+    Mongolie
+}
+#==========
+number: 499
+iso2: ME
+iso3: MNE
+altCodes: {
+}
+name: Montenegro
+aliases: {
+    Monténégro
+}
+#==========
+number: 500
+iso2: MS
+iso3: MSR
+altCodes: {
+}
+name: Montserrat
+aliases: {
+}
+#==========
+number: 504
+iso2: MA
+iso3: MAR
+altCodes: {
+}
+name: Morocco
+aliases: {
+    Maroc
+}
+#==========
+number: 508
+iso2: MZ
+iso3: MOZ
+altCodes: {
+}
+name: Mozambique
+aliases: {
+}
+#==========
+number: 104
+iso2: MM
+iso3: MMR
+altCodes: {
+}
+name: Myanmar
+aliases: {
+    Burma
+}
+#==========
+number: 516
+iso2: NA
+iso3: NAM
+altCodes: {
+}
+name: Namibia
+aliases: {
+    Namibie
+}
+#==========
+number: 520
+iso2: NR
+iso3: NRU
+altCodes: {
+}
+name: Nauru
+aliases: {
+}
+#==========
+number: 524
+iso2: NP
+iso3: NPL
+altCodes: {
+}
+name: Nepal
+aliases: {
+    Népal
+}
+#==========
+number: 528
+iso2: NL
+iso3: NLD
+altCodes: {
+}
+name: Netherlands
+aliases: {
+    Pays-Bas
+}
+#==========
+number: 540
+iso2: NC
+iso3: NCL
+altCodes: {
+}
+name: New Caledonia
+aliases: {
+    Caledonia
+    Nouvelle-Calédonie
+}
+#==========
+number: 554
+iso2: NZ
+iso3: NZL
+altCodes: {
+}
+name: New Zealand
+aliases: {
+    Zealand
+    Nouvelle-Zélande
+}
+#==========
+number: 558
+iso2: NI
+iso3: NIC
+altCodes: {
+}
+name: Nicaragua
+aliases: {
+}
+#==========
+number: 562
+iso2: NE
+iso3: NER
+altCodes: {
+}
+name: Niger
+aliases: {
+}
+#==========
+number: 566
+iso2: NG
+iso3: NGA
+altCodes: {
+}
+name: Nigeria
+aliases: {
+    Nigéria
+}
+#==========
+number: 570
+iso2: NU
+iso3: NIU
+altCodes: {
+}
+name: Niue
+aliases: {
+}
+#==========
+number: 574
+iso2: NF
+iso3: NFK
+altCodes: {
+}
+name: Norfolk Island
+aliases: {
+    Norfolk
+    Île Norfolk
+}
+#==========
+number: 580
+iso2: MP
+iso3: MNP
+altCodes: {
+}
+name: Northern Mariana Islands
+aliases: {
+    Mariannes du Nord
+    Northern Mariana
+    Îles Mariannes
+    Mariannes
+    Mariana Islands
+    Mariana
+}
+#==========
+number: 578
+iso2: NO
+iso3: NOR
+altCodes: {
+}
+name: Norway
+aliases: {
+    Norvège
+}
+#==========
+number: 512
+iso2: OM
+iso3: OMN
+altCodes: {
+}
+name: Oman
+aliases: {
+}
+#==========
+number: 586
+iso2: PK
+iso3: PAK
+altCodes: {
+}
+name: Pakistan
+aliases: {
+}
+#==========
+number: 585
+iso2: PW
+iso3: PLW
+altCodes: {
+}
+name: Palau
+aliases: {
+    Palaos
+}
+#==========
+number: 275
+iso2: PS
+iso3: PSE
+altCodes: {
+}
+name: State of Palestine
+aliases: {
+    État de Palestine
+    Palestine
+    Palestinian Territories
+}
+#==========
+number: 591
+iso2: PA
+iso3: PAN
+altCodes: {
+}
+name: Panama
+aliases: {
+}
+#==========
+number: 598
+iso2: PG
+iso3: PNG
+altCodes: {
+}
+name: Papua New Guinea
+aliases: {
+    Papouasie-Nouvelle-Guinée
+}
+#==========
+number: 600
+iso2: PY
+iso3: PRY
+altCodes: {
+}
+name: Paraguay
+aliases: {
+}
+#==========
+number: 604
+iso2: PE
+iso3: PER
+altCodes: {
+}
+name: Peru
+aliases: {
+    Pérou
+}
+#==========
+number: 608
+iso2: PH
+iso3: PHL
+altCodes: {
+}
+name: Philippines
+aliases: {
+}
+#==========
+number: 612
+iso2: PN
+iso3: PCN
+altCodes: {
+}
+name: Pitcairn
+aliases: {
+    Pitcairn Islands
+}
+#==========
+number: 616
+iso2: PL
+iso3: POL
+altCodes: {
+}
+name: Poland
+aliases: {
+    Pologne
+}
+#==========
+number: 620
+iso2: PT
+iso3: PRT
+altCodes: {
+}
+name: Portugal
+aliases: {
+}
+#==========
+number: 630
+iso2: PR
+iso3: PRI
+altCodes: {
+}
+name: Puerto Rico
+aliases: {
+    Porto Rico
+}
+#==========
+number: 634
+iso2: QA
+iso3: QAT
+altCodes: {
+}
+name: Qatar
+aliases: {
+}
+#==========
+number: 638
+iso2: RE
+iso3: REU
+altCodes: {
+}
+name: Réunion
+aliases: {
+}
+#==========
+number: 642
+iso2: RO
+iso3: ROU
+altCodes: {
+}
+name: Romania
+aliases: {
+    Roumanie
+}
+#==========
+number: 643
+iso2: RU
+iso3: RUS
+altCodes: {
+}
+name: Russian Federation
+aliases: {
+    Russie
+    Fédération de Russie
+    Russia
+}
+#==========
+number: 646
+iso2: RW
+iso3: RWA
+altCodes: {
+}
+name: Rwanda
+aliases: {
+}
+#==========
+number: 652
+iso2: BL
+iso3: BLM
+altCodes: {
+}
+name: Saint Barthélemy
+aliases: {
+    Saint-Barthélemy
+    Barthélemy
+    Barthelemy
+    Saint Barthelemy
+}
+#==========
+number: 654
+iso2: SH
+iso3: SHN
+altCodes: {
+    TA
+    TAA
+}
+name: Ascension Saint Helena and Tristan da Cunha
+aliases: {
+    Ascension
+    Ascension Saint Helena
+    Saint Helena
+    Tristan da Cunha
+    Ascension Sainte-Hélène
+    Sainte-Hélène
+}
+#==========
+number: 659
+iso2: KN
+iso3: KNA
+altCodes: {
+}
+name: Saint Kitts and Nevis
+aliases: {
+    Saint Kitts
+    Saint-Kitts
+    Nevis
+    Saint-Kitts et Nevis
+    Saint Kitts
+}
+#==========
+number: 662
+iso2: LC
+iso3: LCA
+altCodes: {
+}
+name: Saint Lucia
+aliases: {
+    Sainte-Lucie
+    Sainte Lucie
+}
+#==========
+number: 663
+iso2: MF
+iso3: MAF
+altCodes: {
+}
+name: French Saint Martin
+aliases: {
+    Saint Martin
+    partie française Saint-Martin
+    Saint-Martin française
+}
+#==========
+number: 666
+iso2: PM
+iso3: SPM
+altCodes: {
+}
+name: Saint Pierre and Miquelon
+aliases: {
+    Saint-Pierre
+    Miquelon
+    Saint Pierre
+    Saint-Pierre et Miquelon
+}
+#==========
+number: 670
+iso2: VC
+iso3: VCT
+altCodes: {
+}
+name: Saint Vincent and Grenadines
+aliases: {
+    Saint-Vincent
+    Saint Vincent
+    Grenadines
+    Saint-Vincent et Grenadines
+}
+#==========
+number: 882
+iso2: WS
+iso3: WSM
+altCodes: {
+}
+name: Samoa
+aliases: {
+}
+#==========
+number: 674
+iso2: SM
+iso3: SMR
+altCodes: {
+}
+name: San Marino
+aliases: {
+    Saint-Marin
+}
+#==========
+number: 678
+iso2: ST
+iso3: STP
+altCodes: {
+}
+name: Sao Tome and Principe
+aliases: {
+    Sao Tome
+    São Tomé
+    Principe
+    Príncipe
+    São Tomé et Príncipe
+}
+#==========
+number: 682
+iso2: SA
+iso3: SAU
+altCodes: {
+}
+name: Saudi Arabia
+aliases: {
+    Arabie saoudite
+}
+#==========
+number: 686
+iso2: SN
+iso3: SEN
+altCodes: {
+}
+name: Senegal
+aliases: {
+    Sénégal
+}
+#==========
+number: 688
+iso2: RS
+iso3: SRB
+altCodes: {
+}
+name: Serbia
+aliases: {
+    Serbie
+}
+#==========
+number: 690
+iso2: SC
+iso3: SYC
+altCodes: {
+}
+name: Seychelles
+aliases: {
+}
+#==========
+number: 694
+iso2: SL
+iso3: SLE
+altCodes: {
+}
+name: Sierra Leone
+aliases: {
+}
+#==========
+number: 702
+iso2: SG
+iso3: SGP
+altCodes: {
+}
+name: Singapore
+aliases: {
+    Singapour
+}
+#==========
+number: 534
+iso2: SX
+iso3: SXM
+altCodes: {
+}
+name: Dutch Sint Maarten
+aliases: {
+    Sint Maarten
+    néerlandaise Saint-Martin
+    Saint-Martin néerlandaise
+}
+#==========
+number: 703
+iso2: SK
+iso3: SVK
+altCodes: {
+}
+name: Slovakia
+aliases: {
+    Slovaquie
+}
+#==========
+number: 705
+iso2: SI
+iso3: SVN
+altCodes: {
+}
+name: Slovenia
+aliases: {
+    Slovénie
+}
+#==========
+number: 90
+iso2: SB
+iso3: SLB
+altCodes: {
+}
+name: Solomon Islands
+aliases: {
+    Solomon
+    Salomon
+    Îles Salomon
+}
+#==========
+number: 706
+iso2: SO
+iso3: SOM
+altCodes: {
+}
+name: Somalia
+aliases: {
+    Somalie
+}
+#==========
+number: 710
+iso2: ZA
+iso3: ZAF
+altCodes: {
+}
+name: South Africa
+aliases: {
+    Afrique du Sud
+}
+#==========
+number: 239
+iso2: GS
+iso3: SGS
+altCodes: {
+}
+name: South Georgia and South Sandwich Islands
+aliases: {
+    Géorgie du Sud et Îles Sandwich du Sud
+    Sandwich du Sud
+    Géorgie du Sud
+    South Sandwich
+    South Sandwich Islands
+    South Georgia
+}
+#==========
+number: 728
+iso2: SS
+iso3: SSD
+altCodes: {
+}
+name: South Sudan
+aliases: {
+    Soudan du Sud
+}
+#==========
+number: 724
+iso2: ES
+iso3: ESP
+altCodes: {
+}
+name: Spain
+aliases: {
+    Espagne
+}
+#==========
+number: 144
+iso2: LK
+iso3: LKA
+altCodes: {
+}
+name: Sri Lanka
+aliases: {
+}
+#==========
+number: 729
+iso2: SD
+iso3: SDN
+altCodes: {
+}
+name: Sudan
+aliases: {
+    Soudan
+}
+#==========
+number: 740
+iso2: SR
+iso3: SUR
+altCodes: {
+}
+name: Suriname
+aliases: {
+}
+#==========
+number: 744
+iso2: SJ
+iso3: SJM
+altCodes: {
+}
+name: Svalbard and Jan Mayen
+aliases: {
+    Jan Mayen
+    Svalbard
+    Svalbard et l'Île Jan Mayen
+    Île Jan Mayen
+}
+#==========
+number: 748
+iso2: SZ
+iso3: SWZ
+altCodes: {
+}
+name: Swaziland
+aliases: {
+}
+#==========
+number: 752
+iso2: SE
+iso3: SWE
+altCodes: {
+}
+name: Sweden
+aliases: {
+    Suède
+}
+#==========
+number: 756
+iso2: CH
+iso3: CHE
+altCodes: {
+}
+name: Switzerland
+aliases: {
+    Suisse
+}
+#==========
+number: 760
+iso2: SY
+iso3: SYR
+altCodes: {
+}
+name: Syrian Arab Republic
+aliases: {
+    Syria
+    République arabe syrienne
+}
+#==========
+number: 158
+iso2: TW
+iso3: TWN
+altCodes: {
+}
+name: Province of China Taiwan
+aliases: {
+    Taiwan
+    China Taiwan
+    Province de Chine Taïwan
+    Chine Taïwan
+    Taïwan
+}
+#==========
+number: 762
+iso2: TJ
+iso3: TJK
+altCodes: {
+}
+name: Tajikistan
+aliases: {
+    Tadjikistan
+}
+#==========
+number: 834
+iso2: TZ
+iso3: TZA
+altCodes: {
+}
+name: United Republic of Tanzania
+aliases: {
+    République-Unie de Tanzanie
+    Tanzania
+    Tanzanie
+}
+#==========
+number: 764
+iso2: TH
+iso3: THA
+altCodes: {
+}
+name: Thailand
+aliases: {
+    Thaïlande
+}
+#==========
+number: 626
+iso2: TL
+iso3: TLS
+altCodes: {
+}
+name: Timor-Leste
+aliases: {
+}
+#==========
+number: 768
+iso2: TG
+iso3: TGO
+altCodes: {
+}
+name: Togo
+aliases: {
+}
+#==========
+number: 772
+iso2: TK
+iso3: TKL
+altCodes: {
+}
+name: Tokelau
+aliases: {
+}
+#==========
+number: 776
+iso2: TO
+iso3: TON
+altCodes: {
+}
+name: Tonga
+aliases: {
+}
+#==========
+number: 780
+iso2: TT
+iso3: TTO
+altCodes: {
+}
+name: Trinidad and Tobago
+aliases: {
+    Trinité et Tobago
+    Tobago
+    Trinidad
+    Trinité
+}
+#==========
+number: 788
+iso2: TN
+iso3: TUN
+altCodes: {
+}
+name: Tunisia
+aliases: {
+    Tunisie
+}
+#==========
+number: 792
+iso2: TR
+iso3: TUR
+altCodes: {
+}
+name: Turkey
+aliases: {
+    Turquie
+}
+#==========
+number: 795
+iso2: TM
+iso3: TKM
+altCodes: {
+}
+name: Turkmenistan
+aliases: {
+    Turkménistan
+}
+#==========
+number: 796
+iso2: TC
+iso3: TCA
+altCodes: {
+}
+name: Turks and Caicos Islands
+aliases: {
+    Caicos
+    Turks et Îles Caïcos
+    Caicos Islands
+    Caïcos
+    Turks
+}
+#==========
+number: 798
+iso2: TV
+iso3: TUV
+altCodes: {
+}
+name: Tuvalu
+aliases: {
+}
+#==========
+number: 800
+iso2: UG
+iso3: UGA
+altCodes: {
+}
+name: Uganda
+aliases: {
+    Ouganda
+}
+#==========
+number: 804
+iso2: UA
+iso3: UKR
+altCodes: {
+}
+name: Ukraine
+aliases: {
+}
+#==========
+number: 784
+iso2: AE
+iso3: ARE
+altCodes: {
+}
+name: United Arab Emirates
+aliases: {
+    Émirats arabes unis
+    UAE
+    U.A.E.
+}
+#==========
+number: 826
+iso2: GB
+iso3: GBR
+altCodes: {
+}
+name: United Kingdom of Great Britain and Northern Ireland
+aliases: {
+    Britain
+    Great Britain
+    Irlande du Nord
+    United Kingdom
+    Northern Ireland
+    Grande-Bretagne
+    Royaume-Uni de Grande-Bretagne et d'Irlande du Nord
+    Royaume-Uni de Grande-Bretagne
+    Bretagne
+}
+#==========
+number: 581
+iso2: UM
+iso3: UMI
+altCodes: {
+}
+name: United States Minor Outlying Islands
+aliases: {
+    United States Outlying Islands
+    Îles mineures éloignées des États-Unis
+}
+#==========
+number: 840
+iso2: US
+iso3: USA
+altCodes: {
+}
+name: United States of America
+aliases: {
+    États-Unis
+    États-Unis d'Amérique
+    United States
+    America
+    USA
+    U.S.A.
+}
+#==========
+number: 858
+iso2: UY
+iso3: URY
+altCodes: {
+}
+name: Uruguay
+aliases: {
+}
+#==========
+number: 860
+iso2: UZ
+iso3: UZB
+altCodes: {
+}
+name: Uzbekistan
+aliases: {
+    Ouzbékistan
+}
+#==========
+number: 548
+iso2: VU
+iso3: VUT
+altCodes: {
+}
+name: Vanuatu
+aliases: {
+}
+#==========
+number: 862
+iso2: VE
+iso3: VEN
+altCodes: {
+}
+name: Bolivarian Republic of Venezuela
+aliases: {
+    République bolivarienne du Venezuela
+    Venezuela
+}
+#==========
+number: 704
+iso2: VN
+iso3: VNM
+altCodes: {
+}
+name: Viet Nam
+aliases: {
+    Viet-Nam
+    Vietnam
+    Democratic Republic of Vietnam
+    Democratic Republic of Viet-Nam
+    Democratic Republic of Viet Nam
+}
+#==========
+number: 92
+iso2: VG
+iso3: VGB
+altCodes: {
+}
+name: British Virgin Islands
+aliases: {
+    Virgin Islands
+    Îles Vierges britanniques
+    Îles Vierges
+}
+#==========
+number: 850
+iso2: VI
+iso3: VIR
+altCodes: {
+}
+name: U.S. Virgin Islands
+aliases: {
+    Îles Vierges des États-Unis
+    Îles Vierges
+    United States Virgin Islands
+    Virgin Islands
+}
+#==========
+number: 876
+iso2: WF
+iso3: WLF
+altCodes: {
+}
+name: Wallis and Futuna
+aliases: {
+    Wallis et Futuna
+    Futuna
+    Wallis
+}
+#==========
+number: 732
+iso2: EH
+iso3: ESH
+altCodes: {
+}
+name: Western Sahara
+aliases: {
+    Sahara occidental
+}
+#==========
+number: 887
+iso2: YE
+iso3: YEM
+altCodes: {
+}
+name: Yemen
+aliases: {
+    Yémen
+}
+#==========
+number: 894
+iso2: ZM
+iso3: ZMB
+altCodes: {
+}
+name: Zambia
+aliases: {
+    Zambie
+}
+#==========
+number: 716
+iso2: ZW
+iso3: ZWE
+altCodes: {
+}
+name: Zimbabwe
+aliases: {
+}
+#==========
+number: -1
+iso2: ac
+iso3: asc
+altCodes: {
+}
+name: Ascension Island
+aliases: {
+}
+#==========
+number: -2
+iso2: cp
+iso3: cpt
+altCodes: {
+}
+name: Clipperton Island
+aliases: {
+}
+#==========
+number: -3
+iso2: dg
+iso3: dga
+altCodes: {
+}
+name: Diego Garcia
+aliases: {
+}
+#==========
+number: -4
+iso2: ea
+iso3:
+altCodes: {
+}
+name: Ceuta and Melilla
+aliases: {
+    Ceuta
+    Melilla
+}
+#==========
+number: -5
+iso2: eu
+iso3:
+altCodes: {
+}
+name: European Union
+aliases: {
+}
+#==========
+number: -6
+iso2: ez
+iso3:
+altCodes: {
+}
+name: Eurozone
+aliases: {
+}
+#==========
+number: -7
+iso2: fx
+iso3: fxx
+altCodes: {
+}
+name: Metropolitan France
+aliases: {
+}
+#==========
+number: -8
+iso2: ic
+iso3:
+altCodes: {
+}
+name: Canary Islands
+aliases: {
+}
+#==========
+number: -9
+iso2: su
+iso3: sun
+altCodes: {
+}
+name: USSR
+aliases: {
+    Union of Soviet Socialist Republics
+    Soviet Union
+}
+#==========
+number: -10
+iso2: uk
+iso3:
+altCodes: {
+}
+name: United Kingdom
+aliases: {
+}
+#==========
+number: -11
+iso2: un
+iso3:
+altCodes: {
+}
+name: United Nations
+aliases: {
+}
+#==========
+number: -12
+iso2: xk
+iso3:
+altCodes: {
+}
+name: Kosovo
+aliases: {
+}

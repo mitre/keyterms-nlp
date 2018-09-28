@@ -1,0 +1,1 @@
+#if ( $RETURN_TYPE == "void" ) //@todo Implement me! #else return $DEFAULT_RETURN_VALUE; //@todo Implement me! #end

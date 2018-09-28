@@ -1,0 +1,8 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="allowReplaceRegexp" value=".*" />
+    <option name="keyword" value="Copyright \d+ The MITRE Corporation. All rights reserved." />
+    <option name="notice" value="NOTICE&#10;This software was produced for the U.S. Government and is subject to the&#10;Rights in Data-General Clause 5.227-14 (May 2014).&#10;Copyright 2018 The MITRE Corporation. All rights reserved.&#10;&#10;“Approved for Public Release; Distribution Unlimited” Case  18-2165&#10;&#10;This project contains content developed by The MITRE Corporation.&#10;If this code is used in a deployment or embedded within another project,&#10;it is requested that you send an email to opensource@mitre.org &#10;in order to let us know where this software is being used.&#10;&#10;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);&#10;you may not use this file except in compliance with the License.&#10;You may obtain a copy of the License at&#10;&#10;http://www.apache.org/licenses/LICENSE-2.0&#10;&#10;Unless required by applicable law or agreed to in writing, software&#10;distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#10;WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.&#10;See the License for the specific language governing permissions and&#10;limitations under the License." />
+    <option name="myName" value="MITRE-KeyTerms" />
+  </copyright>
+</component>

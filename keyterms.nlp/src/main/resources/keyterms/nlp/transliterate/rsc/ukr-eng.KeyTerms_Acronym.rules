@@ -1,0 +1,51 @@
+# <import file="ukr-eng.KeyTerms_Common.rdefs"/>
+
+Е > Ee;
+е > ee;
+
+Є > Ye;
+є > ye;
+
+Ї > Yi;
+ї > yi;
+
+Ж > Zh;
+ж > zh;
+
+Х > Kh;
+х > kh;
+
+Ц > Ts;
+ц > ts;
+
+Ч > Ch;
+ч > ch;
+
+Ш > Sh;
+ш > sh;
+
+Щ > Shch;
+щ > shch;
+
+Ю > Yu;        }
+ю > yu;
+
+Я > Ya;
+я > ya;
+
+# END STANDARD
+
+ӕ > ae;
+Ӕ > Ae;
+
+ѩ > yẽ;
+Ѩ > Yẽ;
+
+ѭ > yõ;
+Ѭ > Yõ;
+
+ѱ > ps;
+Ѱ  > Ps;
+
+ѳ > th;
+Ѳ  > Th;

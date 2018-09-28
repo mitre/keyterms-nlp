@@ -1,0 +1,1622 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "KeyTerms NLP Services",
+    "version": "1.0.0",
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/"
+    }
+  },
+  "servers": [
+    {
+      "url": "/NLPServices"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Basics"
+    },
+    {
+      "name": "KeyTerms"
+    },
+    {
+      "name": "IsoLookupService"
+    },
+    {
+      "name": "EmoteService"
+    },
+    {
+      "name": "TransformService"
+    }
+  ],
+  "paths": {
+    "/svc/ping": {
+      "get": {
+        "operationId": "svcPing",
+        "tags": [
+          "Basics"
+        ],
+        "summary": "Determine if the service is available.",
+        "responses": {
+          "200": {
+            "description": "A flag indicating whether the service is available.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/up_time": {
+      "get": {
+        "operationId": "svcUpTime",
+        "tags": [
+          "Basics"
+        ],
+        "summary": "Get the amount of time the service has been available.",
+        "responses": {
+          "200": {
+            "description": "The amount of time the service has been available.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Duration"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc": {
+      "get": {
+        "operationId": "keyTermsGet",
+        "tags": [
+          "KeyTerms"
+        ],
+        "summary": "Process text as specified",
+        "parameters": [
+          {
+            "name": "Accept",
+            "description": "The header containing the acceptable output formats. (text/html is the only type with an affect)",
+            "in": "header",
+            "required": false,
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "string",
+              "example": "text/html"
+            }
+          },
+          {
+            "name": "srctxt",
+            "description": "The text to process.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "lang",
+            "description": "The code for the language of the specified text (required for most operations).",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "idx",
+            "description": "A flag indicating whether to produce an index form of the specified text. (default = false)",
+            "in": "query",
+            "required": false,
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "wform",
+            "description": "A flag indicating whether to produce word forms for the specified text. (default = false)",
+            "in": "query",
+            "required": false,
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The results as specified in the format specified by the request.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "operationId": "keyTermsPost",
+        "tags": [
+          "KeyTerms"
+        ],
+        "summary": "Process text as specified",
+        "parameters": [
+          {
+            "name": "Accept",
+            "description": "The header containing the acceptable output formats. (text/html is the only type with an affect)",
+            "in": "header",
+            "required": false,
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "string",
+              "example": "text/html"
+            }
+          },
+          {
+            "name": "srctxt",
+            "description": "The text to process.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "lang",
+            "description": "The code for the language of the specified text (required for most operations).",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "idx",
+            "description": "A flag indicating whether to produce an index form of the specified text. (default = false)",
+            "in": "query",
+            "required": false,
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "wform",
+            "description": "A flag indicating whether to produce word forms for the specified text. (default = false)",
+            "in": "query",
+            "required": false,
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The results as specified in the format specified by the request.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/display_form": {
+      "get": {
+        "operationId": "keyTermsDisplayForm",
+        "tags": [
+          "KeyTerms"
+        ],
+        "summary": "Get the display normalized form of the specified text.",
+        "parameters": [
+          {
+            "name": "srctxt",
+            "description": "The text to process.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "lang",
+            "description": "The code for the language of the specified text.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The display normalized form of the specified text.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DisplayForm"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/index_form": {
+      "get": {
+        "operationId": "keyTermsIndexForm",
+        "tags": [
+          "KeyTerms"
+        ],
+        "summary": "Get the index normalized form of the specified text.",
+        "parameters": [
+          {
+            "name": "srctxt",
+            "description": "The text to process.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "lang",
+            "description": "The code for the language of the specified text.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The index normalized form of the specified text.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IndexForm"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/word_forms": {
+      "get": {
+        "operationId": "keyTermsWordForms",
+        "tags": [
+          "KeyTerms"
+        ],
+        "summary": "Get the word normalized forms of the specified text.",
+        "parameters": [
+          {
+            "name": "srctxt",
+            "description": "The text to process.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "lang",
+            "description": "The code for the language of the specified text.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The word normalized forms of the specified text.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WordForm"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/schema": {
+      "get": {
+        "operationId": "keyTermsSchema",
+        "tags": [
+          "KeyTerms"
+        ],
+        "summary": "Get the KeyTerms provided schema for the specified language code.",
+        "parameters": [
+          {
+            "name": "lang",
+            "description": "The code for the language of the specified text.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The KeyTerms provided schema for the specified language code.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/transforms": {
+      "get": {
+        "operationId": "keyTermsTransforms",
+        "tags": [
+          "KeyTerms"
+        ],
+        "summary": "Get the available transformations for the specified text.",
+        "parameters": [
+          {
+            "name": "srctxt",
+            "description": "The text to process.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "lang",
+            "description": "The code for the language of the specified text.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The available transforms of the specified text.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Transliteration"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/iso/country": {
+      "get": {
+        "operationId": "isoCountry",
+        "tags": [
+          "IsoLookupService"
+        ],
+        "summary": "Get the ISO definition for the specified country.",
+        "parameters": [
+          {
+            "name": "query",
+            "description": "The country name or code.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A list of the country definitions which matched the query.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CountryDef"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/iso/language": {
+      "get": {
+        "operationId": "isoLanguage",
+        "tags": [
+          "IsoLookupService"
+        ],
+        "summary": "Get the ISO definition for the specified language.",
+        "parameters": [
+          {
+            "name": "query",
+            "description": "The language name or code.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A list of the language definitions which matched the query.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LanguageDef"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/iso/script": {
+      "get": {
+        "operationId": "isoScript",
+        "tags": [
+          "IsoLookupService"
+        ],
+        "summary": "Get the ISO definition for the specified script.",
+        "parameters": [
+          {
+            "name": "query",
+            "description": "The script name or code.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A list of the script definitions which matched the query.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ScriptDef"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/emote/define": {
+      "get": {
+        "operationId": "emoteDefine",
+        "tags": [
+          "EmoteService"
+        ],
+        "summary": "Get the definition for the emoticon or emoji specified.",
+        "parameters": [
+          {
+            "name": "text",
+            "description": "The text of the emoticon or emoji.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The definition of the specified emoticon or emoji.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Emote"
+                    },
+                    {
+                      "$ref": "#/components/schemas/Emoticon"
+                    },
+                    {
+                      "$ref": "#/components/schemas/Emoji"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/emote/tokenize": {
+      "post": {
+        "operationId": "emoteTokenize",
+        "tags": [
+          "EmoteService"
+        ],
+        "summary": "Tokenize the text to extract emoticon and emoji sequences.",
+        "requestBody": {
+          "description": "The text to tokenize.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The token list for the specified text.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmoteToken"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/transform/profile_text": {
+      "post": {
+        "operationId": "transformProfileText",
+        "tags": [
+          "TransformService"
+        ],
+        "summary": "Get a profile of the scripts in the specified text.",
+        "requestBody": {
+          "description": "The text to profile.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The profile of the scripts in the specified text.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScriptProfile"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/transform/get_text_script": {
+      "post": {
+        "operationId": "transformGetTextScript",
+        "tags": [
+          "TransformService"
+        ],
+        "summary": "Get the best script for the given text.",
+        "parameters": [
+          {
+            "name": "prefer_non_latin",
+            "description": "A flag indicating whether to prefer non-latin scripts. (default = true)",
+            "in": "query",
+            "required": false,
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "suppress_latin",
+            "description": "A flag indicating whether to suppress latin. (default = false)",
+            "in": "query",
+            "required": false,
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "The text to profile.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The best script for the given text.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Script"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/transform/transform_keys": {
+      "get": {
+        "operationId": "transformTransformKeys",
+        "tags": [
+          "TransformService"
+        ],
+        "summary": "Get the keys which describe the available text transformations.",
+        "parameters": [
+          {
+            "name": "source",
+            "description": "Limit the results to those with the specified source.",
+            "in": "query",
+            "required": false,
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "string",
+              "example": "English/Latin"
+            }
+          },
+          {
+            "name": "target",
+            "description": "Limit the results to those with the specified target.",
+            "in": "query",
+            "required": false,
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "string",
+              "example": "English/Latin"
+            }
+          },
+          {
+            "name": "scheme",
+            "description": "Limit the results to those with the specified scheme.",
+            "in": "query",
+            "required": false,
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "string",
+              "example": "KeyTerms"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A list of the specified transformation keys.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TransformKey"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/transform/transform": {
+      "post": {
+        "operationId": "transformTransform",
+        "tags": [
+          "TransformService"
+        ],
+        "summary": "Transform the body text as specified.",
+        "parameters": [
+          {
+            "name": "key",
+            "description": "The key describing the transformation.",
+            "in": "query",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string",
+              "example": "ara-eng/KeyTerms"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "The text to transform.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The transformed text.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Version": {
+        "type": "object",
+        "description": "A generic version identifier.",
+        "properties": {
+          "major_number": {
+            "type": "integer",
+            "description": "The major number. Major numbers indicate API or architectural changes which break backward compatibility."
+          },
+          "minor_number": {
+            "type": "integer",
+            "description": "The minor number. Minor numbers indicate feature addition that do not break backward compatibility."
+          },
+          "patch_number": {
+            "type": "integer",
+            "description": "The patch number. Patch numbers indicate bug fixes."
+          }
+        },
+        "example": {
+          "major_number": 1,
+          "minor_number": 2,
+          "patch_number": 3
+        }
+      },
+      "Duration": {
+        "type": "object",
+        "description": "A simple temporal measurement.",
+        "properties": {
+          "base_value": {
+            "type": "integer",
+            "description": "The duration in the base units.",
+            "format": "int64"
+          },
+          "base_unit": {
+            "type": "string",
+            "description": "The base value units.",
+            "example": "NANOSECONDS"
+          },
+          "fields": {
+            "type": "object",
+            "description": "A breakdown of the duration.",
+            "properties": {
+              "DAYS": {
+                "type": "integer",
+                "description": "The number of full days in the duration.",
+                "format": "int64"
+              },
+              "HOURS": {
+                "type": "integer",
+                "description": "The remaining number of full hours in the duration.",
+                "format": "int32"
+              },
+              "MINUTES": {
+                "type": "integer",
+                "description": "The remaining number of full minutes in the duration.",
+                "format": "int32"
+              },
+              "SECONDS": {
+                "type": "integer",
+                "description": "The remaining number of full seconds in the duration.",
+                "format": "int32"
+              },
+              "MILLISECONDS": {
+                "type": "integer",
+                "description": "The remaining number of full milliseconds in the duration.",
+                "format": "int32"
+              },
+              "MICROSECONDS": {
+                "type": "integer",
+                "description": "The remaining number of full microseconds in the duration.",
+                "format": "int32"
+              },
+              "NANOSECONDS": {
+                "type": "integer",
+                "description": "The remaining number of full nanoseconds in the duration.",
+                "format": "int32"
+              }
+            },
+            "example": {
+              "base_value": 1,
+              "base_unit": "NANOSECONDS",
+              "fields": {
+                "DAYS": 0,
+                "HOURS": 0,
+                "MINUTES": 0,
+                "SECONDS": 0,
+                "MILLISECONDS": 0,
+                "MICROSECONDS": 0,
+                "NANOSECONDS": 1
+              }
+            }
+          }
+        }
+      },
+      "CountryDef": {
+        "type": "object",
+        "description": "A country definition (ISO-3166-1).",
+        "properties": {
+          "number": {
+            "type": "integer",
+            "description": "The numeric country code."
+          },
+          "code": {
+            "type": "string",
+            "description": "The primary text code for the country."
+          },
+          "iso2": {
+            "type": "string",
+            "description": "The two letter country code."
+          },
+          "iso3": {
+            "type": "string",
+            "description": "The three letter country code."
+          },
+          "alt_codes": {
+            "type": "array",
+            "description": "Alternate codes for the country.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "name": {
+            "type": "string",
+            "description": "The common English name for the country."
+          },
+          "aliases": {
+            "type": "array",
+            "description": "Alternate names for the country.",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "example": {
+          "number": 840,
+          "code": "USA",
+          "iso2": "US",
+          "iso3": "USA",
+          "alt_codes": [
+            "MY_USA_CODE"
+          ],
+          "name": "United States of America",
+          "aliases": [
+            "Ãƒâ€°tats-Unis d'AmÃƒÂ©rique",
+            "USA",
+            "United States",
+            "America",
+            "Ãƒâ€°tats-Unis",
+            "U.S.A."
+          ]
+        }
+      },
+      "Language": {
+        "type": "object",
+        "description": "A language.",
+        "properties": {
+          "code": {
+            "type": "string",
+            "description": "The code representing the language definition."
+          },
+          "name": {
+            "type": "string",
+            "description": "The common English name for the language."
+          }
+        }
+      },
+      "LanguageDef": {
+        "type": "object",
+        "description": "A language definition.",
+        "properties": {
+          "code": {
+            "type": "string",
+            "description": "The code representing the language definition."
+          },
+          "part1": {
+            "type": "string",
+            "description": "The equivalent ISO-639-1 identifier for the language."
+          },
+          "part2_b": {
+            "type": "string",
+            "description": "The equivalent 639-2 identifier of the bibliographic applications code set."
+          },
+          "part2_t": {
+            "type": "string",
+            "description": " The equivalent 639-2 identifier of the terminology applications code set."
+          },
+          "alt_codes": {
+            "type": "array",
+            "description": "Alternate codes for the language.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "scope": {
+            "type": "string",
+            "description": "The language scope.",
+            "enum": [
+              "INDIVIDUAL",
+              "MACROLANGUAGE",
+              "SPECIAL"
+            ]
+          },
+          "type": {
+            "type": "string",
+            "description": "The language type.",
+            "enum": [
+              "ANCIENT",
+              "CONSTRUCTED",
+              "EXTINCT",
+              "HISTORICAL",
+              "LIVING",
+              "SPECIAL"
+            ]
+          },
+          "english_name": {
+            "type": "string",
+            "description": "The common English name for the language."
+          },
+          "native_name": {
+            "type": "string",
+            "description": "The native name for the language."
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Alternate names for the language."
+          },
+          "preferred_script": {
+            "type": "string",
+            "description": "The ISO-15924 code for the primary script of the language."
+          },
+          "scripts": {
+            "type": "array",
+            "description": "The ISO-15924 codes for the known scripts of the language.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "macro_language": {
+            "type": "string",
+            "description": "The macro language code for this language."
+          },
+          "members": {
+            "type": "array",
+            "description": "Member language codes which belong to this macro language.",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "example": {
+          "code": "eng",
+          "part1": "en",
+          "part2_b": "eng",
+          "part2_t": "eng",
+          "alt_codes": [
+            "en",
+            "eng"
+          ],
+          "scope": "INDIVIDUAL",
+          "type": "LIVING",
+          "name": "English",
+          "native_name": "English",
+          "aliases": [],
+          "preferred_script": "latn",
+          "scripts": [
+            "latn",
+            "dsrt",
+            "shaw"
+          ],
+          "members": []
+        }
+      },
+      "Script": {
+        "type": "object",
+        "description": "A script.",
+        "properties": {
+          "code": {
+            "type": "string",
+            "description": "The code representing the script definition."
+          },
+          "name": {
+            "type": "string",
+            "description": "The common English name for the script."
+          }
+        }
+      },
+      "ScriptDef": {
+        "type": "object",
+        "description": "A script definition. (Note: Only the core properties are described)",
+        "properties": {
+          "number": {
+            "type": "integer",
+            "description": "The numeric code for the script."
+          },
+          "code": {
+            "type": "string",
+            "description": "The code representing the script definition."
+          },
+          "alt_codes": {
+            "type": "array",
+            "description": "Alternate codes for the script.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "name": {
+            "type": "string",
+            "description": "The common English name for the script."
+          },
+          "java_name": {
+            "type": "string",
+            "description": "The Java enumerated name of the script."
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Alternate names for the script."
+          }
+        },
+        "example": {
+          "number": 215,
+          "code": "latn",
+          "alt_codes": [
+            "LATIN"
+          ],
+          "name": "Latin",
+          "java_name": "LATIN",
+          "aliases": [
+            "latin"
+          ]
+        }
+      },
+      "Written": {
+        "type": "object",
+        "description": "A language/script pair.",
+        "properties": {
+          "language": {
+            "$ref": "#/components/schemas/Language"
+          },
+          "script": {
+            "$ref": "#/components/schemas/Script"
+          }
+        }
+      },
+      "Emote": {
+        "type": "object",
+        "description": "A basic emote definition.",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "A unique identifier for the emoticon."
+          },
+          "text": {
+            "type": "string",
+            "description": "The textual representation of the emoticon."
+          },
+          "description": {
+            "type": "string",
+            "description": "A textual description of the emoticon."
+          },
+          "labels": {
+            "type": "array",
+            "description": "Single word text labels which describe the emoticon.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tags": {
+            "type": "array",
+            "description": "Metadata tags associated with the emoticon.",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "Emoticon": {
+        "type": "object",
+        "description": "An emoticon definition.",
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/Emote"
+          }
+        ],
+        "properties": {
+          "emoji": {
+            "type": "array",
+            "description": "The emoji representations of this emoticon.",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "example": {
+          "id": ":-)",
+          "text": ":-)",
+          "description": "slight_smile",
+          "labels": [
+            "comedy",
+            "happy",
+            "slight_smile",
+            "smile",
+            "smiley"
+          ],
+          "tags": [
+            "haha",
+            "joy",
+            "happy",
+            "pleased"
+          ],
+          "emoji": [
+            "Ã°Å¸Ëœâ€ž",
+            "Ã°Å¸ËœÆ’"
+          ]
+        }
+      },
+      "Emoji": {
+        "type": "object",
+        "description": "An emoji definition.",
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/Emote"
+          }
+        ],
+        "properties": {
+          "emoticons": {
+            "type": "array",
+            "description": "The emoticon representations of this emoji.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "emoji_chars": {
+            "type": "array",
+            "description": "The component token strings for the emoji.",
+            "items": {
+              "$ref": "#/components/schemas/EmojiChar"
+            }
+          },
+          "version": {
+            "$ref": "#/components/schemas/Version"
+          }
+        },
+        "example": {
+          "id": "Ã°Å¸Ëœâ€ž",
+          "text": "Ã°Å¸Ëœâ€ž",
+          "labels": [],
+          "tags": [],
+          "emoticons": [
+            ":-)",
+            ":-D"
+          ],
+          "emoji_chars": [
+            {
+              "id": 128516,
+              "text": "Ã°Å¸Ëœâ€ž",
+              "version": {
+                "major_number": 6,
+                "minor_number": 0,
+                "patch_number": 0
+              },
+              "types": [
+                "EMOJI_PRESENTATION",
+                "EXTENDED_PICTOGRAPHIC",
+                "EMOJI"
+              ]
+            }
+          ],
+          "version": {
+            "major_number": 6,
+            "minor_number": 0,
+            "patch_number": 0
+          }
+        }
+      },
+      "EmojiChar": {
+        "type": "object",
+        "description": "An atomic text element or token used to assemble a complete emoji.",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "The unicode codepoint of the character."
+          },
+          "text": {
+            "type": "string",
+            "description": "The unicode text comprising the emoji character."
+          },
+          "version": {
+            "$ref": "#/components/schemas/Version"
+          },
+          "types": {
+            "type": "array",
+            "description": "The component type for the emoji character.",
+            "items": {
+              "type": "string",
+              "enum": [
+                "EMOJI",
+                "EMOJI_PRESENTATION",
+                "EMOJI_MODIFIER_BASE",
+                "EMOJI_COMPONENT",
+                "EXTENDED_PICTOGRAPHIC"
+              ]
+            }
+          },
+          "description": {
+            "type": "string",
+            "description": "A textual description of the emoji character."
+          }
+        },
+        "example": {
+          "id": 128516,
+          "text": "Ã°Å¸Ëœâ€ž",
+          "version": {
+            "major_number": 6,
+            "minor_number": 0,
+            "patch_number": 0
+          },
+          "types": [
+            "EMOJI_PRESENTATION",
+            "EXTENDED_PICTOGRAPHIC",
+            "EMOJI"
+          ]
+        }
+      },
+      "EmoteToken": {
+        "type": "object",
+        "description": "A text token returned by the emote service tokenization method.",
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "The type of data contained in the token.",
+            "enum": [
+              "TEXT",
+              "EMOJI",
+              "EMOTICON"
+            ]
+          },
+          "start": {
+            "type": "integer",
+            "description": "The index in the original text where the token data is located."
+          },
+          "text": {
+            "type": "string",
+            "description": "The original text of the token."
+          },
+          "data": {
+            "description": "The token data.",
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "$ref": "#/components/schemas/Emoji"
+              },
+              {
+                "$ref": "#/components/schemas/Emoticon"
+              }
+            ]
+          }
+        }
+      },
+      "ScriptProfile": {
+        "type": "object",
+        "description": "Information about the script makeup of a text.",
+        "properties": {
+          "code_points": {
+            "type": "integer",
+            "description": "The total number of code points in the analyzed text."
+          },
+          "entries": {
+            "type": "array",
+            "description": "Per script breakdowns.",
+            "items": {
+              "$ref": "#/components/schemas/ScriptProfileEntry"
+            }
+          }
+        },
+        "example": {
+          "code_points": 27,
+          "entries": [
+            {
+              "script": {
+                "code": "latn",
+                "name": "Latin"
+              },
+              "first_index": 0,
+              "code_points": 21,
+              "run_count": 6,
+              "minimum_run": 2,
+              "mean_run": 2.5,
+              "maximum_run": 6
+            },
+            {
+              "script": {
+                "code": "zyyy",
+                "name": "Undetermined"
+              },
+              "first_index": 2,
+              "code_points": 6,
+              "run_count": 6,
+              "minimum_run": 1,
+              "mean_run": 1,
+              "maximum_run": 1
+            }
+          ]
+        }
+      },
+      "ScriptProfileEntry": {
+        "type": "object",
+        "description": "Information about a single script within a script profile.",
+        "properties": {
+          "script": {
+            "$ref": "#/components/schemas/Script"
+          },
+          "first_index": {
+            "type": "integer",
+            "description": "The character index of the first code point from the script in the analyzed text."
+          },
+          "code_points": {
+            "type": "integer",
+            "description": "The number of code points from the script in the analyzed text."
+          },
+          "run_count": {
+            "type": "integer",
+            "description": "The number of code point runs for the script in the analyzed text."
+          },
+          "minimum_run": {
+            "type": "integer",
+            "description": "The size of the smallest code point run in the script."
+          },
+          "mean_run": {
+            "type": "number",
+            "description": "The mean size of the code point runs in the script."
+          },
+          "maximum_run": {
+            "type": "integer",
+            "description": "The size of the largest code point run in the script."
+          }
+        },
+        "example": {
+          "script": {
+            "code": "latn",
+            "name": "Latin"
+          },
+          "first_index": 0,
+          "code_points": 21,
+          "run_count": 6,
+          "minimum_run": 2,
+          "mean_run": 2.5,
+          "maximum_run": 6
+        }
+      },
+      "TransformKey": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The original text of the transform key."
+          },
+          "custom": {
+            "type": "boolean",
+            "description": "A flag indicating whether the transformation is a custom transliterator."
+          },
+          "source": {
+            "$ref": "#/components/schemas/EndPoint"
+          },
+          "target": {
+            "$ref": "#/components/schemas/EndPoint"
+          }
+        }
+      },
+      "EndPoint": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The textual description of the end-point."
+          },
+          "type": {
+            "type": "string",
+            "description": "The end-point type.",
+            "enum": [
+              "WRITTEN",
+              "LANGUAGE",
+              "SCRIPT",
+              "OTHER",
+              "ANY"
+            ]
+          },
+          "target": {
+            "type": "object",
+            "description": "The primary end-point target. (One of Language/Script/Written)",
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Language"
+              },
+              {
+                "$ref": "#/components/schemas/Script"
+              },
+              {
+                "$ref": "#/components/schemas/Written"
+              }
+            ]
+          },
+          "qualifiers": {
+            "type": "array",
+            "description": "The qualifiers to the end-point.",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "DisplayForm": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The display form of the input text."
+          }
+        }
+      },
+      "IndexForm": {
+        "type": "object",
+        "properties": {
+          "is_src_script": {
+            "type": "boolean",
+            "description": "A flag indicating whether the form is in the source script."
+          },
+          "script": {
+            "type": "string",
+            "description": "The script of the index form."
+          },
+          "text_index": {
+            "type": "string",
+            "description": "The index form of the input text."
+          }
+        }
+      },
+      "WordForm": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "The word form type.",
+            "enum": [
+              "entry form",
+              "index stem",
+              "stem",
+              "inflection"
+            ]
+          },
+          "attributes": {
+            "type": "array",
+            "description": "The word form attributes.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "att_name": {
+                  "type": "string",
+                  "description": "The attribute name."
+                },
+                "att_value": {
+                  "type": "string",
+                  "description": "The attribute value."
+                }
+              }
+            }
+          },
+          "text": {
+            "type": "string",
+            "description": "The word form text."
+          }
+        }
+      },
+      "Transliteration": {
+        "type": "object",
+        "properties": {
+          "order": {
+            "type": "integer",
+            "description": "The transformation order."
+          },
+          "is_src_script": {
+            "type": "boolean",
+            "description": "A flag indicating whether the transformation produces the source script."
+          },
+          "script": {
+            "type": "string",
+            "description": "The transformation script."
+          },
+          "text_index": {
+            "type": "string",
+            "description": "The index normalized form of the input text."
+          },
+          "text": {
+            "type": "string",
+            "description": "The display normalized form of the input text."
+          },
+          "transform_type": {
+            "type": "string",
+            "description": "The transformation scheme."
+          }
+        }
+      }
+    }
+  }
+}

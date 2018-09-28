@@ -1,0 +1,72 @@
+#RusEng_KeyTerms - digraphs, separated out to support Acronym transliteration
+::NFC();
+# <import file="rus-eng.KeyTerms_Common.rdefs"/>
+# 0308 is diarisis, for YO
+$vowel { Е \u0308? } [:LowercaseLetter:] >  Ye;
+$wordBoundary { Е \u0308? } [:LowercaseLetter:] >  Ye;
+$vowel { Е \u0308? >  YE;
+$wordBoundary { Е \u0308? >  YE;
+
+\u0415 \u0308? > E;
+$vowel { е \u0308? >  ye;
+$wordBoundary {  е \u0308? >  ye;
+[еэєә] > e;
+[ЕЭЄӘ] > E;
+
+ж > zh;
+Ж } [:LowercaseLetter:] > Zh;
+Ж > ZH;
+
+х > kh;
+Х } [:LowercaseLetter:] > Kh;
+Х > KH;
+
+ц > ts;
+Ц } [:LowercaseLetter:] > Ts;
+Ц > TS;
+
+ч > ch;
+Ч } [:LowercaseLetter:] > Ch;
+Ч > CH;
+
+ш > sh;
+Ш } [:LowercaseLetter:] > Sh;
+Ш > SH;
+
+щ > shch;
+Щ } [:LowercaseLetter:] > Shch;
+Щ > SHCH;
+
+ю > yu;
+Ю } [:LowercaseLetter:] > Yu;
+Ю > YU;
+
+я > ya;
+Я } [:LowercaseLetter:] > Ya;
+Я > YA;
+
+# END STANDARD
+
+ӕ > ae;
+Ӕ } [:LowercaseLetter:] > Ae;
+Ӕ > AE;
+
+ѩ > yẽ;
+Ѩ } [:LowercaseLetter:] > Yẽ;
+Ѩ }  > YẼ;
+
+ѭ > yõ;
+Ѭ } [:LowercaseLetter:] > Yõ;
+Ѭ } > YÕ;
+
+ѱ > ps;
+Ѱ } [:LowercaseLetter:] > Ps;
+Ѱ  > PS;
+
+ѳ > th;
+Ѳ } [:LowercaseLetter:] > Th;
+Ѳ  > TH;
+
+ї > yi;
+Ї } [:LowercaseLetter:] > Yi ;
+Ї > YI;

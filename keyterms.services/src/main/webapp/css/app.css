@@ -1,0 +1,73 @@
+.wide {
+    width: 100%;
+}
+
+.tall {
+    height: 100%;
+}
+
+.search-field {
+    font-size: x-large;
+}
+
+.text-field {
+    font-size: x-large;
+    resize: none;
+    height: 150px;
+    max-height: 150px !important;
+    overflow-y: auto;
+}
+
+.search-option {
+    font-size: large;
+    font-weight: normal;
+}
+
+.striped:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+.busy-bar {
+    display: block;
+    width: 98%;
+    margin: 0;
+    padding: 0;
+    alignment: center;
+}
+
+.busy-bar md-progress-linear .md-container {
+    padding: 0;
+    height: 3px;
+    background: orange;
+    transition: opacity .1s linear;
+}
+
+.token-TEXT {
+    border-radius: 10px;
+    border: 0 solid black;
+    padding: 5px;
+}
+
+.token-EMOJI {
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+.token-EMOTICON {
+    border-radius: 10px;
+    border: 1px solid cyan;
+    padding: 5px;
+}
+
+.emote {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.field-label {
+    width: 1px;
+    font-size: smaller;
+    font-weight: bold;
+    padding-right: 20px;
+}

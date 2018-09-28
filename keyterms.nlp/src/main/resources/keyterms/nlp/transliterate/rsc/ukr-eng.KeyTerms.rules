@@ -1,0 +1,67 @@
+# <import file="ukr-eng.KeyTerms_Common.rdefs"/>
+
+Е } [:LowercaseLetter:] > Ee;
+Е > EE;
+е > ee;
+
+Є } [:LowercaseLetter:] > Ye;
+Є > YE;
+є > ye;
+
+Ї } [:LowercaseLetter:] > Yi;
+Ї > YI;
+ї > yi;
+
+Ж } [:LowercaseLetter:] > Zh;
+Ж > ZH;
+ж > zh;
+
+Х } [:LowercaseLetter:] > Kh;
+Х > KH;
+х > kh;
+
+Ц } [:LowercaseLetter:] > Ts;
+Ц > TS;
+ц > ts;
+
+Ч } [:LowercaseLetter:] > Ch;
+Ч > CH;
+ч > ch;
+
+Ш } [:LowercaseLetter:] > Sh;
+Ш > SH;
+ш > sh;
+
+Щ } [:LowercaseLetter:] > Shch;
+Щ > SHCH;
+щ > shch;
+
+Ю } [:LowercaseLetter:] > Yu;
+Ю > YU;        }
+ю > yu;
+
+Я } [:LowercaseLetter:] > Ya;
+Я > YA;
+я > ya;
+
+# END STANDARD
+
+ӕ > ae;
+Ӕ } [:LowercaseLetter:] > Ae;
+Ӕ > AE;
+
+ѩ > yẽ;
+Ѩ } [:LowercaseLetter:] > Yẽ;
+Ѩ }  > YẼ;
+
+ѭ > yõ;
+Ѭ } [:LowercaseLetter:] > Yõ;
+Ѭ } > YÕ;
+
+ѱ > ps;
+Ѱ } [:LowercaseLetter:] > Ps;
+Ѱ  > PS;
+
+ѳ > th;
+Ѳ } [:LowercaseLetter:] > Th;
+Ѳ  > TH;

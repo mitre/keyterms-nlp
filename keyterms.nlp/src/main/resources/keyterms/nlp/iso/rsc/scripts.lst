@@ -1,0 +1,1858 @@
+﻿# ISO-15924 Script Definitions
+#==========
+number: 166
+code: adlm
+altCodes: {
+}
+name: Adlam
+javaName:
+aliases: {
+}
+#==========
+number: 439
+code: afak
+altCodes: {
+}
+name: Afaka
+javaName:
+aliases: {
+}
+#==========
+number: 239
+code: aghb
+altCodes: {
+}
+name: Caucasian Albanian
+javaName:
+aliases: {
+}
+#==========
+number: 338
+code: ahom
+altCodes: {
+}
+name: Ahom
+javaName:
+aliases: {
+    Tai Ahom
+}
+#==========
+number: 160
+code: arab
+altCodes: {
+    ARABIC
+}
+name: Arabic
+javaName: ARABIC
+aliases: {
+    arabe
+}
+#==========
+number: 161
+code: aran
+altCodes: {
+}
+name: Arabic - Nastaliq
+javaName:
+aliases: {
+}
+#==========
+number: 124
+code: armi
+altCodes: {
+    IMPERIAL_ARAMAIC
+}
+name: Imperial Aramaic
+javaName: IMPERIAL_ARAMAIC
+aliases: {
+    araméen impérial
+}
+#==========
+number: 230
+code: armn
+altCodes: {
+    ARMENIAN
+}
+name: Armenian
+javaName: ARMENIAN
+aliases: {
+    arménien
+}
+#==========
+number: 134
+code: avst
+altCodes: {
+    AVESTAN
+}
+name: Avestan
+javaName: AVESTAN
+aliases: {
+    avestique
+}
+#==========
+number: 360
+code: bali
+altCodes: {
+    BALINESE
+}
+name: Balinese
+javaName: BALINESE
+aliases: {
+    balinais
+}
+#==========
+number: 435
+code: bamu
+altCodes: {
+    BAMUM
+}
+name: Bamum
+javaName: BAMUM
+aliases: {
+    bamoum
+}
+#==========
+number: 259
+code: bass
+altCodes: {
+}
+name: Bassa Vah
+javaName:
+aliases: {
+}
+#==========
+number: 365
+code: batk
+altCodes: {
+    BATAK
+}
+name: Batak
+javaName: BATAK
+aliases: {
+    batik
+}
+#==========
+number: 325
+code: beng
+altCodes: {
+    BENGALI
+}
+name: Bengali
+javaName: BENGALI
+aliases: {
+    bengalî
+}
+#==========
+number: 550
+code: blis
+altCodes: {
+}
+name: Blissymbols
+javaName:
+aliases: {
+}
+#==========
+number: 285
+code: bopo
+altCodes: {
+    BOPOMOFO
+}
+name: Bopomofo
+javaName: BOPOMOFO
+aliases: {
+    bopomofo
+}
+#==========
+number: 300
+code: brah
+altCodes: {
+    BRAHMI
+}
+name: Brahmi
+javaName: BRAHMI
+aliases: {
+    brahma
+}
+#==========
+number: 570
+code: brai
+altCodes: {
+    BRAILLE
+}
+name: Braille
+javaName: BRAILLE
+aliases: {
+    braille
+}
+#==========
+number: 367
+code: bugi
+altCodes: {
+    BUGINESE
+}
+name: Buginese
+javaName: BUGINESE
+aliases: {
+    bouguis
+}
+#==========
+number: 372
+code: buhd
+altCodes: {
+    BUHID
+}
+name: Buhid
+javaName: BUHID
+aliases: {
+    bouhide
+}
+#==========
+number: 349
+code: cakm
+altCodes: {
+}
+name: Chakma
+javaName:
+aliases: {
+}
+#==========
+number: 440
+code: cans
+altCodes: {
+    CANADIAN_ABORIGINAL
+}
+name: Unified Canadian Aboriginal Syllabics
+javaName: CANADIAN_ABORIGINAL
+aliases: {
+    syllabaire autochtone canadien unifié
+}
+#==========
+number: 201
+code: cari
+altCodes: {
+    CARIAN
+}
+name: Carian
+javaName: CARIAN
+aliases: {
+    carien
+}
+#==========
+number: 358
+code: cham
+altCodes: {
+    CHAM
+}
+name: Cham
+javaName: CHAM
+aliases: {
+    tcham
+    čam
+    cham
+}
+#==========
+number: 445
+code: cher
+altCodes: {
+    CHEROKEE
+}
+name: Cherokee
+javaName: CHEROKEE
+aliases: {
+    tchérokî
+}
+#==========
+number: 291
+code: cirt
+altCodes: {
+}
+name: Cirth
+javaName:
+aliases: {
+}
+#==========
+number: 204
+code: copt
+altCodes: {
+    COPTIC
+}
+name: Coptic
+javaName: COPTIC
+aliases: {
+    copte
+}
+#==========
+number: 403
+code: cprt
+altCodes: {
+    CYPRIOT
+}
+name: Cypriot
+javaName: CYPRIOT
+aliases: {
+    syllabaire chypriote
+}
+#==========
+number: 220
+code: cyrl
+altCodes: {
+    CYRILLIC
+}
+name: Cyrillic
+javaName: CYRILLIC
+aliases: {
+    cyrillique
+}
+#==========
+number: 221
+code: cyrs
+altCodes: {
+}
+name: Cyrillic - Old Church Slavonic
+javaName:
+aliases: {
+}
+#==========
+number: 315
+code: deva
+altCodes: {
+    DEVANAGARI
+}
+name: Devanagari
+javaName: DEVANAGARI
+aliases: {
+    Nagari
+    dévanâgarî
+}
+#==========
+number: 250
+code: dsrt
+altCodes: {
+    DESERET
+}
+name: Deseret
+javaName: DESERET
+aliases: {
+    déseret
+    Mormon
+}
+#==========
+number: 755
+code: dupl
+altCodes: {
+}
+name: Duployan shorthand
+javaName:
+aliases: {
+    Duployan stenography
+}
+#==========
+number: 70
+code: egyd
+altCodes: {
+}
+name: Egyptian demotic
+javaName:
+aliases: {
+}
+#==========
+number: 60
+code: egyh
+altCodes: {
+}
+name: Egyptian hieratic
+javaName:
+aliases: {
+}
+#==========
+number: 50
+code: egyp
+altCodes: {
+    EGYPTIAN_HIEROGLYPHS
+}
+name: Egyptian hieroglyphs
+javaName: EGYPTIAN_HIEROGLYPHS
+aliases: {
+    hiéroglyphes égyptiens
+}
+#==========
+number: 226
+code: elba
+altCodes: {
+}
+name: Elbasan
+javaName:
+aliases: {
+}
+#==========
+number: 430
+code: ethi
+altCodes: {
+    ETHIOPIC
+}
+name: Ethiopic
+javaName: ETHIOPIC
+aliases: {
+    guèze
+    Geʻez
+    éthiopien
+    Ge'ez
+}
+#==========
+number: 241
+code: geok
+altCodes: {
+}
+name: Khutsuri
+javaName:
+aliases: {
+    Asomtavruli
+    Nuskhuri
+}
+#==========
+number: 240
+code: geor
+altCodes: {
+    GEORGIAN
+}
+name: Georgian
+javaName: GEORGIAN
+aliases: {
+    Mkhedruli
+    mkhédrouli
+    géorgien
+}
+#==========
+number: 225
+code: glag
+altCodes: {
+    GLAGOLITIC
+}
+name: Glagolitic
+javaName: GLAGOLITIC
+aliases: {
+    glagolitique
+}
+#==========
+number: 206
+code: goth
+altCodes: {
+    GOTHIC
+}
+name: Gothic
+javaName: GOTHIC
+aliases: {
+    gotique
+}
+#==========
+number: 343
+code: gran
+altCodes: {
+}
+name: Grantha
+javaName:
+aliases: {
+}
+#==========
+number: 200
+code: grek
+altCodes: {
+    GREEK
+}
+name: Greek
+javaName: GREEK
+aliases: {
+    grec
+}
+#==========
+number: 320
+code: gujr
+altCodes: {
+    GUJARATI
+}
+name: Gujarati
+javaName: GUJARATI
+aliases: {
+    gujrâtî
+    goudjarâtî
+}
+#==========
+number: 310
+code: guru
+altCodes: {
+    GURMUKHI
+}
+name: Gurmukhi
+javaName: GURMUKHI
+aliases: {
+    gourmoukhî
+}
+#==========
+number: 286
+code: hang
+altCodes: {
+    HANGUL
+}
+name: Hangul
+javaName: HANGUL
+aliases: {
+    hangûl
+    Hangŭl
+    Hangeul
+}
+#==========
+number: 500
+code: hani
+altCodes: {
+    HAN
+}
+name: Han
+javaName: HAN
+aliases: {
+    Hanzi
+    sinogrammes
+    Hanja
+    Kanji
+    idéogrammes han
+    idéogrammes
+}
+#==========
+number: 371
+code: hano
+altCodes: {
+    HANUNOO
+}
+name: Hanunoo
+javaName: HANUNOO
+aliases: {
+    Hanunóo
+    hanounóo
+}
+#==========
+number: 501
+code: hans
+altCodes: {
+}
+name: Han - Simplified
+javaName: HAN
+aliases: {
+    simplified zho
+    han simplifié
+    simplified chinese
+    idéogrammes simplifiés
+}
+#==========
+number: 502
+code: hant
+altCodes: {
+}
+name: Han - Traditional
+javaName: HAN
+aliases: {
+    traditional zho
+    han traditionnel
+    idéogrammes traditionnels
+    traditional chinese
+}
+#==========
+number: 127
+code: hatr
+altCodes: {
+}
+name: Hatran
+javaName:
+aliases: {
+}
+#==========
+number: 125
+code: hebr
+altCodes: {
+    HEBREW
+}
+name: Hebrew
+javaName: HEBREW
+aliases: {
+    hébreu
+}
+#==========
+number: 410
+code: hira
+altCodes: {
+    HIRAGANA
+}
+name: Hiragana
+javaName: HIRAGANA
+aliases: {
+    hiragana
+}
+#==========
+number: 80
+code: hluw
+altCodes: {
+}
+name: Anatolian Hieroglyphs
+javaName:
+aliases: {
+    Luwian Hieroglyphs
+    Hittite Hieroglyphs
+}
+#==========
+number: 450
+code: hmng
+altCodes: {
+}
+name: Pahawh Hmong
+javaName:
+aliases: {
+}
+#==========
+number: 412
+code: hrkt
+altCodes: {
+}
+name: Japanese syllabaries
+javaName:
+aliases: {
+}
+#==========
+number: 176
+code: hung
+altCodes: {
+}
+name: Old Hungarian
+javaName:
+aliases: {
+    Hungarian Runic
+}
+#==========
+number: 610
+code: inds
+altCodes: {
+}
+name: Indus
+javaName:
+aliases: {
+    Harappan
+}
+#==========
+number: 210
+code: ital
+altCodes: {
+    OLD_ITALIC
+}
+name: Old Italic
+javaName: OLD_ITALIC
+aliases: {
+    Oscan
+    ancien italique
+    Etruscan
+    étrusque
+    osque
+}
+#==========
+number: 361
+code: java
+altCodes: {
+    JAVANESE
+}
+name: Javanese
+javaName: JAVANESE
+aliases: {
+    javanais
+}
+#==========
+number: 413
+code: jpan
+altCodes: {
+}
+name: Japanese
+javaName:
+aliases: {
+}
+#==========
+number: 510
+code: jurc
+altCodes: {
+}
+name: Jurchen
+javaName:
+aliases: {
+}
+#==========
+number: 357
+code: kali
+altCodes: {
+    KAYAH_LI
+}
+name: Kayah Li
+javaName: KAYAH_LI
+aliases: {
+    kayah li
+}
+#==========
+number: 411
+code: kana
+altCodes: {
+    KATAKANA
+}
+name: Katakana
+javaName: KATAKANA
+aliases: {
+    katakana
+}
+#==========
+number: 305
+code: khar
+altCodes: {
+    KHAROSHTHI
+}
+name: Kharoshthi
+javaName: KHAROSHTHI
+aliases: {
+    kharochthî
+}
+#==========
+number: 355
+code: khmr
+altCodes: {
+    KHMER
+}
+name: Khmer
+javaName: KHMER
+aliases: {
+    khmer
+}
+#==========
+number: 322
+code: khoj
+altCodes: {
+}
+name: Khojki
+javaName:
+aliases: {
+}
+#==========
+number: 505
+code: kitl
+altCodes: {
+}
+name: Khitan large script
+javaName:
+aliases: {
+}
+#==========
+number: 288
+code: kits
+altCodes: {
+}
+name: Khitan small script
+javaName:
+aliases: {
+}
+#==========
+number: 345
+code: knda
+altCodes: {
+    KANNADA
+}
+name: Kannada
+javaName: KANNADA
+aliases: {
+    kannara
+    canara
+}
+#==========
+number: 287
+code: kore
+altCodes: {
+}
+name: Korean
+javaName:
+aliases: {
+}
+#==========
+number: 436
+code: kpel
+altCodes: {
+}
+name: Kpelle
+javaName:
+aliases: {
+}
+#==========
+number: 317
+code: kthi
+altCodes: {
+    KAITHI
+}
+name: Kaithi
+javaName: KAITHI
+aliases: {
+    kaithî
+}
+#==========
+number: 351
+code: lana
+altCodes: {
+    TAI_THAM
+}
+name: Tai Tham
+javaName: TAI_THAM
+aliases: {
+    Lanna
+    taï tham
+}
+#==========
+number: 356
+code: laoo
+altCodes: {
+    LAO
+}
+name: Lao
+javaName: LAO
+aliases: {
+    laotien
+}
+#==========
+number: 217
+code: latf
+altCodes: {
+}
+name: Latin - Fraktur
+javaName:
+aliases: {
+}
+#==========
+number: 216
+code: latg
+altCodes: {
+}
+name: Latin - Gaelic
+javaName:
+aliases: {
+}
+#==========
+number: 215
+code: latn
+altCodes: {
+    LATIN
+}
+name: Latin
+javaName: LATIN
+aliases: {
+    latin
+}
+#==========
+number: 335
+code: lepc
+altCodes: {
+    LEPCHA
+}
+name: Lepcha
+javaName: LEPCHA
+aliases: {
+    Róng
+    lepcha
+}
+#==========
+number: 336
+code: limb
+altCodes: {
+    LIMBU
+}
+name: Limbu
+javaName: LIMBU
+aliases: {
+    limbou
+}
+#==========
+number: 400
+code: lina
+altCodes: {
+}
+name: Linear A
+javaName:
+aliases: {
+}
+#==========
+number: 401
+code: linb
+altCodes: {
+    LINEAR_B
+}
+name: Linear B
+javaName: LINEAR_B
+aliases: {
+    linéaire B
+}
+#==========
+number: 399
+code: lisu
+altCodes: {
+    LISU
+}
+name: Lisu
+javaName: LISU
+aliases: {
+    Fraser
+    lisu
+}
+#==========
+number: 437
+code: loma
+altCodes: {
+}
+name: Loma
+javaName:
+aliases: {
+}
+#==========
+number: 202
+code: lyci
+altCodes: {
+    LYCIAN
+}
+name: Lycian
+javaName: LYCIAN
+aliases: {
+    lycien
+}
+#==========
+number: 116
+code: lydi
+altCodes: {
+    LYDIAN
+}
+name: Lydian
+javaName: LYDIAN
+aliases: {
+    lydien
+}
+#==========
+number: 314
+code: mahj
+altCodes: {
+}
+name: Mahajani
+javaName:
+aliases: {
+}
+#==========
+number: 140
+code: mand
+altCodes: {
+    MANDAIC
+}
+name: Mandaic
+javaName: MANDAIC
+aliases: {
+    Mandaean
+    mandéen
+}
+#==========
+number: 139
+code: mani
+altCodes: {
+}
+name: Manichaean
+javaName:
+aliases: {
+}
+#==========
+number: 332
+code: marc
+altCodes: {
+}
+name: Marchen
+javaName:
+aliases: {
+}
+#==========
+number: 90
+code: maya
+altCodes: {
+}
+name: Mayan hieroglyphs
+javaName:
+aliases: {
+}
+#==========
+number: 438
+code: mend
+altCodes: {
+}
+name: Mende Kikakui
+javaName:
+aliases: {
+}
+#==========
+number: 101
+code: merc
+altCodes: {
+}
+name: Meroitic Cursive
+javaName:
+aliases: {
+}
+#==========
+number: 100
+code: mero
+altCodes: {
+}
+name: Meroitic Hieroglyphs
+javaName:
+aliases: {
+}
+#==========
+number: 347
+code: mlym
+altCodes: {
+    MALAYALAM
+}
+name: Malayalam
+javaName: MALAYALAM
+aliases: {
+    malayâlam
+}
+#==========
+number: 324
+code: modi
+altCodes: {
+}
+name: Modi
+javaName:
+aliases: {
+    Moḍī
+}
+#==========
+number: 145
+code: mong
+altCodes: {
+    MONGOLIAN
+}
+name: Mongolian
+javaName: MONGOLIAN
+aliases: {
+    mongol
+}
+#==========
+number: 218
+code: moon
+altCodes: {
+}
+name: Moon
+javaName:
+aliases: {
+    Moon type
+    Moon script
+    Moon code
+}
+#==========
+number: 199
+code: mroo
+altCodes: {
+}
+name: Mro
+javaName:
+aliases: {
+    Mru
+}
+#==========
+number: 337
+code: mtei
+altCodes: {
+    MEETEI_MAYEK
+}
+name: Meitei Mayek
+javaName: MEETEI_MAYEK
+aliases: {
+    Meithei
+    Meetei
+    meitei mayek
+}
+#==========
+number: 323
+code: mult
+altCodes: {
+}
+name: Multani
+javaName:
+aliases: {
+}
+#==========
+number: 350
+code: mymr
+altCodes: {
+    MYANMAR
+}
+name: Myanmar
+javaName: MYANMAR
+aliases: {
+    Burmese
+    birman
+}
+#==========
+number: 106
+code: narb
+altCodes: {
+}
+name: Old North Arabian
+javaName:
+aliases: {
+    Ancient North Arabian
+}
+#==========
+number: 159
+code: nbat
+altCodes: {
+}
+name: Nabataean
+javaName:
+aliases: {
+}
+#==========
+number: 420
+code: nkgb
+altCodes: {
+}
+name: Nakhi Geba
+javaName:
+aliases: {
+    Naxi Geba
+    'Na-'Khi ²Ggŏ-¹baw
+}
+#==========
+number: 165
+code: nkoo
+altCodes: {
+    NKO
+}
+name: N’Ko
+javaName: NKO
+aliases: {
+    n’ko
+}
+#==========
+number: 499
+code: nshu
+altCodes: {
+}
+name: Nüshu
+javaName:
+aliases: {
+}
+#==========
+number: 212
+code: ogam
+altCodes: {
+    OGHAM
+}
+name: Ogham
+javaName: OGHAM
+aliases: {
+    ogam
+}
+#==========
+number: 261
+code: olck
+altCodes: {
+    OL_CHIKI
+}
+name: Ol Chiki
+javaName: OL_CHIKI
+aliases: {
+    Santali
+    Ol Cemet’
+    ol tchiki
+    Ol
+}
+#==========
+number: 175
+code: orkh
+altCodes: {
+    OLD_TURKIC
+}
+name: Old Turkic
+javaName: OLD_TURKIC
+aliases: {
+    Orkhon Runic
+    orkhon
+}
+#==========
+number: 327
+code: orya
+altCodes: {
+    ORIYA
+}
+name: Oriya
+javaName: ORIYA
+aliases: {
+    oriyâ
+}
+#==========
+number: 219
+code: osge
+altCodes: {
+}
+name: Osage
+javaName:
+aliases: {
+}
+#==========
+number: 260
+code: osma
+altCodes: {
+    OSMANYA
+}
+name: Osmanya
+javaName: OSMANYA
+aliases: {
+    osmanais
+}
+#==========
+number: 126
+code: palm
+altCodes: {
+}
+name: Palmyrene
+javaName:
+aliases: {
+}
+#==========
+number: 263
+code: pauc
+altCodes: {
+}
+name: Pau Cin Hau
+javaName:
+aliases: {
+}
+#==========
+number: 227
+code: perm
+altCodes: {
+}
+name: Old Permic
+javaName:
+aliases: {
+}
+#==========
+number: 331
+code: phag
+altCodes: {
+    PHAGS_PA
+}
+name: Phags-pa
+javaName: PHAGS_PA
+aliases: {
+    ’phags pa
+}
+#==========
+number: 131
+code: phli
+altCodes: {
+    INSCRIPTIONAL_PAHLAVI
+}
+name: Inscriptional Pahlavi
+javaName: INSCRIPTIONAL_PAHLAVI
+aliases: {
+    pehlevi des inscriptions
+}
+#==========
+number: 132
+code: phlp
+altCodes: {
+}
+name: Psalter Pahlavi
+javaName:
+aliases: {
+}
+#==========
+number: 133
+code: phlv
+altCodes: {
+}
+name: Book Pahlavi
+javaName:
+aliases: {
+}
+#==========
+number: 115
+code: phnx
+altCodes: {
+    PHOENICIAN
+}
+name: Phoenician
+javaName: PHOENICIAN
+aliases: {
+    phénicien
+}
+#==========
+number: 282
+code: plrd
+altCodes: {
+}
+name: Miao
+javaName:
+aliases: {
+    Pollard
+}
+#==========
+number: 130
+code: prti
+altCodes: {
+    INSCRIPTIONAL_PARTHIAN
+}
+name: Inscriptional Parthian
+javaName: INSCRIPTIONAL_PARTHIAN
+aliases: {
+    parthe des inscriptions
+}
+#==========
+number: 900
+code: qaaa
+altCodes: {
+}
+name: Reserved Start
+javaName:
+aliases: {
+    Reserved for private use start
+}
+#==========
+number: 949
+code: qabx
+altCodes: {
+}
+name: Reserved End
+javaName:
+aliases: {
+    Reserved for private use end
+}
+#==========
+number: 363
+code: rjng
+altCodes: {
+    REJANG
+}
+name: Rejang
+javaName: REJANG
+aliases: {
+    redjang
+    Redjang
+    Kaganga
+}
+#==========
+number: 620
+code: roro
+altCodes: {
+}
+name: Rongorongo
+javaName:
+aliases: {
+}
+#==========
+number: 211
+code: runr
+altCodes: {
+    RUNIC
+}
+name: Runic
+javaName: RUNIC
+aliases: {
+    runique
+}
+#==========
+number: 123
+code: samr
+altCodes: {
+    SAMARITAN
+}
+name: Samaritan
+javaName: SAMARITAN
+aliases: {
+    samaritain
+}
+#==========
+number: 292
+code: sara
+altCodes: {
+}
+name: Sarati
+javaName:
+aliases: {
+}
+#==========
+number: 105
+code: sarb
+altCodes: {
+    OLD_SOUTH_ARABIAN
+}
+name: Old South Arabian
+javaName: OLD_SOUTH_ARABIAN
+aliases: {
+    himyarite
+    sud-arabique
+}
+#==========
+number: 344
+code: saur
+altCodes: {
+    SAURASHTRA
+}
+name: Saurashtra
+javaName: SAURASHTRA
+aliases: {
+    saurachtra
+}
+#==========
+number: 95
+code: sgnw
+altCodes: {
+}
+name: SignWriting
+javaName:
+aliases: {
+}
+#==========
+number: 281
+code: shaw
+altCodes: {
+    SHAVIAN
+}
+name: Shavian
+javaName: SHAVIAN
+aliases: {
+    shavien
+    Shaw
+}
+#==========
+number: 319
+code: shrd
+altCodes: {
+}
+name: Sharada
+javaName:
+aliases: {
+    Śāradā
+}
+#==========
+number: 302
+code: sidd
+altCodes: {
+}
+name: Siddham
+javaName:
+aliases: {
+    Siddhamātṛkā
+    Siddhaṃ
+}
+#==========
+number: 318
+code: sind
+altCodes: {
+}
+name: Khudawadi
+javaName:
+aliases: {
+    Sindhi
+}
+#==========
+number: 348
+code: sinh
+altCodes: {
+    SINHALA
+}
+name: Sinhala
+javaName: SINHALA
+aliases: {
+    singhalais
+}
+#==========
+number: 398
+code: sora
+altCodes: {
+}
+name: Sora Sompeng
+javaName:
+aliases: {
+}
+#==========
+number: 362
+code: sund
+altCodes: {
+    SUNDANESE
+}
+name: Sundanese
+javaName: SUNDANESE
+aliases: {
+    sundanais
+}
+#==========
+number: 316
+code: sylo
+altCodes: {
+    SYLOTI_NAGRI
+}
+name: Syloti Nagri
+javaName: SYLOTI_NAGRI
+aliases: {
+    sylotî nâgrî
+}
+#==========
+number: 135
+code: syrc
+altCodes: {
+    SYRIAC
+}
+name: Syriac
+javaName: SYRIAC
+aliases: {
+    syriaque
+}
+#==========
+number: 138
+code: syre
+altCodes: {
+}
+name: Syriac - Estrangelo
+javaName:
+aliases: {
+}
+#==========
+number: 137
+code: syrj
+altCodes: {
+}
+name: Syriac - Western
+javaName:
+aliases: {
+}
+#==========
+number: 136
+code: syrn
+altCodes: {
+}
+name: Syriac - Eastern
+javaName:
+aliases: {
+}
+#==========
+number: 373
+code: tagb
+altCodes: {
+    TAGBANWA
+}
+name: Tagbanwa
+javaName: TAGBANWA
+aliases: {
+    tagbanoua
+}
+#==========
+number: 321
+code: takr
+altCodes: {
+}
+name: Takri
+javaName:
+aliases: {
+    Ṭāṅkrī
+    Ṭākrī
+}
+#==========
+number: 353
+code: tale
+altCodes: {
+    TAI_LE
+}
+name: Tai Le
+javaName: TAI_LE
+aliases: {
+    taï-le
+}
+#==========
+number: 354
+code: talu
+altCodes: {
+    NEW_TAI_LUE
+}
+name: New Tai Lue
+javaName: NEW_TAI_LUE
+aliases: {
+    nouveau taï-lue
+}
+#==========
+number: 346
+code: taml
+altCodes: {
+    TAMIL
+}
+name: Tamil
+javaName: TAMIL
+aliases: {
+    tamoul
+}
+#==========
+number: 520
+code: tang
+altCodes: {
+}
+name: Tangut
+javaName:
+aliases: {
+}
+#==========
+number: 359
+code: tavt
+altCodes: {
+    TAI_VIET
+}
+name: Tai Viet
+javaName: TAI_VIET
+aliases: {
+    taï viêt
+}
+#==========
+number: 340
+code: telu
+altCodes: {
+    TELUGU
+}
+name: Telugu
+javaName: TELUGU
+aliases: {
+    télougou
+}
+#==========
+number: 290
+code: teng
+altCodes: {
+}
+name: Tengwar
+javaName:
+aliases: {
+}
+#==========
+number: 120
+code: tfng
+altCodes: {
+    TIFINAGH
+}
+name: Tifinagh
+javaName: TIFINAGH
+aliases: {
+    Berber
+    berbère
+    tifinagh
+}
+#==========
+number: 370
+code: tglg
+altCodes: {
+    TAGALOG
+}
+name: Tagalog
+javaName: TAGALOG
+aliases: {
+    Baybayin
+    tagal
+    Alibata
+}
+#==========
+number: 170
+code: thaa
+altCodes: {
+    THAANA
+}
+name: Thaana
+javaName: THAANA
+aliases: {
+    thâna
+}
+#==========
+number: 352
+code: thai
+altCodes: {
+    THAI
+}
+name: Thai
+javaName: THAI
+aliases: {
+    thaï
+}
+#==========
+number: 330
+code: tibt
+altCodes: {
+    TIBETAN
+}
+name: Tibetan
+javaName: TIBETAN
+aliases: {
+    tibétain
+}
+#==========
+number: 326
+code: tirh
+altCodes: {
+}
+name: Tirhuta
+javaName:
+aliases: {
+}
+#==========
+number: 40
+code: ugar
+altCodes: {
+    UGARITIC
+}
+name: Ugaritic
+javaName: UGARITIC
+aliases: {
+    ougaritique
+}
+#==========
+number: 470
+code: vaii
+altCodes: {
+    VAI
+}
+name: Vai
+javaName: VAI
+aliases: {
+    vaï
+}
+#==========
+number: 280
+code: visp
+altCodes: {
+}
+name: Visible Speech
+javaName:
+aliases: {
+}
+#==========
+number: 262
+code: wara
+altCodes: {
+}
+name: Warang Citi
+javaName:
+aliases: {
+    Varang Kshiti
+}
+#==========
+number: 480
+code: wole
+altCodes: {
+}
+name: Woleai
+javaName:
+aliases: {
+}
+#==========
+number: 30
+code: xpeo
+altCodes: {
+    OLD_PERSIAN
+}
+name: Old Persian
+javaName: OLD_PERSIAN
+aliases: {
+    cunéiforme persépolitain
+}
+#==========
+number: 20
+code: xsux
+altCodes: {
+    CUNEIFORM
+}
+name: Cuneiform
+javaName: CUNEIFORM
+aliases: {
+    Sumero-Akkadian
+    cunéiforme suméro-akkadien
+}
+#==========
+number: 460
+code: yiii
+altCodes: {
+    YI
+}
+name: Yi
+javaName: YI
+aliases: {
+    yi
+}
+#==========
+number: 994
+code: zinh
+altCodes: {
+    INHERITED
+}
+name: Inherited
+javaName: INHERITED
+aliases: {
+    Code for inherited script
+    héritée
+    codet pour écriture héritée
+}
+#==========
+number: 995
+code: zmth
+altCodes: {
+}
+name: Mathematical Notation
+javaName:
+aliases: {
+}
+#==========
+number: 996
+code: zsym
+altCodes: {
+}
+name: Symbols
+javaName:
+aliases: {
+}
+#==========
+number: 997
+code: zxxx
+altCodes: {
+}
+name: Unwritten
+javaName:
+aliases: {
+    unwritten
+    Code for unwritten documents
+}
+#==========
+number: 998
+code: zyyy
+altCodes: {
+    COMMON
+}
+name: Undetermined
+javaName: COMMON
+aliases: {
+    Code for undetermined script
+    common
+    indéterminée
+    codet pour écriture indéterminée
+    undetermined
+    indeterminate
+}
+#==========
+number: 999
+code: zzzz
+altCodes: {
+    UNKNOWN
+}
+name: Uncoded
+javaName: UNKNOWN
+aliases: {
+    codet pour écriture non codée
+    Code for uncoded script
+    non codée
+    uncoded
+    unknown
+}

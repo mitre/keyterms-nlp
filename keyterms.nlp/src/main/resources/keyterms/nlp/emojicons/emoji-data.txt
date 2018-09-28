@@ -1,0 +1,1166 @@
+normalized_emoji | emoticon_variants | alias | description | tags | supports_fitz
+😶 | :‑X ; :X ; :‑# ; :# ; :‑& ; :& ; :-# ; :-& ; :-X | no_mouth | face without mouth | mute ; silence | false
+😵 | #-) | dizzy_face | dizzy face |  | false
+😼 | :-J | smirk_cat | cat face with wry smile |  | false
+😰 | :###.. ; :-###.. | cold_sweat | face with open mouth and cold sweat | nervous | false
+😮 | :-o ; :-O ; :o ; :O | open_mouth | face with open mouth | surprise ; impressed ; wow | false
+😭 | :,'( ; :,'-( ; ;( ; ;-( | sob | loudly crying face | sad ; cry ; bawling | false
+😳 |  :$ ; :$ | flushed | flushed face |  | false
+😲 | :‑O ; :O ; :‑o ; :o ; :-0 ; 8‑0 ; >:O ; O_O ; o‑o ; O_o ; o_O ; o_o ; O-O ; 8-0 ; :-O ; :-o ; o-o | astonished | astonished face | amazed ; gasp | false
+😱 | D-\': ; D8 ; D: ; D:< ; D; ; D= ; DX ; v.v | scream | face screaming in fear | horror ; shocked | false
+😨 | D‑': ; D:< ; D: ; D8 ; D; ; D= ; DX ; v.v | fearful | fearful face | scared ; shocked ; oops | false
+😦 | :( ; :-( | frowning | frowning face with open mouth |  | false
+😫 |  |-O ; |;-) | tired_face | tired face | upset ; whine | false
+😠 | :-|| ; :@ ; >:( | angry | angry face | mad ; annoyed | false
+😤 | ^5 ; ^<_< ; o/\\o ; >_>^ | triumph | face with look of triumph | smug | false
+😢 | :\'( ; :\'-( ; :'( ; :'-( ; :,( ; :,-( | cry | crying face | sad ; tear | false
+😡 | :-. ; :-/ ; :/ ; :L ; :S ; :\\ ; =/ ; =L ; =\\ ; >.< ; >:/ ; >:\\ ; :-@ ; :@ | rage | pouting face | angry | false
+💗 | <3 | heartpulse | growing heart |  | false
+😗 | :* ; :-* | kissing | kissing face |  | false
+😖 | %) ; %-) | confounded | confounded face |  | false
+😕 | :-/ ; :/ | confused | confused face |  | false
+😜 | :‑P ; :P ; X‑P ; XP ; x‑p ; xp ; :‑p ; :p ; :‑Þ ; :Þ ; :‑þ ; :þ ; :‑b ; :b ; d: ; >:P ; =p ; :-P ; :-b ; :-p ; :-Þ ; :-þ ; ;( ; X-P ; x-p | stuck_out_tongue_winking_eye | face with stuck-out tongue and winking eye | prank ; silly | false
+♥ | <3 | hearts | black heart suit |  | false
+😛 | :-P ; :P | stuck_out_tongue | face with stuck-out tongue |  | false
+😚 | :× ; :-* ; :* | kissing_closed_eyes | kissing face with closed eyes |  | false
+😐 | :‑| ; :| ; :-|  | neutral_face | neutral face | meh | false
+😏 | :‑/ ; :/ ; :‑. ; >:\\ ; >:/ ; :\\ ; =/ ; =\\ ; :L ; =L ; :S ; :‑J ; >.< | smirk | smirking face | smug | false
+😎 |  |;‑) ; |‑O ; 8-) ; B-) | sunglasses | smiling face with sunglasses | cool | false
+💔 | </3 | broken_heart | broken heart |  | false
+😓 | ,:( ; ,:-( | sweat | face with cold sweat |  | false
+😒 | :( ; :-( ; :-< ; :-[ ; :-c ; :< ; :[ ; :c ; :{ ; :っC ; >:[ ; :$ ; :-$ ; :-S ; :-Z ; :s ; :z | unamused | unamused face | meh | false
+😈 | >:‑) ; >:) ; }:‑) ; }:) ; 3:‑) ; 3:) ; >;) ; 3:-) ; }:-) ; >:-) ; ]:) ; ]:-) | smiling_imp | smiling face with horns | devil ; evil ; horns | false
+😇 | O:‑) ; O:) ; 0:‑3 ; 0:03 ; 0:‑) ; 0:) ; 0;^) ; 0:-) ; 0:-3 ; 0:3 ; O:-) ; o:) ; o:-) | innocent | smiling face with halo | angel | false
+🙆 | *\\0/* ; \\o/ | ok_woman | face with ok gesture |  | true
+😆 | X-) ; x-) | laughing ; satisfied | smiling face with open mouth and tightly-closed eyes | happy ; haha | false
+🙅 | ಠ_ಠ | no_good | face with no good gesture | stop ; halt | true
+😅 | ,:) ; ,:-) | sweat_smile | smiling face with open mouth and cold sweat | hot | false
+👋 | o/ | wave | waving hand sign | goodbye | true
+😊 | :") ; :-") | blush | smiling face with smiling eyes | proud | false
+😉 | ;‑) ; ;) ; *-) ; *) ; ;‑] ; ;] ; ;^) ; :‑, ; ;D ; :-, ; ;-) ; ;-] | wink | winking face | flirt | false
+☹ | :‑( ; :( ; :‑c ; :c ; :‑< ; :< ; :‑[ ; :[ ; :-|| ; >:[ ; :{ ; :@ ; >:( ; :'‑( ; :'( ; ☹ | frowning_face | white frowning face |  | false
+☺ | :‑) ; :) ; :-] ; :] ; :-3 ; :3 ; :-> ; :> ; 8-) ; 8) ; :-} ; :} ; :o) ; :c) ; :^) ; =] ; =) ; :'‑) ; :') ; 5:‑) ; *<|:‑) ; =:o] ; 7:^] ; ,:‑) ; 😀 | relaxed | white smiling face | blush ; pleased | false
+😽 | :* ; :^* | kissing_cat | kissing cat face with closed eyes |  | false
+😄 | 8) ; :) ; :-) ; :3 ; :D ; :] ; :^) ; :c) ; :o) ; :} ; :っ) ; =) ; =] ; :> ; :-D | smile | smiling face with open mouth and smiling eyes | happy ; joy ; pleased | false
+😃 | :-)) ; :‑D ; :D ; 8‑D ; 8D ; x‑D ; xD ; X‑D ; XD ; =D ; =3 ; B^D ; :) ; :-) | smiley | smiling face with open mouth | happy ; joy ; haha | false
+😂 | :\') ; :\'-) ; :') ; :'-) ; :'-D ; :'D ; :,) ; :,-) ; :,-D ; :,D | joy | face with tears of joy | tears | false
+😁 | 8-D ; 8D ; :-D ; =-3 ; =-D ; =3 ; =D ; B^D ; X-D ; XD ; x-D ; xD | grin | grinning face with smiling eyes |  | false
+🏻 |  | type_1_2 | light skin tone |  | false
+🏼 |  | type_3 | medium-light skin tone |  | false
+🏽 |  | type_4 | medium skin tone |  | false
+🏾 |  | type_5 | medium-dark skin tone |  | false
+🏿 |  | type_6 | dark skin tone |  | false
+👨‍🎓 |  | male_student ; man_student | man student |  | true
+👨‍🍳 |  | male_cook ; man_cook | man cook |  | true
+〰 |  | wavy_dash | wavy dash |  | false
+‼ |  | bangbang | double exclamation mark |  | false
+〽 |  | part_alternation_mark | part alternation mark |  | false
+👩‍⚕️ |  | female_health_worker ; woman_health_worker | woman health worker |  | true
+⁉ |  | interrobang | exclamation question mark |  | false
+👨‍🌾 |  | male_farmer ; man_farmer | man farmer |  | true
+🤾‍♂️ |  | man_handball ; male_handball | man handball |  | true
+👩‍⚖️ |  | woman_judge ; female_judge | woman judge |  | false
+© |  | copyright | copyright sign |  | false
+® |  | registered | registered sign |  | false
+👨‍👩‍👧 |  | family_man_woman_girl | family (man, woman, girl) | family ; man ; woman ; girl | false
+👨‍👩‍👦 |  | family_man_woman_boy | family (man, woman, boy) | family ; man ; woman ; boy | false
+👩‍👩‍👦‍👦 |  | family_woman_woman_boy_boy | family (woman, woman, boy, boy) | family ; woman ; boy | false
+👨‍🚒 |  | male_firefighter ; man_firefighter | man firefighter |  | true
+👨‍🚀 |  | male_astronaut ; man_astronaut | man astronaut |  | true
+👩‍❤️‍💋‍👩 |  | couplekiss_woman_woman | kiss (woman, woman) | couple ; kiss ; woman | false
+🤷‍♀️ |  | female_shrug ; woman_shrug | woman shrug |  | true
+™ |  | tm | trade mark sign | trademark | false
+⤴ |  | arrow_heading_up | arrow pointing rightwards then curving upwards |  | false
+⤵ |  | arrow_heading_down | arrow pointing rightwards then curving downwards |  | false
+ℹ |  | information_source | information source |  | false
+👩‍👩‍👧 |  | family_woman_woman_girl | family (woman, woman, girl) | family ; woman ; girl | false
+👩‍👩‍👦 |  | family_woman_woman_boy | family (woman, woman, boy) | family ; woman ; boy | false
+↔ |  | left_right_arrow | left right arrow |  | false
+↕ |  | arrow_up_down | up down arrow |  | false
+↖ |  | arrow_upper_left | north west arrow |  | false
+↗ |  | arrow_upper_right | north east arrow |  | false
+↘ |  | arrow_lower_right | south east arrow |  | false
+↙ |  | arrow_lower_left | south west arrow |  | false
+↩ |  | leftwards_arrow_with_hook | leftwards arrow with hook | return | false
+↪ |  | arrow_right_hook | rightwards arrow with hook |  | false
+👨‍👩‍👧‍👧 |  | family_man_woman_girl_girl | family (man, woman, girl, girl) | family ; man ; woman ; girl | false
+👨‍❤‍👨 |  | couple_with_heart_man_man | couple with heart (man, man) | couple ; heart ; man | false
+🤷‍♂️ |  | male_shrug ; man_shrug | man shrug |  | true
+⚕️ |  | medical_symbol ; staff_of_aesculapius | medical symbol |  | false
+👨‍👨‍👧‍👦 |  | family_man_man_girl_boy | family (man, man, girl, boy) | family ; man ; girl ; boy | false
+👨‍👨‍👧‍👧 |  | family_man_man_girl_girl | family (man, man, girl, girl) | family ; man ; girl | false
+👨‍🔬 |  | male_scientist ; man_scientist | man scientist |  | true
+🤹‍♀️ |  | woman_juggling ; female_juggling | woman juggling |  | true
+👩‍✈️ |  | female_pilot ; woman_pilot | woman pilot |  | true
+👨‍🔧 |  | male_mechanic ; man_mechanic | man mechanic |  | true
+🤹‍♂️ |  | man_juggling ; male_juggling | man juggling |  | true
+㊗ |  | congratulations | circled ideograph congratulation |  | false
+㊙ |  | secret | circled ideograph secret |  | false
+👨‍💻 |  | male_technologist ; man_technologist | man technologist |  | true
+👨‍💼 |  | male_office_worker ; man_office_worker | man office worker |  | true
+🏌‍♀️ |  | woman_golfer ; female_golfer ; woman_golfing ; female_golfing | woman golfing |  | true
+⬅ |  | arrow_left | leftwards black arrow |  | false
+⬆ |  | arrow_up | upwards black arrow |  | false
+⬇ |  | arrow_down | downwards black arrow |  | false
+⌚ |  | watch | watch | time | false
+⌛ |  | hourglass | hourglass | time | false
+⬛ |  | black_large_square | black large square |  | false
+⬜ |  | white_large_square | white large square |  | false
+⌨ |  | keyboard | keyboard |  | false
+🤽‍♀️ |  | woman_water_polo ; female_water_polo | woman water polo |  | true
+👩‍👩‍👧‍👦 |  | family_woman_woman_girl_boy | family (woman, woman, girl, boy) | family ; woman ; girl ; boy | false
+👩‍👩‍👧‍👧 |  | family_woman_woman_girl_girl | family (woman, woman, girl, girl) | family ; woman ; girl | false
+👩‍🏫 |  | female_teacher ; woman_teacher | woman teacher |  | true
+👩‍🏭 |  | female_factory_worker ; woman_factory_worker | woman factory worker |  | true
+⭐ |  | star | white medium star |  | false
+🀄 |  | mahjong | mahjong tile red dragon |  | false
+⭕ |  | o | heavy large circle |  | false
+🐘 |  | elephant | elephant |  | false
+🐗 |  | boar | boar |  | false
+🐖 |  | pig2 | pig |  | false
+🐕 |  | dog2 | dog |  | false
+🐜 |  | ant | ant |  | false
+🐛 |  | bug | bug |  | false
+🐚 |  | shell | spiral shell | sea ; beach | false
+🐙 |  | octopus | octopus |  | false
+🐐 |  | goat | goat |  | false
+🐏 |  | ram | ram |  | false
+🐎 |  | racehorse | horse | speed | false
+🐍 |  | snake | snake |  | false
+🐔 |  | chicken | chicken |  | false
+🐓 |  | rooster | rooster |  | false
+🐒 |  | monkey | monkey |  | false
+🐑 |  | sheep | sheep |  | false
+🐈 |  | cat2 | cat |  | false
+🐇 |  | rabbit2 | rabbit |  | false
+🐆 |  | leopard | leopard |  | false
+🐅 |  | tiger2 | tiger |  | false
+🐌 |  | snail | snail | slow | false
+🐋 |  | whale2 | whale |  | false
+🐊 |  | crocodile | crocodile |  | false
+🐉 |  | dragon | dragon |  | false
+🐀 |  | rat | rat |  | false
+🐄 |  | cow2 | cow |  | false
+🐃 |  | water_buffalo | water buffalo |  | false
+🐂 |  | ox | ox |  | false
+🐁 |  | mouse2 | mouse |  | false
+🐸 |  | frog | frog face |  | false
+🐷 |  | pig | pig face |  | false
+🐶 |  | dog | dog face | pet | false
+🐵 |  | monkey_face | monkey face |  | false
+🐼 |  | panda_face | panda face |  | false
+🐻 |  | bear | bear face |  | false
+🐺 |  | wolf | wolf face |  | false
+🐹 |  | hamster | hamster face | pet | false
+🐰 |  | rabbit | rabbit face | bunny | false
+🐯 |  | tiger | tiger face |  | false
+🐮 |  | cow | cow face |  | false
+🐭 |  | mouse | mouse face |  | false
+🐴 |  | horse | horse face |  | false
+🐳 |  | whale | spouting whale | sea | false
+🐲 |  | dragon_face | dragon face |  | false
+🐱 |  | cat | cat face | pet | false
+🐨 |  | koala | koala |  | false
+🐧 |  | penguin | penguin |  | false
+🐦 |  | bird | bird |  | false
+🐥 |  | hatched_chick | front-facing baby chick |  | false
+🐬 |  | dolphin ; flipper | dolphin |  | false
+🐫 |  | camel | bactrian camel |  | false
+🐪 |  | dromedary_camel | dromedary camel | desert | false
+🐩 |  | poodle | poodle | dog | false
+🐠 |  | tropical_fish | tropical fish |  | false
+👩‍🎨 |  | female_artist ; woman_artist | woman artist |  | true
+🐟 |  | fish | fish |  | false
+🐞 |  | beetle | lady beetle | bug | false
+🐝 |  | bee ; honeybee | honeybee |  | false
+🐤 |  | baby_chick | baby chick |  | false
+👩‍🎤 |  | female_singer ; woman_singer | woman singer |  | true
+🐣 |  | hatching_chick | hatching chick |  | false
+🐢 |  | turtle | turtle | slow | false
+🐡 |  | blowfish | blowfish |  | false
+👘 |  | kimono | kimono |  | false
+👗 |  | dress | dress |  | false
+👖 |  | jeans | jeans | pants | false
+👕 |  | shirt ; tshirt | t-shirt |  | false
+👜 |  | handbag | handbag | bag | false
+👛 |  | purse | purse |  | false
+👚 |  | womans_clothes | womans clothes |  | false
+👙 |  | bikini | bikini | beach | false
+👐 |  | open_hands | open hands sign |  | true
+👏 |  | clap | clapping hands sign | praise ; applause | true
+👎 |  | -1 ; thumbsdown | thumbs down sign | disapprove ; bury | true
+👍 |  | +1 ; thumbsup | thumbs up sign | approve ; ok | true
+👔 |  | necktie | necktie | shirt ; formal | false
+👓 |  | eyeglasses | eyeglasses | glasses | false
+👩‍🎓 |  | female_student ; woman_student | woman student |  | true
+👒 |  | womans_hat | womans hat |  | false
+👑 |  | crown | crown | king ; queen ; royal | false
+👈 |  | point_left | white left pointing backhand index |  | true
+👇 |  | point_down | white down pointing backhand index |  | true
+👆 |  | point_up_2 | white up pointing backhand index |  | true
+👅 |  | tongue | tongue | taste | false
+👌 |  | ok_hand | ok hand sign |  | true
+👊 |  | facepunch ; punch | fisted hand sign | attack | true
+👉 |  | point_right | white right pointing backhand index |  | true
+👀 |  | eyes | eyes | look ; see ; watch | false
+🐿 |  | chipmunk ; squirrel | chipmunk |  | false
+🐾 |  | feet ; paw_prints | paw prints |  | false
+🐽 |  | pig_nose | pig nose |  | false
+👄 |  | lips | mouth | kiss | false
+👃 |  | nose | nose | smell | true
+👂 |  | ear | ear | hear ; sound ; listen | true
+👁 |  | eye | eye |  | false
+👸 |  | princess | princess | blonde ; crown ; royal | true
+👷 |  | construction_worker | construction worker | helmet | true
+👶 |  | baby | baby | child ; newborn | true
+👵 |  | older_woman | older woman |  | true
+👼 |  | angel | baby angel |  | true
+👻 |  | ghost | ghost | halloween | false
+👺 |  | japanese_goblin | japanese goblin |  | false
+👹 |  | japanese_ogre | japanese ogre | monster | false
+👰 |  | bride_with_veil | bride with veil | marriage ; wedding | true
+👯 |  | dancers | woman with bunny ears | bunny | true
+👮 |  | cop | police officer | police ; law | true
+👭 |  | two_women_holding_hands | two women holding hands | couple ; date | false
+👴 |  | older_man | older man |  | true
+👳 |  | man_with_turban | man with turban |  | true
+👩‍🍳 |  | female_cook ; woman_cook | woman cook |  | true
+👲 |  | man_with_gua_pi_mao | man with gua pi mao |  | true
+👱 |  | person_with_blond_hair | person with blond hair | boy | true
+👨 |  | man | man | mustache ; father ; dad | true
+👧 |  | girl | girl | child | true
+👦 |  | boy | boy | child | true
+👥 |  | busts_in_silhouette | busts in silhouette | users ; group ; team | false
+👬 |  | two_men_holding_hands | two men holding hands | couple ; date | false
+👫 |  | couple | man and woman holding hands | date | false
+👪 |  | family | family | home ; parents ; child | false
+👩 |  | woman | woman | girls | true
+👠 |  | high_heel | high-heeled shoe | shoe | false
+👟 |  | athletic_shoe | athletic shoe | sneaker ; sport ; running | false
+👞 |  | mans_shoe ; shoe | mans shoe |  | false
+👝 |  | pouch | pouch | bag | false
+👤 |  | bust_in_silhouette | bust in silhouette | user | false
+👣 |  | footprints | footprints | feet ; tracks | false
+👢 |  | boot | womans boots |  | false
+👡 |  | sandal | womans sandal | shoe | false
+💘 |  | cupid | heart with arrow | love ; heart | false
+💖 |  | sparkling_heart | sparkling heart |  | false
+💕 |  | two_hearts | two hearts |  | false
+💜 |  | purple_heart | purple heart |  | false
+💛 |  | yellow_heart | yellow heart |  | false
+💚 |  | green_heart | green heart |  | false
+💙 |  | blue_heart | blue heart |  | false
+💐 |  | bouquet | bouquet | flowers | false
+💏 |  | couplekiss | kiss |  | false
+⏩ |  | fast_forward | black right-pointing double triangle |  | false
+💎 |  | gem | gem stone | diamond | false
+⏪ |  | rewind | black left-pointing double triangle |  | false
+💍 |  | ring | ring | wedding ; marriage ; engaged | false
+⏫ |  | arrow_double_up | black up-pointing double triangle |  | false
+⏬ |  | arrow_double_down | black down-pointing double triangle |  | false
+💓 |  | heartbeat | beating heart |  | false
+⏭ |  | black_right_pointing_double_triangle_with_vertical_bar | black right-pointing double triangle with vertical bar |  | false
+💒 |  | wedding | wedding | marriage | false
+⏮ |  | black_left_pointing_double_triangle_with_vertical_bar | black left-pointing double triangle with vertical bar |  | false
+💑 |  | couple_with_heart | couple with heart |  | false
+⏯ |  | black_right_pointing_triangle_with_double_vertical_bar | black right-pointing triangle with double vertical bar |  | false
+⏰ |  | alarm_clock | alarm clock | morning | false
+💈 |  | barber | barber pole |  | false
+💇 |  | haircut | haircut | beauty | true
+⏱ |  | stopwatch | stopwatch |  | false
+💆 |  | massage | face massage | spa | true
+⏲ |  | timer_clock | timer clock |  | false
+💅 |  | nail_care | nail polish | beauty ; manicure | true
+⏳ |  | hourglass_flowing_sand | hourglass with flowing sand | time | false
+💌 |  | love_letter | love letter | email ; envelope | false
+💋 |  | kiss | kiss mark | lipstick | false
+🤽‍♂️ |  | man_water_polo ; male_water_polo | man water polo |  | true
+💊 |  | pill | pill | health ; medicine | false
+👩‍🌾 |  | female_farmer ; woman_farmer | woman famer |  | true
+💉 |  | syringe | syringe | health ; hospital ; needle | false
+💀 |  | skull | skull | dead ; danger ; poison | false
+⏸ |  | double_vertical_bar | double vertical bar |  | false
+👿 |  | imp | imp | angry ; devil ; evil ; horns | false
+⏹ |  | black_square_for_stop | black square for stop |  | false
+👾 |  | space_invader | alien monster | game ; retro | false
+⏺ |  | black_circle_for_record | black circle for record |  | false
+👽 |  | alien | extraterrestrial alien | ufo | false
+💄 |  | lipstick | lipstick | makeup | false
+💃 |  | dancer | dancer | dress | true
+💂 |  | guardsman | guardsman |  | true
+💁 |  | information_desk_person | information desk person |  | true
+💸 |  | money_with_wings | money with wings | dollar | false
+💷 |  | pound | banknote with pound sign |  | false
+💶 |  | euro | banknote with euro sign |  | false
+💵 |  | dollar | banknote with dollar sign | money | false
+💼 |  | briefcase | briefcase | business | false
+💻 |  | computer | personal computer | desktop ; screen | false
+💺 |  | seat | seat |  | false
+💹 |  | chart | chart with upwards trend and yen sign |  | false
+💰 |  | moneybag | money bag | dollar ; cream | false
+🃏 |  | black_joker | playing card black joker |  | false
+💯 |  | 100 | hundred points symbol | score ; perfect | false
+💮 |  | white_flower | white flower |  | false
+💭 |  | thought_balloon | thought balloon | thinking | false
+💴 |  | yen | banknote with yen sign |  | false
+💳 |  | credit_card | credit card | subscription | false
+💲 |  | heavy_dollar_sign | heavy dollar sign |  | false
+💱 |  | currency_exchange | currency exchange |  | false
+💨 |  | dash | dash symbol | wind ; blow ; fast | false
+💧 |  | droplet | droplet | water | false
+💦 |  | sweat_drops | splashing sweat symbol | water ; workout | false
+💥 |  | boom ; collision | collision symbol | explode | false
+💬 |  | speech_balloon | speech balloon | comment | false
+💫 |  | dizzy | dizzy symbol | star | false
+💪 |  | muscle | flexed biceps | flex ; bicep ; strong ; workout | true
+👁‍🗨 |  | eye_in_speech_bubble ; i_am_a_witness | eye in speech bubble |  | false
+💩 |  | hankey ; poop ; shit | pile of poo | crap | false
+💠 |  | diamond_shape_with_a_dot_inside | diamond shape with a dot inside |  | false
+💟 |  | heart_decoration | heart decoration |  | false
+💞 |  | revolving_hearts | revolving hearts |  | false
+💝 |  | gift_heart | heart with ribbon | chocolates | false
+💤 |  | zzz | sleeping symbol | sleeping | false
+💣 |  | bomb | bomb | boom | false
+💢 |  | anger | anger symbol | angry | false
+💡 |  | bulb | electric light bulb | idea ; light | false
+📘 |  | blue_book | blue book |  | false
+📗 |  | green_book | green book |  | false
+📖 |  | book ; open_book | open book |  | false
+📕 |  | closed_book | closed book |  | false
+📜 |  | scroll | scroll | document | false
+📛 |  | name_badge | name badge |  | false
+📚 |  | books | books | library | false
+📙 |  | orange_book | orange book |  | false
+📐 |  | triangular_ruler | triangular ruler |  | false
+📏 |  | straight_ruler | straight ruler |  | false
+📎 |  | paperclip | paperclip |  | false
+📍 |  | round_pushpin | round pushpin | location | false
+📔 |  | notebook_with_decorative_cover | notebook with decorative cover |  | false
+📓 |  | notebook | notebook |  | false
+📒 |  | ledger | ledger |  | false
+📑 |  | bookmark_tabs | bookmark tabs |  | false
+📈 |  | chart_with_upwards_trend | chart with upwards trend | graph ; metrics | false
+📇 |  | card_index | card index |  | false
+📆 |  | calendar | tear-off calendar | schedule | false
+📅 |  | date | calendar | calendar ; schedule | false
+📌 |  | pushpin | pushpin | location | false
+📋 |  | clipboard | clipboard |  | false
+📊 |  | bar_chart | bar chart | stats ; metrics | false
+📉 |  | chart_with_downwards_trend | chart with downwards trend | graph ; metrics | false
+📀 |  | dvd | dvd |  | false
+💿 |  | cd | optical disc |  | false
+💾 |  | floppy_disk | floppy disk | save | false
+💽 |  | minidisc | minidisc |  | false
+📄 |  | page_facing_up | page facing up | document | false
+📃 |  | page_with_curl | page with curl |  | false
+📂 |  | open_file_folder | open file folder |  | false
+📁 |  | file_folder | file folder | directory | false
+📸 |  | camera_flash | camera with flash |  | false
+📷 |  | camera | camera | photo | false
+📶 |  | signal_strength | antenna with bars | wifi | false
+📵 |  | no_mobile_phones | no mobile phones |  | false
+📼 |  | vhs | videocassette |  | false
+📻 |  | radio | radio | podcast | false
+📺 |  | tv | television |  | false
+📹 |  | video_camera | video camera |  | false
+📰 |  | newspaper | newspaper | press | false
+📯 |  | postal_horn | postal horn |  | false
+📮 |  | postbox | postbox |  | false
+📭 |  | mailbox_with_no_mail | open mailbox with lowered flag |  | false
+📴 |  | mobile_phone_off | mobile phone off | mute ; off | false
+📳 |  | vibration_mode | vibration mode |  | false
+📲 |  | calling | mobile phone with rightwards arrow at left | call ; incoming | false
+📱 |  | iphone | mobile phone | smartphone ; mobile | false
+📨 |  | incoming_envelope | incoming envelope |  | false
+📧 |  | e-mail | e-mail symbol |  | false
+📦 |  | package | package | shipping | false
+📥 |  | inbox_tray | inbox tray |  | false
+📬 |  | mailbox_with_mail | open mailbox with raised flag |  | false
+📫 |  | mailbox | closed mailbox with raised flag |  | false
+📪 |  | mailbox_closed | closed mailbox with lowered flag |  | false
+📩 |  | envelope_with_arrow | envelope with downwards arrow above |  | false
+📠 |  | fax | fax machine |  | false
+📟 |  | pager | pager |  | false
+📞 |  | telephone_receiver | telephone receiver | phone ; call | false
+📝 |  | memo ; pencil | memo | document ; note | false
+📤 |  | outbox_tray | outbox tray |  | false
+📣 |  | mega | cheering megaphone |  | false
+📢 |  | loudspeaker | public address loudspeaker | announcement | false
+📡 |  | satellite_antenna | satellite antenna | signal | false
+🔘 |  | radio_button | radio button |  | false
+🔗 |  | link | link symbol |  | false
+🔖 |  | bookmark | bookmark |  | false
+👨‍👩‍👦‍👦 |  | family_man_woman_boy_boy | family (man, woman, boy, boy) | family ; man ; woman ; boy | false
+🔕 |  | no_bell | bell with cancellation stroke | volume ; off | false
+🔜 |  | soon | soon with rightwards arrow above |  | false
+🔛 |  | on | on with exclamation mark with left right arrow above |  | false
+🔚 |  | end | end with leftwards arrow above |  | false
+🔙 |  | back | back with leftwards arrow above |  | false
+🔐 |  | closed_lock_with_key | closed lock with key | security | false
+🔏 |  | lock_with_ink_pen | lock with ink pen |  | false
+🔎 |  | mag_right | right-pointing magnifying glass |  | false
+🔍 |  | mag | left-pointing magnifying glass | search ; zoom | false
+🔔 |  | bell | bell | sound ; notification | false
+🔓 |  | unlock | open lock | security | false
+🔒 |  | lock | lock | security ; private | false
+🔑 |  | key | key | lock ; password | false
+🔈 |  | speaker | speaker |  | false
+🔇 |  | mute | speaker with cancellation stroke | sound ; volume | false
+🔆 |  | high_brightness | high brightness symbol |  | false
+🔅 |  | low_brightness | low brightness symbol |  | false
+🔌 |  | electric_plug | electric plug |  | false
+🔋 |  | battery | battery | power | false
+🔊 |  | loud_sound | speaker with three sound waves | volume | false
+🔉 |  | sound | speaker with one sound wave | volume | false
+🔀 |  | twisted_rightwards_arrows | twisted rightwards arrows | shuffle | false
+📿 |  | prayer_beads ; dhikr_beads ; rosary_beads | prayer beads |  | false
+📽 |  | film_projector | film projector |  | false
+🔄 |  | arrows_counterclockwise | anticlockwise downwards and upwards open circle arrows | sync | false
+🔃 |  | arrows_clockwise | clockwise downwards and upwards open circle arrows |  | false
+🔂 |  | repeat_one | clockwise rightwards and leftwards open circle arrows with circled one overlay |  | false
+🔁 |  | repeat | clockwise rightwards and leftwards open circle arrows | loop | false
+🔸 |  | small_orange_diamond | small orange diamond |  | false
+🤙 |  | call_me_hand | call me hand |  | true
+🔷 |  | large_blue_diamond | large blue diamond |  | false
+🤘 |  | horns_sign ; rock_on ; heavy_metal ; devil_fingers | sign of the horns |  | true
+🔶 |  | large_orange_diamond | large orange diamond |  | false
+🤗 |  | hugging ; hug ; hugs | hugging face |  | false
+🔵 |  | large_blue_circle | large blue circle |  | false
+🤖 |  | robot_face ; bot_face | robot face |  | false
+👩‍🚒 |  | female_firefighter ; woman_firefighter | woman firefighter |  | true
+🔼 |  | arrow_up_small | up-pointing small red triangle |  | false
+🤝 |  | handshake | handshake |  | true
+👨‍⚖️ |  | man_judge ; male_judge | man judge |  | false
+🔻 |  | small_red_triangle_down | down-pointing red triangle |  | false
+🤜 |  | right-facing_fist | right-facing fist |  | true
+🔺 |  | small_red_triangle | up-pointing red triangle |  | false
+🤛 |  | left-facing_fist | left-facing fist |  | true
+🔹 |  | small_blue_diamond | small blue diamond |  | false
+🤚 |  | raised_back_of_hand | raised back of hand |  | true
+🔰 |  | beginner | japanese symbol for beginner |  | false
+🤑 |  | money_mouth ; money_face | money-mouth face |  | false
+🔯 |  | six_pointed_star | six pointed star with middle dot |  | false
+🤐 |  | zipper_mouth ; zip_it ; sealed_lips ; lips_sealed | zipper-mouth face |  | false
+🔮 |  | crystal_ball | crystal ball | fortune | false
+🔭 |  | telescope | telescope |  | false
+🔴 |  | red_circle | large red circle |  | false
+🤕 |  | injured ; head_bandage ; head_bandaged ; bandaged | face with head bandage |  | false
+🔳 |  | white_square_button | white square button |  | false
+🤔 |  | thinking ; think ; thinker | thinking face |  | false
+🔲 |  | black_square_button | black square button |  | false
+🤓 |  | nerd ; nerdy | nerd face |  | false
+🔱 |  | trident | trident emblem |  | false
+🤒 |  | sick ; ill ; thermometer_face | face with thermometer |  | false
+🔨 |  | hammer | hammer | tool | false
+🔧 |  | wrench | wrench | tool | false
+👩‍🚀 |  | female_astronaut ; woman_astronaut | woman astronaut |  | true
+🔦 |  | flashlight | electric torch |  | false
+🔥 |  | fire | fire | burn | false
+🔬 |  | microscope | microscope | science ; laboratory ; investigate | false
+🔫 |  | gun | pistol | shoot ; weapon | false
+🔪 |  | hocho ; knife | hocho | cut ; chop | false
+🔩 |  | nut_and_bolt | nut and bolt |  | false
+🔠 |  | capital_abcd | input symbol for latin capital letters | letters | false
+🔟 |  | keycap_ten | keycap ten |  | false
+🔞 |  | underage | no one under eighteen symbol |  | false
+🔝 |  | top | top with upwards arrow above |  | false
+🔤 |  | abc | input symbol for latin letters | alphabet | false
+🔣 |  | symbols | input symbol for symbols |  | false
+🔢 |  | 1234 | input symbol for numbers | numbers | false
+🔡 |  | abcd | input symbol for latin small letters |  | false
+🕘 |  | clock9 | clock face nine oclock |  | false
+🤹 |  | juggling | juggling |  | true
+🕗 |  | clock8 | clock face eight oclock |  | false
+🤸 |  | person_doing_cartwheel | person doing cartwheel |  | true
+🕖 |  | clock7 | clock face seven oclock |  | false
+🤷 |  | shrug | shrug |  | true
+🕕 |  | clock6 | clock face six oclock |  | false
+🤶 |  | mother_christmas | mother christmas |  | true
+🕜 |  | clock130 | clock face one-thirty |  | false
+🤽 |  | water_polo | water polo |  | true
+🕛 |  | clock12 | clock face twelve oclock |  | false
+👨‍👨‍👧 |  | family_man_man_girl | family (man, man, girl) | family ; man ; girl | false
+🤼 |  | wrestlers | wrestlers |  | true
+🕚 |  | clock11 | clock face eleven oclock |  | false
+👨‍👨‍👦 |  | family_man_man_boy | family (man, man, boy) | family ; man ; boy | false
+🕙 |  | clock10 | clock face ten oclock |  | false
+🤺 |  | fencer | fencer |  | false
+🕐 |  | clock1 | clock face one oclock |  | false
+🤰 |  | pregnant_woman | pregnant woman |  | true
+🕎 |  | menorah ; candelabrum ; chanukiah | menorah with nine branches |  | false
+🕍 |  | synagogue ; temple ; jewish | synagogue with star of David |  | false
+🕔 |  | clock5 | clock face five oclock |  | false
+🤵 |  | man_in_tuxedo | man in tuxedo |  | true
+🕓 |  | clock4 | clock face four oclock |  | false
+🤴 |  | prince | prince |  | true
+🅱 |  | b | negative squared latin capital letter b |  | false
+🕒 |  | clock3 | clock face three oclock |  | false
+🤳 |  | selfie | selfie |  | true
+🅰 |  | a | negative squared latin capital letter a |  | false
+🕑 |  | clock2 | clock face two oclock |  | false
+🤧 |  | sneezing_face | sneezing face |  | false
+🤦 |  | face_palm | face palm |  | true
+🕌 |  | mosque ; minaret ; domed_roof | mosque with domed roof and minaret |  | false
+🕋 |  | kaaba ; mecca | kaaba |  | false
+🕊 |  | dove ; dove_peace | dove of peace, carrying an olive branch |  | false
+🕉 |  | om_symbol ; pranava ; aumkara ; omkara | om symbol |  | false
+🤡 |  | clown_face ; clown | clown face |  | false
+🤠 |  | face_with_cowboy_hat ; cowboy | face with cowboy hat |  | false
+🔽 |  | arrow_down_small | down-pointing small red triangle |  | false
+🤞 |  | hand_with_index_and_middle_fingers_crossed | hand with index and middle fingers crossed |  | true
+🤥 |  | lying_face | lying face |  | false
+🤤 |  | drooling_face | drooling face |  | false
+🤣 |  | rolling_on_the_floor_laughing ; rofl | rolling on the floor laughing |  | false
+🤢 |  | nauseated_face | nauseated face |  | false
+🆗 |  | ok | squared ok | yes | false
+🕸 |  | spider_web ; cobweb | spider web in orb form |  | false
+🥙 |  | stuffed_flatbread | stuffed flatbread |  | false
+🆖 |  | squared_ng | squared ng |  | false
+🕷 |  | spider | black spider with eight legs |  | false
+🥘 |  | shallow_pan_of_food | shallow pan of food |  | false
+🆕 |  | new | squared new | fresh | false
+Ⓜ |  | m | circled latin capital letter m |  | false
+🕶 |  | dark_sunglasses | dark sunglasses |  | false
+🥗 |  | green_salad | green salad |  | false
+🆔 |  | id | squared id |  | false
+🕵 |  | detective ; sleuth ; private_eye ; spy | sleuth or spy |  | false
+🥖 |  | baguette_bread | baguette bread |  | false
+🥝 |  | kiwifruit | kiwifruit |  | false
+🆚 |  | vs | squared vs |  | false
+🥜 |  | peanuts | peanuts |  | false
+🆙 |  | up | squared up with exclamation mark |  | false
+🕺 |  | man_dancing | man dancing |  | true
+🥛 |  | glass_of_milk | glass of milk |  | false
+🆘 |  | sos | squared sos | help ; emergency | false
+🕹 |  | joystick | joystick |  | false
+🥚 |  | egg | egg |  | false
+🕰 |  | mantelpiece_clock | mantelpiece clock |  | false
+🥑 |  | avocado | avocado |  | false
+🆎 |  | ab | negative squared ab |  | false
+🕯 |  | candle | candle burning |  | false
+🥐 |  | croissant | croissant |  | false
+🆓 |  | free | squared free |  | false
+🕴 |  | hovering_man ; levitating_man | man in business suit levitating |  | true
+🥕 |  | carrot | carrot |  | false
+🆒 |  | cool | squared cool |  | false
+🕳 |  | hole | hole |  | false
+🥔 |  | potato | potato |  | false
+🆑 |  | cl | squared cl |  | false
+🥓 |  | bacon | bacon |  | false
+🥒 |  | cucumber | cucumber |  | false
+🥉 |  | third_place_medal | third place medal |  | false
+🕧 |  | clock1230 | clock face twelve-thirty |  | false
+🥈 |  | second_place_medal | second place medal |  | false
+🕦 |  | clock1130 | clock face eleven-thirty |  | false
+🥇 |  | first_place_medal | first place medal |  | false
+🕥 |  | clock1030 | clock face ten-thirty |  | false
+🥋 |  | martial_arts_uniform | martial arts uniform |  | false
+🥊 |  | boxing_glove | boxing glove |  | false
+🅿 |  | parking | negative squared latin capital letter p |  | false
+🕠 |  | clock530 | clock face five-thirty |  | false
+🥁 |  | drum_with_drumsticks | drum with drumsticks |  | false
+🅾 |  | o2 | negative squared latin capital letter o |  | false
+🕟 |  | clock430 | clock face four-thirty |  | false
+🥀 |  | wilted_flower | wilted flower |  | false
+🕞 |  | clock330 | clock face three-thirty |  | false
+🕝 |  | clock230 | clock face two-thirty |  | false
+🤾 |  | handball | handball |  | true
+🕤 |  | clock930 | clock face nine-thirty |  | false
+🥅 |  | goal_net | goal net |  | false
+🕣 |  | clock830 | clock face eight-thirty |  | false
+🥄 |  | spoon | spoon |  | false
+🕢 |  | clock730 | clock face seven-thirty |  | false
+🥃 |  | tumbler_glass | tumbler glass |  | false
+🕡 |  | clock630 | clock face six-thirty |  | false
+🥂 |  | clinking_glasses | clinking glasses |  | false
+🖖 |  | vulcan_salute | raised hand with part between middle and ring fingers | vulcan ; salute | true
+🖕 |  | middle_finger | reversed hand with middle finger extended |  | true
+👨‍⚕️ |  | male_health_worker ; man_health_worker | man health worker |  | true
+🖐 |  | raised_hand_with_fingers_splayed ; splayed_hand | raised hand with five fingers splayed |  | true
+🖍 |  | lower_left_crayon | lower left crayon |  | false
+🖇 |  | linked_paperclips | multiple paperclips linked together |  | false
+🖌 |  | lower_left_paintbrush | lower left paintbrush |  | false
+🖋 |  | lower_left_fountain_pen | lower left fountain pen |  | false
+🖊 |  | lower_left_ballpoint_pen | lower left ballpoint pen |  | false
+🥞 |  | pancakes | pancakes |  | false
+🖼 |  | picture_frame ; painting ; gallery | frame with picture or painting |  | false
+🦑 |  | squid | squid |  | false
+🦐 |  | shrimp | shrimp |  | false
+🦏 |  | rhinoceros | rhinoceros |  | false
+🦎 |  | lizard | lizard |  | false
+🖲 |  | trackball | trackball |  | false
+🖱 |  | computer_mouse ; three_button_mouse | three button mouse |  | false
+🖨 |  | printer | printer |  | false
+🦉 |  | owl | owl |  | false
+🦈 |  | shark | shark |  | false
+🦇 |  | bat | bat |  | false
+🖥 |  | desktop_computer ; pc_tower ; imac | desktop computer |  | false
+🦆 |  | duck | duck |  | false
+🦍 |  | gorilla | gorilla |  | false
+🦌 |  | deer | deer |  | false
+🦋 |  | butterfly | butterfly |  | false
+🦊 |  | fox_face | fox face |  | false
+🦁 |  | lion_face ; cute_lion ; timid_lion | lion face |  | false
+🦀 |  | crab | red crab |  | false
+🖤 |  | black_heart | black heart |  | false
+🦅 |  | eagle | eagle |  | false
+🦄 |  | unicorn_face | unicorn face |  | false
+🦃 |  | turkey | turkey |  | false
+🦂 |  | scorpion | scorpion |  | false
+#⃣ |  | hash | number sign + combining enclosing keycap | number | false
+🗜 |  | compression | compression |  | false
+🗓 |  | spiral_calendar_pad | spiral calendar pad |  | false
+🗒 |  | spiral_note_pad | spiral note pad |  | false
+🗑 |  | wastebasket | wastebasket |  | false
+🗄 |  | file_cabinet | file cabinet |  | false
+🗃 |  | card_file_box | card file box |  | false
+🗂 |  | card_index_dividers | card index dividers |  | false
+🗼 |  | tokyo_tower | tokyo tower |  | false
+🗻 |  | mount_fuji | mount fuji |  | false
+🈚 |  | u7121 | squared cjk unified ideograph-7121 |  | false
+🗺 |  | world_map | world map |  | false
+🗯 |  | right_anger_bubble ; zig_zag_bubble | right anger bubble |  | false
+🗳 |  | ballot ; ballot_box | ballot bow with ballot |  | false
+🗨 |  | left_speech_bubble | left speech bubble |  | false
+🧀 |  | cheese | cheese wedge |  | false
+🗞 |  | rolled_up_newspaper ; newspaper_delivery | newspaper rolled up for delivery |  | false
+🗝 |  | old_key | an ornate old key |  | false
+🈂 |  | sa | squared katakana sa |  | false
+🗣 |  | speaking_head_in_silhouette | speaking head in silhouette |  | false
+🈁 |  | koko | squared katakana koko |  | false
+🗡 |  | dagger ; dagger_knife ; knife_weapon | dagger knife |  | false
+😘 |  | kissing_heart | face throwing a kiss | flirt | false
+🈷 |  | u6708 | squared cjk unified ideograph-6708 |  | false
+🈶 |  | u6709 | squared cjk unified ideograph-6709 |  | false
+🈵 |  | u6e80 | squared cjk unified ideograph-6e80 |  | false
+🈴 |  | u5408 | squared cjk unified ideograph-5408 |  | false
+🈺 |  | u55b6 | squared cjk unified ideograph-55b6 |  | false
+🈹 |  | u5272 | squared cjk unified ideograph-5272 |  | false
+😙 |  | kissing_smiling_eyes | kissing face with smiling eyes |  | false
+🈸 |  | u7533 | squared cjk unified ideograph-7533 |  | false
+‍👨❤️💋‍👨 |  | couplekiss_man_man | kiss (man, man) | couple ; kiss ; man | false
+🈯 |  | u6307 | squared cjk unified ideograph-6307 |  | false
+😍 |  | heart_eyes | smiling face with heart-shaped eyes | love ; crush | false
+😔 |  | pensive | pensive face |  | false
+🈳 |  | u7a7a | squared cjk unified ideograph-7a7a |  | false
+🈲 |  | u7981 | squared cjk unified ideograph-7981 |  | false
+😑 |  | expressionless | expressionless face |  | false
+😌 |  | relieved | relieved face | whew | false
+😋 |  | yum | face savouring delicious food | tongue ; lick | false
+😀 |  | grinning | grinning face | smile ; happy | false
+🗿 |  | moyai | moyai | stone | false
+🗾 |  | japan | silhouette of japan |  | false
+🗽 |  | statue_of_liberty | statue of liberty |  | false
+😸 |  | smile_cat | grinning cat face with smiling eyes |  | false
+😷 |  | mask | face with medical mask | sick ; ill | false
+😻 |  | heart_eyes_cat | smiling cat face with heart-shaped eyes |  | false
+😺 |  | smiley_cat | smiling cat face with open mouth |  | false
+😹 |  | joy_cat | cat face with tears of joy |  | false
+😯 |  | hushed | hushed face | silence ; speechless | false
+😴 |  | sleeping | sleeping face | zzz | false
+🉑 |  | accept | circled ideograph accept |  | false
+🉐 |  | ideograph_advantage | circled ideograph advantage |  | false
+😧 |  | anguished | anguished face | stunned | false
+😥 |  | disappointed_relieved | disappointed but relieved face | phew ; sweat ; nervous | false
+😬 |  | grimacing | grimacing face |  | false
+😪 |  | sleepy | sleepy face | tired | false
+😩 |  | weary | weary face | tired | false
+😟 |  | worried | worried face | nervous | false
+😞 |  | disappointed | disappointed face | sad | false
+😝 |  | stuck_out_tongue_closed_eyes | face with stuck-out tongue and tightly-closed eyes | prank | false
+😣 |  | persevere | persevering face | struggling | false
+🙏 |  | pray | person with folded hands | please ; hope ; wish | true
+🙎 |  | person_with_pouting_face | person with pouting face |  | true
+▪ |  | black_small_square | black small square |  | false
+🙍 |  | person_frowning | person frowning | sad | true
+▫ |  | white_small_square | white small square |  | false
+🤸‍♂️ |  | man_doing_cartwheel ; male_doing_cartwheel | man doing cartwheel |  | true
+🙈 |  | see_no_evil | see-no-evil monkey | monkey ; blind ; ignore | false
+🙇 |  | bow | person bowing deeply | respect ; thanks | true
+🙌 |  | raised_hands | person raising both hands in celebration | hooray | true
+🙋 |  | raising_hand | happy person raising one hand |  | true
+🙊 |  | speak_no_evil | speak-no-evil monkey | monkey ; mute ; hush | false
+▶ |  | arrow_forward | black right-pointing triangle |  | false
+🙉 |  | hear_no_evil | hear-no-evil monkey | monkey ; deaf | false
+🙀 |  | scream_cat | weary cat face | horror | false
+😿 |  | crying_cat_face | crying cat face | sad ; tear | false
+😾 |  | pouting_cat | pouting cat face |  | false
+🙄 |  | eye_roll ; rolling_eyes | face with rolling eyes |  | false
+🙃 |  | upside_down ; flipped_face | upside-down face |  | false
+🙂 |  | slightly_smiling ; slight_smile | slightly smiling face |  | false
+🙁 |  | slightly_frowning | slightly frowning face |  | false
+◀ |  | arrow_backward | black left-pointing triangle |  | false
+🚘 |  | oncoming_automobile | oncoming automobile |  | false
+🚗 |  | car ; red_car | automobile |  | false
+🚖 |  | oncoming_taxi | oncoming taxi |  | false
+🚕 |  | taxi | taxi |  | false
+🚜 |  | tractor | tractor |  | false
+🚛 |  | articulated_lorry | articulated lorry |  | false
+👩‍🔬 |  | female_scientist ; woman_scientist | woman scientist |  | true
+🚚 |  | truck | delivery truck |  | false
+🚙 |  | blue_car | recreational vehicle |  | false
+🚐 |  | minibus | minibus |  | false
+🚏 |  | busstop | bus stop |  | false
+🤸‍♀️ |  | woman_doing_cartwheel ; female_doing_cartwheel | woman doing cartwheel |  | true
+🚎 |  | trolleybus | trolleybus |  | false
+🚍 |  | oncoming_bus | oncoming bus |  | false
+🚔 |  | oncoming_police_car | oncoming police car |  | false
+🚓 |  | police_car | police car |  | false
+🚒 |  | fire_engine | fire engine |  | false
+🚑 |  | ambulance | ambulance |  | false
+🚈 |  | light_rail | light rail |  | false
+🚇 |  | metro | metro |  | false
+🚆 |  | train2 | train |  | false
+🚅 |  | bullettrain_front | high-speed train with bullet nose | train | false
+🚌 |  | bus | bus |  | false
+🚋 |  | train | tram car |  | false
+🚊 |  | tram | tram |  | false
+🚉 |  | station | station |  | false
+🚀 |  | rocket | rocket | ship ; launch | false
+*⃣ |  | keycap_asterisk ; star_keycap | keycap asterisk |  | false
+◻ |  | white_medium_square | white medium square |  | false
+🚄 |  | bullettrain_side | high-speed train | train | false
+◼ |  | black_medium_square | black medium square |  | false
+🚃 |  | railway_car | railway car |  | false
+◽ |  | white_medium_small_square | white medium small square |  | false
+🚂 |  | steam_locomotive | steam locomotive | train | false
+◾ |  | black_medium_small_square | black medium small square |  | false
+👩‍🔧 |  | female_mechanic ; woman_mechanic | woman mechanic |  | true
+🚁 |  | helicopter | helicopter |  | false
+☀ |  | sunny | black sun with rays | weather | false
+🚸 |  | children_crossing | children crossing |  | false
+☁ |  | cloud | cloud |  | false
+🚷 |  | no_pedestrians | no pedestrians |  | false
+🚶 |  | walking | pedestrian |  | true
+☂ |  | open_umbrella | open umbrella |  | false
+🚵 |  | mountain_bicyclist | mountain bicyclist |  | true
+☃ |  | snowman_with_snow ; snowing_snowman | snowman with snow |  | false
+🚼 |  | baby_symbol | baby symbol |  | false
+☄ |  | comet ; light_beam ; blue_beam | comet |  | false
+🚻 |  | restroom | restroom | toilet | false
+🚺 |  | womens | womens symbol |  | false
+🚹 |  | mens | mens symbol |  | false
+🚰 |  | potable_water | potable water symbol |  | false
+🚯 |  | do_not_litter | do not litter symbol |  | false
+🚮 |  | put_litter_in_its_place | put litter in its place symbol |  | false
+🙇‍♀️ |  | woman_bow ; female_bow | woman bowing deeply | respect ; thanks | true
+🚭 |  | no_smoking | no smoking symbol |  | false
+🚴 |  | bicyclist | bicyclist |  | true
+🚳 |  | no_bicycles | no bicycles |  | false
+☎ |  | phone ; telephone | black telephone |  | false
+🚲 |  | bike | bicycle | bicycle | false
+🚱 |  | non-potable_water | non-potable water symbol |  | false
+🚨 |  | rotating_light | police cars revolving light | 911 ; emergency | false
+🚧 |  | construction | construction sign | wip | false
+☑ |  | ballot_box_with_check | ballot box with check |  | false
+🚦 |  | vertical_traffic_light | vertical traffic light | semaphore | false
+🚥 |  | traffic_light | horizontal traffic light |  | false
+☔ |  | umbrella | umbrella with rain drops | rain ; weather | false
+🚬 |  | smoking | smoking symbol | cigarette | false
+☕ |  | coffee | hot beverage | cafe ; espresso | false
+🚫 |  | no_entry_sign | no entry sign | block ; forbidden | false
+🚪 |  | door | door |  | false
+🚩 |  | triangular_flag_on_post | triangular flag on post |  | false
+🚠 |  | mountain_cableway | mountain cableway |  | false
+☘ |  | shamrock ; st_patrick | shamrock |  | false
+🚟 |  | suspension_railway | suspension railway |  | false
+🚞 |  | mountain_railway | mountain railway |  | false
+🚝 |  | monorail | monorail |  | false
+🚤 |  | speedboat | speedboat | ship | false
+☝ |  | point_up | white up pointing index |  | true
+🚣 |  | rowboat | rowboat |  | false
+🚢 |  | ship | ship |  | false
+🚡 |  | aerial_tramway | aerial tramway |  | false
+☠ |  | skull_crossbones | skull and crossbones |  | false
+☢ |  | radioactive ; radioactive_symbol ; radioactive_sign | radioactive symbol |  | false
+☣ |  | biohazard ; biohazard_symbol ; biohazard_sign | biohazard symbol |  | false
+☦ |  | orthodox_cross | orthodox cross |  | false
+🛐 |  | worship_building ; worship_place ; religious_building ; religious_place | place of worship |  | false
+🛏 |  | bed ; bedroom | bed or bedroom |  | false
+🛎 |  | bellhop_bell | bellhop bell |  | false
+☪ |  | star_and_crescent ; star_crescent | star and crescent |  | false
+🛍 |  | shopping_bags | shopping bags |  | false
+☮ |  | peace_symbol ; peace_sign | peace symbol |  | false
+🛒 |  | shopping_trolley ; shopping_cart | shopping trolley |  | false
+☯ |  | yin_yang | yin yang |  | false
+🛑 |  | octagonal_sign ; stop_sign | octagonal sign |  | false
+🛅 |  | left_luggage | left luggage |  | false
+🛌 |  | sleeping_accommodation | sleeping accommodation |  | false
+🛋 |  | couch_lamp ; couch ; sofa ; lounge | couch and lamp |  | false
+🛀 |  | bath | bath | shower | true
+☸ |  | wheel_of_dharma | wheel of Dharma |  | false
+🚿 |  | shower | shower | bath | false
+🚾 |  | wc | water closet | toilet ; restroom | false
+🚽 |  | toilet | toilet | wc | false
+🛄 |  | baggage_claim | baggage claim | airport | false
+🛃 |  | customs | customs |  | false
+🛂 |  | passport_control | passport control |  | false
+🛁 |  | bathtub | bathtub |  | false
+🌗 |  | last_quarter_moon | last quarter moon symbol |  | false
+🌖 |  | waning_gibbous_moon | waning gibbous moon symbol |  | false
+🌕 |  | full_moon | full moon symbol |  | false
+🛶 |  | canoe | canoe |  | false
+🌔 |  | moon ; waxing_gibbous_moon | waxing gibbous moon symbol |  | false
+🛵 |  | motor_scooter | motor scooter |  | false
+🌛 |  | first_quarter_moon_with_face | first quarter moon with face |  | false
+🌚 |  | new_moon_with_face | new moon with face |  | false
+🌙 |  | crescent_moon | crescent moon | night | false
+🌘 |  | waning_crescent_moon | waning crescent moon symbol |  | false
+🌏 |  | earth_asia | earth globe asia-australia | globe ; world ; international | false
+♈ |  | aries | aries |  | false
+🛰 |  | satellite | satellite |  | false
+🙇‍♂️ |  | man_bow ; male_bow | man bowing deeply | respect ; thanks | true
+🌎 |  | earth_americas | earth globe americas | globe ; world ; international | false
+♉ |  | taurus | taurus |  | false
+🌍 |  | earth_africa | earth globe europe-africa | globe ; world ; international | false
+♊ |  | gemini | gemini |  | false
+🌌 |  | milky_way | milky way |  | false
+♋ |  | cancer | cancer |  | false
+🌓 |  | first_quarter_moon | first quarter moon symbol |  | false
+♌ |  | leo | leo |  | false
+🛴 |  | scooter | scooter |  | false
+🌒 |  | waxing_crescent_moon | waxing crescent moon symbol |  | false
+♍ |  | virgo | virgo |  | false
+🛳 |  | passenger_ship | passenger ship |  | false
+🌑 |  | new_moon | new moon symbol |  | false
+♎ |  | libra | libra |  | false
+🌐 |  | globe_with_meridians | globe with meridians | world ; global ; international | false
+♏ |  | scorpius | scorpius |  | false
+🌇 |  | city_sunrise | sunset over buildings |  | false
+♐ |  | sagittarius | sagittarius |  | false
+🌆 |  | city_sunset | cityscape at dusk |  | false
+♑ |  | capricorn | capricorn |  | false
+🌅 |  | sunrise | sunrise |  | false
+♒ |  | aquarius | aquarius |  | false
+🌄 |  | sunrise_over_mountains | sunrise over mountains |  | false
+♓ |  | pisces | pisces |  | false
+🛥 |  | motor_boat | motor boat |  | false
+🌋 |  | volcano | volcano |  | false
+🛬 |  | airplane_arriving ; airplane_arrival ; landing | airplane arriving |  | false
+🌊 |  | ocean | water wave | sea | false
+🛫 |  | airplane_departure ; take_off | airplane departure |  | false
+👩‍💼 |  | female_office_worker ; woman_office_worker | woman office worker |  | true
+🌉 |  | bridge_at_night | bridge at night |  | false
+🌈 |  | rainbow | rainbow | pride | false
+🛩 |  | small_airplane | small airplane |  | false
+🛠 |  | hammer_and_wrench | hammer and wrench |  | false
+🌃 |  | night_with_stars | night with stars |  | false
+🛤 |  | railway_track | railway track |  | false
+🌂 |  | closed_umbrella | closed umbrella | weather ; rain | false
+🛣 |  | motorway ; highway ; road ; interstate ; freeway | motorway |  | false
+🌁 |  | foggy | foggy | karl | false
+🛢 |  | oil_drum | oil drum |  | false
+🌀 |  | cyclone | cyclone | swirl | false
+🛡 |  | shield | shield |  | false
+🌷 |  | tulip | tulip | flower | false
+♠ |  | spades | black spade suit |  | false
+🌶 |  | hot_pepper ; chili_pepper ; spice ; spicy | hot pepper |  | false
+🌵 |  | cactus | cactus |  | false
+🌴 |  | palm_tree | palm tree |  | false
+♣ |  | clubs | black club suit |  | false
+🌻 |  | sunflower | sunflower |  | false
+🌺 |  | hibiscus | hibiscus |  | false
+🌹 |  | rose | rose | flower | false
+♦ |  | diamonds | black diamond suit |  | false
+🌸 |  | cherry_blossom | cherry blossom | flower ; spring | false
+♨ |  | hotsprings | hot springs |  | false
+🌯 |  | burrito ; wrap | burrito |  | false
+🌮 |  | taco | taco |  | false
+🌭 |  | hot_dog | hot dog |  | false
+👩‍💻 |  | female_technologist ; woman_technologist | woman technologist |  | true
+🌬 |  | wind_blowing_face ; mother_nature ; blowing_wind | wind blowing face |  | false
+🌳 |  | deciduous_tree | deciduous tree | wood | false
+🌲 |  | evergreen_tree | evergreen tree | wood | false
+🌱 |  | seedling | seedling | plant | false
+🌰 |  | chestnut | chestnut |  | false
+🌧 |  | cloud_rain | cloud with rain |  | false
+🌦 |  | white_sun_behind_cloud_rain | white sun behind cloud with rain |  | false
+🌥 |  | white_sun_behind_cloud | white sun behind cloud |  | false
+🌤 |  | white_sun_small_cloud | white sun with small cloud |  | false
+🌫 |  | fog | fog |  | false
+🌪 |  | cloud_tornado | cloud with tornado |  | false
+🌩 |  | cloud_lightning | cloud with lightning |  | false
+🌨 |  | cloud_snow | cloud with snow |  | false
+🌟 |  | star2 | glowing star |  | false
+🌞 |  | sun_with_face | sun with face | summer | false
+🌝 |  | full_moon_with_face | full moon with face |  | false
+🌜 |  | last_quarter_moon_with_face | last quarter moon with face |  | false
+♻ |  | recycle | black universal recycling symbol | environment ; green | false
+🌡 |  | thermometer ; hot_weather ; temperature | thermometer |  | false
+🌠 |  | stars | shooting star |  | false
+♿ |  | wheelchair | wheelchair symbol | accessibility | false
+🍗 |  | poultry_leg | poultry leg | meat ; chicken | false
+🍖 |  | meat_on_bone | meat on bone |  | false
+🍕 |  | pizza | slice of pizza |  | false
+🍔 |  | hamburger | hamburger | burger | false
+🍛 |  | curry | curry and rice |  | false
+🏌♂️ |  | man_golfer ; male_golfer ; man_golfing ; male_golfing | man golfing |  | true
+🍚 |  | rice | cooked rice |  | false
+🍙 |  | rice_ball | rice ball |  | false
+🍘 |  | rice_cracker | rice cracker |  | false
+🍏 |  | green_apple | green apple | fruit | false
+🍎 |  | apple | red apple |  | false
+🍍 |  | pineapple | pineapple |  | false
+🍌 |  | banana | banana | fruit | false
+👨‍👨‍👦‍👦 |  | family_man_man_boy_boy | family (man, man, boy, boy) | family ; man ; boy | false
+🍓 |  | strawberry | strawberry | fruit | false
+🍒 |  | cherries | cherries | fruit | false
+🍑 |  | peach | peach |  | false
+🍐 |  | pear | pear |  | false
+🍇 |  | grapes | grapes |  | false
+🍆 |  | eggplant | aubergine | aubergine | false
+🍅 |  | tomato | tomato |  | false
+⚒ |  | hammer_and_pick | hammer and pick |  | false
+🍄 |  | mushroom | mushroom |  | false
+⚓ |  | anchor | anchor | ship | false
+🍋 |  | lemon | lemon |  | false
+⚔ |  | crossed_swords | crossed swords |  | false
+🍊 |  | tangerine | tangerine |  | false
+🍉 |  | watermelon | watermelon |  | false
+⚖ |  | scales ; scales_of_justice | scales of justice |  | false
+🍈 |  | melon | melon |  | false
+⚗ |  | alembic | alembic |  | false
+🌿 |  | herb | herb |  | false
+🌾 |  | ear_of_rice | ear of rice |  | false
+⚙ |  | gear | gear |  | false
+🌽 |  | corn | ear of maize |  | false
+🌼 |  | blossom | blossom |  | false
+⚛ |  | atom ; atom_symbol | atom symbol |  | false
+🍃 |  | leaves | leaf fluttering in wind | leaf | false
+⚜ |  | fleur_de_lis ; scouts | fleur-de-lis |  | false
+🍂 |  | fallen_leaf | fallen leaf | autumn | false
+🍁 |  | maple_leaf | maple leaf | canada | false
+🍀 |  | four_leaf_clover | four leaf clover | luck | false
+🍷 |  | wine_glass | wine glass |  | false
+⚠ |  | warning | warning sign | wip | false
+⚡ |  | zap | high voltage sign | lightning ; thunder | false
+🍶 |  | sake | sake bottle and cup |  | false
+🍵 |  | tea | teacup without handle | green ; breakfast | false
+🍴 |  | fork_and_knife | fork and knife | cutlery | false
+🍻 |  | beers | clinking beer mugs | drinks | false
+🍺 |  | beer | beer mug | drink | false
+🍹 |  | tropical_drink | tropical drink | summer ; vacation | false
+🍸 |  | cocktail | cocktail glass | drink | false
+🍯 |  | honey_pot | honey pot |  | false
+🍮 |  | custard | custard |  | false
+🍭 |  | lollipop | lollipop |  | false
+⚪ |  | white_circle | medium white circle |  | false
+🍬 |  | candy | candy | sweet | false
+⚫ |  | black_circle | medium black circle |  | false
+🍳 |  | cooking | cooking | breakfast | false
+🍲 |  | stew | pot of food |  | false
+🍱 |  | bento | bento box |  | false
+🍰 |  | cake | shortcake | dessert | false
+🍧 |  | shaved_ice | shaved ice |  | false
+⚰ |  | coffin ; funeral ; casket | coffin |  | false
+🍦 |  | icecream | soft ice cream |  | false
+⚱ |  | funeral_urn | funeral urn |  | false
+🍥 |  | fish_cake | fish cake with swirl design |  | false
+🍤 |  | fried_shrimp | fried shrimp | tempura | false
+0⃣ |  | zero | digit zero + combining enclosing keycap |  | false
+🍫 |  | chocolate_bar | chocolate bar |  | false
+🍪 |  | cookie | cookie |  | false
+🍩 |  | doughnut | doughnut |  | false
+🍨 |  | ice_cream | ice cream |  | false
+🤦‍♀️ |  | female_facepalm ; woman_facepalm | woman facepalm |  | true
+🍟 |  | fries | french fries |  | false
+🍞 |  | bread | bread | toast | false
+🍝 |  | spaghetti | spaghetti | pasta | false
+🍜 |  | ramen | steaming bowl | noodle | false
+🍣 |  | sushi | sushi |  | false
+⚽ |  | soccer | soccer ball | sports | false
+🍢 |  | oden | oden |  | false
+⚾ |  | baseball | baseball | sports | false
+🍡 |  | dango | dango |  | false
+🍠 |  | sweet_potato | roasted sweet potato |  | false
+🎗 |  | reminder_ribbon ; awareness_ribbon | reminder ribbon |  | false
+🎖 |  | military_medal ; military_decoration | military medal with ribbon |  | false
+⛄ |  | snowman | snowman without snow | winter ; christmas | false
+🎛 |  | control_knobs | control knobs |  | false
+⛅ |  | partly_sunny | sun behind cloud | weather ; cloud | false
+🎚 |  | level_slider | level slider |  | false
+🎙 |  | studio_microphone | studio microphone |  | false
+🎏 |  | flags | carp streamer |  | false
+⛈ |  | thunder_cloud_rain | thunder cloud and rain |  | false
+🎎 |  | dolls | japanese dolls |  | false
+🎍 |  | bamboo | pine decoration |  | false
+🎌 |  | crossed_flags | crossed flags |  | false
+🎓 |  | mortar_board | graduation cap | education ; college ; university ; graduation | false
+🎒 |  | school_satchel | school satchel |  | false
+🎑 |  | rice_scene | moon viewing ceremony |  | false
+⛎ |  | ophiuchus | ophiuchus |  | false
+🎐 |  | wind_chime | wind chime |  | false
+⛏ |  | pick | pick |  | false
+🎇 |  | sparkler | firework sparkler |  | false
+🎆 |  | fireworks | fireworks | festival ; celebration | false
+⛑ |  | helmet_white_cross | helmet with white crosse |  | false
+🎅 |  | santa | father christmas | christmas | true
+1⃣ |  | one | digit one + combining enclosing keycap |  | false
+🎄 |  | christmas_tree | christmas tree |  | false
+⛓ |  | chains | chains |  | false
+🎋 |  | tanabata_tree | tanabata tree |  | false
+⛔ |  | no_entry | no entry | limit | false
+🎊 |  | confetti_ball | confetti ball |  | false
+🎉 |  | tada | party popper | party | false
+🎈 |  | balloon | balloon | party ; birthday | false
+🍿 |  | popcorn | popcorn |  | false
+🍾 |  | champagne ; sparkling_wine | bottle with popping cork |  | false
+🍽 |  | fork_knife_plate | fork and knife with plate |  | false
+🍼 |  | baby_bottle | baby bottle | milk | false
+🎃 |  | jack_o_lantern | jack-o-lantern | halloween | false
+🎂 |  | birthday | birthday cake | party | false
+🎁 |  | gift | wrapped present | present ; birthday ; christmas | false
+🎀 |  | ribbon | ribbon |  | false
+🎷 |  | saxophone | saxophone |  | false
+🎶 |  | notes | multiple musical notes | music | false
+🎵 |  | musical_note | musical note |  | false
+🎴 |  | flower_playing_cards | flower playing cards |  | false
+🎻 |  | violin | violin |  | false
+🎺 |  | trumpet | trumpet |  | false
+🎹 |  | musical_keyboard | musical keyboard | piano | false
+🎸 |  | guitar | guitar | rock | false
+🎯 |  | dart | direct hit | target | false
+🎮 |  | video_game | video game | play ; controller ; console | false
+⛩ |  | shinto_shrine ; kami_no_michi | shinto shrine |  | false
+⛪ |  | church | church |  | false
+🎭 |  | performing_arts | performing arts | theater ; drama | false
+🎬 |  | clapper | clapper board | film | false
+🎳 |  | bowling | bowling |  | false
+🎲 |  | game_die | game die | dice ; gambling | false
+🎱 |  | 8ball | billiards | pool ; billiards | false
+🎰 |  | slot_machine | slot machine |  | false
+🎧 |  | headphones | headphone | music ; earphones | false
+⛰ |  | mountain | mountain |  | false
+2⃣ |  | two | digit two + combining enclosing keycap |  | false
+🎦 |  | cinema | cinema | film ; movie | false
+⛱ |  | planted_umbrella ; umbrella_on_ground | umbrella planted on the ground |  | false
+🎥 |  | movie_camera | movie camera | film ; video | false
+⛲ |  | fountain | fountain |  | false
+🎤 |  | microphone | microphone | sing | false
+⛳ |  | golf | flag in hole |  | false
+🎫 |  | ticket | ticket |  | false
+⛴ |  | ferry | ferry |  | false
+⛵ |  | boat ; sailboat | sailboat |  | false
+🎪 |  | circus_tent | circus tent |  | false
+🎩 |  | tophat | top hat | hat ; classy | false
+👨‍✈️ |  | male_pilot ; man_pilot | man pilot |  | true
+🎨 |  | art | artist palette | design ; paint | false
+⛷ |  | skier | skier |  | false
+🎟 |  | admission_ticket | admission ticket |  | false
+⛸ |  | ice_skate ; ice_skating | single ice skate |  | false
+🎞 |  | film_frames | film frames |  | false
+⛹ |  | person_with_ball | person with ball |  | false
+⛺ |  | tent | tent | camping | false
+🎣 |  | fishing_pole_and_fish | fishing pole and fish |  | false
+🎢 |  | roller_coaster | roller coaster |  | false
+⛽ |  | fuelpump | fuel pump |  | false
+🎡 |  | ferris_wheel | ferris wheel |  | false
+🎠 |  | carousel_horse | carousel horse |  | false
+🏗 |  | building_construction ; crane | building in construction with crane |  | false
+🏖 |  | breach | beach with umbrella |  | false
+✂ |  | scissors | black scissors | cut | false
+🏕 |  | camping ; campsite | camping with tent and tree |  | false
+🏔 |  | snow_capped_mountain ; mont_fuji | snow capped mountain |  | false
+🏛 |  | classical_building | classical building |  | false
+✅ |  | white_check_mark | white heavy check mark |  | false
+🏚 |  | derelict_house ; old_house ; abandoned_house | derelict house |  | false
+🏙 |  | cityscape | cityscape |  | false
+🏘 |  | house_buildings ; multiple_houses | house buildings |  | false
+✈ |  | airplane | airplane | flight | false
+🏏 |  | cricket | cricket bat and ball |  | false
+✉ |  | email ; envelope | envelope | letter | false
+🏎 |  | racing_car ; formula_one ; f1 | racing car |  | false
+✊ |  | fist | raised fist | power | true
+🏍 |  | racing_motorcycle ; motorcycle ; motorbike | racing motorcycle |  | false
+✋ |  | hand ; raised_hand | raised hand | highfive ; stop | true
+🏌 |  | golfer ; golf_club | golfer swinging a golf club |  | true
+✌ |  | v | victory hand | victory ; peace | true
+🏓 |  | table_tennis ; ping_pong | table tennis paddle and ball |  | false
+✍ |  | writing ; writing_hand | writing hand |  | true
+🏒 |  | ice_hockey | ice hockey stick and puck |  | false
+🏑 |  | field_hockey | field hockey stick and ball |  | false
+✏ |  | pencil2 | pencil |  | false
+🏐 |  | volleyball | volleyball |  | false
+🏇 |  | horse_racing | horse racing |  | true
+3⃣ |  | three | digit three + combining enclosing keycap |  | false
+🏆 |  | trophy | trophy | award ; contest ; winner | false
+🤼‍♂️ |  | man_wrestlers ; male_wrestlers | man wrestlers |  | true
+✒ |  | black_nib | black nib |  | false
+🏅 |  | sports_medal ; sports_decoration | sports medal |  | false
+🏄 |  | surfer | surfer |  | true
+✔ |  | heavy_check_mark | heavy check mark |  | false
+🏋 |  | weight_lifter | weight lifter |  | false
+🏊 |  | swimmer | swimmer |  | true
+🏉 |  | rugby_football | rugby football |  | false
+✖ |  | heavy_multiplication_x | heavy multiplication x |  | false
+🏈 |  | football | american football | sports | false
+🎿 |  | ski | ski and ski boot |  | false
+🎾 |  | tennis | tennis racquet and ball | sports | false
+🎽 |  | running_shirt_with_sash | running shirt with sash | marathon | false
+🎼 |  | musical_score | musical score |  | false
+🏃 |  | runner ; running | runner | exercise ; workout ; marathon | true
+🏂 |  | snowboarder | snowboarder |  | false
+✝ |  | latin_cross ; christian_cross | latin cross |  | false
+🏁 |  | checkered_flag | chequered flag | milestone ; finish | false
+🏀 |  | basketball | basketball and hoop | sports | false
+🏷 |  | label | label |  | false
+✡ |  | star_of_david | star of David |  | false
+🏵 |  | rosette | rosette |  | false
+🏴 |  | waving_black_flag | waving black flag |  | false
+🏺 |  | amphora ; jar ; vase | amphora |  | false
+🏹 |  | bow_and_arrow ; bow_arrow ; archery | bow and arrow |  | false
+🏸 |  | badminton | badminton racket and shuttlecock |  | false
+✨ |  | sparkles | sparkles | shiny | false
+🏯 |  | japanese_castle | japanese castle |  | false
+🏮 |  | izakaya_lantern ; lantern | izakaya lantern |  | false
+🏭 |  | factory | factory |  | false
+🏬 |  | department_store | department store |  | false
+🏳 |  | waving_white_flag | waving white flag |  | false
+🏰 |  | european_castle | european castle |  | false
+4⃣ |  | four | digit four + combining enclosing keycap |  | false
+🏧 |  | atm | automated teller machine |  | false
+🏦 |  | bank | bank |  | false
+🏥 |  | hospital | hospital |  | false
+🏤 |  | european_post_office | european post office |  | false
+✳ |  | eight_spoked_asterisk | eight spoked asterisk |  | false
+🏫 |  | school | school |  | false
+✴ |  | eight_pointed_black_star | eight pointed black star |  | false
+🏪 |  | convenience_store | convenience store |  | false
+🏩 |  | love_hotel | love hotel |  | false
+🏨 |  | hotel | hotel |  | false
+🏟 |  | stadium | stadium |  | false
+🏞 |  | national_park | national park |  | false
+🏝 |  | desert_island | desert island with palm tree |  | false
+🏜 |  | desert | desert with cactus |  | false
+🏣 |  | post_office | japanese post office |  | false
+🏢 |  | office | office building |  | false
+🏡 |  | house_with_garden | house with garden |  | false
+🏠 |  | house | house building |  | false
+❄ |  | snowflake | snowflake | winter ; cold ; weather | false
+❇ |  | sparkle | sparkle |  | false
+❌ |  | x | cross mark |  | false
+5⃣ |  | five | digit five + combining enclosing keycap |  | false
+❎ |  | negative_squared_cross_mark | negative squared cross mark |  | false
+❓ |  | question | black question mark ornament | confused | false
+🤼‍♀️ |  | woman_wrestlers ; female_wrestlers | woman wrestlers |  | true
+❔ |  | grey_question | white question mark ornament |  | false
+❕ |  | grey_exclamation | white exclamation mark ornament |  | false
+❗ |  | exclamation ; heavy_exclamation_mark | heavy exclamation mark symbol | bang | false
+❣ |  | exclamation_heart | heavy heart exclamation mark ornament |  | false
+❤ |  | heart | heavy black heart | love | false
+6⃣ |  | six | digit six + combining enclosing keycap |  | false
+7⃣ |  | seven | digit seven + combining enclosing keycap |  | false
+🤾‍♀️ |  | woman_handball ; female_handball | woman handball |  | true
+➕ |  | heavy_plus_sign | heavy plus sign |  | false
+➖ |  | heavy_minus_sign | heavy minus sign |  | false
+➗ |  | heavy_division_sign | heavy division sign |  | false
+➡ |  | arrow_right | black rightwards arrow |  | false
+👩‍❤‍👩 |  | couple_with_heart_woman_woman | couple with heart (woman, woman) | couple ; heart ; woman | false
+👨‍🏫 |  | male_teacher ; man_teacher | man teacher |  | true
+👨‍🏭 |  | male_factory_worker ; man_factory_worker | man factory worker |  | true
+8⃣ |  | eight | digit eight + combining enclosing keycap |  | false
+➰ |  | curly_loop | curly loop |  | false
+➿ |  | loop | double curly loop |  | false
+9⃣ |  | nine | digit nine + combining enclosing keycap |  | false
+👨‍🎨 |  | male_artist ; man_artist | man artist |  | true
+👨‍🎤 |  | male_singer ; man_singer | man singer |  | true
