@@ -142,10 +142,14 @@ public class IO_UT {
     @Test
     public void find()
             throws Exception {
-        Path start = IO.CWD.resolve("utils-core/src");
+        Path start = IO.CWD.resolve("randomNonExistent");
         Path projectHomeFile = IO.find(start, (p) -> ".project_home".equals(IO.getName(p)));
         assertNull(projectHomeFile);
-        projectHomeFile = IO.find((p) -> ".project_home".equals(IO.getName(p)));
+        if (IO.CWD.equals(TestFiles.PROJECT_HOME)) {
+            projectHomeFile = IO.find((p) -> ".project_home".equals(IO.getName(p)));
+        } else {
+            projectHomeFile = IO.find(TestFiles.PROJECT_HOME, (p) -> ".project_home".equals(IO.getName(p)));
+        }
         assertTrue(IO.isValidFile(projectHomeFile));
     }
 
