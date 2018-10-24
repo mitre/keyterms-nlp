@@ -34,7 +34,7 @@ import keyterms.util.text.Strings;
 
 public class StringNormalizer {
 
-    public static final char DEFAULT_NGRAM_DELIMITER = '#';
+    public static final char DEFAULT_NGRAM_PADDING = '#';
 
     /**
      * Get a space-free version of the specified text.  Will remove control and other non-printing characters.
@@ -269,47 +269,37 @@ public class StringNormalizer {
         return output;
     }
 
-    // NB 01/17/2018: added bigramify() and trigramify()
-    public static List<String> bigramify(String input, char delimiter) {
-        List<String> bigrams = new ArrayList<>();
-
-        if (input.length() > 0) {
-            char[] bounded = (delimiter + input + delimiter).toCharArray();
-            for (int i = 0; i < bounded.length - 1; i++) {
-                bigrams.add(String.join("",
-                        Character.toString(bounded[i]),
-                        Character.toString(bounded[i + 1]))
-                );
+    public static List<String> gramify(String input, int gramSize, Character padCharacter) {
+        List<String> grams = new ArrayList<>();
+        if (!Strings.isEmpty(input)) {
+            StringBuilder padded = new StringBuilder(input);
+            if (padCharacter != null) {
+                for (int p = 0; p < (gramSize - 1); p++) {
+                    padded.insert(0, padCharacter);
+                    padded.append(padCharacter);
+                }
+            }
+            for (int c = 0; c < (padded.length() - gramSize + 1); c++) {
+                grams.add(padded.substring(c, c + gramSize));
             }
         }
-
-        return bigrams;
+        return grams;
     }
 
     public static List<String> bigramify(String input) {
-        return bigramify(input, DEFAULT_NGRAM_DELIMITER);
-    }
-
-    public static List<String> trigramify(String input, char delimiter) {
-        List<String> trigrams = new ArrayList<>();
-        String stringDelimiter = Character.toString(delimiter) + delimiter;
-
-        if (input.length() > 0) {
-            char[] bounded = (stringDelimiter + input + stringDelimiter).toCharArray();
-            for (int i = 0; i < bounded.length - 2; i++) {
-                trigrams.add(String.join("",
-                        Character.toString(bounded[i]),
-                        Character.toString(bounded[i + 1]),
-                        Character.toString(bounded[i + 2]))
-                );
-            }
-        }
-
-        return trigrams;
+        return gramify(input, 2, DEFAULT_NGRAM_PADDING);
     }
 
     public static List<String> trigramify(String input) {
-        return trigramify(input, DEFAULT_NGRAM_DELIMITER);
+        return gramify(input, 3, DEFAULT_NGRAM_PADDING);
+    }
+
+    public static List<String> bigramify(String input, char padCharacter) {
+        return gramify(input, 2, padCharacter);
+    }
+
+    public static List<String> trigramify(String input, char padCharacter) {
+        return gramify(input, 3, padCharacter);
     }
 
     // NB 11/10/2017: refactored this method and incorporated the removeLineBreaks parameter (was previously ignored)
@@ -339,7 +329,7 @@ public class StringNormalizer {
 
         if (normalizeCase) {
             output = output.toLowerCase();
-            // TODO: Chinese simplification here????
+            //@todo: Chinese simplification here????
         }
 
         return Normalizer.normalize(output, outputForm);

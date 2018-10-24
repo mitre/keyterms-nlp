@@ -26,9 +26,13 @@
 
 package keyterms.nlp.text;
 
+import java.util.Collections;
+import java.util.List;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
@@ -52,6 +56,32 @@ public class StringNormalizer_UT {
         String input = ";?;  ;-  ";
         boolean actual = StringNormalizer.isPunct(input, true);
         assertTrue(actual);
+    }
+
+    @Test
+    public void unigrams() {
+        assertEquals(Collections.emptyList(), StringNormalizer.gramify("", 1, '$'));
+        assertEquals(Collections.singletonList("a"), StringNormalizer.gramify("a", 1, '$'));
+        assertEquals(List.of("a", "b"), StringNormalizer.gramify("ab", 1, '$'));
+        assertEquals(List.of("a", "b", "c"), StringNormalizer.gramify("abc", 1, '$'));
+    }
+
+    @Test
+    public void noPadding() {
+        assertEquals(Collections.emptyList(), StringNormalizer.gramify("", 1, null));
+        assertEquals(Collections.singletonList("a"), StringNormalizer.gramify("a", 1, null));
+        assertEquals(List.of("a", "b"), StringNormalizer.gramify("ab", 1, null));
+        assertEquals(List.of("a", "b", "c"), StringNormalizer.gramify("abc", 1, null));
+        // bigrams
+        assertEquals(Collections.emptyList(), StringNormalizer.gramify("", 2, null));
+        assertEquals(Collections.emptyList(), StringNormalizer.gramify("a", 2, null));
+        assertEquals(List.of("ab"), StringNormalizer.gramify("ab", 2, null));
+        assertEquals(List.of("ab", "bc"), StringNormalizer.gramify("abc", 2, null));
+        // trigrams
+        assertEquals(Collections.emptyList(), StringNormalizer.gramify("", 3, null));
+        assertEquals(Collections.emptyList(), StringNormalizer.gramify("a", 3, null));
+        assertEquals(Collections.emptyList(), StringNormalizer.gramify("ab", 3, null));
+        assertEquals(List.of("abc", "bcd"), StringNormalizer.gramify("abcd", 3, null));
     }
 
     @Test
