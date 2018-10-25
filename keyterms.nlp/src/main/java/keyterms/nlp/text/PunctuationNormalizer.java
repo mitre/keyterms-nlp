@@ -41,17 +41,17 @@ import keyterms.nlp.unicode.UnicodeNormalizationData;
  * built-in mappings are used.  When no mapping is available for a given character, standard Unicode canonical
  * decomposition is applied.  (NOTE:  CURRENTLY NO MAPPING FILE ) </p>
  */
-public class PunctuationNormalizer {
+public final class PunctuationNormalizer {
 
-    public String normalize(CharSequence input) {
+    public static String normalize(CharSequence input) {
         return normalize(input,/*normalizeSpace*/true,/*removeControlChars*/true,/*normalizeEmoji*/ true);
     }
 
-    public String normalize(CharSequence input, boolean normalizeSpace) {
+    public static String normalize(CharSequence input, boolean normalizeSpace) {
         return normalize(input, normalizeSpace,/*removeControlChars*/true,/*normalizeEmoji*/ true);
     }
 
-    public String normalize(CharSequence input, boolean normalizeSpace, boolean removeControlChars) {
+    public static String normalize(CharSequence input, boolean normalizeSpace, boolean removeControlChars) {
         return normalize(input, normalizeSpace, removeControlChars,/*normalizeEmoji*/ true);
     }
 
@@ -70,7 +70,7 @@ public class PunctuationNormalizer {
      * @return a space-free string
      */
     //  public static String normalizePunctuation(CharSequence input, boolean canonical, boolean transliterating) {
-    public String normalize(CharSequence input, boolean normalizeSpace, boolean removeControlChars, boolean
+    public static String normalize(CharSequence input, boolean normalizeSpace, boolean removeControlChars, boolean
             normalizeEmoji) {
         if (input == null) {
             return null;
@@ -115,5 +115,9 @@ public class PunctuationNormalizer {
             }
         }
         return sb.toString();
+    }
+
+    private PunctuationNormalizer() {
+        super();
     }
 }

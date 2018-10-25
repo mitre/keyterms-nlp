@@ -26,25 +26,17 @@
 
 package keyterms.nlp.text;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class PunctuationNormalizer_UT {
 
-    PunctuationNormalizer normalizer;
-
-    @Before
-    public void init() {
-        normalizer = new PunctuationNormalizer();
-    }
-
     @Test
     public void PunctNorm_01() {
         String input = "✨";
         String expected = "*";
-        String actual = normalizer.normalize(input, true, false);
+        String actual = PunctuationNormalizer.normalize(input, true, false);
         assertEquals(expected, actual);
     }
 
@@ -52,7 +44,7 @@ public class PunctuationNormalizer_UT {
     public void PunctNorm_02() {
         String input = "❕";
         String expected = "!";
-        String actual = normalizer.normalize(input, true, false);
+        String actual = PunctuationNormalizer.normalize(input, true, false);
         assertEquals(expected, actual);
     }
 
@@ -60,7 +52,7 @@ public class PunctuationNormalizer_UT {
     public void PunctNorm_03() {
         String input = "\u2789";
         String expected = "•10";
-        String actual = normalizer.normalize(input, true, false);
+        String actual = PunctuationNormalizer.normalize(input, true, false);
         assertEquals(expected, actual);
     }
 
@@ -68,7 +60,7 @@ public class PunctuationNormalizer_UT {
     public void PunctNorm_04() {
         String input = "\u0002\u2789\u0002";
         String expected = "•10";
-        String actual = normalizer.normalize(input, true, true);
+        String actual = PunctuationNormalizer.normalize(input, true, true);
         assertEquals(expected, actual);
     }
 
@@ -76,7 +68,7 @@ public class PunctuationNormalizer_UT {
     public void PunctNorm_05() {
         String input = "\u0002\u2789\u0002";
         String expected = "\u0002•10\u0002";
-        String actual = normalizer.normalize(input, true, false);
+        String actual = PunctuationNormalizer.normalize(input, true, false);
         assertEquals(expected, actual);
     }
 
@@ -84,7 +76,7 @@ public class PunctuationNormalizer_UT {
     public void PunctNorm_06() {
         String input = "قــــــبال";
         String expected = "قبال";
-        String actual = normalizer.normalize(input, true, false);
+        String actual = PunctuationNormalizer.normalize(input, true, false);
         assertEquals(expected, actual);
     }
 
@@ -92,7 +84,7 @@ public class PunctuationNormalizer_UT {
     public void PunctNorm_07() {
         String input = "〰";
         String expected = "-";
-        String actual = normalizer.normalize(input, true, false);
+        String actual = PunctuationNormalizer.normalize(input, true, false);
         assertEquals(expected, actual);
     }
 
@@ -100,7 +92,7 @@ public class PunctuationNormalizer_UT {
     public void PunctNorm_08() {
         String input = "⸵";
         String expected = ";";
-        String actual = normalizer.normalize(input, true, false);
+        String actual = PunctuationNormalizer.normalize(input, true, false);
         assertEquals(expected, actual);
     }
 
@@ -108,7 +100,7 @@ public class PunctuationNormalizer_UT {
     public void PunctNorm_09() {
         String input = " \t";
         String expected = "     ";
-        String actual = normalizer.normalize(input, true, false);
+        String actual = PunctuationNormalizer.normalize(input, true, false);
         assertEquals(expected, actual);
     }
 
@@ -116,7 +108,7 @@ public class PunctuationNormalizer_UT {
     public void PunctNorm_10() {
         String input = "｟";
         String expected = "(";
-        String actual = normalizer.normalize(input, true, false);
+        String actual = PunctuationNormalizer.normalize(input, true, false);
         assertEquals(expected, actual);
     }
 }
