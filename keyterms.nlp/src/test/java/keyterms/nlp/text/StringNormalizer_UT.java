@@ -26,13 +26,8 @@
 
 package keyterms.nlp.text;
 
-import java.util.Collections;
-import java.util.List;
-
 import org.junit.Test;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
@@ -56,82 +51,5 @@ public class StringNormalizer_UT {
         String input = ";?;  ;-  ";
         boolean actual = StringNormalizer.isPunct(input, true);
         assertTrue(actual);
-    }
-
-    @Test
-    public void unigrams() {
-        assertEquals(Collections.emptyList(), StringNormalizer.gramify("", 1, '$'));
-        assertEquals(Collections.singletonList("a"), StringNormalizer.gramify("a", 1, '$'));
-        assertEquals(List.of("a", "b"), StringNormalizer.gramify("ab", 1, '$'));
-        assertEquals(List.of("a", "b", "c"), StringNormalizer.gramify("abc", 1, '$'));
-    }
-
-    @Test
-    public void noPadding() {
-        assertEquals(Collections.emptyList(), StringNormalizer.gramify("", 1, null));
-        assertEquals(Collections.singletonList("a"), StringNormalizer.gramify("a", 1, null));
-        assertEquals(List.of("a", "b"), StringNormalizer.gramify("ab", 1, null));
-        assertEquals(List.of("a", "b", "c"), StringNormalizer.gramify("abc", 1, null));
-        // bigrams
-        assertEquals(Collections.emptyList(), StringNormalizer.gramify("", 2, null));
-        assertEquals(Collections.emptyList(), StringNormalizer.gramify("a", 2, null));
-        assertEquals(List.of("ab"), StringNormalizer.gramify("ab", 2, null));
-        assertEquals(List.of("ab", "bc"), StringNormalizer.gramify("abc", 2, null));
-        // trigrams
-        assertEquals(Collections.emptyList(), StringNormalizer.gramify("", 3, null));
-        assertEquals(Collections.emptyList(), StringNormalizer.gramify("a", 3, null));
-        assertEquals(Collections.emptyList(), StringNormalizer.gramify("ab", 3, null));
-        assertEquals(List.of("abc", "bcd"), StringNormalizer.gramify("abcd", 3, null));
-    }
-
-    @Test
-    public void bigramify() {
-        String input = "";
-        String[] expected = {};
-        String[] actual = StringNormalizer.bigramify(input, '$').toArray(new String[] {});
-        assertArrayEquals(expected, actual);
-
-        input = "a";
-        expected = new String[] { "$a", "a$" };
-        actual = StringNormalizer.bigramify(input, '$').toArray(new String[] {});
-        assertArrayEquals(expected, actual);
-
-        input = "ab";
-        expected = new String[] { "$a", "ab", "b$" };
-        actual = StringNormalizer.bigramify(input, '$').toArray(new String[] {});
-        assertArrayEquals(expected, actual);
-
-        input = "abcde";
-        expected = new String[] { "$a", "ab", "bc", "cd", "de", "e$" };
-        actual = StringNormalizer.bigramify(input, '$').toArray(new String[] {});
-        assertArrayEquals(expected, actual);
-    }
-
-    @Test
-    public void trigramify() {
-        String input = "";
-        String[] expected = {};
-        String[] actual = StringNormalizer.trigramify(input, '$').toArray(new String[] {});
-        assertArrayEquals(expected, actual);
-
-        input = "a";
-        expected = new String[] { "$$a", "$a$", "a$$" };
-        actual = StringNormalizer.trigramify(input, '$').toArray(new String[] {});
-        assertArrayEquals(expected, actual);
-
-        input = "ab";
-        expected = new String[] { "$$a", "$ab", "ab$", "b$$" };
-        actual = StringNormalizer.trigramify(input, '$').toArray(new String[] {});
-        assertArrayEquals(expected, actual);
-
-        input = "abc";
-        expected = new String[] { "$$a", "$ab", "abc", "bc$", "c$$" };
-        actual = StringNormalizer.trigramify(input, '$').toArray(new String[] {});
-        assertArrayEquals(expected, actual);
-
-        input = "abcde";
-        expected = new String[] { "$$a", "$ab", "abc", "bcd", "cde", "de$", "e$$" };
-        actual = StringNormalizer.trigramify(input, '$').toArray(new String[] {});
-        assertArrayEquals(expected, actual);
     }
 }

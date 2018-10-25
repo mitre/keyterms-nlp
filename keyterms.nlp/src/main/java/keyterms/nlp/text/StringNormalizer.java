@@ -27,8 +27,6 @@
 package keyterms.nlp.text;
 
 import java.text.Normalizer;
-import java.util.ArrayList;
-import java.util.List;
 
 import keyterms.util.text.Strings;
 
@@ -267,39 +265,6 @@ public class StringNormalizer {
         String output = sb.toString();
         output = Normalizer.normalize(output, Normalizer.Form.NFC);
         return output;
-    }
-
-    public static List<String> gramify(String input, int gramSize, Character padCharacter) {
-        List<String> grams = new ArrayList<>();
-        if (!Strings.isEmpty(input)) {
-            StringBuilder padded = new StringBuilder(input);
-            if (padCharacter != null) {
-                for (int p = 0; p < (gramSize - 1); p++) {
-                    padded.insert(0, padCharacter);
-                    padded.append(padCharacter);
-                }
-            }
-            for (int c = 0; c < (padded.length() - gramSize + 1); c++) {
-                grams.add(padded.substring(c, c + gramSize));
-            }
-        }
-        return grams;
-    }
-
-    public static List<String> bigramify(String input) {
-        return gramify(input, 2, DEFAULT_NGRAM_PADDING);
-    }
-
-    public static List<String> trigramify(String input) {
-        return gramify(input, 3, DEFAULT_NGRAM_PADDING);
-    }
-
-    public static List<String> bigramify(String input, char padCharacter) {
-        return gramify(input, 2, padCharacter);
-    }
-
-    public static List<String> trigramify(String input, char padCharacter) {
-        return gramify(input, 3, padCharacter);
     }
 
     // NB 11/10/2017: refactored this method and incorporated the removeLineBreaks parameter (was previously ignored)
