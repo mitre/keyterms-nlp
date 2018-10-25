@@ -28,18 +28,26 @@ package keyterms.nlp.unicode;
 
 import java.text.Normalizer;
 import java.util.HashSet;
+import java.util.Set;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import keyterms.nlp.text.StringNormalizer;
+import keyterms.util.collect.Bags;
 import keyterms.util.text.Strings;
 
 /**
  * This class contains various convenience functions for getting information about unicode properties of Characters
  * and Strings
  */
-public class UnicodeUtility {
+public final class UnicodeUtility {
+
+    // note:  you must look for &#x before &#
+    private static final Set<String> HEX_PREFIXES = Bags.orderedSet("u+", "\\\\u", "&#x");
+
+    private static final Set<String> DEC_PREFIXES = Bags.orderedSet("&#");
+
     /**
      * Get the logging topic for the class.
      *
@@ -64,45 +72,44 @@ public class UnicodeUtility {
      * <p> This method will not alter the original text. </p>
      */
     public static Character getCharacterForCode(String characterCode) {
-        if (Strings.isBlank(characterCode)) {
-            return null;
-        }
-        int base = 10;
-        // note:  you must look for &#x before &#
-        String[] hexPrefixes = { "u+", "\\\\u", "&#x" };
-        String[] decPrefixes = { "&#" };
-        characterCode = StringNormalizer.removeSpaces(characterCode, true);
-        characterCode = characterCode.toLowerCase();
-        boolean pfxFound = false;
-        for (String pfx : hexPrefixes) {
-            if (characterCode.startsWith(pfx)) {
-                base = 16;
-                characterCode = characterCode.substring(pfx.length());
-                pfxFound = true;
-            }
-        }
-        if (!pfxFound) {
-            for (String pfx : decPrefixes) {
+        Character character = null;
+        if (Strings.hasText(characterCode)) {
+            Integer base = null;
+            characterCode = StringNormalizer.removeSpaces(characterCode, true);
+            characterCode = characterCode.toLowerCase();
+            boolean pfxFound = false;
+            for (String pfx : HEX_PREFIXES) {
                 if (characterCode.startsWith(pfx)) {
-                    base = 10;
                     characterCode = characterCode.substring(pfx.length());
                     pfxFound = true;
-                }
-            }
-        }
-        if (characterCode.endsWith(";")) {
-            characterCode = characterCode.substring(0, characterCode.length() - 2);
-        }
-        if (!pfxFound) {
-            if (characterCode.matches("^[0-9]+$")) {
-                base = 10;
-            } else {
-                if (characterCode.matches("^[0-9a-f]+$")) {
                     base = 16;
                 }
             }
+            if (!pfxFound) {
+                for (String pfx : DEC_PREFIXES) {
+                    if (characterCode.startsWith(pfx)) {
+                        characterCode = characterCode.substring(pfx.length());
+                        pfxFound = true;
+                        base = 10;
+                    }
+                }
+            }
+            if (characterCode.endsWith(";")) {
+                characterCode = characterCode.substring(0, characterCode.length() - 1);
+            }
+            if (!pfxFound) {
+                if (characterCode.matches("^[0-9]+$")) {
+                    base = 10;
+                }
+                if ((base == null) && (characterCode.matches("^[0-9a-f]+$"))) {
+                    base = 16;
+                }
+            }
+            if (base != null) {
+                character = getCharacterForCode(characterCode, base);
+            }
         }
-        return getCharacterForCode(characterCode, base);
+        return character;
     }
 
     public static Character getCharacterForCode(String characterCode, int base) {
@@ -146,5 +153,9 @@ public class UnicodeUtility {
             }
         }
         return sb.toString();
+    }
+
+    private UnicodeUtility() {
+        super();
     }
 }

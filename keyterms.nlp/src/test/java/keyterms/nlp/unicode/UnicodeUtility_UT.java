@@ -112,6 +112,14 @@ public class UnicodeUtility_UT {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void UnicodeUtility_htmlEscapeStyle() {
+        String input = "&#162;";
+        Character expected = '¢';
+        Character actual = UnicodeUtility.getCharacterForCode(input);
+        assertEquals(expected, actual);
+    }
+
     // html decimal &#160;
     @Test
     public void UnicodeUtility_noPrefixNonAscii() {
