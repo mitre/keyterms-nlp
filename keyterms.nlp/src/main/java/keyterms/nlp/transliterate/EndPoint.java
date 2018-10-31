@@ -128,7 +128,7 @@ public class EndPoint
             target = endPt;
             type = EndPointType.of(endPt);
             qualifiers = Collections.unmodifiableSortedSet(new TreeSet<>(parts.stream()
-                    .filter(q -> Strings.hasText(q))
+                    .filter(Strings::hasText)
                     .map(String::trim)
                     .collect(Collectors.toSet())));
             StringBuilder nsb = new StringBuilder();

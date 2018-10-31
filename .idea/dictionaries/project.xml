@@ -5,6 +5,7 @@
             <w>emojicon</w>
             <w>emojicons</w>
             <w>keyterms</w>
+            <w>levenshtein</w>
             <w>segmenter</w>
             <w>stemmer</w>
             <w>stemmers</w>

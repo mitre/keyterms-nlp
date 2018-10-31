@@ -80,7 +80,7 @@ public class Scheme
         super();
         if (Strings.hasText(text)) {
             List<String> parts = Arrays.stream(Strings.trim(text).split("_"))
-                    .filter(s -> Strings.hasText(s))
+                    .filter(Strings::hasText)
                     .map(String::trim)
                     .collect(Collectors.toList());
             name = parts.remove(0);

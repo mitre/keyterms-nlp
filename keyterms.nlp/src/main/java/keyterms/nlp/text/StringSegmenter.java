@@ -223,7 +223,7 @@ public class StringSegmenter {
                             }
                         }
                     } else {
-                        Vector<String> completePath = new Vector<String>(currentVector);
+                        Vector<String> completePath = new Vector<>(currentVector);
                         Vector<TextSpan> currentSpans = getSpansForStrings(completePath);
                         if (currentSpans.size() == 1) {
                             finalResults.add(completePath);
@@ -307,7 +307,7 @@ public class StringSegmenter {
         if (curPrefix == null || tries == null) {
             return null;
         }
-        Vector<String> terms = new Vector<String>();
+        Vector<String> terms = new Vector<>();
         for (ITrie curTrie : tries) {
             if (curTrie == null) {
                 continue;
@@ -367,7 +367,7 @@ public class StringSegmenter {
                     String newSeg = curNewSeg.toLowerCase();
                     boolean segFoundInPrev = false;
                     for (String seenSeg : seenSegments) {
-                        if (seenSeg.indexOf(newSeg) != -1) {
+                        if (seenSeg.contains(newSeg)) {
                             segFoundInPrev = true;
                             break;
                         }

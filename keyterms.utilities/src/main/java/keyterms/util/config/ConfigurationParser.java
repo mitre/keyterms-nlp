@@ -89,12 +89,12 @@ public class ConfigurationParser
         if (Strings.hasText(text)) {
             List<String> lines = LINE_SPLITTER.split(text).stream()
                     .map(Strings::trim)
-                    .filter(line -> Strings.hasText(line))
+                    .filter(Strings::hasText)
                     .filter(line -> !line.startsWith("#"))
                     .map(line -> line.replaceAll("(.*[^\\\\])#.*", "$1"))
                     .map(line -> line.replaceFirst("\\s*=\\s*", "="))
                     .map(Strings::trim)
-                    .filter(line -> Strings.hasText(line))
+                    .filter(Strings::hasText)
                     .collect(Collectors.toList());
             ArrayList<String> merged = new ArrayList<>();
             boolean merging = false;
