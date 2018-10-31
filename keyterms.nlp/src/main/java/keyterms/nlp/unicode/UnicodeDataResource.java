@@ -37,6 +37,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import keyterms.util.Errors;
+import keyterms.util.io.Encoding;
 import keyterms.util.text.Strings;
 
 public class UnicodeDataResource {
@@ -76,7 +77,7 @@ public class UnicodeDataResource {
         Map<Character, UnicodeCharacterInfo> unicodeCharacterInfoMap = new HashMap<>();
         BufferedReader fin = null;
         try {
-            Reader reader = new InputStreamReader(getClass().getResourceAsStream(RESOURCE), "UTF-8");
+            Reader reader = new InputStreamReader(getClass().getResourceAsStream(RESOURCE), Encoding.UTF8);
             fin = new BufferedReader(reader);
             String s;
             int lineNum = 0;
