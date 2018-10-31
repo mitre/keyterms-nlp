@@ -2,11 +2,11 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/keyterms.nlp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/keyterms.rest" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/keyterms.services" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/keyterms.testing" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/keyterms.utilities" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keyterms-nlp.nlp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keyterms-nlp.rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keyterms-nlp.services" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keyterms-nlp.testing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keyterms-nlp.utilities" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

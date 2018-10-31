@@ -16,19 +16,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="keyterms.nlp" />
-        <module name="keyterms.rest" />
-        <module name="keyterms.services" />
-        <module name="keyterms.testing" />
-        <module name="keyterms.utilities" />
+        <module name="keyterms-nlp.nlp" />
+        <module name="keyterms-nlp.rest" />
+        <module name="keyterms-nlp.services" />
+        <module name="keyterms-nlp.testing" />
+        <module name="keyterms-nlp.utilities" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="nlp.library" target="1.8" />
-      <module name="nlp.services" target="1.8" />
-      <module name="nlp.utilities" target="1.8" />
-      <module name="nlplibrary" target="1.5" />
-      <module name="test.utilities" target="1.8" />
+      <module name="keyterms-nlp.nlp" target="1.9" />
+      <module name="keyterms-nlp.rest" target="1.9" />
+      <module name="keyterms-nlp.services" target="1.9" />
+      <module name="keyterms-nlp.testing" target="1.9" />
+      <module name="keyterms-nlp.utilities" target="1.9" />
     </bytecodeTargetLevel>
   </component>
 </project>

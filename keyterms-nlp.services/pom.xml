@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>keyterms</groupId>
-    <artifactId>keyterms.services</artifactId>
+    <artifactId>keyterms-nlp.services</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
@@ -52,7 +52,7 @@
     <dependencies>
         <dependency>
             <groupId>keyterms</groupId>
-            <artifactId>keyterms.rest</artifactId>
+            <artifactId>keyterms-nlp.rest</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -109,7 +109,7 @@
         <!-- ^^ Needed by Jersey when running Tomcat in Java 9+ -->
         <dependency>
             <groupId>keyterms</groupId>
-            <artifactId>keyterms.nlp</artifactId>
+            <artifactId>keyterms-nlp.nlp</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -207,7 +207,7 @@
         <!-- Test Dependencies -->
         <dependency>
             <groupId>keyterms</groupId>
-            <artifactId>keyterms.testing</artifactId>
+            <artifactId>keyterms-nlp.testing</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>
