@@ -54,8 +54,8 @@ public class Stemmer_Und {
             CharTermAttribute termAtt = ts.addAttribute(CharTermAttribute.class);
             ts.reset();
             while (ts.incrementToken()) {
-                String tokenText = termAtt.toString();
-                String stem = tokenText;
+                //String tokenText = termAtt.toString();
+                //String stem = tokenText;
                 //stemmer.stem(tokenText);
                 //stemmer.setCurrent(tokenText);
 //				boolean stemmed = stemmer.stem();

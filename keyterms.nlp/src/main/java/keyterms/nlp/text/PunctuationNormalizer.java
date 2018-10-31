@@ -77,7 +77,7 @@ public final class PunctuationNormalizer {
         }
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < input.length(); i++) {
-            Character curChar = input.charAt(i);
+            char curChar = input.charAt(i);
             if (Character.isSpaceChar(curChar)) {
                 if (normalizeSpace) {
                     sb.append(" ");
@@ -102,7 +102,7 @@ public final class PunctuationNormalizer {
                     //  regardless of what GeneralCategory it falls into)
                     // -- @todo get rid of hard-coded "delete"
                     //            String normalization = unicodeData.getTransliteration(curChar);
-                    String normalization = UnicodeNormalizationData.getReplacement(curChar.toString());
+                    String normalization = UnicodeNormalizationData.getReplacement(String.valueOf(curChar));
                     if ("delete".equalsIgnoreCase(normalization)) {
                         continue;
                     }

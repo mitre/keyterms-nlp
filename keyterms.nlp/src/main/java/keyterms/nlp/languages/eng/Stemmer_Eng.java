@@ -61,7 +61,6 @@ public class Stemmer_Eng
             ts.reset();
             while (ts.incrementToken()) {
                 String token = termAtt.toString();
-                String stem = token;
                 allStemsAsOneBigHappyString.append(token);
             }
             ts.close();

@@ -132,12 +132,9 @@ public class TextTransformer_Und
         String srcDisplayText = normalizeForDisplay(input);
         String srcIndexText = normalizeForIndex(input);
 
-        String displayText = srcDisplayText;
-        String indexText = srcIndexText;
-
         Script sourceScript = PROFILER.profile(input).getScript(true);
         curXlit = new Transliteration(true, 0, sourceScript.getCode(), TextType.ORIGINAL.getDisplayLabel(),
-                displayText, indexText);
+                srcDisplayText, srcIndexText);
         results.add(curXlit);
         ArrayList<Transliteration> icuTranslits = getAvailableTransliterations(input, language);
         if (icuTranslits != null && icuTranslits.size() > 0) {

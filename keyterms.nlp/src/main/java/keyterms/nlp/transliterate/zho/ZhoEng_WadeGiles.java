@@ -105,7 +105,7 @@ public class ZhoEng_WadeGiles
 
                 StringBuilder endMatter = new StringBuilder();
                 for (int i = syllable.length() - 1; i >= 0; i--) {
-                    Character curChar = syllable.substring(i, i + 1).charAt(0);
+                    char curChar = syllable.substring(i, i + 1).charAt(0);
                     if (Characters.isPunctuation(curChar)) {
                         endMatter.append(curChar);
                     } else {
