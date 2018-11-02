@@ -23,12 +23,5 @@
         <module name="keyterms-nlp.utilities" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="keyterms-nlp.nlp" target="1.9" />
-      <module name="keyterms-nlp.rest" target="1.9" />
-      <module name="keyterms-nlp.services" target="1.9" />
-      <module name="keyterms-nlp.testing" target="1.9" />
-      <module name="keyterms-nlp.utilities" target="1.9" />
-    </bytecodeTargetLevel>
   </component>
 </project>
