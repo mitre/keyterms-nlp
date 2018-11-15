@@ -1,0 +1,96 @@
+<md-content ng-controller="analyzerCtl"
+            class="wide tall"
+            layout="row"
+            layout-fill=""
+            ng-cloak="">
+
+    <div flex=""
+         layout="column"
+         layout-fill="">
+        <header>
+            <form id="input_form" name="input_form" class="wide"
+                  enctype="multipart/form-data">
+                <md-card layout="column"
+                         layout-padding="0"
+                         layout-margin="0">
+                    <div layout="row">
+                        <div style="width: 50%;">
+                            <input type="file" onchange="angular.element(this).scope().fileEvent(this)">
+                        </div>
+                        <div style="width: 150px;">
+                            <label style="margin-right: 15px;" for="analyzer_select">Profile Using:</label>
+                            <md-select id="analyzer_select"
+                                       aria-label="Analyzer"
+                                       class="search-option"
+                                       style="padding: 0; margin: -5px 0 0 0;"
+                                       ng-model="analyzer">
+                                <md-option aria-label="default" ng-value="undefined">Use Default</md-option>
+                                <md-option aria-label="full" ng-value="'*****'">Full Profile</md-option>
+                                <md-divider>Profiles</md-divider>
+                                <md-option class="md-accent"
+                                           ng-repeat="profile in profiles"
+                                           aria-label="{{profile}}"
+                                           ng-value="profile">{{profile}}
+                                </md-option>
+                                <md-divider>Products</md-divider>
+                                <md-option class="md-accent"
+                                           ng-repeat="product in products"
+                                           aria-label="{{product}}"
+                                           ng-value="product">{{product}}
+                                </md-option>
+                            </md-select>
+                        </div>
+                        <div flex=""></div>
+                        <div>
+                            <md-button aria-label="Profile Text File"
+                                       class="md-fab md-mini md-accent"
+                                       ng-click="submitButton()"
+                                       ng-disabled="((!file)||(busy))">
+                                <md-icon md-font-icon="fa fa-bolt"></md-icon>
+                            </md-button>
+                        </div>
+                    </div>
+                </md-card>
+            </form>
+        </header>
+        <div layout="row"
+             layout-align="center center"
+             layout-margin="0"
+             layout-padding="0"
+             ng-if="busy">
+            <div class="busy-bar">
+                <md-progress-linear class="md-hue-4 md-accent"
+                                    md-mode="indeterminate">
+                </md-progress-linear>
+            </div>
+        </div>
+        <div layout="column"
+             layout-padding=""
+             layout-margin="20">
+            <div>
+                <table class="wide" ng-if="profile">
+                    <tr class="striped">
+                        <th>Analyzer ID</th>
+                        <th>Encoding</th>
+                        <th>Length (characters)</th>
+                        <th>Language</th>
+                        <th>Script</th>
+                        <th>Score</th>
+                    </tr>
+                    <tr class="striped" ng-repeat="result in profile">
+                        <td>{{result.id}}</td>
+                        <td>{{result.value.features['AnalysisFeature[encoding]']}}</td>
+                        <td>{{result.value.features['AnalysisFeature[length]']}}</td>
+                        <td>{{result.value.features['AnalysisFeature[language]'] | name}}</td>
+                        <td>{{result.value.features['AnalysisFeature[script]'] | name}}</td>
+                        <td>{{result.value.score | pretty_score}}</td>
+                    </tr>
+                </table>
+            </div>
+            <div ng-if="preview">
+                <h3> Preview: </h3>
+                {{preview}}
+            </div>
+        </div>
+    </div>
+</md-content>

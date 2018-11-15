@@ -30,6 +30,7 @@ import java.io.IOException;
 
 import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
+import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
 
 import keyterms.util.io.Binary;
@@ -68,18 +69,22 @@ public class BinaryAdapter
     public Binary read(JsonReader jsonReader)
             throws IOException {
         Binary binary = null;
-        jsonReader.beginObject();
-        while (jsonReader.hasNext()) {
-            String fieldName = jsonReader.nextName();
-            String fieldValue = jsonReader.nextString();
-            if ("null".equalsIgnoreCase(fieldName)) {
-                fieldValue = null;
+        if (!JsonToken.NULL.equals(jsonReader.peek())) {
+            jsonReader.beginObject();
+            while (jsonReader.hasNext()) {
+                String fieldName = jsonReader.nextName();
+                String fieldValue = jsonReader.nextString();
+                if ("null".equalsIgnoreCase(fieldName)) {
+                    fieldValue = null;
+                }
+                if ("data".equals(fieldName)) {
+                    binary = new Binary(fieldValue);
+                }
             }
-            if ("data".equals(fieldName)) {
-                binary = new Binary(fieldValue);
-            }
+            jsonReader.endObject();
+        } else {
+            jsonReader.nextNull();
         }
-        jsonReader.endObject();
         return binary;
     }
 }

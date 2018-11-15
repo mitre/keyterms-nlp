@@ -91,7 +91,12 @@ public final class JsonAdapters {
         jsonReader.beginObject();
         while (jsonReader.hasNext()) {
             String fieldName = jsonReader.nextName();
-            String fieldValue = (jsonReader.peek() != JsonToken.NULL) ? jsonReader.nextString() : null;
+            String fieldValue = null;
+            if (!JsonToken.NULL.equals(jsonReader.peek())) {
+                fieldValue = jsonReader.nextString();
+            } else {
+                jsonReader.nextNull();
+            }
             F field = Enums.find(fieldNames, fieldName);
             if (field == null) {
                 throw new IOException("Unexpected field name: " + fieldName);

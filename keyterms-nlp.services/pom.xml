@@ -46,10 +46,60 @@
                     </includes>
                 </configuration>
             </plugin>
+            <!-- Additional Resources for the WAR file. -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.2</version>
+                <configuration>
+                    <webResources>
+                        <resource>
+                            <directory>webapp-resources</directory>
+                        </resource>
+                    </webResources>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>keyterms</groupId>
+            <artifactId>keyterms-nlp.analyzer-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>keyterms</groupId>
+            <artifactId>keyterms-nlp.analyzer-profiles</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- Analyzers -->
+        <dependency>
+            <groupId>keyterms</groupId>
+            <artifactId>keyterms-nlp.analyzers-cld</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>keyterms</groupId>
+            <artifactId>keyterms-nlp.analyzers-icu</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>keyterms</groupId>
+            <artifactId>keyterms-nlp.analyzers-jscript</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>keyterms</groupId>
+            <artifactId>keyterms-nlp.analyzers-mozilla</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>keyterms</groupId>
+            <artifactId>keyterms-nlp.analyzers-optimaize</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- Rest Dependencies -->
         <dependency>
             <groupId>keyterms</groupId>
             <artifactId>keyterms-nlp.rest</artifactId>

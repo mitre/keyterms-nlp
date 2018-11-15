@@ -21,6 +21,9 @@
       "name": "KeyTerms"
     },
     {
+      "name": "LanguageID"
+    },
+    {
       "name": "IsoLookupService"
     },
     {
@@ -423,6 +426,312 @@
                   "items": {
                     "$ref": "#/components/schemas/Transliteration"
                   }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/lid/default_analyzer": {
+      "get": {
+        "operationId": "lidDefaultAnalyzer",
+        "tags": [
+          "LanguageID"
+        ],
+        "summary": "Get the identifier for the defualt text analyzer.",
+        "responses": {
+          "200": {
+            "description": "The identifier for the default text analyzer.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/lid/products": {
+      "get": {
+        "operationId": "lidProducts",
+        "tags": [
+          "LanguageID"
+        ],
+        "summary": "Get the products available for text analysis.",
+        "responses": {
+          "200": {
+            "description": "The products available for text analysis.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/lid/profiles": {
+      "get": {
+        "operationId": "lidProfiles",
+        "tags": [
+          "LanguageID"
+        ],
+        "summary": "Get the model based profiles available for text analysis.",
+        "responses": {
+          "200": {
+            "description": "The model based profiles available for text analysis.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/lid/analyze": {
+      "post": {
+        "operationId": "lidAnalyze",
+        "tags": [
+          "LanguageID"
+        ],
+        "summary": "Analyze text data.",
+        "parameters": [
+          {
+            "name": "analyzer",
+            "description": "The identifier for the analyzer to use in generating the analysis.",
+            "in": "query",
+            "required": false,
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "The text data to analyze.",
+          "required": true,
+          "content": {
+            "text/plain": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The text analysis results.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Analysis"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/lid/profile": {
+      "post": {
+        "operationId": "lidProfile",
+        "tags": [
+          "LanguageID"
+        ],
+        "summary": "Get the top text analysis results for text data.",
+        "parameters": [
+          {
+            "name": "analyzer",
+            "description": "The identifier for the analyzer to use in generating the profile.",
+            "in": "query",
+            "required": false,
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "The text data to analyze.",
+          "required": true,
+          "content": {
+            "text/plain": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The top text analysis results.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Analysis"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/svc/lid/full_profile": {
+      "post": {
+        "operationId": "lidFullProfile",
+        "tags": [
+          "LanguageID"
+        ],
+        "summary": "Get the top text analysis results from all products and models.",
+        "requestBody": {
+          "description": "The text data to analyze.",
+          "required": true,
+          "content": {
+            "text/plain": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The top text analysis results from all products and models.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "description": "The identifier for the product or model producing the analysis result."
+                      },
+                      "value": {
+                        "$ref": "#/components/schemas/Analysis"
+                      }
+                    }
+                  },
+                  "example": [
+                    {
+                      "value": {
+                        "features": {
+                          "AnalysisFeature[size]": 204,
+                          "AnalysisFeature[length]": 204,
+                          "AnalysisFeature[encoding]": "iso-8859-1"
+                        },
+                        "score": 0.17
+                      },
+                      "id": "ICU"
+                    },
+                    {
+                      "value": {
+                        "features": {
+                          "AnalysisFeature[size]": 204,
+                          "AnalysisFeature[length]": 204,
+                          "AnalysisFeature[encoding]": "iso-8859-9"
+                        },
+                        "score": 0.12
+                      },
+                      "id": "ICU"
+                    },
+                    {
+                      "value": {
+                        "features": {
+                          "AnalysisFeature[size]": 204,
+                          "AnalysisFeature[length]": 204,
+                          "AnalysisFeature[encoding]": "iso-8859-2"
+                        },
+                        "score": 0.11
+                      },
+                      "id": "ICU"
+                    },
+                    {
+                      "value": {
+                        "features": {
+                          "AnalysisFeature[size]": 204,
+                          "AnalysisFeature[length]": 204
+                        }
+                      },
+                      "id": "MOZ"
+                    },
+                    {
+                      "value": {
+                        "features": {
+                          "AnalysisFeature[language]": {
+                            "code": "vie",
+                            "name": "Vietnamese"
+                          },
+                          "AnalysisFeature[script]": {
+                            "code": "latn",
+                            "name": "Latin"
+                          }
+                        },
+                        "score": 0.9999968843668379
+                      },
+                      "id": "OPT"
+                    },
+                    {
+                      "value": {
+                        "features": {
+                          "AnalysisFeature[script]": {
+                            "code": "latn",
+                            "name": "Latin"
+                          }
+                        },
+                        "score": 0.6078431372549019
+                      },
+                      "id": "SCR"
+                    },
+                    {
+                      "value": {
+                        "features": {
+                          "AnalysisFeature[script]": {
+                            "code": "zinh",
+                            "name": "Inherited"
+                          }
+                        },
+                        "score": 0.11764705882352941
+                      },
+                      "id": "SCR"
+                    },
+                    {
+                      "value": {
+                        "features": {
+                          "AnalysisFeature[size]": 204,
+                          "AnalysisFeature[language]": {
+                            "code": "vie",
+                            "name": "Vietnamese"
+                          },
+                          "AnalysisFeature[length]": 204,
+                          "AnalysisFeature[encoding]": "cp1258",
+                          "AnalysisFeature[script]": {
+                            "code": "latn",
+                            "name": "Latin"
+                          }
+                        }
+                      },
+                      "id": "udhr_test"
+                    }
+                  ]
                 }
               }
             }

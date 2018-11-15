@@ -16,6 +16,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="keyterms-nlp.analyzer-core" />
+        <module name="keyterms-nlp.analyzer-profiles" />
+        <module name="keyterms-nlp.analyzer-traineval" />
+        <module name="keyterms-nlp.analyzers-cld" />
+        <module name="keyterms-nlp.analyzers-icu" />
+        <module name="keyterms-nlp.analyzers-jscript" />
+        <module name="keyterms-nlp.analyzers-mozilla" />
+        <module name="keyterms-nlp.analyzers-optimaize" />
         <module name="keyterms-nlp.nlp" />
         <module name="keyterms-nlp.rest" />
         <module name="keyterms-nlp.services" />

@@ -30,6 +30,7 @@ import java.io.IOException;
 
 import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
+import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
 
 import keyterms.nlp.iso.StdDef;
@@ -86,25 +87,29 @@ public abstract class StdDefAdapter<D extends StdDef>
     @Override
     public D read(JsonReader jsonReader)
             throws IOException {
-        D value;
-        jsonReader.beginObject();
-        String code = null;
-        String name = null;
-        while (jsonReader.hasNext()) {
-            String fieldName = jsonReader.nextName();
-            String fieldValue = jsonReader.nextString();
-            if ("null".equalsIgnoreCase(fieldName)) {
-                fieldValue = null;
+        D value = null;
+        if (!JsonToken.NULL.equals(jsonReader.peek())) {
+            jsonReader.beginObject();
+            String code = null;
+            String name = null;
+            while (jsonReader.hasNext()) {
+                String fieldName = jsonReader.nextName();
+                String fieldValue = jsonReader.nextString();
+                if ("null".equalsIgnoreCase(fieldName)) {
+                    fieldValue = null;
+                }
+                if (CODE.equals(fieldName)) {
+                    code = fieldValue;
+                }
+                if (NAME.equals(fieldName)) {
+                    name = fieldValue;
+                }
             }
-            if (CODE.equals(fieldName)) {
-                code = fieldValue;
-            }
-            if (NAME.equals(fieldName)) {
-                name = fieldValue;
-            }
+            value = resolve(code, name);
+            jsonReader.endObject();
+        } else {
+            jsonReader.nextNull();
         }
-        value = resolve(code, name);
-        jsonReader.endObject();
         return value;
     }
 

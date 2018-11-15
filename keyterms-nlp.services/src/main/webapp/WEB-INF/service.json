@@ -1,5 +1,7 @@
 {
   "error.trace": false,
+  "cld2.home": "/var/lib/cld2",
+  "profile.default": "udhr_test",
   "schema.map": [
     "ara=Hello",
     "ara=World",

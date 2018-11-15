@@ -27,6 +27,7 @@
 package keyterms.service;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -47,6 +48,13 @@ import javax.ws.rs.core.Response;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import keyterms.analyzer.Analyzer;
+import keyterms.analyzer.AnalyzerId;
+import keyterms.analyzer.CoreAnalyzers;
+import keyterms.analyzer.profiles.WekaProfile;
+import keyterms.analyzer.profiles.WekaProfiles;
+import keyterms.analyzer.text.TextInfo;
+import keyterms.analyzer.text.VotingAnalyzer;
 import keyterms.nlp.iso.Language;
 import keyterms.nlp.model.DisplayForm;
 import keyterms.nlp.model.IndexForm;
@@ -71,11 +79,6 @@ import keyterms.util.text.parser.Parsers;
 public class KeyTermsService
         extends RestService {
     /**
-     * The script profiler.
-     */
-    static final ScriptProfiler PROFILER = new ScriptProfiler();
-
-    /**
      * The legacy operations.
      */
     private enum Operation {
@@ -85,11 +88,14 @@ public class KeyTermsService
     }
 
     /**
-     * The legacy JSON writer.
+     * The maximum number of results per analyzer to return when profiling data.
      */
-    private static final Gson LEGACY_JSON = new GsonBuilder()
-            .setLenient()
-            .create();
+    static final int MAX_RESULTS = 3;
+
+    /**
+     * The number of bytes of data to use in the preview function.
+     */
+    static final int PREVIEW_BYTES = 5_120;
 
     /**
      * The setting used to identify the per-language KeyTerms provided schema.
@@ -114,6 +120,67 @@ public class KeyTermsService
             .build();
 
     /**
+     * The default profile for text analysis.
+     */
+    private static final Setting<String> CLD2_HOME = new SettingFactory<>(
+            "cld2.home", String.class)
+            .withDefault("/var/lib/cld2")
+            .build();
+
+    /**
+     * The default profile for text analysis.
+     */
+    private static final Setting<String> DEFAULT_PROFILE = new SettingFactory<>(
+            "profile.default", String.class)
+            .withDefault("open_gots_light")
+            .build();
+
+    /**
+     * The legacy JSON writer.
+     */
+    private static final Gson LEGACY_JSON = new GsonBuilder()
+            .setLenient()
+            .create();
+    /**
+     * The script profiler.
+     */
+    static final ScriptProfiler PROFILER = new ScriptProfiler();
+
+    /**
+     * The analyzer id or profile name for the default analyzer.
+     */
+    static String defaultAnalyzerKey;
+
+    /**
+     * The weka profiles instance.
+     */
+    static Analyzer defaultAnalyzer;
+
+    /**
+     * Get the specified analyzer.
+     *
+     * <p> The default analyzer will be returned if the specified analyzer name is blank. </p>
+     *
+     * @param analyzerName The analyzer to use.
+     *
+     * @return The specified analyzer.
+     */
+    static Analyzer getAnalyzer(String analyzerName) {
+        Analyzer analyzer = defaultAnalyzer;
+        if (Strings.hasText(analyzerName)) {
+            String lookup = Strings.trim(analyzerName);
+            analyzer = WekaProfiles.getInstance().get(lookup);
+            if (analyzer == null) {
+                analyzer = CoreAnalyzers.getInstance().get(AnalyzerId.valueOf(lookup));
+            }
+        }
+        if (analyzer == null) {
+            throw new IllegalArgumentException("Invalid analyzer: " + analyzerName);
+        }
+        return analyzer;
+    }
+
+    /**
      * Constructor.
      */
     public KeyTermsService() {
@@ -125,9 +192,56 @@ public class KeyTermsService
      */
     @Override
     protected void startup() {
+        System.setProperty("cld2.home", CLD2_HOME.getValue());
+        CoreAnalyzers.getInstance();
+        WekaProfiles.getInstance(getWebRoot());
+        setDefaultAnalyzer(DEFAULT_PROFILE.getValue());
         Transliterators.loadIcuBuiltIns();
         Transliterators.loadCustomRules();
         Transliterators.loadCustomTransliterators();
+    }
+
+    /**
+     * Setup the default text analyzer.
+     */
+    private void setDefaultAnalyzer(String preferredProfile) {
+        defaultAnalyzerKey = preferredProfile;
+        defaultAnalyzer = WekaProfiles.getInstance().get(preferredProfile);
+        if (defaultAnalyzer == null) {
+            defaultAnalyzerKey = WekaProfiles.getInstance().profiles().stream()
+                    .map(WekaProfile::getName)
+                    .findFirst()
+                    .orElse(null);
+            defaultAnalyzer = WekaProfiles.getInstance().get(defaultAnalyzerKey);
+            if (defaultAnalyzer != null) {
+                getLogger().warn("Using random profile as default analyzer: {}", defaultAnalyzerKey);
+            }
+        }
+        if (defaultAnalyzer == null) {
+            AnalyzerId analyzerId = CoreAnalyzers.getInstance().get(null, (analyzer) ->
+                    analyzer.produces(TextInfo.ENCODING) &&
+                            analyzer.produces(TextInfo.LANGUAGE) &&
+                            analyzer.produces(TextInfo.SCRIPT)
+            ).entrySet().stream()
+                    .map(Map.Entry::getKey)
+                    .findFirst()
+                    .orElse(null);
+            defaultAnalyzer = CoreAnalyzers.getInstance().get(analyzerId);
+            if (defaultAnalyzer != null) {
+                assert (analyzerId != null);
+                defaultAnalyzerKey = analyzerId.toString();
+                getLogger().warn("Using product analyzer as default analyzer: {}", analyzerId);
+            }
+        }
+        if (defaultAnalyzer == null) {
+            defaultAnalyzerKey = "VOTE";
+            defaultAnalyzer = new VotingAnalyzer();
+            getLogger().warn("Using voting analyzer as default analyzer.");
+        }
+        if (defaultAnalyzer == null) {
+            getLogger().error("No preferred profile is available for text analysis.");
+            throw new NullPointerException("No preferred profile is available for text analysis.");
+        }
     }
 
     /**

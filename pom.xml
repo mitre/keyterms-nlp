@@ -15,6 +15,14 @@
         <module>keyterms-nlp.nlp</module>
         <module>keyterms-nlp.services</module>
         <module>keyterms-nlp.rest</module>
+        <module>keyterms-nlp.analyzer-core</module>
+        <module>keyterms-nlp.analyzer-profiles</module>
+        <module>keyterms-nlp.analyzers-cld</module>
+        <module>keyterms-nlp.analyzers-icu</module>
+        <module>keyterms-nlp.analyzers-jscript</module>
+        <module>keyterms-nlp.analyzers-mozilla</module>
+        <module>keyterms-nlp.analyzers-optimaize</module>
+        <module>keyterms-nlp.analyzer-traineval</module>
     </modules>
 
     <properties>

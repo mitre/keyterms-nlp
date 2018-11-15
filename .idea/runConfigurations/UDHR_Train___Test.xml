@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="UDHR Train &amp; Test" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="keyterms.analyzer.profiles.Trainer" />
+    <module name="keyterms-nlp.analyzer-traineval" />
+    <option name="PROGRAM_PARAMETERS" value="name=udhr_test arff=true train=.local/data/udhr_train.idx test=.local/data/udhr_test.idx" />
+    <option name="VM_PARAMETERS" value="-Xmx4G" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

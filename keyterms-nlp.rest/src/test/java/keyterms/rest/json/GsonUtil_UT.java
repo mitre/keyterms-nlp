@@ -30,6 +30,8 @@ import java.net.URI;
 
 import org.junit.Test;
 
+import keyterms.nlp.iso.Language;
+import keyterms.nlp.iso.WrittenLanguage;
 import keyterms.util.io.Binary;
 import keyterms.util.text.Strings;
 
@@ -63,6 +65,16 @@ public class GsonUtil_UT {
     public void string() {
         testCopy(String.class, null);
         testCopy(String.class, "Hello World!");
+    }
+
+    @Test
+    public void writtenLanguage() {
+        String json = "{\"language\":null,\"script\":null}";
+        assertEquals(new WrittenLanguage(null, null), GsonUtil.toObject(WrittenLanguage.class, json));
+        json = "{\"language\":{\"code\":\"rus\"},\"script\":null}";
+        assertEquals(new WrittenLanguage(Language.RUSSIAN, null), GsonUtil.toObject(WrittenLanguage.class, json));
+        json = "{\"script\":null,\"language\":{\"code\":\"rus\"}}";
+        assertEquals(new WrittenLanguage(Language.RUSSIAN, null), GsonUtil.toObject(WrittenLanguage.class, json));
     }
 
     @Test

@@ -81,4 +81,32 @@ angular.module("keyTerms.filters", [])
             return pretty;
         }
     }])
+
+    .filter("name", [function () {
+        return function (named) {
+            return (named) ? named.name : '';
+        }
+    }])
+
+    .filter("name_list", [function () {
+        return function (names) {
+            var namesList = '';
+            if ((names) && (names.length)) {
+                names.forEach(function (name) {
+                    if (namesList.length) {
+                        namesList += ' | ';
+                    }
+                    namesList += name;
+                });
+            }
+            return namesList;
+        }
+    }])
+
+    .filter("pretty_score", [function () {
+        return function (score) {
+            return (score !== undefined) ? (score * 100).toFixed(2) : '';
+        }
+    }])
+
 ;

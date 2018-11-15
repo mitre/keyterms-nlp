@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="UDHR Testing Data" type="JUnit" factoryName="JUnit">
+    <module name="keyterms-nlp.analyzer-traineval" />
+    <option name="PACKAGE_NAME" value="keyterms.analyzer.profiles" />
+    <option name="MAIN_CLASS_NAME" value="keyterms.analyzer.profiles.PrepareUdhrData" />
+    <option name="METHOD_NAME" value="prepareTestData" />
+    <option name="TEST_OBJECT" value="method" />
+    <option name="PARAMETERS" value="" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="TEST_SEARCH_SCOPE">
+      <value defaultName="moduleWithDependencies" />
+    </option>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
