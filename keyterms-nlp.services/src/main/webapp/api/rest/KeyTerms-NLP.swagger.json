@@ -1823,6 +1823,36 @@
           }
         }
       },
+      "Analysis": {
+        "type": "object",
+        "description": "The results of a text analysis.",
+        "properties": {
+          "features": {
+            "type": "object",
+            "description": "The analysis output features as an object (map)."
+          },
+          "score": {
+            "type": "number",
+            "description": "The score for the analysis (if one is available)."
+          }
+        },
+        "example": {
+          "features": {
+            "AnalysisFeature[size]": 204,
+            "AnalysisFeature[language]": {
+              "code": "vie",
+              "name": "Vietnamese"
+            },
+            "AnalysisFeature[length]": 204,
+            "AnalysisFeature[encoding]": "cp1258",
+            "AnalysisFeature[script]": {
+              "code": "latn",
+              "name": "Latin"
+            }
+          },
+          "score": 89.4
+        }
+      },
       "Emote": {
         "type": "object",
         "description": "A basic emote definition.",
