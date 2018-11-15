@@ -132,7 +132,7 @@ public class KeyTermsService
      */
     private static final Setting<String> DEFAULT_PROFILE = new SettingFactory<>(
             "profile.default", String.class)
-            .withDefault("open_gots_light")
+            .withDefault("udhr_test")
             .build();
 
     /**
