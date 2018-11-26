@@ -120,7 +120,9 @@ public class ScriptProfile {
      */
     public int getKnownCodePointCount() {
         return codePoints - (int)entries.stream()
-                .filter((e) -> ((e.getScript().equals(Script.COMMON)) || (e.getScript().equals(Script.UNKNOWN))))
+                .filter((e) -> ((e.getScript() == null) ||
+                        (Script.COMMON.equals(e.getScript())) ||
+                        (Script.UNKNOWN.equals(e.getScript()))))
                 .count();
     }
 

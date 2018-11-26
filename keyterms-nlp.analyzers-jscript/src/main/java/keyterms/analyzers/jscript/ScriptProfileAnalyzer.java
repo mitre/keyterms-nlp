@@ -37,6 +37,8 @@ import keyterms.analyzer.AnalysisFeature;
 import keyterms.analyzer.Analyzer;
 import keyterms.analyzer.text.TextInfo;
 import keyterms.nlp.iso.Script;
+import keyterms.nlp.text.ScriptProfile;
+import keyterms.nlp.text.ScriptProfiler;
 import keyterms.util.collect.Bags;
 import keyterms.util.text.Strings;
 
