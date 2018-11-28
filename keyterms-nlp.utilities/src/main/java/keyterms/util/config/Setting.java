@@ -153,6 +153,16 @@ public class Setting<V> {
     private final List<V> defaultValues = new ArrayList<>();
 
     /**
+     * A flag indicating whether to use system properties if no value is set during configuration.
+     */
+    private boolean useSystemProperties = false;
+
+    /**
+     * A flag indicating whether to use the system environment if no value is set during configuration.
+     */
+    private boolean useSystemEnvironment = false;
+
+    /**
      * Constructor.
      *
      * @param name The setting name.
@@ -189,6 +199,8 @@ public class Setting<V> {
         multipleValues = original.multipleValues;
         required = original.required;
         defaultValues.addAll(original.defaultValues);
+        useSystemProperties = original.useSystemProperties;
+        useSystemEnvironment = original.useSystemEnvironment;
         modifier.accept(this);
     }
 
@@ -364,6 +376,45 @@ public class Setting<V> {
      */
     Setting<V> withDefault(V defaultValue) {
         return new Setting<>(this, (setting) -> setting.defaultValues.add(defaultValue));
+    }
+
+    /**
+     * Use system properties to obtain a value if no explicit value or default value is set.
+     *
+     * @return The derived setting.
+     */
+    Setting<V> useSystemProperties() {
+        return (useSystemProperties) ? this : new Setting<>(this, (setting) -> setting.useSystemProperties = true);
+    }
+
+    /**
+     * Determine if the setting uses system properties to obtain a value if no explicit value or default value is set.
+     *
+     * @return A flag indicating whether the setting uses system properties to obtain a value if no explicit value or
+     * default value is set.
+     */
+    public boolean usesSystemProperties() {
+        return useSystemProperties;
+    }
+
+    /**
+     * Use the system environment to obtain a value if no explicit value or default value is set.
+     *
+     * @return The derived setting.
+     */
+    Setting<V> useSystemEnvironment() {
+        return (useSystemEnvironment) ? this : new Setting<>(this, (setting) -> setting.useSystemEnvironment = true);
+    }
+
+    /**
+     * Determine if the setting uses the system environment to obtain a value if no explicit value or default value is
+     * set.
+     *
+     * @return A flag indicating whether the setting uses the system environment to obtain a value if no explicit
+     * value or default value is set.
+     */
+    public boolean usesSystemEnvironment() {
+        return useSystemProperties;
     }
 
     /**

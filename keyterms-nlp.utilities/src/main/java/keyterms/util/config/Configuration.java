@@ -30,11 +30,15 @@ import java.util.Collection;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Properties;
+import java.util.Set;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import keyterms.util.collect.Bags;
 import keyterms.util.collect.Keyed;
 import keyterms.util.text.Strings;
 
@@ -49,8 +53,6 @@ public class Configuration {
 
     /**
      * Constructor.
-     *
-     * @param settings The settings for the configuration.
      */
     public Configuration(Collection<Setting<?>> settings) {
         super();
@@ -61,8 +63,6 @@ public class Configuration {
 
     /**
      * Constructor.
-     *
-     * @param settings The settings for the configuration.
      */
     public Configuration(Setting... settings) {
         super();
@@ -145,6 +145,13 @@ public class Configuration {
     }
 
     /**
+     * Return all settings to their initial state.
+     */
+    public void reset() {
+        settings.values().forEach(Setting::reset);
+    }
+
+    /**
      * Configure the settings in this configuration.
      *
      * @param textValues The setting values obtained from parsing a configuration file.
@@ -172,10 +179,67 @@ public class Configuration {
                 }
             }
         }
+        configureFromSystem();
+    }
+
+    /**
+     * Check the required settings have valid values.
+     */
+    public void checkRequiredSettings() {
         settings.values().forEach(setting -> {
             if ((!setting.isValueSet()) && (setting.isRequired())) {
                 logError("Required setting {} was not set.", setting.getName());
                 throw new IllegalStateException("Required setting " + setting.getName() + " was not set.");
+            }
+        });
+    }
+
+    /**
+     * Configure the settings in this configuration from environment variables or system variables of the same name.
+     *
+     * <p> Note: Setting values will only be modified if they have not been explicitly set. </p>
+     *
+     * <p> Note: All system properties and environment variables are checked in exact case, upper case and lower case
+     * forms of the name (in that order of preference). All settings are also checked for versions of the name where
+     * all {@code '.'} characters are replace with {@code '_'} characters. </p>
+     *
+     * <p> E.G. {@code 'Test.Setting'} would be checked as <br> {@code 'Test.Setting'}, {@code 'TEST.SETTING'},
+     * {@code 'test.setting'}, {@code 'Test_Setting'}, {@code 'TEST_SETTING'} and {@code 'test_setting'} in sequence.
+     * </p>
+     */
+    public void configureFromSystem() {
+        settings.values().forEach((setting) -> {
+            if (!setting.isValueSet()) {
+                boolean usesSystemProperties = setting.usesSystemProperties();
+                boolean usesSystemEnvironment = setting.usesSystemEnvironment();
+                if ((usesSystemProperties) || (usesSystemEnvironment)) {
+                    String property = setting.getName();
+                    Set<String> keys = Bags.orderedSet(
+                            property, property.toUpperCase(), property.toLowerCase(),
+                            property.replaceAll("\\.", "_"),
+                            property.toUpperCase().replaceAll("\\.", "_"),
+                            property.toLowerCase().replaceAll("\\.", "_")
+                    );
+                    boolean set = false;
+                    if (usesSystemProperties) {
+                        Properties properties = System.getProperties();
+                        for (String key : keys) {
+                            if ((!set) && (properties.containsKey(key))) {
+                                set = true;
+                                setting.fromText(System.getProperty(key));
+                            }
+                        }
+                    }
+                    if ((!set) && (usesSystemEnvironment)) {
+                        Map<String, String> environment = System.getenv();
+                        for (String key : keys) {
+                            if ((!set) && (environment.containsKey(key))) {
+                                set = true;
+                                setting.fromText(System.getenv(key));
+                            }
+                        }
+                    }
+                }
             }
         });
     }
@@ -186,7 +250,7 @@ public class Configuration {
      * @param textValues The setting values obtained from parsing a configuration file.
      */
     public void reconfigure(List<Keyed<String, List<String>>> textValues) {
-        settings.values().forEach(Setting::reset);
+        reset();
         configure(textValues);
     }
 

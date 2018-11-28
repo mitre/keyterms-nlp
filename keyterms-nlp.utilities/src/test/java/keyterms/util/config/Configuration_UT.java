@@ -41,10 +41,13 @@ import static org.junit.Assert.assertEquals;
 public class Configuration_UT {
 
     private final Setting<Integer> setting1 = new Setting<>("setting.1", Integer.class)
+            .useSystemProperties()
+            .withDefault(1)
             .validate();
 
     private final Setting<Double> setting2 = new Setting<>("setting.2", Double.class)
             .required()
+            .withDefault(2.0)
             .validate();
 
     private final Setting<String> setting3 = new Setting<>("setting.3", String.class)
@@ -72,6 +75,10 @@ public class Configuration_UT {
         assertEquals(42, (int)setting1.getValue());
         assertEquals(4.2, setting2.getValue(), 0);
         assertEquals(new LinkedHashSet<>(Bags.arrayList("one", "two", "three")), setting3.getValues());
+        System.setProperty("setting.1", "22");
+        configuration.reset();
+        configuration.configureFromSystem();
+        assertEquals(22, (int)setting1.getValue());
     }
 
     @Test
@@ -98,7 +105,10 @@ public class Configuration_UT {
         configValues.add(new Keyed<>("setting.3", Bags.arrayList("one", "two", "three")));
         Tests.testError(IllegalStateException.class,
                 "Required setting .* was not set.",
-                () -> configuration.reconfigure(configValues));
+                () -> {
+                    configuration.reconfigure(configValues);
+                    configuration.checkRequiredSettings();
+                });
     }
 
     @Test

@@ -186,6 +186,26 @@ public class SettingFactory<V> {
     }
 
     /**
+     * Use system properties to obtain a value if no explicit value or default value is set.
+     *
+     * @return A reference to this factory for convenience in chaining.
+     */
+    public SettingFactory<V> useSystemProperties() {
+        setting = setting.useSystemProperties();
+        return this;
+    }
+
+    /**
+     * Use the system environment to obtain a value if no explicit value or default value is set.
+     *
+     * @return A reference to this factory for convenience in chaining.
+     */
+    public SettingFactory<V> useSystemEnvironment() {
+        setting = setting.useSystemEnvironment();
+        return this;
+    }
+
+    /**
      * Adjust the setting to have the specified default values.
      *
      * <p> Note: This method should only be used for settings that take multiple values. </p>
@@ -209,8 +229,6 @@ public class SettingFactory<V> {
 
     /**
      * Validate the get the setting from the factory.
-     *
-     * @return The setting object built as specified by the current factory settings.
      */
     public Setting<V> build() {
         setting = setting.validate();
