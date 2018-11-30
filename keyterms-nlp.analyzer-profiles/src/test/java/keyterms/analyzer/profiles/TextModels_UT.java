@@ -86,8 +86,7 @@ public class TextModels_UT {
             TextModels.fillFeatures(working.getTextInfo(), featureData, encodingModel, TextModels.ENCODING_PREFIX,
                     working.runAnalyzers(ids::contains, (analyzer) -> analyzer.produces(TextInfo.ENCODING)));
             assertNotNull(featureData);
-            assertFalse(featureData.getFeatures().isEmpty());
-            assertNotEquals(encodingModel.getInputFeatures().size(), featureData.getFeatures().size());
+            assertNotEquals(0, featureData.getFeatures().size());
             featureData.forEach((feature, value) -> assertNotNull(feature.name(), value));
             assertTrue(featureData.contains(encodingModel.getInputFeature(TextModels.BINARY_SIZE)));
         });
