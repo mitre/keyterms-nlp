@@ -35,6 +35,7 @@ import java.util.Random;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
@@ -75,6 +76,10 @@ public class Streams_UT {
     @Test
     public void md5()
             throws Exception {
+        String md5Hash = Binary.toHex(Streams.getMD5(new ByteArrayInputStream(
+                "This is a test string.".getBytes(Encoding.UTF8)
+        )));
+        assertEquals("1620d7b066531f9dbad51eee623f7635", md5Hash);
         byte[] md5_1 = getRandomMD5();
         assertNotNull(md5_1);
         assertNotEquals(0, md5_1.length);

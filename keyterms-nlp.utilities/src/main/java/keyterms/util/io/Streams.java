@@ -34,6 +34,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 import java.nio.channels.WritableByteChannel;
+import java.security.DigestInputStream;
 import java.security.MessageDigest;
 
 /**
@@ -139,22 +140,20 @@ public final class Streams {
      */
     public static byte[] getMD5(InputStream stream)
             throws IOException {
-        byte[] md5 = null;
-        if (stream != null) {
-            try {
-                MessageDigest m = MessageDigest.getInstance("MD5");
-                m.reset();
-                byte[] block = read(stream, COPY_BUFFER_SIZE);
-                while (block.length > 0) {
-                    m.update(block);
-                    block = read(stream, COPY_BUFFER_SIZE);
+        try {
+            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
+            try (DigestInputStream digestStream = new DigestInputStream(stream, messageDigest)) {
+                int read = 0;
+                byte[] buffer = new byte[COPY_BUFFER_SIZE];
+                while (read != -1) {
+                    read = digestStream.read(buffer);
                 }
-                md5 = m.digest();
-            } catch (Exception error) {
-                throw new IOException("Could not compute MD5 hash.", error);
             }
+            return messageDigest.digest();
+        } catch (Exception error) {
+            throw new IOException("Could not compute MD5 hash.", error);
         }
-        return md5;
+
     }
 
     /**
