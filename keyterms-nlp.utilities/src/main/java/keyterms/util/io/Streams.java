@@ -153,7 +153,6 @@ public final class Streams {
         } catch (Exception error) {
             throw new IOException("Could not compute MD5 hash.", error);
         }
-
     }
 
     /**
