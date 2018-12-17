@@ -41,7 +41,7 @@ import keyterms.util.text.Strings;
 public class TextTransformer_Eng
         implements ITextTransformer {
 
-    private static final boolean REMOVE_SPACES_FOR_INDEX = true;
+    private static final boolean REMOVE_SPACES_FOR_INDEX = false;
 
     private final INormalizer engNormalizer;
     private final IStemmer engStemmer;

@@ -44,7 +44,7 @@ import keyterms.util.text.Strings;
 public class TextTransformer_Rus
         implements ITextTransformer {
 
-    public static final boolean REMOVE_SPACES_FOR_INDEX = true;
+    public static final boolean REMOVE_SPACES_FOR_INDEX = false;
     protected static final String SRC_LANG = "rus";
     protected static final String TRG_LANG = "eng";
 
@@ -112,11 +112,14 @@ public class TextTransformer_Rus
         switch (standard) {
 
             case KEY_TERMS:
-                return icTransliterator.apply(input);
+                if ( icTransliterator!=null )
+                    return icTransliterator.apply(input);
             case GOST:
-                return gostTransliterator.apply(input);
+                if ( gostTransliterator!=null )
+                    return gostTransliterator.apply(input);
             case BGN:
-                return bgnTransliterator.apply(input);
+                if ( bgnTransliterator!=null )
+                    return bgnTransliterator.apply(input);
             default:
                 return input;
         }
@@ -179,14 +182,20 @@ public class TextTransformer_Rus
     }
 
     public String transliterateToKeyTerms(String input) {
-        return icTransliterator.apply(input);
+        if(icTransliterator!=null)
+            return icTransliterator.apply(input);
+        return "";
     }
 
     public String transliterateToGost(String input) {
-        return gostTransliterator.apply(input);
+        if(gostTransliterator!=null)
+            return gostTransliterator.apply(input);
+        return "";
     }
 
     public String transliterateToBgn(String input) {
-        return bgnTransliterator.apply(input);
+        if(bgnTransliterator!=null)
+            return bgnTransliterator.apply(input);
+        return "";
     }
 }

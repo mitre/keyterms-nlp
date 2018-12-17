@@ -79,10 +79,15 @@ public class Stemmer_Ukr
             TokenStream ts = analyzer.tokenStream("meaningless", strReader);
             CharTermAttribute termAtt = ts.addAttribute(CharTermAttribute.class);
             ts.reset();
+            int tokenCount = 0;
             while (ts.incrementToken()) {
                 String tokenText = termAtt.toString();
                 String stem = removeUkrainianEndings(tokenText);
+                if(tokenCount>0) {
+                    allStemsAsOneBigHappyString.append(" ");
+                }
                 allStemsAsOneBigHappyString.append(stem);
+                tokenCount++;
             }
             ts.close();
             strReader.close();

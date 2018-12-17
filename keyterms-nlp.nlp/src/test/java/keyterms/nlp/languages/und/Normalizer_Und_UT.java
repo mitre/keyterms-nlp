@@ -32,7 +32,7 @@ import static org.junit.Assert.assertEquals;
 
 public class Normalizer_Und_UT {
 
-    private static final Normalizer_Und NORM_UKR = new Normalizer_Und();
+    private static final Normalizer_Und NORM_UND = new Normalizer_Und();
 
     private static final String nl = System.lineSeparator();
     private static final String normFormTest = "ẛ̣";
@@ -69,14 +69,14 @@ public class Normalizer_Und_UT {
                 + "chinese punctuation "
                 + "diacritic character " + nonDiacriticChar
                 + "normalization form test " + normForm_noDiacritic;
-        assertEquals(expected_spaces, NORM_UKR.normalizeForIndex(input, false));
+        assertEquals(expected_spaces, NORM_UND.normalizeForIndex(input, false));
 
         String expected_noSpaces = "controlcharacter"
                 + "latinpunctuation"
                 + "chinesepunctuation"
                 + "diacriticcharacter" + nonDiacriticChar
                 + "normalizationformtest" + normForm_noDiacritic;
-        assertEquals(expected_noSpaces, NORM_UKR.normalizeForIndex(input, true));
+        assertEquals(expected_noSpaces, NORM_UND.normalizeForIndex(input, true));
     }
 
     @Test
@@ -89,13 +89,13 @@ public class Normalizer_Und_UT {
          * diacritics removed? yep!
          * normalized to NFKD? yep!
          */
-        String expected = "Controlcharacter"
-                + "Latinpunctuation"
-                + "Chinesepunctuation"
-                + "Diacriticcharacter" + nonDiacriticChar
-                + "Normalizationformtest" + normForm_noDiacritic; // diacritics stripped
+        String expected = "Control character "
+                + "Latin punctuation "
+                + "Chinese punctuation "
+                + "Diacritic character " + nonDiacriticChar
+                + "Normalization form test " + normForm_noDiacritic; // diacritics stripped
 
-        assertEquals(expected, NORM_UKR.normalizeForScoring(input));
+        assertEquals(expected, NORM_UND.normalizeForScoring(input));
     }
 
     @Test
@@ -108,11 +108,10 @@ public class Normalizer_Und_UT {
          */
         String expected = "Control character: '',"
                 + "Latin punctuation: '" + latPunct + "',"
-                + "Chinese punctuation: '" + latPunct + "',"
+                + "Chinese punctuation: '" + zhoPunct + "',"
                 + "Diacritic character: '" + diacriticChar + "'"
                 + "Normalization form test: '" + normFormTest_nfkc + "'";
 
-        // NB 01/02/2018: fails because punctuation is not transliterated
-        assertEquals(expected, NORM_UKR.normalizeForDisplay(input));
+        assertEquals(expected, NORM_UND.normalizeForDisplay(input));
     }
 }

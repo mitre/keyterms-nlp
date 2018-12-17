@@ -91,12 +91,11 @@ public class Normalizer_Rus_UT {
          * normalized to NFKD? yep!
          */
 
-        String expected = "Controlcharacter"
-                + "Latinpunctuation"
-                + "Chinesepunctuation"
-                + "Diacriticcharacter" + nonDiacriticChar
-                + "Normalizationformtest" + normForm_noDiacritic; // diacritics stripped
-
+        String expected = "Control character "
+                + "Latin punctuation "
+                + "Chinese punctuation "
+                + "Diacritic character " + nonDiacriticChar
+                + "Normalization form test " + normForm_noDiacritic; // diacritics stripped
         assertEquals(expected, NORM_RUS.normalizeForScoring(input));
     }
 
@@ -110,7 +109,7 @@ public class Normalizer_Rus_UT {
          */
         String expected = "Control character: '',"
                 + "Latin punctuation: '" + latPunct + "',"
-                + "Chinese punctuation: '" + latPunct + "',"
+                + "Chinese punctuation: '" + zhoPunct + "',"
                 + "Diacritic character: '" + diacriticChar + "'"
                 + "Normalization form test: '" + normFormTest_nfkc + "'";
 

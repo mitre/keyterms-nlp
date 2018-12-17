@@ -60,12 +60,17 @@ public class Stemmer_Rus
         StringReader strReader = null;
         try {
             strReader = new StringReader(input);
+
             ts = analyzer.tokenStream("meaningless", strReader);
             CharTermAttribute termAtt = ts.addAttribute(CharTermAttribute.class);
             ts.reset();
+            int numToks = 0;
             while (ts.incrementToken()) {
                 String stem = termAtt.toString();
+                if(numToks>0)
+                    allStemsAsOneBigHappyString.append(" ");
                 allStemsAsOneBigHappyString.append(stem);
+                numToks++;
             }
             ts.close();
             strReader.close();

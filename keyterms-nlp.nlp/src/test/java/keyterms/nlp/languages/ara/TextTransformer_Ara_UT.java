@@ -47,7 +47,7 @@ public class TextTransformer_Ara_UT {
             "الأرض هي الكوكب الثالث من الشمس والكائن الوحيد في الكون المعروف أن يؤوي الحياة.";
     private static final String KEY_TERMS_TRANSLITERATION = "ala'rd hi alkukb althalth mn alshms walka'n aluhid fi " +
             "alkun alm'ruf a'n yu'wy alhyah.";
-    private static final String BGN_TRANSLITERATION = ""; // insert BGN transliteration of normalization input here
+    private static final String BGN_TRANSLITERATION = "alarḑ hi lkwkb lthalth mn alshms walkan lwḩid fi alkwn lm‘rwf aٔn ywٔy alḩiah"; // insert BGN transliteration of normalization input here
 
     @Test
     public void normalizeForDisplay() {
@@ -70,7 +70,7 @@ public class TextTransformer_Ara_UT {
          * diacritics removed? yep!
          * normalized to NFKD? yep!
          */
-        String expected = "الارضهيالكوكبالثالثمنالشمسوالكاينالوحيدفيالكونالمعروفانيوويالحياة";
+        String expected = "الارض هي الكوكب الثالث من الشمس والكاين الوحيد في الكون المعروف ان يووي الحياة";
         assertEquals(expected, TT_ARA.normalizeForScoring(NORMALIZATION_INPUT));
     }
 
@@ -88,9 +88,8 @@ public class TextTransformer_Ara_UT {
          * normalized to NFKD? yep!
          * stemmed? yep!
          */
-
         // normalized, then stemmed, then normalized without spaces
-        String expected = "ارضكوكبثالثشمسكاحيددكونمعروفيووحيا";
+        String expected = "ارض كوكب ثالث شمس كا حيدد كون معروف يوو حيا";
         assertEquals(expected, TT_ARA.normalizeForIndex(NORMALIZATION_INPUT));
     }
 
@@ -114,17 +113,12 @@ public class TextTransformer_Ara_UT {
         }
     }
 
-    @Test
-    @Ignore
-    public void transliterate_bgn() {
-        // NB 01/02/2018: fails due to missing BGN transliterator
-        assertEquals(BGN_TRANSLITERATION, TT_ARA.transliterate(NORMALIZATION_INPUT, TextType.BGN));
-    }
 
-    @Test
-    @Ignore
+    // Need to write a proper BGN transliterator - the one with ICU exhibits odd behavior
+     @Test
+     @Ignore
     public void transliterateToBgn() {
-        // NB 01/02/2018: fails due to missing BGN transliterator
+        // XXX: TO DO  Need to make this BGN transliterator work better, aaligs are disappearing from als, etc.
         assertEquals(BGN_TRANSLITERATION, TT_ARA.transliterateToBgn(NORMALIZATION_INPUT));
     }
 
@@ -141,7 +135,6 @@ public class TextTransformer_Ara_UT {
                     TextType.ORIGINAL.getDisplayLabel(), // transformType
                     TT_ARA.normalizeForDisplay(NORMALIZATION_INPUT), // text
                     TT_ARA.normalizeForIndex(NORMALIZATION_INPUT)); // textIndex
-
             assertEquals(expected.toString(), result.get(0).toString());
         } catch (Exception e) {
             e.printStackTrace();

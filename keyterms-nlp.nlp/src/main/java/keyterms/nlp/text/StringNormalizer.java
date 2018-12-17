@@ -291,7 +291,7 @@ public class StringNormalizer {
         }
 
         String output = Normalizer.normalize(sb.toString(), Normalizer.Form.NFC);
-
+        output = squinch(output,removeLineBreaks);
         if (normalizeCase) {
             output = output.toLowerCase();
             //@todo: Chinese simplification here????
@@ -299,6 +299,7 @@ public class StringNormalizer {
 
         return Normalizer.normalize(output, outputForm);
     }
+
 
     public static String squinch(String input, boolean removeLineBreaks) {
         if (input == null) {
@@ -338,7 +339,7 @@ public class StringNormalizer {
     }
 
     public static String normalizeForIndex(String input) {
-        return StringNormalizer.normalize(input, true/*removeNewLine*/, true/*removeSpace*/, true/*removeControl*/,
+        return StringNormalizer.normalize(input, true/*removeNewLine*/, false/*removeSpace*/, true/*removeControl*/,
                 true/*removePunctuation*/,
                 true/*normalizePunctuation*/, true/*transliteratePunctuation*/, true/*removeDiacritics*/,
                 true/*normalizeCase*/,
@@ -346,7 +347,7 @@ public class StringNormalizer {
     }
 
     public static String normalizeForScoring(String input) {
-        return StringNormalizer.normalize(input, true/*removeNewLine*/, true/*removeSpace*/, true/*removeControl*/,
+        return StringNormalizer.normalize(input, true/*removeNewLine*/, false/*removeSpace*/, true/*removeControl*/,
                 true/*removePunctuation*/,
                 false/*normalizePunctuation*/, false/*transliteratePunctuation*/, true/*removeDiacritics*/, false
                 /*normalizeCase*/,

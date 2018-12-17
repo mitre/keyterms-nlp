@@ -28,7 +28,6 @@ package keyterms.nlp.languages.ukr;
 
 import java.util.List;
 
-import org.junit.Ignore;
 import org.junit.Test;
 
 import keyterms.nlp.iso.Script;
@@ -47,7 +46,8 @@ public class TextTransformer_Ukr_UT {
             "Всесвіті, відомий для життя.";
     private static final String keyTermsTransliteration = "Zeemlya - tsee treetya planeeta vid Sontsya ta yedynyй " +
             "obyekt u Vseesviti, vidomyй dlya zhyttya.";
-    private static final String bgnTransliteration = ""; // insert BGN transliteration of normalization input here
+    private static final String bgnTransliteration = "Zemlya - tse tretya planeta vid Sontsya ta yedynyy ob'yekt u"+
+            " Vsesviti, vidomyy dlya zhyttya."; // insert BGN transliteration of normalization input here
 
     @Test
     public void normalizeForDisplay() {
@@ -70,7 +70,7 @@ public class TextTransformer_Ukr_UT {
          * diacritics removed? yep!
          * normalized to NFKD? yep!
          */
-        String expected = "ЗемляцетретяпланетавідСонцятаєдинииобєктуВсесвітівідомиидляжиття";
+        String expected = "Земля це третя планета від Сонця та єдинии обєкт у Всесвіті відомии для життя";
         assertEquals(expected, ttUkr.normalizeForScoring(normalizationInput));
     }
 
@@ -90,7 +90,7 @@ public class TextTransformer_Ukr_UT {
          */
 
         // normalized, then stemmed, then normalized without spaces
-        String expected = "земляцетретяпланетавідсонцятаєдиниобєктувсесвітвідомидляжиття";
+        String expected = "земля це третя планета від сонця та єдини обєкт у всесвіт відоми для життя";
         assertEquals(expected, ttUkr.normalizeForIndex(normalizationInput));
     }
 
@@ -114,14 +114,6 @@ public class TextTransformer_Ukr_UT {
         }
     }
 
-    @Ignore
-    @Test
-    public void transliterate_bgn() {
-        // NB 01/02/2018: fails due to missing BGN transliterator
-        assertEquals(bgnTransliteration, ttUkr.transliterate(normalizationInput, TextType.BGN));
-    }
-
-    @Ignore
     @Test
     public void transliterateToBgn() {
         // NB 01/02/2018: fails due to missing BGN transliterator

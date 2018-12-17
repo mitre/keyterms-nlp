@@ -44,7 +44,7 @@ import keyterms.util.text.Strings;
 public class TextTransformer_Ara
         implements ITextTransformer {
 
-    public static final boolean REMOVE_SPACES_FOR_INDEX = true;
+    public static final boolean REMOVE_SPACES_FOR_INDEX = false;
 
     private final INormalizer araNormalizer;
     private Transliterator icTransliterator;
@@ -64,7 +64,7 @@ public class TextTransformer_Ara
 
         keys = Transliterators.getTransformKeys(
                 Language.ARABIC.getCode(),
-                Language.ENGLISH.getCode(),
+                Script.LATN.getCode(),
                 TextType.BGN.getLabel());
         if (keys != null && keys.size() > 0) {
             bgnTransliterator = Transliterators.get(keys.iterator().next());
@@ -111,7 +111,7 @@ public class TextTransformer_Ara
             case BGN:
                 return bgnTransliterator.apply(input);
             default:
-                return input;
+                return "";
         }
     }
 
@@ -120,7 +120,8 @@ public class TextTransformer_Ara
     }
 
     public String transliterateToBgn(String input) {
-        return bgnTransliterator.apply(input);
+        String bgnOutput = bgnTransliterator.apply(input);
+        return icTransliterator.apply(bgnOutput);
     }
 
     /**

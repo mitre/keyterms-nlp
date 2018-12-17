@@ -44,7 +44,7 @@ import keyterms.util.text.Strings;
 public class TextTransformer_Ukr
         implements ITextTransformer {
 
-    public static final boolean REMOVE_SPACES_FOR_INDEX = true;
+    public static final boolean REMOVE_SPACES_FOR_INDEX = false;
     protected static final String SRC_LANG = "ukr";
     protected static final String TRG_LANG = "eng";
 
@@ -66,11 +66,18 @@ public class TextTransformer_Ukr
             icTransliterator = Transliterators.get(keys.iterator().next());
         }
 
-        // GET THE IC STANDARD TRANSLITERATOR
+        // GET THE IC STANDARD ACRONYM TRANSLITERATOR
         keys = Transliterators.getTransformKeys(SRC_LANG, TRG_LANG,
                 TextType.KEY_TERMS_ACRONYM.getLabel());
         if (keys != null && keys.size() > 0) {
             icTransliterator = Transliterators.get(keys.iterator().next());
+        }
+
+        // GET THE BGN STANDARD TRANSLITERATOR
+        keys = Transliterators.getTransformKeys(SRC_LANG, Script.LATN.toString(),
+                TextType.BGN.getLabel());
+        if (keys != null && keys.size() > 0) {
+            bgnTransliterator = Transliterators.get(keys.iterator().next());
         }
 
         ukrStemmer = new Stemmer_Ukr();

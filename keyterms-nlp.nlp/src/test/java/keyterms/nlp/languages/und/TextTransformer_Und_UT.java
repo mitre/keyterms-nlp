@@ -28,7 +28,6 @@ package keyterms.nlp.languages.und;
 
 import java.util.List;
 
-import org.junit.Ignore;
 import org.junit.Test;
 
 import com.ibm.icu.text.Transliterator;
@@ -50,7 +49,8 @@ public class TextTransformer_Und_UT {
 
     private static final String normalizationInput = "La Tierra es el tercer planeta del Sol y el único objeto en el " +
             "Universo conocido por albergar vida.";
-    private static final String bgnTransliteration = ""; // insert BGN transliteration of normalization input here
+    private static final String bgnTransliteration = "La Tierra es el tercer planeta del Sol y el único objeto en el " +
+            "Universo conocido por albergar vida.";
 
     @Test
     public void normalizeForDisplay() {
@@ -73,7 +73,7 @@ public class TextTransformer_Und_UT {
          * diacritics removed? yep!
          * normalized to NFKD? yep!
          */
-        String expected = "LaTierraeseltercerplanetadelSolyelunicoobjetoenelUniversoconocidoporalbergarvida";
+        String expected = "La Tierra es el tercer planeta del Sol y el unico objeto en el Universo conocido por albergar vida";
         assertEquals(expected, ttUnd.normalizeForScoring(normalizationInput));
     }
 
@@ -93,7 +93,7 @@ public class TextTransformer_Und_UT {
          */
 
         // normalized, then stemmed, then normalized without spaces
-        String expected = "latierraeseltercerplanetadelsolyelunicoobjetoeneluniversoconocidoporalbergarvida";
+        String expected = "la tierra es el tercer planeta del sol y el unico objeto en el universo conocido por albergar vida";
         assertEquals(expected, ttUnd.normalizeForIndex(normalizationInput));
     }
 
@@ -107,7 +107,6 @@ public class TextTransformer_Und_UT {
         }
     }
 
-    @Ignore
     @Test
     public void transliterate_bgn() {
         // NB 01/02/2018: fails due to missing BGN transliterator

@@ -59,9 +59,14 @@ public class Stemmer_Eng
             TokenStream ts = analyzer.tokenStream("meaningless", strReader);
             CharTermAttribute termAtt = ts.addAttribute(CharTermAttribute.class);
             ts.reset();
+            int tokenCount=0;
             while (ts.incrementToken()) {
                 String token = termAtt.toString();
+                if(tokenCount>0) {
+                    allStemsAsOneBigHappyString.append(" ");
+                }
                 allStemsAsOneBigHappyString.append(token);
+                tokenCount++;
             }
             ts.close();
             strReader.close();

@@ -332,8 +332,8 @@ public class TextTransformer_Zho_UT {
     public void normalizeWadeGilesForIndex() {
         String input = "ti4 ch`iu2 shih4 lai2 tzu4 t`ai4 yang2 te5 ti4 san1 k`o1 hsing2 hsing1, yeh3 shih4 yü3 " +
                 "chou4 chung1 wei2 i1 pei4 ch`eng1 wei2 yung1 yu3 sheng1 ming4 te5 wu4 t`i3。";
-        String expected = "ti4chiu2shih4lai2tzu4tai4yang2te5ti4san1ko1hsing2hsing1yeh3shih4yu3chou4chung1wei2i1pei4" +
-                "cheng1wei2yung1yu3sheng1ming4te5wu4ti3";
+        String expected = "ti4 chiu2 shih4 lai2 tzu4 tai4 yang2 te5 ti4 san1 ko1 hsing2 hsing1 yeh3 shih4 yu3 chou4"+
+                " chung1wei2i1pei4 cheng1 wei2 yung1 yu3 sheng1 ming4 te5 wu4 ti3";
         assertEquals(expected, ttZho.normalizeWadeGilesForIndex(input, true));
 
         // NB 11/24/2017: this fails because the second parameter of normalizeWadeGilesForIndex() is ignored

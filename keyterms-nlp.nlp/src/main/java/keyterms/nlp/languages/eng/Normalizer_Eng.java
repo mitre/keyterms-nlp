@@ -49,7 +49,7 @@ public class Normalizer_Eng
      */
     @Override
     public String normalizeForScoring(String input) {
-        return StringNormalizer.normalize(input, true/*removeNewLine*/, true/*removeSpace*/, true/*removeControl*/,
+        return StringNormalizer.normalize(input, true/*removeNewLine*/, false/*removeSpace*/, true/*removeControl*/,
                 true/*removePunctuation*/, false/*normalizePunctuation*/, false/*transliteratePunctuation*/,
                 true/*removeDiacritics*/, false/*normalizeCase*/, Normalizer.Form.NFKD);
     }

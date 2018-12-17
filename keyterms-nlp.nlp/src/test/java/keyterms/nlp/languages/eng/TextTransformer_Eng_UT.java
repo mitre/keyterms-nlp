@@ -69,7 +69,7 @@ public class TextTransformer_Eng_UT {
          * diacritics removed? yep!
          * normalized to NFKD? yep!
          */
-        String expected = "EarthisthethirdplanetfromtheSunandtheonlyobjectintheUniverseknowntoharborlife";
+        String expected = "Earth is the third planet from the Sun and the only object in the Universe known to harbor life";
         assertEquals(expected, TT_ENG.normalizeForScoring(normalizationInput));
     }
 
@@ -87,7 +87,7 @@ public class TextTransformer_Eng_UT {
          * normalized to NFKD? yep!
          * stemmed? yep!
          */
-        String expected = "earththirdplanetfromsunonliobjectuniversknownharborlife";
+        String expected = "earth third planet from sun onli object univers known harbor life";
         assertEquals(expected, TT_ENG.normalizeForIndex(normalizationInput));
     }
 

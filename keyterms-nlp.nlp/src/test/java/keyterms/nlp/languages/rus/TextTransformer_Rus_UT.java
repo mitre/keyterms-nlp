@@ -45,6 +45,7 @@ public class TextTransformer_Rus_UT {
 
     private static final String normalizationInput = "Земля - это третья планета от Солнца и единственный объект во " +
             "Вселенной, который, как известно, питает жизнь.";
+
     private static final String keyTermsTransliteration =
             "Zemlya - eto tretya planeta ot Solntsa i yedinstvennyй obekt vo Vselennoй, kotoryй, kak " +
                     "izvestno, pitayet zhizn.";
@@ -72,7 +73,8 @@ public class TextTransformer_Rus_UT {
          * diacritics removed? yep!
          * normalized to NFKD? yep!
          */
-        String expected = "ЗемляэтотретьяпланетаотСолнцаиединственныиобъектвоВселенноикоторыикакизвестнопитаетжизнь";
+
+        String expected = "Земля это третья планета от Солнца и единственныи объект во Вселеннои которыи как известно питает жизнь";
         assertEquals(expected, TT_RUS.normalizeForScoring(normalizationInput));
     }
 
@@ -92,7 +94,7 @@ public class TextTransformer_Rus_UT {
          */
 
         // normalized, then stemmed, then normalized without spaces
-        String expected = "землэттретпланетсолнцединственныобъектвселеннокоторыизвестнпита";
+        String expected = "земл эт трет планет солнц единственны объект вселенно которы известн пита";
         assertEquals(expected, TT_RUS.normalizeForIndex(normalizationInput));
     }
 
@@ -116,28 +118,13 @@ public class TextTransformer_Rus_UT {
         }
     }
 
-    @Ignore
-    @Test
-    public void transliterate_gost() {
-        // NB 01/02/2018: fails due to missing Gost transliterator
-        assertEquals(gostTransliteration, TT_RUS.transliterate(normalizationInput, TextType.GOST));
-    }
-
-    @Ignore
     @Test
     public void transliterateToGost() {
         // NB 01/02/2018: fails due to missing Gost transliterator
         assertEquals(gostTransliteration, TT_RUS.transliterateToGost(normalizationInput));
     }
 
-    @Ignore
-    @Test
-    public void transliterate_bgn() {
-        // NB 01/02/2018: fails due to missing BGN transliterator
-        assertEquals(bgnTransliteration, TT_RUS.transliterate(normalizationInput, TextType.BGN));
-    }
 
-    @Ignore
     @Test
     public void transliterateToBgn() {
         // NB 01/02/2018: fails due to missing BGN transliterator
@@ -165,9 +152,14 @@ public class TextTransformer_Rus_UT {
         }
     }
 
+  //  Земля - это третья планета от Солнца и единственный объект во " +
+  //         "Вселенной, который, как известно, питает жизнь.";
+
     @Test
     public void stemForRomanizationForIndex() {
-        String expected = "землэттретпланетсолнцединственныобъектвселеннокоторыизвестнпита";
+        // The Lucene analyzer does not return life(жизнь) for some unfathomable reason
+        //String expected = "земл эт трет планет солнц единственны бъект вселенно которы известн пита жизнь";
+        String expected = "земл эт трет планет солнц единственны объект вселенно которы известн пита";
         assertEquals(expected, TT_RUS.stemForRomanizationForIndex(normalizationInput));
     }
 }

@@ -60,6 +60,7 @@ public class Stemmer_Ara
             TokenStream ts = analyzer.tokenStream("meaningless", strReader);
             CharTermAttribute termAtt = ts.addAttribute(CharTermAttribute.class);
             ts.reset();
+            int tokenCount = 0;
             while (ts.incrementToken()) {
                 String token = termAtt.toString();
                 char[] ca = token.toCharArray();
@@ -67,7 +68,11 @@ public class Stemmer_Ara
                 stemmer.stemPrefix(ca, token.length());
                 stemmer.stemSuffix(ca, token.length());
                 String stem = new String(ca);
+                if(tokenCount>0) {
+                    allStemsAsOneBigHappyString.append(" ");
+                }
                 allStemsAsOneBigHappyString.append(stem);
+                tokenCount++;
             }
             ts.close();
             strReader.close();
