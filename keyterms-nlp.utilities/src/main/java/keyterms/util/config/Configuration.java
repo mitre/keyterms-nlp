@@ -53,6 +53,8 @@ public class Configuration {
 
     /**
      * Constructor.
+     *
+     * @param settings The settings that belong to the configuration.
      */
     public Configuration(Collection<Setting<?>> settings) {
         super();
@@ -63,6 +65,8 @@ public class Configuration {
 
     /**
      * Constructor.
+     *
+     * @param settings The settings that belong to the configuration.
      */
     public Configuration(Setting... settings) {
         super();

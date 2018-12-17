@@ -229,6 +229,8 @@ public class SettingFactory<V> {
 
     /**
      * Validate the get the setting from the factory.
+     *
+     * @return The validated setting.
      */
     public Setting<V> build() {
         setting = setting.validate();
