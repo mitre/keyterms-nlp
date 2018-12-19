@@ -29,64 +29,31 @@ package keyterms.nlp.interfaces;
 import java.util.ArrayList;
 
 import keyterms.nlp.iso.Language;
-import keyterms.nlp.model.TextType;
 import keyterms.nlp.model.Transliteration;
+import keyterms.nlp.transliterate.Transliterator;
 
 /**
  * The interface exposed by text transformers.
  */
 public interface ITextTransformer {
-    /**
-     * Normalized the input text for display.
-     *
-     * @param input The input text.
-     *
-     * @return The display form of the input text.
-     */
-    String normalizeForDisplay(String input);
-
-    /**
-     * Normalized the input text for scoring.
-     *
-     * <p> This creates a representation of the input that is used for fuzzy matching
-     * and/or ranking text. This normalization is generally less aggressive than
-     * index normalization, and should produce a Canonical/Compatibility
-     * decomposed Unicode string (NFKD). </p>
-     *
-     * @param input The input text.
-     *
-     * @return The scoring form of the input text.
-     */
-    String normalizeForScoring(String input);
-
-    /**
-     * Normalize the input text for use in indexes.
-     *
-     * @param input The input text.
-     *
-     * @return The index form of the input text.
-     */
-    String normalizeForIndex(String input);
-
-    /**
-     * Transliterate text as specified.
-     *
-     * @param input The input text.
-     * @param standard The general transliteration standard.
-     *
-     * @return The transliterated text.
-     */
-    String transliterate(String input, TextType standard);
 
     /**
      * This method creates one transliteration for each standard supported by
      * the transformer
      *
      * @param input The input text.
-     * @param language The language of the input text.
      *
      * @return key/value pairs for all transliteration standards supported by a
      * given transliterator
      */
-    ArrayList<Transliteration> getAvailableTransforms(String input, Language language);
+    ArrayList<Transliteration> getAvailableTransforms(String input);
+
+
+
+    /**
+     * Prepare a white space delimited string for use in an inverted indexer where the indexer white space tokenizes
+     * @param input
+     * @return  A space-delimited string of tokens suitable for insertion into an inverted index
+     */
+    public String prepareIndexForm(String input);
 }

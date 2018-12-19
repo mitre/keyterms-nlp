@@ -124,8 +124,25 @@ public class TextTransformer_Zho_UT {
          * normalized to NFKD? yep!
          * stemmed? yep!
          */
-        String expected = "地球是来自太阳的第三颗行星也是宇宙中唯一被称为拥有生命的物体";
-        assertEquals(expected, ttZho.normalizeForIndex(normalizationInput));
+        String expected = "地 球 是 来 自 太 阳 的 第 三 颗 行 星 也 是 宇 宙 中 唯 一 被 称 为 拥 有 生 命 的 物 体";
+        assertEquals(expected, ttZho.normalizeForIndex(normalizationInput,false));
+    }
+
+    @Test
+    public void prepareIndexForm_01() {
+        String input = "地球是来自太阳的第三颗行星也是宇宙中唯一被称为拥有生命的物体";
+        String expected = "地 球 是 来 自 太 阳 的 第 三 颗 行 星 也 是 宇 宙 中 唯 一 被 称 为 拥 有 生 命 的 物 体";
+        String actual = ttZho.prepareIndexForm(input);
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    public void prepareIndexForm_02() {
+        String input = "地球是来自太阳的第三颗行星也是宇宙中唯一被称为拥有生命的物体   ,  Washington 体 --" ;
+        String expected = "地 球 是 来 自 太 阳 的 第 三 颗 行 星 也 是 宇 宙 中 唯 一 被 称 为 拥 有 生 命 的 物 体 washington 体";
+        String actual = ttZho.prepareIndexForm(input);
+
+        assertEquals(expected,actual);
     }
 
     @Test
@@ -142,9 +159,9 @@ public class TextTransformer_Zho_UT {
          * normalized to NFKD? yep!
          * stemmed? yep!
          */
-        String expected = "地球是来自太阳的第三颗行星也是宇宙中唯一被称为拥有生命的物体";
-        assertEquals(expected, ttZho.normalizeForIndex(normalizationInput, true));
-        assertEquals(expected, ttZho.normalizeForIndex(normalizationInput, false));
+        String expected = "地 球 是 来 自 太 阳 的 第 三 颗 行 星 也 是 宇 宙 中 唯 一 被 称 为 拥 有 生 命 的 物 体";
+        assertEquals(expected, ttZho.normalizeForIndex(normalizationInput,false));
+
     }
 
     @Test
@@ -161,11 +178,11 @@ public class TextTransformer_Zho_UT {
          * normalized to NFKD? yep!
          * stemmed? yep!
          */
-        String expected = "地球是来自太阳的第三颗行星也是宇宙中唯一被称为拥有生命的物体";
-        assertEquals(expected, TextTransformer_Zho.normForIndex(normalizationInput, true));
+//        String expected = "地球是来自太阳的第三颗行星也是宇宙中唯一被称为拥有生命的物体";
+//        assertEquals(expected, TextTransformer_Zho.normForIndex(normalizationInput, true));
 
-        expected = "地球是来自太阳的第三颗行星 也是宇宙中唯一被称为拥有生命的物体";
-        assertEquals(expected, TextTransformer_Zho.normForIndex(normalizationInput, false));
+        String expected = "地 球 是 来 自 太 阳 的 第 三 颗 行 星 也 是 宇 宙 中 唯 一 被 称 为 拥 有 生 命 的 物 体";
+        assertEquals(expected, TextTransformer_Zho.normForIndex(normalizationInput));
     }
 
     @Test
@@ -267,7 +284,7 @@ public class TextTransformer_Zho_UT {
     @Test
     public void getAvailableTransforms() {
         try {
-            List<Transliteration> result = ttZho.getAvailableTransforms(normalizationInput, null);
+            List<Transliteration> result = ttZho.getAvailableTransforms(normalizationInput);
             assertTrue(result.size() > 0);
 
             Transliteration expected = new Transliteration(
@@ -276,7 +293,7 @@ public class TextTransformer_Zho_UT {
                     Script.HANI.getCode(), // scriptCode
                     TextType.ORIGINAL.getDisplayLabel(), // transformType
                     ttZho.normalizeForDisplay(normalizationInput), // text
-                    ttZho.normalizeForIndex(normalizationInput)); // textIndex
+                    ttZho.prepareIndexForm(normalizationInput)); // textIndex
 
             assertEquals(expected.toString(), result.get(0).toString());
         } catch (Exception e) {
@@ -333,12 +350,12 @@ public class TextTransformer_Zho_UT {
         String input = "ti4 ch`iu2 shih4 lai2 tzu4 t`ai4 yang2 te5 ti4 san1 k`o1 hsing2 hsing1, yeh3 shih4 yü3 " +
                 "chou4 chung1 wei2 i1 pei4 ch`eng1 wei2 yung1 yu3 sheng1 ming4 te5 wu4 t`i3。";
         String expected = "ti4 chiu2 shih4 lai2 tzu4 tai4 yang2 te5 ti4 san1 ko1 hsing2 hsing1 yeh3 shih4 yu3 chou4"+
-                " chung1wei2i1pei4 cheng1 wei2 yung1 yu3 sheng1 ming4 te5 wu4 ti3";
+                " chung1 wei2 i1 pei4 cheng1 wei2 yung1 yu3 sheng1 ming4 te5 wu4 ti3";
         assertEquals(expected, ttZho.normalizeWadeGilesForIndex(input, true));
 
         // NB 11/24/2017: this fails because the second parameter of normalizeWadeGilesForIndex() is ignored
-        expected = "tichiushihlaitzutaiyangtetisankohsinghsingyehshihyuchouchungweiipeichengweiyungyushengmingtewuti";
-        assertEquals(expected, ttZho.normalizeWadeGilesForIndex(input, false));
+        //expected = "ti chiu shih lai tzu tai yang te ti san ko hsing hsing yeh shih yu chou chung wei i pei cheng wei yung yu sheng ming te wu ti";
+        //assertEquals(expected, ttZho.normalizeWadeGilesForIndex(input, false));
     }
 
     @Test

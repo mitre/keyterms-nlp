@@ -33,6 +33,7 @@ import keyterms.nlp.factories.MorphAnalyzerFactory;
 import keyterms.nlp.factories.TextTransformerFactory;
 import keyterms.nlp.interfaces.IMorphAnalyzer;
 import keyterms.nlp.interfaces.ITextTransformer;
+import keyterms.nlp.interfaces.TextTransformer;
 import keyterms.nlp.iso.Language;
 import keyterms.nlp.iso.Script;
 import keyterms.nlp.model.DisplayForm;
@@ -51,16 +52,11 @@ public class TextHandler {
 
     // For normalization and transliteration
     private final TextTransformerFactory transformerFactory;
-    private final MorphAnalyzerFactory morphFactory;
-    private ITextTransformer transformer;
-
-    // For stemming / morphological analysis
-    private IMorphAnalyzer morpher;  // a bit of a hack to have this here
+    private TextTransformer transformer;
 
     public TextHandler() {
         super();
         transformerFactory = new TextTransformerFactory();
-        morphFactory = new MorphAnalyzerFactory();
         setLanguage(Language.UND);
     }
 
@@ -75,16 +71,9 @@ public class TextHandler {
     public void setLanguage(Language language) {
         this.language = (language != null) ? language : Language.UND;
         transformer = transformerFactory.getTransformer(this.language);
-        morpher = morphFactory.getMorphAnalyzer(this.language);
+        //morpher = morphFactory.getMorphAnalyzer(this.language);
     }
 
-    public DisplayForm getDisplayText(String text) {
-        String displayText = (text != null) ? transformer.normalizeForDisplay(text) : null;
-        if (Strings.isBlank(displayText)) {
-            displayText = Strings.trim(text);
-        }
-        return new DisplayForm(displayText);
-    }
 
     public IndexForm getIndexForm(String text) {
         if (text == null) {
@@ -93,7 +82,7 @@ public class TextHandler {
         Script sourceScript = PROFILER.profile(text).getScript(true);
         String scriptStr = sourceScript.getCode();
 
-        String indexText = transformer.normalizeForIndex(text);
+        String indexText = transformer.prepareIndexForm(text);
         if (Strings.isBlank(indexText)) {
             indexText = text;
         }
@@ -110,19 +99,36 @@ public class TextHandler {
         return new IndexForm(isScrScriptPreferred, scriptStr, indexText);
     }
 
-    public List<WordForm> getWordForms(String text) {
-        List<WordForm> forms;
-        if (text == null || morpher == null) {
-            forms = new ArrayList<>();
-            WordForm fakeForm = new WordForm(text, WordFormType.ENTRY);
-            forms.add(fakeForm);
-        } else {
-            forms = morpher.getWordForms(text);
-        }
-        return forms;
-    }
 
     public List<Transliteration> getAvailableTransforms(String text) {
-        return (text != null) ? transformer.getAvailableTransforms(text, language) : null;
+        return (text != null) ? transformer.getAvailableTransforms(text) : null;
     }
 }
+
+
+//    public List<WordForm> getWordForms(String text) {
+//        List<WordForm> forms;
+//        if (text == null || morpher == null) {
+//            forms = new ArrayList<>();
+//            WordForm fakeForm = new WordForm(text, WordFormType.ENTRY);
+//            forms.add(fakeForm);
+//        } else {
+//            forms = morpher.getWordForms(text);
+//        }
+//        return forms;
+//    }
+
+
+//    public DisplayForm getDisplayText(String text) {
+//        String displayText = (text != null) ? transformer.normalizeForDisplay(text) : null;
+//        if (Strings.isBlank(displayText)) {
+//            displayText = Strings.trim(text);
+//        }
+//        return new DisplayForm(displayText);
+//    }
+
+
+// For stemming / morphological analysis
+//private final MorphAnalyzerFactory morphFactory;
+//  private IMorphAnalyzer morpher;  // a bit of a hack to have this here
+//  morphFactory = new MorphAnalyzerFactory();

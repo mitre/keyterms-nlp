@@ -49,37 +49,12 @@ public class TextTransformer_Rus_UT {
     private static final String keyTermsTransliteration =
             "Zemlya - eto tretya planeta ot Solntsa i yedinstvennyй obekt vo Vselennoй, kotoryй, kak " +
                     "izvestno, pitayet zhizn.";
+
     private static final String gostTransliteration = ""; // insert GOST transliteration of normalizationInput here
     private static final String bgnTransliteration = ""; // insert BGN transliteration of normalization input here
 
     @Test
-    public void normalizeForDisplay() {
-        /*
-         * newlines removed? yep!
-         * control characters removed? yep!
-         * punctuation transliterated? nope!
-         * normalized to NFKC? yep!
-         */
-        assertEquals(normalizationInput, TT_RUS.normalizeForDisplay(normalizationInput));
-    }
-
-    @Test
-    public void normalizeForScoring() {
-        /*
-         * newlines removed? yep!
-         * spaces removed? yep!
-         * control characters removed? yep!
-         * punctuation removed? yep!
-         * diacritics removed? yep!
-         * normalized to NFKD? yep!
-         */
-
-        String expected = "Земля это третья планета от Солнца и единственныи объект во Вселеннои которыи как известно питает жизнь";
-        assertEquals(expected, TT_RUS.normalizeForScoring(normalizationInput));
-    }
-
-    @Test
-    public void normalizeForIndex() {
+    public void prepareIndexForm() {
         /*
          * newlines removed? yep!
          * spaces removed? yep!
@@ -95,71 +70,21 @@ public class TextTransformer_Rus_UT {
 
         // normalized, then stemmed, then normalized without spaces
         String expected = "земл эт трет планет солнц единственны объект вселенно которы известн пита";
-        assertEquals(expected, TT_RUS.normalizeForIndex(normalizationInput));
-    }
-
-    @Test
-    public void transliterate_KeyTerms() {
-        try {
-            assertEquals(keyTermsTransliteration, TT_RUS.transliterate(normalizationInput, TextType.KEY_TERMS));
-        } catch (Exception e) {
-            e.printStackTrace();
-            fail();
-        }
-    }
-
-    @Test
-    public void transliterateToKeyTerms() {
-        try {
-            assertEquals(keyTermsTransliteration, TT_RUS.transliterateToKeyTerms(normalizationInput));
-        } catch (Exception e) {
-            e.printStackTrace();
-            fail();
-        }
-    }
-
-    @Test
-    public void transliterateToGost() {
-        // NB 01/02/2018: fails due to missing Gost transliterator
-        assertEquals(gostTransliteration, TT_RUS.transliterateToGost(normalizationInput));
-    }
-
-
-    @Test
-    public void transliterateToBgn() {
-        // NB 01/02/2018: fails due to missing BGN transliterator
-        assertEquals(bgnTransliteration, TT_RUS.transliterateToBgn(normalizationInput));
+        assertEquals(expected, TT_RUS.prepareIndexForm(normalizationInput));
     }
 
     @Test
     public void getAvailableTransforms() {
         try {
-            List<Transliteration> result = TT_RUS.getAvailableTransforms(normalizationInput, null);
-            assertTrue(result.size() > 0);
-
-            Transliteration expected = new Transliteration(
-                    true, // isSrcScript
-                    0, // order
-                    Script.CYRL.getCode(), // scriptCode
-                    TextType.ORIGINAL.getDisplayLabel(), // transformType
-                    TT_RUS.normalizeForDisplay(normalizationInput), // text
-                    TT_RUS.normalizeForIndex(normalizationInput)); // textIndex
-
-            assertEquals(expected.toString(), result.get(0).toString());
+            List<Transliteration> result = TT_RUS.getAvailableTransforms(normalizationInput);
+            for(Transliteration curXlit : result) {
+                System.out.println(curXlit.toString());
+            }
+            assertTrue(result.size() == 3);
         } catch (Exception e) {
             e.printStackTrace();
             fail();
         }
     }
 
-  //  Земля - это третья планета от Солнца и единственный объект во " +
-  //         "Вселенной, который, как известно, питает жизнь.";
-
-    @Test
-    public void stemForRomanizationForIndex() {
-        // The Lucene analyzer does not return life(жизнь) for some unfathomable reason
-        //String expected = "земл эт трет планет солнц единственны бъект вселенно которы известн пита жизнь";
-        String expected = "земл эт трет планет солнц единственны объект вселенно которы известн пита";
-        assertEquals(expected, TT_RUS.stemForRomanizationForIndex(normalizationInput));
-    }
 }

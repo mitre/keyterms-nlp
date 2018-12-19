@@ -26,87 +26,35 @@
 
 package keyterms.nlp.languages.eng;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import keyterms.nlp.interfaces.INormalizer;
-import keyterms.nlp.interfaces.IStemmer;
-import keyterms.nlp.interfaces.ITextTransformer;
+import keyterms.nlp.interfaces.TextTransformer;
 import keyterms.nlp.iso.Language;
-import keyterms.nlp.iso.Script;
-import keyterms.nlp.model.TextType;
-import keyterms.nlp.model.Transliteration;
-import keyterms.util.text.Strings;
 
 public class TextTransformer_Eng
-        implements ITextTransformer {
+        extends TextTransformer {
 
-    private static final boolean REMOVE_SPACES_FOR_INDEX = false;
-
-    private final INormalizer engNormalizer;
-    private final IStemmer engStemmer;
+    private static final Language SRC_LANG = Language.ENGLISH;
+    private static final Language TRG_LANG = Language.ENGLISH;
 
     public TextTransformer_Eng() {
-
-        engNormalizer = new Normalizer_Eng();
-        engStemmer = new Stemmer_Eng();
+        this(SRC_LANG,TRG_LANG);
     }
 
-    /**
-     * Normalize method of the INormalizer interface
-     */
-    public String normalizeForDisplay(String input) {
-        return engNormalizer.normalizeForDisplay(input);
+    public TextTransformer_Eng(Language source, Language target) {
+        super(source,target);
     }
 
-    public String normalizeForScoring(String input) {
-        return engNormalizer.normalizeForScoring(input);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     @Override
-    public String normalizeForIndex(String input) {
-        //ScriptCode inputScript = ScriptIdentifier.guessScript(input, true);
-        String normy = engNormalizer.normalizeForIndex(input, false);
-        String normyStemmed = engStemmer.getStem(normy);
-        if (Strings.isBlank(normyStemmed)) {
-            normyStemmed = normy;
-        }
-        return engNormalizer.normalizeForIndex(normyStemmed, REMOVE_SPACES_FOR_INDEX);
+    protected void initializeNormalizer() {
+        normalizer = new Normalizer_Eng();
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
-    public String transliterate(String input, TextType standard) {
-        return input;
+    protected void initializeStemmer() {
+        stemmer = new Stemmer_Eng();
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
-    public ArrayList<Transliteration> getAvailableTransforms(String input, Language language) {
-        if (input == null) {
-            return null;
-        }
-        ArrayList<Transliteration> results = new ArrayList<>();
-        Transliteration curXlit;
-
-        String displayText = normalizeForDisplay(input);
-        String indexText = normalizeForIndex(input);
-        curXlit = new Transliteration(true, 0, Script.LATN.getCode(), TextType.ORIGINAL.getDisplayLabel(),
-                displayText, indexText);
-        results.add(curXlit);
-        return results;
-    }
-
-    public List<String> getTransliterationCandidates(String input, TextType standard) {
-        List<String> candidates = new ArrayList<>();
-        candidates.add(input);
-        return candidates;
+    protected void initializeTransliterators() {
+        return; // none necessary
     }
 }

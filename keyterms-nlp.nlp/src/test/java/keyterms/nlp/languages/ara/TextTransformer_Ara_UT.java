@@ -50,92 +50,13 @@ public class TextTransformer_Ara_UT {
     private static final String BGN_TRANSLITERATION = "alarḑ hi lkwkb lthalth mn alshms walkan lwḩid fi alkwn lm‘rwf aٔn ywٔy alḩiah"; // insert BGN transliteration of normalization input here
 
     @Test
-    public void normalizeForDisplay() {
-        /*
-         * newlines removed? yep!
-         * control characters removed? yep!
-         * punctuation transliterated? nope!
-         * normalized to NFKC? yep!
-         */
-        assertEquals(NORMALIZATION_INPUT, TT_ARA.normalizeForDisplay(NORMALIZATION_INPUT));
-    }
-
-    @Test
-    public void normalizeForScoring() {
-        /*
-         * newlines removed? yep!
-         * spaces removed? yep!
-         * control characters removed? yep!
-         * punctuation removed? yep!
-         * diacritics removed? yep!
-         * normalized to NFKD? yep!
-         */
-        String expected = "الارض هي الكوكب الثالث من الشمس والكاين الوحيد في الكون المعروف ان يووي الحياة";
-        assertEquals(expected, TT_ARA.normalizeForScoring(NORMALIZATION_INPUT));
-    }
-
-    @Test
-    public void normalizeForIndex() {
-        /*
-         * newlines removed? yep!
-         * spaces removed? yep!
-         * control characters removed? yep!
-         * punctuation removed? yep!
-         * punctuation normalized? doesn't matter since it's removed!
-         * punctuation transliterated? doesn't matter since it's removed!
-         * diacritics removed? yep!
-         * case normalized? yep!
-         * normalized to NFKD? yep!
-         * stemmed? yep!
-         */
-        // normalized, then stemmed, then normalized without spaces
-        String expected = "ارض كوكب ثالث شمس كا حيدد كون معروف يوو حيا";
-        assertEquals(expected, TT_ARA.normalizeForIndex(NORMALIZATION_INPUT));
-    }
-
-    @Test
-    public void transliterate_KeyTerms() {
-        try {
-            assertEquals(KEY_TERMS_TRANSLITERATION, TT_ARA.transliterate(NORMALIZATION_INPUT, TextType.KEY_TERMS));
-        } catch (Exception e) {
-            e.printStackTrace();
-            fail();
-        }
-    }
-
-    @Test
-    public void transliterateToKeyTerms() {
-        try {
-            assertEquals(KEY_TERMS_TRANSLITERATION, TT_ARA.transliterateToKeyTerms(NORMALIZATION_INPUT));
-        } catch (Exception e) {
-            e.printStackTrace();
-            fail();
-        }
-    }
-
-
-    // Need to write a proper BGN transliterator - the one with ICU exhibits odd behavior
-     @Test
-     @Ignore
-    public void transliterateToBgn() {
-        // XXX: TO DO  Need to make this BGN transliterator work better, aaligs are disappearing from als, etc.
-        assertEquals(BGN_TRANSLITERATION, TT_ARA.transliterateToBgn(NORMALIZATION_INPUT));
-    }
-
-    @Test
     public void getAvailableTransforms() {
         try {
-            List<Transliteration> result = TT_ARA.getAvailableTransforms(NORMALIZATION_INPUT, null);
-            assertTrue(result.size() > 0);
-
-            Transliteration expected = new Transliteration(
-                    true, // isSrcScript
-                    0, // order
-                    Script.ARAB.getCode(), // scriptCode
-                    TextType.ORIGINAL.getDisplayLabel(), // transformType
-                    TT_ARA.normalizeForDisplay(NORMALIZATION_INPUT), // text
-                    TT_ARA.normalizeForIndex(NORMALIZATION_INPUT)); // textIndex
-            assertEquals(expected.toString(), result.get(0).toString());
+            List<Transliteration> result = TT_ARA.getAvailableTransforms(NORMALIZATION_INPUT);
+            for(Transliteration curXlit : result) {
+                System.out.println(curXlit.toString());
+            }
+            assertTrue(result.size() ==3);
         } catch (Exception e) {
             e.printStackTrace();
             fail();

@@ -56,10 +56,11 @@ import keyterms.analyzer.profiles.WekaProfiles;
 import keyterms.analyzer.text.TextInfo;
 import keyterms.analyzer.text.VotingAnalyzer;
 import keyterms.nlp.iso.Language;
-import keyterms.nlp.model.DisplayForm;
+//import keyterms.nlp.model.DisplayForm;
+//import keyterms.nlp.model.IndexForm;
 import keyterms.nlp.model.IndexForm;
 import keyterms.nlp.model.Transliteration;
-import keyterms.nlp.model.WordForm;
+//import keyterms.nlp.model.WordForm;
 import keyterms.nlp.text.ScriptProfiler;
 import keyterms.nlp.transliterate.Transliterators;
 import keyterms.rest.service.RestService;
@@ -83,7 +84,7 @@ public class KeyTermsService
      */
     private enum Operation {
         INDEX_FORM,
-        WORD_FORMS,
+  //      WORD_FORMS,
         ALTERNATES
     }
 
@@ -261,7 +262,7 @@ public class KeyTermsService
      * @param text The text to process.
      * @param languageCode The code for the language of the specified text (required for most operations).
      * @param doIndexForm A flag indicating whether to produce an index form of the specified text.
-     * @param doWordForms A flag indicating whether to produce word forms for the specified text.
+  //   * @param doWordForms A flag indicating whether to produce word forms for the specified text.
      * @param request The original HTTP request.
      *
      * @return The results as specified in the format specified by the request.
@@ -273,13 +274,13 @@ public class KeyTermsService
             @QueryParam("srctxt") String text,
             @QueryParam("lang") String languageCode,
             @QueryParam("idx") @DefaultValue("false") boolean doIndexForm,
-            @QueryParam("wform") @DefaultValue("false") boolean doWordForms,
+//            @QueryParam("wform") @DefaultValue("false") boolean doWordForms,
             @Context ContainerRequestContext request) {
         Object result;
         Operation operation = Operation.ALTERNATES;
-        if (doWordForms) {
-            operation = Operation.WORD_FORMS;
-        }
+//        if (doWordForms) {
+//            operation = Operation.WORD_FORMS;
+//        }
         if (doIndexForm) {
             operation = Operation.INDEX_FORM;
         }
@@ -287,9 +288,9 @@ public class KeyTermsService
             case INDEX_FORM:
                 result = getIndexForm(text, languageCode);
                 break;
-            case WORD_FORMS:
-                result = getWordForms(text, languageCode);
-                break;
+//            case WORD_FORMS:
+//                result = getWordForms(text, languageCode);
+//                break;
             default:
                 result = getAvailableTransforms(text, languageCode);
         }
@@ -323,7 +324,7 @@ public class KeyTermsService
      * @param text The text to process.
      * @param languageCode The code for the language of the specified text (required for most operations).
      * @param doIndexForm A flag indicating whether to produce an index form of the specified text.
-     * @param doWordForms A flag indicating whether to produce word forms for the specified text.
+    // * @param doWordForms A flag indicating whether to produce word forms for the specified text.
      * @param request The original HTTP request.
      *
      * @return The results as specified in the format specified by the request.
@@ -336,9 +337,10 @@ public class KeyTermsService
             @QueryParam("srctxt") String text,
             @QueryParam("lang") String languageCode,
             @QueryParam("idx") @DefaultValue("false") boolean doIndexForm,
-            @QueryParam("wform") @DefaultValue("false") boolean doWordForms,
+//            @QueryParam("wform") @DefaultValue("false") boolean doWordForms,
             @Context ContainerRequestContext request) {
-        return doGet(text, languageCode, doIndexForm, doWordForms, request);
+//        return doGet(text, languageCode, doIndexForm, doWordForms, request);
+        return doGet(text, languageCode, doIndexForm, request);
     }
 
     /**
@@ -349,21 +351,21 @@ public class KeyTermsService
      *
      * @return The display normalized form of the specified text.
      */
-    @GET
-    @Path("display_form")
-    @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.APPLICATION_JSON)
-    public DisplayForm getDisplayForm(
-            @QueryParam("srctxt") String text,
-            @QueryParam("lang") String languageCode) {
-        DisplayForm displayForm = null;
-        if (text != null) {
-            TextHandler handler = new TextHandler();
-            handler.setLanguage(languageCode);
-            displayForm = handler.getDisplayText(text);
-        }
-        return displayForm;
-    }
+//    @GET
+//    @Path("display_form")
+//    @Consumes(MediaType.APPLICATION_JSON)
+//    @Produces(MediaType.APPLICATION_JSON)
+//    public DisplayForm getDisplayForm(
+//            @QueryParam("srctxt") String text,
+//            @QueryParam("lang") String languageCode) {
+//        DisplayForm displayForm = null;
+//        if (text != null) {
+//            TextHandler handler = new TextHandler();
+//            handler.setLanguage(languageCode);
+//            displayForm = handler.getDisplayText(text);
+//        }
+//        return displayForm;
+//    }
 
     /**
      * Get the index normalized form of the specified text.
@@ -389,29 +391,29 @@ public class KeyTermsService
         return indexForm;
     }
 
-    /**
-     * Get the word normalized form of the specified text.
-     *
-     * @param text The text.
-     * @param languageCode The language of the text.
-     *
-     * @return The word normalized form of the specified text.
-     */
-    @GET
-    @Path("word_forms")
-    @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.APPLICATION_JSON)
-    public List<WordForm> getWordForms(
-            @QueryParam("srctxt") String text,
-            @QueryParam("lang") String languageCode) {
-        List<WordForm> wordForms = null;
-        if (text != null) {
-            TextHandler handler = new TextHandler();
-            handler.setLanguage(languageCode);
-            wordForms = handler.getWordForms(text);
-        }
-        return wordForms;
-    }
+//    /**
+//     * Get the word normalized form of the specified text.
+//     *
+//     * @param text The text.
+//     * @param languageCode The language of the text.
+//     *
+//     * @return The word normalized form of the specified text.
+//     */
+//    @GET
+//    @Path("word_forms")
+//    @Consumes(MediaType.APPLICATION_JSON)
+//    @Produces(MediaType.APPLICATION_JSON)
+//    public List<WordForm> getWordForms(
+//            @QueryParam("srctxt") String text,
+//            @QueryParam("lang") String languageCode) {
+//        List<WordForm> wordForms = null;
+//        if (text != null) {
+//            TextHandler handler = new TextHandler();
+//            handler.setLanguage(languageCode);
+//            wordForms = handler.getWordForms(text);
+//        }
+//        return wordForms;
+//    }
 
     /**
      * Get the KeyTerms provided schema for the specified language code.

@@ -28,6 +28,8 @@ package keyterms.nlp.transliterate;
 
 import java.util.function.Function;
 
+import keyterms.util.text.Strings;
+
 /**
  * The functional interface for a transliterator.
  *
@@ -39,6 +41,11 @@ public abstract class Transliterator
      * The unique key describing the text transformation.
      */
     protected final TransformKey key;
+
+    /**
+     * A human readable display name, dafaults to key text if none defined
+     */
+    protected String displayName;
 
     /**
      * Constructor.
@@ -105,5 +112,23 @@ public abstract class Transliterator
     @Override
     public String toString() {
         return getClass().getSimpleName() + "[" + key + "]";
+    }
+
+    /**
+     * Get a human readable display name representing this Transliterator
+     * @return String representing the human readable title of this Transliterator
+     */
+    public String getDisplayName() {
+        if (Strings.isBlank(displayName))
+            return key.toString();
+        return displayName;
+    }
+
+    /**
+     * Define a human readable display name for this Transliterator
+     * @param displayName
+     */
+    public void setDisplayName(String displayName) {
+        this.displayName = displayName;
     }
 }

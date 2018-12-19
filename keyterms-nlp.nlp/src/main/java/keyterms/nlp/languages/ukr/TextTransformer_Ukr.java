@@ -26,156 +26,46 @@
 
 package keyterms.nlp.languages.ukr;
 
-import java.util.ArrayList;
-import java.util.Set;
-
-import keyterms.nlp.interfaces.INormalizer;
-import keyterms.nlp.interfaces.IStemmer;
-import keyterms.nlp.interfaces.ITextTransformer;
+import keyterms.nlp.interfaces.TextTransformer;
 import keyterms.nlp.iso.Language;
 import keyterms.nlp.iso.Script;
 import keyterms.nlp.model.TextType;
-import keyterms.nlp.model.Transliteration;
-import keyterms.nlp.transliterate.TransformKey;
-import keyterms.nlp.transliterate.Transliterator;
-import keyterms.nlp.transliterate.Transliterators;
-import keyterms.util.text.Strings;
 
 public class TextTransformer_Ukr
-        implements ITextTransformer {
+        extends TextTransformer {
 
-    public static final boolean REMOVE_SPACES_FOR_INDEX = false;
-    protected static final String SRC_LANG = "ukr";
-    protected static final String TRG_LANG = "eng";
-
-    private INormalizer ukrNormalizer;
-    private Transliterator icTransliterator;
-    private Transliterator icAcronymTransliterator;
-    private Transliterator bgnTransliterator;
-    private IStemmer ukrStemmer;
+    private static final Language SRC_LANG = Language.UKRANIAN;
+    private static final Language TRG_LANG = Language.ENGLISH;
 
     public TextTransformer_Ukr() {
-        ukrNormalizer = new Normalizer_Ukr();
-        //icTransliterator = new Transliterator_Ukr_Ic(ukrNormalizer);
-        //bgnTransliterator = new Transliterator_Ukr_Bgn();
+        this(SRC_LANG,TRG_LANG);
+    }
+
+    public TextTransformer_Ukr(Language source, Language target) {
+        super(source,target);
+    }
+
+    @Override
+    protected void initializeNormalizer() {
+        normalizer = new Normalizer_Ukr();
+    }
+
+    @Override
+    protected void initializeStemmer() {
+        stemmer = new Stemmer_Ukr();
+    }
+
+    protected void initializeTransliterators() {
 
         // GET THE IC STANDARD TRANSLITERATOR
-        Set<TransformKey> keys = Transliterators.getTransformKeys(SRC_LANG, TRG_LANG,
-                TextType.KEY_TERMS.getLabel());
-        if (keys != null && keys.size() > 0) {
-            icTransliterator = Transliterators.get(keys.iterator().next());
-        }
+        addTransliterator(source.getCode(), target.getCode(), TextType.KEY_TERMS.getLabel(),
+                TextType.KEY_TERMS.getDisplayLabel());
 
-        // GET THE IC STANDARD ACRONYM TRANSLITERATOR
-        keys = Transliterators.getTransformKeys(SRC_LANG, TRG_LANG,
-                TextType.KEY_TERMS_ACRONYM.getLabel());
-        if (keys != null && keys.size() > 0) {
-            icTransliterator = Transliterators.get(keys.iterator().next());
-        }
+        // GET THE IC STANDARD ACRONYM TRANSLITERATOR - should be used as an alternate when terms are acronyms
+        //addTransliterator(source.getCode(), target.getCode(), TextType.KEY_TERMS_ACRONYM.getLabel(),"");
 
         // GET THE BGN STANDARD TRANSLITERATOR
-        keys = Transliterators.getTransformKeys(SRC_LANG, Script.LATN.toString(),
-                TextType.BGN.getLabel());
-        if (keys != null && keys.size() > 0) {
-            bgnTransliterator = Transliterators.get(keys.iterator().next());
-        }
-
-        ukrStemmer = new Stemmer_Ukr();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public String normalizeForDisplay(String input) {
-        // NFKC Composed
-        return ukrNormalizer.normalizeForDisplay(input);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public String normalizeForScoring(String input) {
-        // NFKD Decomposed
-        return ukrNormalizer.normalizeForScoring(input);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public String normalizeForIndex(String input) {
-        //Script inputScript = ScriptIdentifier.guessScript(input, true);
-        String normy = ukrNormalizer.normalizeForIndex(input, false);
-        String normyStemmed = ukrStemmer.getStem(normy);
-        if (Strings.isBlank(normyStemmed)) {
-            normyStemmed = normy;
-        }
-        return ukrNormalizer.normalizeForIndex(normyStemmed, REMOVE_SPACES_FOR_INDEX);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public String transliterate(String input, TextType standard) {
-        //@todo add the ICU Any to Latin transliterator as default
-        switch (standard) {
-            case KEY_TERMS:
-                return icTransliterator.apply(input);
-            case BGN:
-                return bgnTransliterator.apply(input);
-            default:
-                return input;
-        }
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public ArrayList<Transliteration> getAvailableTransforms(String input, Language language) {
-        if (input == null) {
-            return null;
-        }
-        ArrayList<Transliteration> results = new ArrayList<>();
-        Transliteration curXlit;
-
-        String srcDisplayText = normalizeForDisplay(input);
-        String srcIndexText = normalizeForIndex(input);
-
-        String curText = srcDisplayText;
-        String indexText = srcIndexText;
-        curXlit = new Transliteration(true, 0, Script.CYRL.getCode(), TextType.ORIGINAL.getDisplayLabel(),
-                curText, indexText);
-        results.add(curXlit);
-
-        // NB 11/20/2017: null checking to prevent NullPointerException (when transliterators are missing)
-        if (icTransliterator != null) {
-            curText = transliterateToKeyTerms(srcDisplayText);
-            indexText = transliterateToKeyTerms(srcIndexText);
-            curXlit = new Transliteration(false, 1, Script.LATN.getCode(), TextType.KEY_TERMS.getDisplayLabel(),
-                    curText, indexText);
-            results.add(curXlit);
-        }
-
-        if (bgnTransliterator != null) {
-            curText = transliterateToBgn(srcDisplayText);
-            indexText = transliterateToBgn(srcIndexText);
-            curXlit = new Transliteration(false, 2, Script.LATN.getCode(), TextType.BGN.getDisplayLabel(),
-                    curText, indexText);
-            results.add(curXlit);
-        }
-
-        return results;
-    }
-
-    public String transliterateToKeyTerms(String input) {
-        return icTransliterator.apply(input);
-    }
-
-    public String transliterateToBgn(String input) {
-        return bgnTransliterator.apply(input);
+        addTransliterator(source.getCode(), Script.LATN.toString(), TextType.BGN.getLabel(),
+                TextType.BGN.getDisplayLabel());
     }
 }

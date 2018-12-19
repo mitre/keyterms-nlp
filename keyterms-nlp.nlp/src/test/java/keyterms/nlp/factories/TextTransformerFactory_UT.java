@@ -26,8 +26,11 @@
 
 package keyterms.nlp.factories;
 
+import java.util.ArrayList;
+
 import org.junit.Test;
 
+import keyterms.nlp.interfaces.TextTransformer;
 import keyterms.nlp.iso.Language;
 import keyterms.nlp.languages.ara.TextTransformer_Ara;
 import keyterms.nlp.languages.eng.TextTransformer_Eng;
@@ -35,6 +38,7 @@ import keyterms.nlp.languages.rus.TextTransformer_Rus;
 import keyterms.nlp.languages.ukr.TextTransformer_Ukr;
 import keyterms.nlp.languages.und.TextTransformer_Und;
 import keyterms.nlp.languages.zho.TextTransformer_Zho;
+import keyterms.nlp.model.Transliteration;
 
 import static org.junit.Assert.assertTrue;
 
@@ -50,5 +54,28 @@ public class TextTransformerFactory_UT {
         assertTrue(ttf.getTransformer(Language.byCode("ukr")) instanceof TextTransformer_Ukr);
         assertTrue(ttf.getTransformer(Language.byCode("zho")) instanceof TextTransformer_Zho);
         assertTrue(ttf.getTransformer(Language.byCode("und")) instanceof TextTransformer_Und);
+        assertTrue(ttf.getTransformer(Language.byCode("spa")) instanceof TextTransformer_Und);
+    }
+
+    @Test
+    public void TextTransformer_Ukraininian() {
+        TextTransformerFactory ttf = new TextTransformerFactory();
+        TextTransformer tt = ttf.getTransformer(Language.byCode("ukr"));
+        ArrayList<Transliteration> results = tt.getAvailableTransforms("ці великі червоні бібліотечні книги є моїми");
+        for(Transliteration curXlit : results) {
+            System.out.println(curXlit.toString());
+        }
+        assertTrue(results.size() ==3);
+    }
+
+    @Test
+    public void TextTransformer_Undefined() {
+        TextTransformerFactory ttf = new TextTransformerFactory();
+        TextTransformer tt = ttf.getTransformer(Language.byCode("und"));
+        ArrayList<Transliteration> results = tt.getAvailableTransforms("los libros rojos son mios");
+        for(Transliteration curXlit : results) {
+            System.out.println(curXlit.toString());
+        }
+        assertTrue(results.size() ==2);
     }
 }

@@ -29,6 +29,7 @@ package keyterms.nlp.languages.eng;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 
 public class Stemmer_Eng_UT {
 
@@ -65,13 +66,19 @@ public class Stemmer_Eng_UT {
     };
 
     @Test
-    public void getStem() {
+    public void getStem_tokenTest() {
         String[] actual = new String[INPUT.length];
-
         for (int i = 0; i < INPUT.length; i++) {
             actual[i] = STEM_ENG.getStem(INPUT[i]);
         }
-
         assertArrayEquals(EXPECTED, actual);
+    }
+
+    @Test
+    public void getStem() {
+        String input = "dogs with smallish legs run slowly down the road";
+        String expected = "dog smallish leg run slowli down road";
+        String actual =  STEM_ENG.getStem(input);
+        assertEquals(expected, actual);
     }
 }

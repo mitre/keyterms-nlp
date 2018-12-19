@@ -29,6 +29,7 @@ package keyterms.nlp.factories;
 import java.util.HashMap;
 
 import keyterms.nlp.interfaces.ITextTransformer;
+import keyterms.nlp.interfaces.TextTransformer;
 import keyterms.nlp.iso.Language;
 import keyterms.nlp.languages.ara.TextTransformer_Ara;
 import keyterms.nlp.languages.eng.TextTransformer_Eng;
@@ -41,20 +42,20 @@ import keyterms.util.text.Strings;
 public class TextTransformerFactory {
 
     // Store ISO3 code for name along with an ITextTransformer instance for the language
-    private HashMap<String, ITextTransformer> transformers;
+    private HashMap<String, TextTransformer> transformers;
 
     public TextTransformerFactory() {
         transformers = new HashMap<>();
     }
 
-    public ITextTransformer getTransformer(Language language) {
+    public TextTransformer getTransformer(Language language) {
         String langKey = (language != null) ? language.getCode() : "";
         langKey = Strings.toUpperCase(langKey);
         if (transformers.containsKey(langKey)) {
             return transformers.get(langKey);
         }
 
-        ITextTransformer transformer;
+        TextTransformer transformer;
         switch (langKey) {
             case "ARA": {
                 transformer = new TextTransformer_Ara();

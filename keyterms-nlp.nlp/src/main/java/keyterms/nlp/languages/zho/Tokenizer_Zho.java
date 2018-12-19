@@ -35,7 +35,7 @@ import keyterms.nlp.interfaces.ITokenizer;
 /*
  *  ITokenizer for Chinese that treats each character as a token, with special handling
  *  for characters such as double new lines and full stops that should not be matched
- *  across
+ *  across, also keep Latin characters together
  */
 public class Tokenizer_Zho
         implements ITokenizer {
@@ -50,6 +50,7 @@ public class Tokenizer_Zho
 
     /* Create an ITokenizer by passing the string to be analyzed. */
     public Tokenizer_Zho() {
+        tokenList = new Vector<>();
     }
 
     /* Create a ITokenizer by passing the string to be analyzed. */
@@ -76,8 +77,6 @@ public class Tokenizer_Zho
         try {
             for (int i = 0; i < len; i++) {
                 char[] curChar = new char[1];
-
-                // NB 11/24/2017: fixed issue causing OutOfBoundsException originating here
                 rawSourceReader.read(curChar, 0, 1);
                 currentToken = new String(curChar);
                 if (isNewline(currentToken)) {
@@ -128,8 +127,6 @@ public class Tokenizer_Zho
     }
 
     public static boolean isNewline(String inputText) {
-        // NB 01/02/2018: removed check for inputText.trim().equals(""); if inputText is a single newline character,
-        // then this method returns false (and it should return true)
         return ((inputText != null) && (inputText.matches("[\\n\\r]+")));
     }
 }

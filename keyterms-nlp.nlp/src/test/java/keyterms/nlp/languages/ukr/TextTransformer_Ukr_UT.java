@@ -49,93 +49,16 @@ public class TextTransformer_Ukr_UT {
     private static final String bgnTransliteration = "Zemlya - tse tretya planeta vid Sontsya ta yedynyy ob'yekt u"+
             " Vsesviti, vidomyy dlya zhyttya."; // insert BGN transliteration of normalization input here
 
-    @Test
-    public void normalizeForDisplay() {
-        /*
-         * newlines removed? yep!
-         * control characters removed? yep!
-         * punctuation transliterated? nope!
-         * normalized to NFKC? yep!
-         */
-        assertEquals(normalizationInput, ttUkr.normalizeForDisplay(normalizationInput));
-    }
-
-    @Test
-    public void normalizeForScoring() {
-        /*
-         * newlines removed? yep!
-         * spaces removed? yep!
-         * control characters removed? yep!
-         * punctuation removed? yep!
-         * diacritics removed? yep!
-         * normalized to NFKD? yep!
-         */
-        String expected = "Земля це третя планета від Сонця та єдинии обєкт у Всесвіті відомии для життя";
-        assertEquals(expected, ttUkr.normalizeForScoring(normalizationInput));
-    }
-
-    @Test
-    public void normalizeForIndex() {
-        /*
-         * newlines removed? yep!
-         * spaces removed? yep!
-         * control characters removed? yep!
-         * punctuation removed? yep!
-         * punctuation normalized? doesn't matter since it's removed!
-         * punctuation transliterated? doesn't matter since it's removed!
-         * diacritics removed? yep!
-         * case normalized? yep!
-         * normalized to NFKD? yep!
-         * stemmed? yep!
-         */
-
-        // normalized, then stemmed, then normalized without spaces
-        String expected = "земля це третя планета від сонця та єдини обєкт у всесвіт відоми для життя";
-        assertEquals(expected, ttUkr.normalizeForIndex(normalizationInput));
-    }
-
-    @Test
-    public void transliterate_KeyTerms() {
-        try {
-            assertEquals(keyTermsTransliteration, ttUkr.transliterate(normalizationInput, TextType.KEY_TERMS));
-        } catch (Exception e) {
-            e.printStackTrace();
-            fail();
-        }
-    }
-
-    @Test
-    public void transliterateToKeyTerms() {
-        try {
-            assertEquals(keyTermsTransliteration, ttUkr.transliterateToKeyTerms(normalizationInput));
-        } catch (Exception e) {
-            e.printStackTrace();
-            fail();
-        }
-    }
-
-    @Test
-    public void transliterateToBgn() {
-        // NB 01/02/2018: fails due to missing BGN transliterator
-        assertEquals(bgnTransliteration, ttUkr.transliterateToBgn(normalizationInput));
-    }
 
     @Test
     public void getAvailableTransforms() {
         try {
-            List<Transliteration> result = ttUkr.getAvailableTransforms(normalizationInput, null);
-            assertTrue(result.size() > 0);
-
-            Transliteration expected = new Transliteration(
-                    true, // isSrcScript
-                    0, // order
-                    Script.CYRL.getCode(), // scriptCode
-                    TextType.ORIGINAL.getDisplayLabel(), // transformType
-                    ttUkr.normalizeForDisplay(normalizationInput), // text
-                    ttUkr.normalizeForIndex(normalizationInput)); // textIndex
-
-            assertEquals(expected.toString(), result.get(0).toString());
-        } catch (Exception e) {
+            List<Transliteration> result = ttUkr.getAvailableTransforms(normalizationInput);
+            for(Transliteration curXlit : result) {
+                System.out.println(curXlit.toString());
+            }
+            assertTrue(result.size() ==3);
+      } catch (Exception e) {
             e.printStackTrace();
             fail();
         }

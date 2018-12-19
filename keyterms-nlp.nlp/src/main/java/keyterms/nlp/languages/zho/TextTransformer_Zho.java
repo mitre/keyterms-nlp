@@ -35,8 +35,9 @@ import com.ibm.icu.text.Transliterator;
 
 import keyterms.nlp.interfaces.INormalizer;
 import keyterms.nlp.interfaces.ITextTransformer;
-import keyterms.nlp.iso.Language;
+import keyterms.nlp.interfaces.ITokenizer;
 import keyterms.nlp.iso.Script;
+import keyterms.nlp.languages.ukr.TextTransformer_Ukr;
 import keyterms.nlp.model.TextType;
 import keyterms.nlp.model.Transliteration;
 import keyterms.nlp.text.Characters;
@@ -51,9 +52,10 @@ import net.sourceforge.pinyin4j.format.HanyuPinyinToneType;
 import net.sourceforge.pinyin4j.format.HanyuPinyinVCharType;
 
 public class TextTransformer_Zho
-        implements ITextTransformer, INormalizer {
+//        implements ITextTransformer, INormalizer {
+        extends TextTransformer_Ukr implements INormalizer {
 
-    public static final boolean REMOVE_SPACES_FOR_INDEX = true;
+    public static final boolean REMOVE_SPACES_FOR_INDEX = false;
     public static final boolean REMOVE_LINEBREAKS_FOR_INDEX = true;
 
     private static String toneDigits = "0123456789";
@@ -62,11 +64,12 @@ public class TextTransformer_Zho
 
     private static Transliterator simplifier;
     private static Transliterator traditionalifier;
-    //private static Transliterator numerifier;
+
 
     private static Hashtable<String, String> pinyinToWg;
     private static Hashtable<String, String> toneMarkToNumber;
 
+    private ITokenizer tokenizer;
     static {
         simplifier = Transliterator.getInstance("Traditional-Simplified");
         traditionalifier = Transliterator.getInstance("Simplified-Traditional");
@@ -75,6 +78,7 @@ public class TextTransformer_Zho
     }
 
     public TextTransformer_Zho() {
+        tokenizer = new Tokenizer_Zho();
         //numerifier = Transliterator.getInstance("Pinyin-NumericPinyin");
     }
 
@@ -125,19 +129,21 @@ public class TextTransformer_Zho
      * {@inheritDoc}
      */
     @Override
-    public String normalizeForIndex(String input) {
-        return normForIndex(input, REMOVE_SPACES_FOR_INDEX);
+    public String prepareIndexForm(String input) {
+        //String normalized = ZhoUtils.spacify(input,true);
+        //return normalized;
+        return normForIndex(input);
     }
 
     /**
      * {@inheritDoc}
      */
-    @Override
-    public String normalizeForIndex(String input, boolean removeSpacesForIndex) {
-        return normalizeForIndex(input);
-    }
+//    @Override
+//    public String normalizeForIndex(String input, boolean removeSpacesForIndex) {
+//        return normForIndex(input,REMOVE_SPACES_FOR_INDEX);
+//    }
 
-    public static String normForIndex(String input, boolean removeSpacesForIndex) {
+    public static String normForIndex(String input) {
         if (input == null) {
             return null;
         }
@@ -146,19 +152,19 @@ public class TextTransformer_Zho
                 false/*removeDiacritics*/,
                 true/*normalizeCase*/, Normalizer.Form.NFKC);
         input = simplify(input);
-        input = ZhoUtils.spacify(input);
+        input = ZhoUtils.spacify(input,true);
         String[] sa = input.split("\\s");
         StringBuilder sb = new StringBuilder();
         if (sa == null) {
             return StringNormalizer
-                    .normalize(input, REMOVE_LINEBREAKS_FOR_INDEX/*removeNewLine*/, removeSpacesForIndex/*removeSpace*/,
+                    .normalize(input, REMOVE_LINEBREAKS_FOR_INDEX/*removeNewLine*/, false/*removeSpace*/,
                             true/*removeControl*/,
                             true/*removePunctuation*/, true/*normalizePunctuation*/, true/*transliteratePunctuation*/,
                             true/*removeDiacritics*/, true/*normalizeCase*/, Normalizer.Form.NFKD);
         }
         int i = 0;
         for (String curToken : sa) {
-            if (i > 0 && !removeSpacesForIndex) {
+            if (i > 0) {
                 sb.append(" ");
             }
             if (isPinyinOrWadeGilesSyllable(curToken)) {
@@ -187,7 +193,7 @@ public class TextTransformer_Zho
                 } else {
                     sb.append(StringNormalizer
                             .normalize(curToken, REMOVE_LINEBREAKS_FOR_INDEX/*removeNewLine*/,
-                                    removeSpacesForIndex/*removeSpace*/,
+                                    false/*removeSpace*/,
                                     true/*removeControl*/,
                                     true/*removePunctuation*/, false/*normalizePunctuation*/,
                                     true/*transliteratePunctuation*/,
@@ -204,7 +210,6 @@ public class TextTransformer_Zho
     /**
      * {@inheritDoc}
      */
-    @Override
     public String transliterate(String input, TextType standard) {
         return translit(input, standard);
     }
@@ -226,7 +231,7 @@ public class TextTransformer_Zho
      * {@inheritDoc}
      */
     @Override
-    public ArrayList<Transliteration> getAvailableTransforms(String input, Language language) {
+    public ArrayList<Transliteration> getAvailableTransforms(String input) {
         if (input == null) {
             return null;
         }
@@ -234,15 +239,15 @@ public class TextTransformer_Zho
         Transliteration curXlit;
 
         curXlit = new Transliteration(true, 0, Script.HANI.getCode(), TextType.ORIGINAL.getDisplayLabel(),
-                normalizeForDisplay(input), normalizeForIndex(input));
+                normalizeForDisplay(input), prepareIndexForm(input));
         results.add(curXlit);
 
         curXlit = new Transliteration(true, 1, Script.HANS.getCode(), TextType.ZHO_SIMPLIFIED.getDisplayLabel(),
-                normalizeAndSimplify(input), normalizeForIndex(input));
+                normalizeAndSimplify(input), prepareIndexForm(input));
         results.add(curXlit);
 
         curXlit = new Transliteration(true, 2, Script.HANT.getCode(), TextType.ZHO_TRADITIONAL.getDisplayLabel(),
-                normalizeAndTraditionalify(input), normalizeForIndex(input));
+                normalizeAndTraditionalify(input), prepareIndexForm(input));
         results.add(curXlit);
 
         curXlit = new Transliteration(false, 3, Script.LATN.getCode(), TextType.ZHO_PINYIN.getDisplayLabel(),
@@ -254,6 +259,11 @@ public class TextTransformer_Zho
         results.add(curXlit);
 
         return results;
+    }
+
+    @Override
+    public String normalizeForIndex(String input, boolean removeSpacesForIndex) {
+        return prepareIndexForm(input);
     }
 
     /**
@@ -358,17 +368,20 @@ public class TextTransformer_Zho
         }
         StringBuilder wadeGilesIndex = new StringBuilder();
         String[] sa = wadeGilesInput.split("\\s");
+        int tokenNum=0;
         for (String aSa : sa) {
             String chunk = aSa.trim().toLowerCase();
+            if(tokenNum>0)
+                    wadeGilesIndex.append(" ");
             wadeGilesIndex.append(convertTonalPinyinToNumeric(chunk, true));
+            tokenNum++;
         }
         String results = wadeGilesIndex.toString();
-        results = results.replaceAll("[\\s\']", "");
-        results = StringNormalizer.removeAllNonWordChars(results, REMOVE_SPACES_FOR_INDEX, REMOVE_LINEBREAKS_FOR_INDEX);
-        return results;
+        results = StringNormalizer.removeAllNonWordChars(results, false, REMOVE_LINEBREAKS_FOR_INDEX);
+        results = results.replaceAll("\\s\\s+", " ");
+        return results.trim();
     }
 
-    // NB 11/22/2017: renamed from isPinyinSyllable()
     public static boolean isPinyinOrWadeGilesSyllable(String input) {
         if (input == null || input.trim().equals("")) {
             return false;
@@ -376,7 +389,7 @@ public class TextTransformer_Zho
 
         String tmpSyllab = input.trim().toLowerCase();
 
-        // NB 11/22/2017: delete trailing punctuation before checking if string is pinyin symbol
+        //  delete trailing punctuation before checking if string is pinyin symbol
         while (tmpSyllab.length() > 0 && Characters.isPunctuation(tmpSyllab.charAt(tmpSyllab.length() - 1))) {
             tmpSyllab = tmpSyllab.substring(0, tmpSyllab.length() - 1);
         }
@@ -411,7 +424,7 @@ public class TextTransformer_Zho
 
         StringBuilder result = new StringBuilder();
 
-        // NB 11/22/2017: added 。to tokenizer
+
         StringTokenizer sToker = new StringTokenizer(pinyinString, " '-_?,。.!~$%&*()+=;:}{[]|\\/<>\"", true);
         while (sToker.hasMoreTokens()) {
             String curSyll = sToker.nextToken();
@@ -530,23 +543,18 @@ public class TextTransformer_Zho
         return wadeGiles.toString();
     }
 
-    // NB 11/22/2017: renamed from "isTonalPinyinSyllable"
     public boolean isNumericToneSyllable(String input) {
         if (input == null || input.trim().equals("")) {
             return false;
         }
 
-        // NB 11/22/2017: delete trailing punctuation before checking if string is pinyin symbol
         while (input.length() > 0 && Characters.isPunctuation(input.charAt(input.length() - 1))) {
             input = input.substring(0, input.length() - 1);
         }
-
-        // NB 11/22/2017: added isPinyinOrWadeGilesSyllable() check
         return toneDigits.indexOf(input.charAt(input.length() - 1)) != -1 && isPinyinOrWadeGilesSyllable(input);
     }
 
-    // NB 11/22/2017: renamed from "convertToWgSyllable"
-    public static String convertNumericToWgSyllable(String numericPinyin, boolean useTones) {
+      public static String convertNumericToWgSyllable(String numericPinyin, boolean useTones) {
 
         if (Strings.isBlank(numericPinyin)) {
             return numericPinyin;

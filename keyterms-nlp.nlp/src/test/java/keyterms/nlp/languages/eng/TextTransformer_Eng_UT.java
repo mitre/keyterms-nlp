@@ -49,77 +49,14 @@ public class TextTransformer_Eng_UT {
             "the Universe known to harbor life.";
 
     @Test
-    public void normalizeForDisplay() {
-        /*
-         * newlines removed? yep!
-         * control characters removed? yep!
-         * punctuation transliterated? nope!
-         * normalized to NFKC? yep!
-         */
-        assertEquals(normalizationInput, TT_ENG.normalizeForDisplay(normalizationInput));
-    }
-
-    @Test
-    public void normalizeForScoring() {
-        /*
-         * newlines removed? yep!
-         * spaces removed? yep!
-         * control characters removed? yep!
-         * punctuation removed? yep!
-         * diacritics removed? yep!
-         * normalized to NFKD? yep!
-         */
-        String expected = "Earth is the third planet from the Sun and the only object in the Universe known to harbor life";
-        assertEquals(expected, TT_ENG.normalizeForScoring(normalizationInput));
-    }
-
-    @Test
-    public void normalizeForIndex() {
-        /*
-         * newlines removed? yep!
-         * spaces removed? yep!
-         * control characters removed? yep!
-         * punctuation removed? yep!
-         * punctuation normalized? doesn't matter since it's removed!
-         * punctuation transliterated? doesn't matter since it's removed!
-         * diacritics removed? yep!
-         * case normalized? yep!
-         * normalized to NFKD? yep!
-         * stemmed? yep!
-         */
-        String expected = "earth third planet from sun onli object univers known harbor life";
-        assertEquals(expected, TT_ENG.normalizeForIndex(normalizationInput));
-    }
-
-    @Test
-    public void transliterate() {
-        assertEquals(normalizationInput, TT_ENG.transliterate(normalizationInput, null));
-    }
-
-    @Test
     public void getAvailableTransforms() {
         try {
-            List<Transliteration> result = TT_ENG.getAvailableTransforms(normalizationInput, null);
-            assertTrue(result.size() > 0);
-
-            Transliteration expected = new Transliteration(
-                    true, // isSrcScript
-                    0, // order
-                    Script.LATN.getCode(), // scriptCode
-                    TextType.ORIGINAL.getDisplayLabel(), // transformType
-                    TT_ENG.normalizeForDisplay(normalizationInput), // text
-                    TT_ENG.normalizeForIndex(normalizationInput)); // textIndex
-
-            assertEquals(expected.toString(), result.get(0).toString());
+            List<Transliteration> result = TT_ENG.getAvailableTransforms(normalizationInput);
+            assertTrue(result.size() == 1);
         } catch (Exception e) {
             e.printStackTrace();
             fail();
         }
     }
 
-    @Test
-    public void getTransliterationCandidates() {
-        List<String> expected = new ArrayList<>(Collections.singleton(normalizationInput));
-        assertArrayEquals(expected.toArray(), TT_ENG.getTransliterationCandidates(normalizationInput, null).toArray());
-    }
 }

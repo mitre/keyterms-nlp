@@ -182,7 +182,7 @@ public class ZhoUtils {
      *
      * @return the processed text
      */
-    public static String spacify(String input) {
+    public static String spacify(String input, boolean unigramifyZho) {
         if (StringNormalizer.isNullOrWhiteSpace(input)) {
             return "";
         }
@@ -229,8 +229,10 @@ public class ZhoUtils {
                     nextCharType = getSpecialCharType(nextChar);
                 }
 
-                if (prevCharNeedsSpacing && curCharType != prevCharType) {
+                if (prevCharNeedsSpacing && ((curCharType != prevCharType)||(unigramifyZho && prevCharType==2 && curCharType == 2))) {
                     if (!(prevCharType == 3 && curCharType == 4 && nextCharType != 4)) {
+                        sb.append(' ');
+                    } else if (unigramifyZho && prevCharType == 2 && curCharType == 2 ) {
                         sb.append(' ');
                     }
                 }
@@ -242,9 +244,7 @@ public class ZhoUtils {
     }
 
     private static int getSpecialCharType(char inChar) {
-        if (Characters.isCJKLogograph(inChar)) {
-            return 2;
-        }
+
         if (Characters.isCJKLogograph(inChar)) {
             return 2;
         }

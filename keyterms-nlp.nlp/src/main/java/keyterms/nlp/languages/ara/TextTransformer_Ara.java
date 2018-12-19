@@ -26,141 +26,44 @@
 
 package keyterms.nlp.languages.ara;
 
-import java.util.ArrayList;
-import java.util.Set;
-
-import keyterms.nlp.interfaces.INormalizer;
-import keyterms.nlp.interfaces.IStemmer;
-import keyterms.nlp.interfaces.ITextTransformer;
+import keyterms.nlp.interfaces.TextTransformer;
 import keyterms.nlp.iso.Language;
 import keyterms.nlp.iso.Script;
 import keyterms.nlp.model.TextType;
-import keyterms.nlp.model.Transliteration;
-import keyterms.nlp.transliterate.TransformKey;
-import keyterms.nlp.transliterate.Transliterator;
-import keyterms.nlp.transliterate.Transliterators;
-import keyterms.util.text.Strings;
 
 public class TextTransformer_Ara
-        implements ITextTransformer {
+        extends TextTransformer {
 
-    public static final boolean REMOVE_SPACES_FOR_INDEX = false;
-
-    private final INormalizer araNormalizer;
-    private Transliterator icTransliterator;
-    private Transliterator bgnTransliterator;
-    private final IStemmer araStemmer;
+    private static final Language SRC_LANG = Language.ARABIC;
+    private static final Language TRG_LANG = Language.ENGLISH;
 
     public TextTransformer_Ara() {
-        araNormalizer = new Normalizer_Ara();
-
-        Set<TransformKey> keys = Transliterators.getTransformKeys(
-                Language.ARABIC.getCode(),
-                Language.ENGLISH.getCode(),
-                TextType.KEY_TERMS.getLabel());
-        if (keys != null && keys.size() > 0) {
-            icTransliterator = Transliterators.get(keys.iterator().next());
-        }
-
-        keys = Transliterators.getTransformKeys(
-                Language.ARABIC.getCode(),
-                Script.LATN.getCode(),
-                TextType.BGN.getLabel());
-        if (keys != null && keys.size() > 0) {
-            bgnTransliterator = Transliterators.get(keys.iterator().next());
-        }
-
-        araStemmer = new Stemmer_Ara();
+        this(SRC_LANG,TRG_LANG);
     }
 
-    // NFKC Composed
+    public TextTransformer_Ara(Language source, Language target) {
+        super(source,target);
+    }
+
     @Override
-    public String normalizeForDisplay(String input) {
-        return araNormalizer.normalizeForDisplay(input);
+    protected void initializeNormalizer() {
+        normalizer = new Normalizer_Ara();
     }
 
-    // NFKD Decomposed
     @Override
-    public String normalizeForScoring(String input) {
-        return araNormalizer.normalizeForScoring(input);
+    protected void initializeStemmer() {
+        stemmer = new Stemmer_Ara();
     }
 
-    // // NFKD Decomposed and stripped of punct, etc.
- /*   @Override
-    public String normalizeForIndex(String input) {
-        return araNormalizer.normalizeForIndex(input, REMOVE_SPACES_FOR_INDEX);
-    }
-*/
-    @Override
-    public String normalizeForIndex(String input) {
-        //Script inputScript = ScriptIdentifier.guessScript(input, true);
-        String normy = araNormalizer.normalizeForIndex(input, false);
-        String normyStemmed = araStemmer.getStem(normy);
-        if (Strings.isBlank(normyStemmed)) {
-            normyStemmed = normy;
-        }
-        return araNormalizer.normalizeForIndex(normyStemmed, REMOVE_SPACES_FOR_INDEX);
-    }
+    protected void initializeTransliterators() {
 
-    //@todo add the ICU Any to Latin transliterator as default
-    @Override
-    public String transliterate(String input, TextType standard) {
-        switch (standard) {
-            case KEY_TERMS:
-                return icTransliterator.apply(input);
-            case BGN:
-                return bgnTransliterator.apply(input);
-            default:
-                return "";
-        }
-    }
+        // GET THE IC STANDARD TRANSLITERATOR
+        addTransliterator(source.getCode(), target.getCode(), TextType.KEY_TERMS.getLabel(),
+                TextType.KEY_TERMS.getDisplayLabel());
 
-    public String transliterateToKeyTerms(String input) {
-        return icTransliterator.apply(input);
-    }
-
-    public String transliterateToBgn(String input) {
-        String bgnOutput = bgnTransliterator.apply(input);
-        return icTransliterator.apply(bgnOutput);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public ArrayList<Transliteration> getAvailableTransforms(String input, Language language) {
-        if (input == null) {
-            return null;
-        }
-        ArrayList<Transliteration> results = new ArrayList<>();
-        Transliteration curXlit;
-
-        String srcDisplayText = normalizeForDisplay(input);
-        String srcIndexText = normalizeForIndex(input);
-
-        String curText = srcDisplayText;
-        String indexText = srcIndexText;
-        curXlit = new Transliteration(true, 0, Script.ARAB.getCode(), TextType.ORIGINAL.getDisplayLabel(),
-                curText, indexText);
-        results.add(curXlit);
-
-        // NB 11/20/2017: null checking to prevent NullPointerException (when transliterators are missing)
-        if (icTransliterator != null) {
-            curText = transliterateToKeyTerms(srcDisplayText);
-            indexText = transliterateToKeyTerms(srcIndexText);
-            curXlit = new Transliteration(false, 1, Script.LATN.getCode(), TextType.KEY_TERMS.getDisplayLabel(),
-                    curText, indexText);
-            results.add(curXlit);
-        }
-
-        if (bgnTransliterator != null) {
-            curText = transliterateToBgn(srcDisplayText);
-            indexText = transliterateToBgn(srcIndexText);
-            curXlit = new Transliteration(false, 2, Script.LATN.getCode(), TextType.BGN.getDisplayLabel(),
-                    curText, indexText);
-            results.add(curXlit);
-        }
-
-        return results;
+        // GET THE BGN STANDARD TRANSLITERATOR
+        addTransliterator(source.getCode(), Script.LATN.toString(), TextType.BGN.getLabel(),
+                TextType.BGN.getDisplayLabel());
     }
 }
+
