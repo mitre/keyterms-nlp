@@ -28,12 +28,13 @@ package keyterms.nlp.factories;
 
 import java.util.HashMap;
 
-import keyterms.nlp.interfaces.ITextTransformer;
 import keyterms.nlp.interfaces.TextTransformer;
 import keyterms.nlp.iso.Language;
 import keyterms.nlp.languages.ara.TextTransformer_Ara;
 import keyterms.nlp.languages.eng.TextTransformer_Eng;
+import keyterms.nlp.languages.fra.TextTransformer_Fra;
 import keyterms.nlp.languages.rus.TextTransformer_Rus;
+import keyterms.nlp.languages.spa.TextTransformer_Spa;
 import keyterms.nlp.languages.ukr.TextTransformer_Ukr;
 import keyterms.nlp.languages.und.TextTransformer_Und;
 import keyterms.nlp.languages.zho.TextTransformer_Zho;
@@ -67,8 +68,18 @@ public class TextTransformerFactory {
                 transformers.put(langKey, transformer);
                 break;
             }
+            case "FRA": {
+                transformer = new TextTransformer_Fra();
+                transformers.put(langKey, transformer);
+                break;
+            }
             case "RUS": {
                 transformer = new TextTransformer_Rus();
+                transformers.put(langKey, transformer);
+                break;
+            }
+            case "SPA": {
+                transformer = new TextTransformer_Spa();
                 transformers.put(langKey, transformer);
                 break;
             }

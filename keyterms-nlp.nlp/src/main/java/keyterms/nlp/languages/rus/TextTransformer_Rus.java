@@ -67,5 +67,7 @@ public class TextTransformer_Rus
         // GET THE BGN STANDARD TRANSLITERATOR
         addTransliterator(source.getCode(), Script.LATN.toString(), TextType.BGN.getLabel(),
                 TextType.BGN.getDisplayLabel());
+
+
     }
 }

@@ -124,12 +124,15 @@ public abstract class TextTransformer {
                 TextType.ORIGINAL.getDisplayLabel(), curText, indexText);
         results.add(curXlit);
 
-        int order = 1;
-        for (Transliterator xlit : transliterators) {
-            curXlit = getTransliterationData(xlit, srcDisplayText, srcIndexText, false, order,
-                    target.getPreferredScript().getCode(), xlit.getDisplayName());
-            results.add(curXlit);
-            order++;
+        if(!(source==Language.UND && inputScript==Script.LATIN)) {
+            int order = 1;
+            for (Transliterator xlit : transliterators) {
+
+                curXlit = getTransliterationData(xlit, srcDisplayText, srcIndexText, false, order,
+                        target.getPreferredScript().getCode(), xlit.getDisplayName());
+                results.add(curXlit);
+                order++;
+            }
         }
         return results;
     }

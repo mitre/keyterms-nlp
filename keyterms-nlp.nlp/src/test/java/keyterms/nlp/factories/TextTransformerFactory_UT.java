@@ -34,7 +34,9 @@ import keyterms.nlp.interfaces.TextTransformer;
 import keyterms.nlp.iso.Language;
 import keyterms.nlp.languages.ara.TextTransformer_Ara;
 import keyterms.nlp.languages.eng.TextTransformer_Eng;
+import keyterms.nlp.languages.fra.TextTransformer_Fra;
 import keyterms.nlp.languages.rus.TextTransformer_Rus;
+import keyterms.nlp.languages.spa.TextTransformer_Spa;
 import keyterms.nlp.languages.ukr.TextTransformer_Ukr;
 import keyterms.nlp.languages.und.TextTransformer_Und;
 import keyterms.nlp.languages.zho.TextTransformer_Zho;
@@ -50,11 +52,13 @@ public class TextTransformerFactory_UT {
 
         assertTrue(ttf.getTransformer(Language.byCode("ara")) instanceof TextTransformer_Ara);
         assertTrue(ttf.getTransformer(Language.byCode("eng")) instanceof TextTransformer_Eng);
+        assertTrue(ttf.getTransformer(Language.byCode("fra")) instanceof TextTransformer_Fra);
         assertTrue(ttf.getTransformer(Language.byCode("rus")) instanceof TextTransformer_Rus);
+        assertTrue(ttf.getTransformer(Language.byCode("spa")) instanceof TextTransformer_Spa);
         assertTrue(ttf.getTransformer(Language.byCode("ukr")) instanceof TextTransformer_Ukr);
         assertTrue(ttf.getTransformer(Language.byCode("zho")) instanceof TextTransformer_Zho);
         assertTrue(ttf.getTransformer(Language.byCode("und")) instanceof TextTransformer_Und);
-        assertTrue(ttf.getTransformer(Language.byCode("spa")) instanceof TextTransformer_Und);
+        assertTrue(ttf.getTransformer(Language.byCode("fas")) instanceof TextTransformer_Und);
     }
 
     @Test
@@ -73,6 +77,13 @@ public class TextTransformerFactory_UT {
         TextTransformerFactory ttf = new TextTransformerFactory();
         TextTransformer tt = ttf.getTransformer(Language.byCode("und"));
         ArrayList<Transliteration> results = tt.getAvailableTransforms("los libros rojos son mios");
+        for(Transliteration curXlit : results) {
+            System.out.println(curXlit.toString());
+        }
+        assertTrue(results.size() ==1);
+
+        tt = ttf.getTransformer(Language.byCode("und"));
+        results = tt.getAvailableTransforms("ремонтно-восстановительные работы");
         for(Transliteration curXlit : results) {
             System.out.println(curXlit.toString());
         }

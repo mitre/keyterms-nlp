@@ -54,7 +54,7 @@ public class TextTransformer_Und_UT {
             for(Transliteration curXlit : result) {
                 System.out.println(curXlit.toString());
             }
-            assertTrue(result.size() == 2);
+            assertTrue(result.size() == 1);
 
             // Ukrainian input, no language code
             String ukrInput = "Земля - це третя планета від Сонця та єдиний об'єкт у Всесвіті, відомий для життя.";

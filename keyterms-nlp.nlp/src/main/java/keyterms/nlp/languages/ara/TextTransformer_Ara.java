@@ -61,9 +61,9 @@ public class TextTransformer_Ara
         addTransliterator(source.getCode(), target.getCode(), TextType.KEY_TERMS.getLabel(),
                 TextType.KEY_TERMS.getDisplayLabel());
 
-        // GET THE BGN STANDARD TRANSLITERATOR
-        addTransliterator(source.getCode(), Script.LATN.toString(), TextType.BGN.getLabel(),
-                TextType.BGN.getDisplayLabel());
+        // GET THE BGN STANDARD TRANSLITERATOR  This transliterator is too bad to use
+        // addTransliterator(source.getCode(), Script.LATN.toString(), TextType.BGN.getLabel(),
+       //  TextType.BGN.getDisplayLabel());
     }
 }
 

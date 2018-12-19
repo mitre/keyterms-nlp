@@ -56,7 +56,7 @@ public class TextTransformer_Ara_UT {
             for(Transliteration curXlit : result) {
                 System.out.println(curXlit.toString());
             }
-            assertTrue(result.size() ==3);
+            assertTrue(result.size() ==2);
         } catch (Exception e) {
             e.printStackTrace();
             fail();
