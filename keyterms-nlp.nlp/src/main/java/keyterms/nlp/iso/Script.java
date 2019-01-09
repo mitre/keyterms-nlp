@@ -96,7 +96,7 @@ public final class Script
             while (parser.hasMore()) {
                 Integer number = Parsers.INTEGERS.parse(parser.getField("number"), null);
                 if (number == null) {
-                    throw new IllegalArgumentException("Invalid country number at line #" + parser.getLineNumber());
+                    throw new IllegalArgumentException("Invalid script number at line #" + parser.getLineNumber());
                 }
                 String code = parser.getField("code");
                 List<String> altCodes = parser.getList("altCodes");
@@ -258,7 +258,7 @@ public final class Script
     }
 
     /**
-     * Get all matching country definitions given a textual representation.
+     * Get all matching script definitions given a textual representation.
      *
      * @param text The textual representation of the value.
      *
