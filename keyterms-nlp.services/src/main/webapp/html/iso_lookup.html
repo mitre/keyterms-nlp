@@ -140,7 +140,7 @@
                             <td ng-if="searchType==='language'">{{result.part2_t}}</td>
                             <td ng-if="searchType==='language'">{{result.scope}}</td>
                             <td ng-if="searchType==='language'">{{result.type}}</td>
-                            <td>{{result.name}}</td>
+                            <td>{{result|name}}</td>
                             <td>
                                 <div ng-repeat="alias in result.aliases">{{alias}}</div>
                             </td>

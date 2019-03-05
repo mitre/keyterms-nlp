@@ -84,7 +84,14 @@ angular.module("keyTerms.filters", [])
 
     .filter("name", [function () {
         return function (named) {
-            return (named) ? named.name : '';
+            let name = (named) ? named.name : '';
+            if ((named) && (!name)) {
+                name = named.english_name;
+            }
+            if ((named) && (!name)) {
+                name = named.native_name;
+            }
+            return name;
         }
     }])
 
