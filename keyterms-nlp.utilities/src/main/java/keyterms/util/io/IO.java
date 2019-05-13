@@ -897,7 +897,7 @@ public final class IO {
                 }
             });
         } else {
-            Files.delete(p);
+            tryDelete(p);
         }
     }
 
